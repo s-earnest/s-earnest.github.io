@@ -22,7 +22,7 @@ timezone: America/Vancouver
 
 title: Ernest S.                          # the main title
 
-tagline: Minimal Writing Technical Documentation   # it will display as the sub-title
+tagline: Minimal Writing & Technical Documentation   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful writing.
@@ -82,7 +82,7 @@ theme_mode:   # [light|dark]
 # img_cdn: 'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/cat.png'
+avatar: '/assets/img/teamc.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true

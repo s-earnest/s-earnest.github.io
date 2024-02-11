@@ -1,0 +1,77 @@
+---
+title: ' Schedule Projects '
+author: ernest
+date: 2019-05-01 16:20:02 -05:00
+last_modified_at: 2023-11-30
+categories: [ Work ]
+pin:  true   # true
+math: true
+mermaid: true
+tags:   # or [typography, tag-01, tag-02, etc.]
+  - schedule
+  - projects
+# -
+ 
+# image: 
+  # path: /assets/sample/coming-soon.png
+  # image: /assets/sample/coming-soon.png
+  # alt: Responsive rendering of Chirpy theme on multiple devices.
+
+---
+
+
+> This is the schedule for the current and future data analysis projects. This page is contantly update based on the progress of the projects. 
+{: .prompt-info }
+
+
+
+
+### Schedule Projects
+
+
+| Details                      | Analysis Type    | Date   | Status |
+|:-----------------------------|:-----------------|:-------|-------:|
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Credit-Card-Fraud-Detection ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Delays-Analyis ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Income-House-Forecasting ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Passenger-Forecasting ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ French-Champagne-Sales ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Crime-in-Vancouver ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Market-Basket-Analysis ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Energy-Consumption-Forecasting ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike-Sharing-System-Analysis ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Titanic ](https://s-ernest.com/){:target="_blank"} | date  | 🟠 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Text-Mining ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Telcom-Customer-Churn ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Urban-Traffic-Network ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ HR-Employee-Attrition ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 🟠 🟢 |
+
+
+
+- 🔴 = Not Started, or collecting data phase.
+- 🟠 = In progress analysing.
+- 🟢 = Completed analyse.
+
+
+
+
+
+
+
+
