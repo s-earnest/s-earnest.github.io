@@ -1,54 +1,58 @@
----
-layout: compress
-
-# The list to be cached by PWA
----
-
 const resource = [
-    /* --- CSS --- */
-    '{{ "/assets/css/style.css" | relative_url }}',
+  /* --- CSS --- */
+  '/halloween/assets/css/jekyll-theme-chirpy.css',
 
-    /* --- PWA --- */
-    '{{ "/app.js" | relative_url }}',
-    '{{ "/sw.js" | relative_url }}',
+  /* --- PWA --- */
+  '/halloween/app.js',
+  '/halloween/sw.js',
 
-    /* --- HTML --- */
-    '{{ "/index.html" | relative_url }}',
-    '{{ "/404.html" | relative_url }}',
+  /* --- HTML --- */
+  '/halloween/index.html',
+  '/halloween/404.html',
 
-    {% for tab in site.tabs %}
-        '{{ tab.url | relative_url }}',
-    {% endfor %}
+  
+    '/halloween/categories/',
+  
+    '/halloween/tags/',
+  
+    '/halloween/archives/',
+  
+    '/halloween/about/',
+  
 
-    /* --- Favicons & compressed JS --- */
-    {% assign cache_list = site.static_files | where: 'swcache', true  %}
-    {% for file in cache_list %}
-        '{{ file.path | relative_url }}'{%- unless forloop.last -%},{%- endunless -%}
-    {% endfor %}
+  /* --- Favicons & compressed JS --- */
+  
+  
+    '/halloween/assets/img/favicons/android-chrome-192x192.png',
+    '/halloween/assets/img/favicons/android-chrome-512x512.png',
+    '/halloween/assets/img/favicons/apple-touch-icon.png',
+    '/halloween/assets/img/favicons/favicon-16x16.png',
+    '/halloween/assets/img/favicons/favicon-32x32.png',
+    '/halloween/assets/img/favicons/favicon.ico',
+    '/halloween/assets/img/favicons/mstile-150x150.png',
+    '/halloween/assets/img/favicons/site.webmanifest',
+    '/halloween/assets/js/dist/categories.min.js',
+    '/halloween/assets/js/dist/commons.min.js',
+    '/halloween/assets/js/dist/home.min.js',
+    '/halloween/assets/js/dist/misc.min.js',
+    '/halloween/assets/js/dist/page.min.js',
+    '/halloween/assets/js/dist/post.min.js'
 ];
 
 /* The request url with below domain will be cached */
 const allowedDomains = [
-    {% if site.google_analytics.id != empty and site.google_analytics.id %}
-        'www.googletagmanager.com',
-        'www.google-analytics.com',
-    {% endif %}
+  
 
-    '{{ site.url | split: "//" | last }}',
+  'localhost:4000',
 
-    {% if site.img_cdn contains '//' and site.img_cdn %}
-        '{{ site.img_cdn | split: '//' | last | split: '/' | first }}',
-    {% endif %}
+  
 
-    'fonts.gstatic.com',
-    'fonts.googleapis.com',
-    'cdn.jsdelivr.net',
-    'polyfill.io'
+  'fonts.gstatic.com',
+  'fonts.googleapis.com',
+  'cdn.jsdelivr.net',
+  'polyfill.io'
 ];
 
 /* Requests that include the following path will be banned */
-const denyUrls = [
-    {% if site.google_analytics.pv.cache_path %}
-        '{{ site.google_analytics.pv.cache_path | absolute_url }}'
-    {% endif %}
-];
+const denyUrls = [];
+
