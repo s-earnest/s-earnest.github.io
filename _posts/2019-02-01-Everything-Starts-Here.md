@@ -20,8 +20,8 @@ image:
 ---
 
 
-> This is an example of a Tip.
-{: .prompt-tip }
+> This is an anticle.
+{: .prompt-info }
 
 
 
