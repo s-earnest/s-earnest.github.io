@@ -20,7 +20,7 @@ image:
 ---
 
 
-> This is an anticle explaining how all this parth started.
+> This is an aticle explaining how this parth started, marketing management (option communication), statistics, and Machine Learning.
 {: .prompt-info }
 
 

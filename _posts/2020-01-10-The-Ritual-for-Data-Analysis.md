@@ -20,7 +20,7 @@ image:
 ---
 
 
-> This is an article.
+> This is the main steps for each data analysis project.
 {: .prompt-info }
 
 
