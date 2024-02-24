@@ -1,5 +1,5 @@
 ---
-title: ' Work '
+title: ' Income House '
 author: ernest
 date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -8,7 +8,7 @@ pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - work 
+  - forecasting 
   # - tamplate-tag-2
   # - template-tag-3
 

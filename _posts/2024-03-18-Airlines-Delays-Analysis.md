@@ -1,14 +1,14 @@
 ---
-title: ' Notes '
+title: ' Airlines Delays Analysis '
 author: ernest
 date: 2099-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Notes ]
+categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - notes 
+  - time-series 
   # - tamplate-tag-2
   # - template-tag-3
 

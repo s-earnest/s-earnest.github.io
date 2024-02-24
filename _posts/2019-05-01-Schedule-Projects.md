@@ -31,7 +31,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 | Details                      | Analysis Type    | Date   | Status |
 |:-----------------------------|:-----------------|:-------|-------:|
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"} | [ Credit-Card-Fraud-Detection ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"} | [ Credit-Card-Fraud-Detection ](https://s-earnest.github.io/posts/Credit-Card-Fraud/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Delays-Analyis ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Income-House-Forecasting ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Passenger-Forecasting ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
