@@ -20,18 +20,17 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-> This is an example of a Tip.
-{: .prompt-tip }
 
+> All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
+{: .prompt-tip }
+ 
 
 
 
 ## Summary
 
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog[^2] posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
-
-
+Business and profitability. The theory recognized that there are many type of limitations that can face a company. Factors may be internal or external and restrictions are either flexible or fixed. 
+No two situations are identical, which means this method must be tailored to each situation. 
 
 
 
@@ -40,12 +39,17 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-
+<!-- 
 
 ## Footnote
 
 [^1]: The footnote source
 [^2]: The 2nd footnote source
+
+ -->
+ 
+
+
 
 
 

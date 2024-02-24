@@ -20,7 +20,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-> This is the schedule for the current and future data analysis projects. This page is contantly update based on the progress of the projects. 
+> This is the schedule for the current and future data analysis projects. This page is contantly updated on the progress of the projects. Projects are calculated on hours end-to-end worked for each of them. 
 {: .prompt-info }
 
 
@@ -45,7 +45,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Telcom-Customer-Churn ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Urban-Traffic-Network ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ HR-Employee-Attrition ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Baggage-Complaints-Analysis ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |

@@ -20,17 +20,12 @@ image:
 ---
 
 
-> An example showing the `tip` type prompt.
-{: .prompt-tip }
-
-> An example showing the `info` type prompt.
+> All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
 {: .prompt-info }
 
-> An example showing the `warning` type prompt.
-{: .prompt-warning }
 
-> An example showing the `danger` type prompt.
-{: .prompt-danger }
+
+
 
 
 
