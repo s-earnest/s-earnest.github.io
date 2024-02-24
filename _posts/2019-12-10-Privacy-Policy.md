@@ -35,13 +35,9 @@ If you wish to [disable cookies](https://www.cookiesandyou.com/disable-cookies/)
 
 Cloudflare, Inc. is a U.S. company that provides content delivery network services, DDoS mitigation, Internet security and distributed domain name server services. Cloudflare’s `__cfduid` cookie is used to identify individual clients behind a shared IP address and apply security settings on a per-client basis. Read [Cloudflare’s Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
-
 Google AdSense, a third party affiliate marketing network, uses cookies to help make sure I get a commission when you buy a product after clicking on a link or ad banner that takes you to the site of one of their merchants. You can read [AdSense program policies](https://support.google.com/adsense/answer/48182?hl=en).
 
-
 Google Analytics is a web analytics tool used to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. Read [Google’s Privacy Policy](https://policies.google.com/privacy?hl=en).
-
-Netlify is a cloud computing company that offers hosting and serverless backend services for static websites. It features continuous deployment from Git across a global application delivery network, serverless form handling, support for AWS Lambda functions, and full integration with Let’s Encrypt. Read [Netlify’s Privacy Policy](https://www.netlify.com/privacy/).
 
 Posts on this site may include embedded content (e.g., videos, images, tweet, etc.). Embedded content from other websites behave in the same way as if the visitor has visited the other website. These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interactions with that embedded content.
 

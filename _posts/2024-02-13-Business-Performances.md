@@ -12,9 +12,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - metrics
   # - template-tag-3
 
-# image: 
+image: 
   # path: /assets/articles/cover-austin-chan_web.png
-  # image: /assets/sample/coming-soon.png
+ image: /assets/sample/coming-soon.png
   # alt: Photo by Austin Chan on Unplash.
 
 ---
@@ -24,22 +24,12 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ## Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
+Automation enable by technology brings the promise of higher productivity, increase efficiencies, and convenience. But also raise questions about how automation will impact jobs, skills, wages and the nature of the work itself. 
 
 
 
 
 
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 
 

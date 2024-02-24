@@ -21,40 +21,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-> This is a note.
-{: .prompt-tip }
-
-
 ### Summary
 
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
-
-
-
-# Section 1
-
-  This is 1
-
-# Section 2
-
-  This is 2
-
-# Section 3
-  
-  This is 4
+How to improve customer experience is nowadays the most challenging phase for any organization. There are so many voices (customer, business, employee, and process) but in what organization should focus on is the balance from voice of the customer and the voice of the business, and voice of the employee. 
 
 
 
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 

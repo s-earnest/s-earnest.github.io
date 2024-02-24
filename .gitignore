@@ -7,7 +7,7 @@ node_modules
 .idea
 .log
 dist
-docs
+
 npm-debug.log
 .nyc_output
 coverage
