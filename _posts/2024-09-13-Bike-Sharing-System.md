@@ -1,5 +1,5 @@
 ---
-title: ' Market Basket '
+title: ' Bike Sharing System Analysis '
 author: ernest
 date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -8,8 +8,8 @@ pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - time-series 
-  # - tamplate-tag-2
+  - decision-trees 
+  - neural-network
   # - template-tag-3
 
 image: 
@@ -20,10 +20,17 @@ image:
 ---
 
 
-> All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
+> An example showing the `tip` type prompt.
+{: .prompt-tip }
+
+> An example showing the `info` type prompt.
 {: .prompt-info }
 
+> An example showing the `warning` type prompt.
+{: .prompt-warning }
 
+> An example showing the `danger` type prompt.
+{: .prompt-danger }
 
 
 
