@@ -1,36 +1,39 @@
 ---
-title: ' Airlines Delays Analysis '
+title: ' Telcom Customer Churn '
 author: ernest
-date: 2099-01-10 16:20:02 -05:00
+date: 2024-08-21 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - time-series 
+  - customer-retention
   # - tamplate-tag-2
   # - template-tag-3
 
 image: 
-  path: /assets/sample/coming-soon.png
+  path: /assets/articles/scott-graham-web.png
   # image: /assets/sample/coming-soon.png
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  alt: Photo by Scott Graham on Unsplash.
 
 ---
 
 
-
 ### Summary
 
-This is the Analyze on thirty different airlines in North America using descriptive statistics and time series plots. Explore the forecasting of passengers for the next year. 
+Customer retention is a challenge for any organization. Companies are studying factors to customer churn, a term used for customers who have moved to another service provide. 
 
 
 
 
 
-> All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
-{: .prompt-info }
+
+
+
+
+
+
 
 
 

@@ -20,30 +20,16 @@ image:
 ---
 
 
-> All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
-{: .prompt-info }
-
-
-
-
-
-
-
-
 ### Summary
 
 
 This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
 
 
+> All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
+{: .prompt-info }
 
 
-
-
-##  Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 
 

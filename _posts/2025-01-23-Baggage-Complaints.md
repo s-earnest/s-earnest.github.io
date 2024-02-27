@@ -20,37 +20,11 @@ image:
 ---
 
 
-> An example showing the `tip` type prompt.
-{: .prompt-tip }
-
-> An example showing the `info` type prompt.
-{: .prompt-info }
-
-> An example showing the `warning` type prompt.
-{: .prompt-warning }
-
-> An example showing the `danger` type prompt.
-{: .prompt-danger }
-
-
-
-
-
 
 ### Summary
 
+This is analyze and copare baggage complaints for three different airlines using descriptive statistics and time series plots. Exploring differences between the airlines, whether complaints are getting better or worse over time, and if there are othr factors, such destination, seasonal effects, or the volume of travelers that might affect buggage performance.
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
-
-
-
-
-
-
-##  Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 
 

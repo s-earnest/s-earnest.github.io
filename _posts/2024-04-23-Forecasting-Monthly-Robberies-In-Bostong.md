@@ -1,14 +1,14 @@
 ---
-title: ' Airlines Delays Analysis '
+title: ' Forecasting Monthly Armed Robberies in Bostong '
 author: ernest
-date: 2099-01-10 16:20:02 -05:00
+date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - time-series 
+  - forecasting 
   # - tamplate-tag-2
   # - template-tag-3
 
@@ -20,17 +20,11 @@ image:
 ---
 
 
-
 ### Summary
 
-This is the Analyze on thirty different airlines in North America using descriptive statistics and time series plots. Explore the forecasting of passengers for the next year. 
+Several methods and techniques of time series forecasting are used to forecast whether robberies in Bostong will increase or decrease or decrease in upcoming years. Which will help government and police department to take measure accordingly.
 
 
-
-
-
-> All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
-{: .prompt-info }
 
 
 

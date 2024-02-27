@@ -20,29 +20,19 @@ image:
 ---
 
 
+### Summary
+
+In many industries throughout the world, suppliers compete for business by submitting quotes for work, services or products. A key criterion used to determine the winning quote is the doolar amount of the quote, but other factors include expected quality, estimated delivery time of the product, or quoted completion time of the work.
+
+The focus of this case is to increase sales and expand its market position. Many of the quotes provided to prospective customers in the past haven't resulted in orders.
+
+
+
+
+
 > All statements are my own, and do not necessarily reflect the opinion(s) of the current employer, or current educational institution.
 {: .prompt-info }
 
-
-
-
-
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
-
-
-
-
-
-
-##  Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 
 
