@@ -3,7 +3,7 @@ title: ' Noise in Human Judgement '
 author: ernest
 date: 2024-03-02 16:20:02 -05:00
 last_modified_at: 2024-03-12
-categories: [ Notes ]
+categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
@@ -43,6 +43,9 @@ Organizations expect to see consistency in their decisions of their employees, b
 
 [^1]: The footnote source
 [^2]: The 2nd footnote source
+
+![Alt text](/assets/articles/noise.png)
+caption: source: Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From: "Noise" Oct. 2016
 
 
  -->
