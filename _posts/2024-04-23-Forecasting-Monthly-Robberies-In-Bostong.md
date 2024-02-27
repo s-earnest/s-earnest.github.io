@@ -22,7 +22,7 @@ image:
 
 ### Summary
 
-Several methods and techniques of time series forecasting are used to forecast whether robberies in Bostong will increase or decrease or decrease in upcoming years. Which will help government and police department to take measure accordingly.
+Several methods and techniques of time series forecasting are used to forecast whether robberies in Boston will increase or decrease or decrease in upcoming years. Which will help government and police department to take measure accordingly.
 
 
 
