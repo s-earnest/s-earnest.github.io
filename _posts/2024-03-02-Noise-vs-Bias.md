@@ -2,7 +2,7 @@
 title: ' Noise in Human Judgement '
 author: ernest
 date: 2024-03-02 16:20:02 -05:00
-last_modified_at: 2024-03-12
+last_modified_at: 2024-03-03
 categories: [ Articles ]
 pin:     # true
 math: true

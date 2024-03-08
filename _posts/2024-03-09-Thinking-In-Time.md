@@ -1,8 +1,8 @@
 ---
 title: ' Thinking In Time '
 author: ernest
-date: 2024-03-09 16:20:02 -05:00
-last_modified_at: 2024-13-10
+date: 2024-01-09 16:20:02 -05:00
+last_modified_at:  2024-03-08
 categories: [ Notes ]
 pin:     # true
 math: true
