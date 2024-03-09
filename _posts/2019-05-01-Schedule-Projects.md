@@ -60,13 +60,13 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 🟠 🟢 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 
 
 
-- 🔴 = Not Started, or collecting data phase.
-- 🟠 = In progress analysing.
-- 🟢 = Completed analyse.
+- 🔴 = Not Started, collecting data phase.
+- 🟠 = Work In progress.
+- 🟢 = Completed and published.
 
 
 

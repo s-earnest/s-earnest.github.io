@@ -1,5 +1,5 @@
 ---
-title: ' Telcom Customer Churn '
+title: ' Telco Customer Churn '
 author: ernest
 date: 2024-08-21 16:20:02 -05:00
 last_modified_at:  2024-03-08
@@ -15,7 +15,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 image: 
   path: /assets/articles/scott-graham-web.png
   # image: /assets/sample/coming-soon.png
-  alt: Photo by Scott Graham on Unsplash.
+  # alt: Photo by Scott Graham on Unsplash.
 
 ---
 
