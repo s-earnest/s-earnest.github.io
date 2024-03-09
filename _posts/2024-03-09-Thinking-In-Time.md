@@ -21,10 +21,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-## Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog[^2] posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
+### Summary
 
 
 
@@ -33,21 +30,6 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-
-
-
-s
-
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 
 

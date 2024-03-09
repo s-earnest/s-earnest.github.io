@@ -21,7 +21,7 @@ image:
 
 
 
-## Summary
+### Summary
 
 
 Automation enable by technology brings the promise of higher productivity, increase efficiencies, and convenience. But also raise questions about how automation will impact jobs, skills, wages and the nature of the work itself. 

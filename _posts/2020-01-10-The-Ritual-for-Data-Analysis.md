@@ -15,13 +15,14 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 image: 
   path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
 
 
-> This is the main steps for each data analysis project.
-{: .prompt-info }
+
+### Summary 
+
 
 
 

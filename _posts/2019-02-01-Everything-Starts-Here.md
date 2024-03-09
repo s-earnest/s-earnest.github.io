@@ -15,7 +15,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 image: 
   path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png
-  alt: Coming soon article.
+  # alt: Coming soon article.
 
 ---
 

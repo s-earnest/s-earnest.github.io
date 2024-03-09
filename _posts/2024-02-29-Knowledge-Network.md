@@ -20,7 +20,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-## Summary
+### Summary
 
 
 This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. 

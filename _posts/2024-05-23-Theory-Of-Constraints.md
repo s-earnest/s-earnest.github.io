@@ -20,7 +20,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-## Summary
+### Summary
 
 Business and profitability. The theory recognized that there are many type of limitations that can face a company. Factors may be internal or external and restrictions are either flexible or fixed. 
 No two situations are identical, which means this method must be tailored to each situation. 

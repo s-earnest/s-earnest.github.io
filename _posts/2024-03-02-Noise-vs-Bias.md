@@ -23,7 +23,7 @@ image:
 
 
 
-## Summary
+### Summary
 
 Organizations expect to see consistency in their decisions of their employees, but humans are unreliable. Algorithm can reduce noise. Although algorithms may seem daunting to construct, build them with input data on a small number of cases and a little common sense rules, can help to set up procedures and practices that will guide employees to make more-consistent decisions.
 
