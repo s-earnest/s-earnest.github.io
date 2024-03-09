@@ -14,7 +14,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 image: 
   # path: /assets/articles/cover-austin-chan_web.png
-   image: /assets/sample/coming-soon.png
+  path: /assets/sample/coming-soon.png
+  # image: /assets/sample/coming-soon.png
   # alt: Photo by Austin Chan on Unplash.
 
 ---
