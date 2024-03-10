@@ -13,8 +13,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # - template-tag-3
 
 image: 
-  path: /assets/articles/scott-graham-web.png
-  # image: /assets/sample/coming-soon.png
+  # path: /assets/articles/scott-graham-web.png
+   path: /assets/sample/coming-soon.png
   # alt: Photo by Scott Graham on Unsplash.
 
 ---
