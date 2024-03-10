@@ -1,5 +1,5 @@
 ---
-title: ' Market Segmentation - Case Study '
+title: ' Market Segmentation - Case Study 1 '
 author: ernest
 date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2024-01-30
@@ -24,6 +24,9 @@ image:
 
 ## Summary
 
+Winter Vacation Acitivities
+
+The purpose of the data set are from two waves of the Austrian National Guest Survey conducted in three-yearly intervals by the Austrian Tourism Organization to gain market insight for the purpose of strategy development. 
 
 
 

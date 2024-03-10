@@ -26,6 +26,16 @@ image:
 ## Summary
 
 
+Fast Food
+
+This is based on eleven attributes on the percepton of McDonalds's Restaurant measured on a binary scale, all catagorical with levels YES and NO.
+
+The data collection was in 2009.
+
+
+
+
+
 
 
 
