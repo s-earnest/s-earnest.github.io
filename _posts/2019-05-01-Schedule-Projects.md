@@ -46,9 +46,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Urban-Traffic-Network ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ HR-Employee-Attrition ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Baggage-Complaints-Analysis ](https://s-earnest.github.io/posts/Baggage-Complaints/){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Analysis ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Time Series ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System EDA ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ](https://s-ernest.com/){:target="_blank"} | date  | 🔴 |

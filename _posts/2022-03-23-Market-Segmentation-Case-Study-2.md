@@ -1,7 +1,7 @@
 ---
 title: ' Market Segmentation - Case Study 2 '
 author: ernest
-date: 2021-12-10 16:20:02 -05:00
+date: 2021-05-13 16:20:02 -05:00
 last_modified_at: 2023-12-30
 categories: [ Work ]
 pin:     # true
@@ -26,7 +26,8 @@ image:
 ## Summary
 
 
-Fast Food
+Market Segmentation for McDonald's Fast Food Industry
+
 
 This is based on eleven attributes on the percepton of McDonalds's Restaurant measured on a binary scale, all catagorical with levels YES and NO.
 
