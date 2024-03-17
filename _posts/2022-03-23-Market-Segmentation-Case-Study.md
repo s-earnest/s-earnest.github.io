@@ -10,7 +10,7 @@ mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - market-segmentation
-  - fast-food
+  - winter-vacation
 
 image: 
   path: /assets/sample/coming-soon.png

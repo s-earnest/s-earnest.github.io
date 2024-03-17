@@ -10,8 +10,8 @@ mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - market-segmentation
-  - case-study-2
-  - items
+  - fat-food
+  - mcdonald's
 
 image: 
   path: /assets/sample/coming-soon.png
@@ -24,7 +24,6 @@ image:
 
 
 ## Summary
-
 
 Market Segmentation for McDonald's Fast Food Industry
 

@@ -20,7 +20,7 @@ image:
 ---
 
 
-> This is an aticle explaining how this parth started, marketing management (option communication), statistics, and Machine Learning.
+> This is an note explaining how this path started, marketing management (option communication), statistics, and Machine Learning.
 {: .prompt-info }
 
 

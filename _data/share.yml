@@ -7,8 +7,8 @@ platforms:
     # icon: "fab fa-twitter"
     # link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
   -
-    type: Facebook
-    icon: "fab fa-facebook-square"
+    type: Mastodon
+    icon: "fa-brands fa-mastodon"
     link: "https://s-earnest.github.io"
 
   -
