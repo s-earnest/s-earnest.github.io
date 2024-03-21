@@ -17,7 +17,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 <span style="float:right;padding:6px"> 
-  s.ernest@gmx.us <br> Mobile: +1 604 562 8227 <br> Location: Canada
+  s.ernest [at] gmx.us <br> Mobile: +1 604 562 8227 <br> Location: Canada
   <br> [Curriculum Vitae Paper](/assets/docs/paper1.pdf){:target="_blank"}
 </span>
 
