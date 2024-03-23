@@ -23,7 +23,6 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ### Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. 
 
 
 
@@ -38,6 +37,9 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 
 
 
+### Contact. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 

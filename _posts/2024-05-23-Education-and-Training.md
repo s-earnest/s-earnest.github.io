@@ -24,7 +24,9 @@ image:
 ## Summary
 
 
-Through the courses in post-secondary education, I’ve learnt to develop promotional strategies and campaigns, incorporate specific tactics such as event marketing, trade shows and corporate communications. In addition, I've also study traditional advertising, sales promotion and data base marketing for the most up-to-date skills plus Machine Learning knowledge and statistical analysis.
+Through the courses in post-secondary education in Marketing Management, I’ve learnt outside the schooling system to develop promotional strategies and campaigns, incorporate specific tactics such as event marketing, trade shows and corporate communications. In addition, I've also study traditional advertising, sales promotion and data base marketing for the most up-to-date skills plus Machine Learning knowledge and statistical analysis.   🔴
+
+
 
 
 ### School of Business + Media

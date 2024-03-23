@@ -45,9 +45,7 @@ image:
 
 ### Contact. 
 
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 

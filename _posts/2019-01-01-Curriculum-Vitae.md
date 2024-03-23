@@ -85,7 +85,7 @@ All content provided is for informational purposes only and shown case studies e
 | Machine Learning and Data Annotation  | [ Machine Learning, Data Annotation ](https://www.linkedin.com/learning/certificates/59ce44543b638f1f64922baef684cc640b0778d704891a91a248ead5af7bef34){:target="_blank"}    | 2024/02 | 🟢 |
 | Codeless Machine Learning with KNIME  | [ KNIME ]( https://www.linkedin.com/learning/certificates/5f7aeb8191650875aaf69c8a297958569ce42aa2db544db99f75791d8116cc11 ){:target="_blank"}    | 2024/01 | 🟢 |
 | Machine Learning Foundations   | [ Machine Learning ]( https://www.linkedin.com/learning/certificates/722b7040b6df696571b59eb55594feba3f0fd9e9e6db66d6fbcd158bd87b5634 ){:target="_blank"}    | 2024/02 | 🟢 |
-| Classification               | [ Text ](https://www.linkedin.com/learning/certificates/59ce44543b638f1f64922baef684cc640b0778d704891a91a248ead5af7bef34){:target="_blank"}    | Date | 🔴 |
+| Sig Sigma Black Belt      | [ Statistical Analysis ]( https://www.linkedin.com/learning/certificates/c3f3c236b7f781084a7117dc46a29d6b430a64ffc8a236188f3004c54d952f41  ){:target="_blank"}    | Date | 🟢 |
 | Classification               | [ Text ](https://www.linkedin.com/learning/certificates/59ce44543b638f1f64922baef684cc640b0778d704891a91a248ead5af7bef34){:target="_blank"}    | Date | 🔴 |
 | Classification               | [ Text ](https://www.linkedin.com/learning/certificates/59ce44543b638f1f64922baef684cc640b0778d704891a91a248ead5af7bef34){:target="_blank"}    | Date | 🔴 |
 
@@ -146,11 +146,12 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
+
+
+
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
 
 
 

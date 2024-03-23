@@ -49,5 +49,10 @@ This is the Analyze on thirty different airlines in North America using descript
    -->
 
 
+### Contact. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
+
 
 

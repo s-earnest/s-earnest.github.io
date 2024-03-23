@@ -37,6 +37,10 @@ Keeping track of time for each task is critical to get throughout the day, and h
 
 
 
+### Contact. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
 
 
 
