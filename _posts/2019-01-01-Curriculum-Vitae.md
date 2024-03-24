@@ -48,9 +48,9 @@ All content provided is for informational purposes only and shown case studies e
 ## Statistical Software
 
   - Microsoft Excel, 
-  - [ SPSS Statistics ]( https://www.ibm.com/products/spss-statistics ){:target="_blank"}, 
-  - [ KNIME Analytics ]( https://www.knime.com/knime-analytics-platform ){:target="_blank"}, 
-  - [ Tableau Desktop ]( https://www.tableau.com/products/desktop ){:target="_blank"}
+  - [ SPSS Statistics ]( https://www.ibm.com/products/spss-statistics ){:target="_blank"}, (Python, SQL)
+  - [ KNIME Analytics ]( https://www.knime.com/knime-analytics-platform ){:target="_blank"}, (Workflow and database connectors)
+  - [ Tableau Desktop ]( https://www.tableau.com/products/desktop ){:target="_blank"}, (Data Visualization)
   
 
 ## Working Experience
@@ -77,7 +77,7 @@ All content provided is for informational purposes only and shown case studies e
 * (2020/02) The Chinese University of Hong Kong (2000 - 2004)
 
 
-### Extra Curriculum Knowledge
+### Extra Curriculum Education
 
 | Description                  | Analysis Type    | Date | Status |
 |:-----------------------------|:-----------------:|:-------|-------:|

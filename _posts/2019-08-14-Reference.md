@@ -16,12 +16,12 @@ tags:
 
 
 ### Notes
-Short, bite sized thoughts, inspirations, mistakes, and other minutia. The sort of scraps you’d jot down in a notebook to remember for later -peruse the articles tags
+Short, bite sized thoughts, inspirations, mistakes, and other minutia. The sort of scraps you’d jot down in a notebook to remember for later -peruse the articles tag.
 
 
 ### Articles
-A collection of long form writing and work processes — mostly about data analysis.
-For shorter, more regular tidbits —peruse the notes tags.
+A collection of long form writing and work processes —mostly about data analysis topics.
+For shorter, more regular tidbits -peruse the notes tag.
 
 
 ### Work & Projects
@@ -142,6 +142,12 @@ Comput 20(4):457–469
 
 - Wood SN (2006) Generalized additive models: an introduction with R. Chapman and Hall/CRC, Boca Raton
 
+
+
+
+### Contact. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
