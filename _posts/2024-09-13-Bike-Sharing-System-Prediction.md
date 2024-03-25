@@ -29,6 +29,14 @@ image:
 Bike sharing has become a popular transport option in many cities because it is green and convenivent and an essential feeder for other transportation modes such as buses and metro.
 A key challenge to operations is network rebalancing, while facilitating factors include partnership working and inclusive scheme promotion.
 
+### Task
+
+- Regression Analysis: 
+	- Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
+	- Event and Anomaly Detection:  
+		- Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
+		For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are identified in. 
+
 
 
 
