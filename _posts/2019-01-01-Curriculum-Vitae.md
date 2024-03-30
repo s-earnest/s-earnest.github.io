@@ -27,10 +27,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ## Executive Summary
 
-All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
+All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. 
 
 
-## Data Analysis Projects
+
+## Hands-on Projects examples
 
 * [ Criminality in Vancouver ]( https://s-earnest.github.io/posts/Crime-in-Vancouver/ ){:target="_blank"} - Forecasting Criminality
 * [ Credit Card Fraud Detection ]( https://s-earnest.github.io/posts/Credit-Card-Fraud/ ){:target="_blank"} - Machine Learning
@@ -48,9 +49,10 @@ All content provided is for informational purposes only and shown case studies e
 ## Statistical Software
 
   - Microsoft Excel, 
-  - [ SPSS Statistics ]( https://www.ibm.com/products/spss-statistics ){:target="_blank"}, (Python, SQL)
+  - [ SPSS Statistics ]( https://www.ibm.com/products/spss-statistics ){:target="_blank"}, Statistical analysis
   - [ KNIME Analytics ]( https://www.knime.com/knime-analytics-platform ){:target="_blank"}, (Workflow and database connectors)
   - [ Tableau Desktop ]( https://www.tableau.com/products/desktop ){:target="_blank"}, (Data Visualization)
+  - [ JupyterLab Notebook ]( https://jupyterlab.readthedocs.io/en/stable/index.html ){:target="_blank"}, Python (libraries: Panadas, NumPy, Matplotlib, Seaborn)
   
 
 ## Working Experience
@@ -65,7 +67,11 @@ All content provided is for informational purposes only and shown case studies e
 
 #### My first Company (Analyst Programmer, 2005/01 - 2011/05)
 
-* Develop multiple applications using Javascript, Java, PHP, Powerbuilder, Oracle
+All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
+
+#### My first Company (Analyst Programmer, 2005/01 - 2011/05)
+
+All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
 
 ## Education

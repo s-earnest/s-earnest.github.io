@@ -1,16 +1,16 @@
 ---
-title: ' Logistic Regression '
+title: ' notes '
 author: ernest
-date: 2020-04-13 16:20:02 -05:00
+date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - logistic-regression
-  - supervised-learning
-  - machine-learning
+  - notes
+  # - tamplate-tag-2
+  # - template-tag-3
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -19,6 +19,10 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ---
 
+
+
+> This is a note.
+{: .prompt-tip }
 
 
 ### Summary
@@ -43,6 +47,18 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
   
   This is 4
 
+
+
+
+
+
+
+
+
+## Footnote
+
+[^1]: The footnote source
+[^2]: The 2nd footnote source
 
 
 
