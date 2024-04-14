@@ -1,7 +1,7 @@
 ---
 title: ' Techniques and Methods in How to Detect Outliers '
 author: ernest
-date: 2022-01-10 16:20:02 -05:00
+date: 2020-04-13 16:20:02 -05:00
 last_modified_at: 2024-03-08
 categories: [ Notes ]
 pin:     # true
