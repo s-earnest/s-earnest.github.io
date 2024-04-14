@@ -3,7 +3,7 @@ title: ' Theory Of Constraints '
 author: ernest
 date: 2023-11-23 16:20:02 -05:00
 last_modified_at: 2024-02-23
-categories: [ Notes ]
+categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
