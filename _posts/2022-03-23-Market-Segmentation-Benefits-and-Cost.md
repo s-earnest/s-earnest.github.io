@@ -1,13 +1,13 @@
 ---
 title: ' Market Segmentation - Benefits and Cost '
 author: ernest
-date: 2019-08-10 16:20:02 -05:00
+date: 2020-08-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - notes
   - market-segmentation

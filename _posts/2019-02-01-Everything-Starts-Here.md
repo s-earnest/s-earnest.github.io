@@ -7,6 +7,7 @@ categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   # - purpose
   # - why

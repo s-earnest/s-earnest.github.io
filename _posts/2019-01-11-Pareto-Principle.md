@@ -1,12 +1,13 @@
 ---
 title: ' Pareto Principle '
 author: ernest
-date: 2024-11-10 16:20:02 -05:00
+date: 2023-11-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - pareto-principle
   # - tamplate-tag-2

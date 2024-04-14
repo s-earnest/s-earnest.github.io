@@ -1,7 +1,7 @@
 ---
 title: ' Logistic Regression '
 author: ernest
-date: 2020-04-13 16:20:02 -05:00
+date: 2023-04-13 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
