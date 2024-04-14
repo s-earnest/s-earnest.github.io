@@ -7,6 +7,7 @@ categories: [  ]
 pin:     # true
 math: true
 mermaid: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - education
   - certification

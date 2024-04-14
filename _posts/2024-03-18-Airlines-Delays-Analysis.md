@@ -1,12 +1,13 @@
 ---
 title: ' Airlines Delays Analysis '
 author: ernest
-date: 2024-12-10 16:20:02 -05:00
-last_modified_at: 2023-11-30
+date: 2024-04-30  16:20:02 -05:00
+last_modified_at: 2024-05-30
 categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - time-series 
   # - tamplate-tag-2

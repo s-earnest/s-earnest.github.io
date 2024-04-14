@@ -1,12 +1,13 @@
 ---
 title: ' Market Segmentation - Case Study 2 '
 author: ernest
-date: 2025-05-13 16:20:02 -05:00
+date: 2024-05-13 16:20:02 -05:00
 last_modified_at: 2023-12-30
 categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - market-segmentation

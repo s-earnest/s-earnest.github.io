@@ -1,8 +1,8 @@
 ---
 title: ' Credit Card Fraud Detection '
 author: ernest
-date: 2024-12-10 16:20:02 -05:00
-last_modified_at: 2024-03-08
+date: 2024-04-12  16:20:02 -05:00
+last_modified_at: 2024-04-08
 categories: [ Work ]
 pin:     # true
 math: true
