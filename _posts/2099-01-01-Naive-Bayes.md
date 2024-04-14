@@ -1,16 +1,16 @@
 ---
-title: ' Support Vector Machine '
+title: ' Naive Bayes '
 author: ernest
-date: 2020-04-10 16:20:02 -05:00
+date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - svm
-  - machine-learning
+  - naive-bayes
   - supervised-learning
+  - machine-learning
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -21,10 +21,10 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-
 ### Summary
 
-Supervised learning models that construct a maximal margin hyperplane during training to find the best solution for the data. SVMs can employ different kernels to separate the space and ensure further flexibility.
+  An algorithm that performs classification according to Bayes Theorem. The model assisgns a sample to the class with the largest conditional probability.
+
 
 
 ### Inputs
@@ -34,10 +34,8 @@ Supervised learning models that construct a maximal margin hyperplane during tra
 
 ### Preprocessing
 
-  - Input needs to be rescaled to [-1, 1]
+  - Resistant to overfifting
   
-
-
 
 
 

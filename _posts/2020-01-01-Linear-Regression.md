@@ -1,7 +1,7 @@
 ---
 title: ' Linear Regression '
 author: ernest
-date: 2024-01-10 16:20:02 -05:00
+date: 2023-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
@@ -10,7 +10,7 @@ mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - linear-regression
   - machine-learning
-  # - template-tag-3
+  - supervised-learning
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -21,44 +21,23 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-> This is a note.
-{: .prompt-tip }
-
-
 ### Summary
 
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
-
-
-
-[Codebook](/assets/docs/paper1.pdf){:target="_blank"}
-
-
-# Section 1
-
-  This is 1
-
-# Section 2
-
-  This is 2
-
-# Section 3
-  
-  This is 4
+Supervised learning algorithm that fits a linear regression based on the training data. The equation is used for predictions on new data.
 
 
 
 
+### Inputs
+  - Numerical
+  - Categorical
 
 
+### Preprocessing
+  - Standardization the inputs
+  - Removing irrelevant features
 
 
-
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 
 

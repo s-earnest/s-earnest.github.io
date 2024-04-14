@@ -10,7 +10,7 @@ mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - random-forest
   - machine-learning
-  # - template-tag-3
+  # - supervised-learning
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -20,12 +20,24 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
+
+
+### Summary
+
+Algorithm made up of many decision trees. Its results is determined either by the average of all outputs or the most popular outcome. **Bootstrap aggregating** generates different datasets form the original and feeds them to the trees. A subset of features is chosen at random for each tree.
+
+The goal is to reduce overfifting and improve accuracy.
+
+
+### Inputs
+
+  - Numerical
+  - Categorical
+
+### Preprocessing
+
+  - No preprocessing required
   
-  This is 4
-
-
-
-
 
 
 

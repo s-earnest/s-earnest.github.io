@@ -24,24 +24,27 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ### Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
+Classification algorithm that predicts the probability of an event occuring using a logistics function.
+Logistic regression can transform into its logit form, where the log of the odds is equal to a linear model.
+
+Applied whenever we want to predict categorical outputs.
+
+
+### Inputs
+  - Numerical
+  - Categorical
+
+
+### Preprocessing 
+  - Standardized the inputs
+  - Removing irrelevant features
+
+
+### Avoid Overfitting
+  - Regularization
 
 
 
-[Codebook](/assets/docs/paper1.pdf){:target="_blank"}
-
-
-# Section 1
-
-  This is 1
-
-# Section 2
-
-  This is 2
-
-# Section 3
-  
-  This is 4
 
 
 

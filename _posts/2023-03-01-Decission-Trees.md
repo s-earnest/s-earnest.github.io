@@ -1,16 +1,16 @@
 ---
-title: ' Support Vector Machine '
+title: ' Decission Trees '
 author: ernest
-date: 2020-04-10 16:20:02 -05:00
+date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - svm
-  - machine-learning
+  - decision-trees
   - supervised-learning
+  - machine-learning
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -21,10 +21,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-
 ### Summary
 
-Supervised learning models that construct a maximal margin hyperplane during training to find the best solution for the data. SVMs can employ different kernels to separate the space and ensure further flexibility.
+This algorithm creates a tree-like structure with questions regarding the input posed as tree nodes (example it the input < 2.5?), it is primarily used for classification.
 
 
 ### Inputs
@@ -34,8 +33,7 @@ Supervised learning models that construct a maximal margin hyperplane during tra
 
 ### Preprocessing
 
-  - Input needs to be rescaled to [-1, 1]
-  
+  - No preprocessing required
 
 
 
