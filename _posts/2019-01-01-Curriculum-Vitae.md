@@ -7,6 +7,7 @@ categories: [  ]
 pin:     # true
 math: true
 mermaid: true
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - resume
   - curriculum-vitae
@@ -22,7 +23,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   <br>
 </span>
 
-# Junior Marketing Analyst
+# Junior Marketing Analyst / Business Analysist
 
 
 ## Executive Summary
@@ -44,6 +45,10 @@ All content provided is for informational purposes only and shown case studies e
 * [ Baggage Complaints ]( https://s-earnest.github.io/posts/Baggage-Complaints/ ){:target="_blank"} - Data Exploration
 
 
+## Links portfolio
+
+* [ Online Portfolio ]( https://s-earnest.github.io ){:target="_blank"}
+* [ Tableau Public ]( https://s-earnest.github.io/posts/Crime-in-Vancouver/ ){:target="_blank"}
 
 
 ## Statistical Software
@@ -52,35 +57,32 @@ All content provided is for informational purposes only and shown case studies e
   - [ SPSS Statistics ]( https://www.ibm.com/products/spss-statistics ){:target="_blank"}, Statistical analysis
   - [ KNIME Analytics ]( https://www.knime.com/knime-analytics-platform ){:target="_blank"}, (Workflow and database connectors)
   - [ Tableau Desktop ]( https://www.tableau.com/products/desktop ){:target="_blank"}, (Data Visualization)
-  - [ JupyterLab Notebook ]( https://jupyterlab.readthedocs.io/en/stable/index.html ){:target="_blank"}, Python (libraries: Panadas, NumPy, Matplotlib, Seaborn)
+  - [ JupyterLab Notebook ]( https://jupyterlab.readthedocs.io/en/stable/index.html ){:target="_blank"}, Python (libraries: Pandas, NumPy, Matplotlib, Seaborn)
   
 
 ## Working Experience
 
-#### Current Company (Project Manager, 2015/08 - present) 
+#### [ Aviso Wealth ]( https://www.aviso.ca/en/ ){:target="_blank"} (Bilingual Client Office, 2022/05 - present) 
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
-#### Second Company (System Analyst, 2011/06 - 2015/07) 
+#### [ Sterling Background Check Canada Inc.]( https://www.sterlingbackcheck.ca/backcheck-canada/?utm_source=redirects&utm_medium=backcheck.net&utm_campaign=301_Redirects ){:target="_blank"} (Bilingual Client Services, 2018/01 - 2021/09) 
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
-#### My first Company (Analyst Programmer, 2005/01 - 2011/05)
+#### [ Industrialle Alliance Financial Groupe ]( https://ia.ca/ ){:target="_blank"} (Bilingual Claims Assistant, 2013/01 - 2018/05)
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
-#### My first Company (Analyst Programmer, 2005/01 - 2011/05)
+#### [ Victorial Hotel ]( https://victorianhotel.ca/ ){:target="_blank"} (Front Desk agent/Night Auditor, 2010/01 - 2012/05)
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
 
 ## Education
 
-* (2020/02) AWS Certification (2021/12)
-* (2020/02) Oracle Certified Professional (2020/02)
-* (2020/02) Project Management Professional (PMP) (2018/10)
-* (2020/02) Bachelor of Computer Science (Sep 2004)
-* (2020/02) The Chinese University of Hong Kong (2000 - 2004)
+* (2020/02) [ Diploma Marketing Management ]( https://s-earnest.github.io/posts/Crime-in-Vancouver/ ){:target="_blank"} - Communication (Sep 2004)
+* (2020/02) High School - Vancouver BC - Canada (2000 - 2004)
 
 
 ### Extra Curriculum Education
@@ -97,7 +99,7 @@ All content provided is for informational purposes only and shown case studies e
 
 
 
-## Certifications
+## Acreditation & Certifications
 
 * (2024/03) [L1-AP]( https://www.knime.com/learning#learning-path ){:target="_blank"} Data Literacy with KNIME Analytics Platform: Basics
   > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
@@ -158,6 +160,8 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
+
 
 
 
