@@ -23,7 +23,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   <br>
 </span>
 
-# Junior Marketing Analyst / Business Analysist
+# Junior Marketing Analyst / Business Analyst
 
 
 ## Executive Summary
@@ -62,7 +62,7 @@ All content provided is for informational purposes only and shown case studies e
 
 ## Working Experience
 
-#### [ Aviso Wealth ]( https://www.aviso.ca/en/ ){:target="_blank"} (Bilingual Client Office, 2022/05 - present) 
+#### [ Aviso Wealth ]( https://www.aviso.ca/en/ ){:target="_blank"} (Bilingual Client Officer, 2022/05 - present) 
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
@@ -70,7 +70,7 @@ All content provided is for informational purposes only and shown case studies e
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
-#### [ Industrialle Alliance Financial Groupe ]( https://ia.ca/ ){:target="_blank"} (Bilingual Claims Assistant, 2013/01 - 2018/05)
+#### [ Industrielle Alliance Groupe Financiaer ]( https://ia.ca/ ){:target="_blank"} (Bilingual Claims Assistant, 2013/01 - 2018/05)
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 

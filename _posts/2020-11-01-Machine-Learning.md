@@ -29,37 +29,20 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ### Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
+MACHINE LEARNING WORKFLOW
 
+1. Use the Input Data tool to bring the dataset you want to use to train your model into Designer. The dataset in this workflow contains information related to different species of the iris flower.
 
+2. Use the Assisted Modeling tool to start creating a machine-learning model that relies on features of different iris flowers, such as petal length and width, to recognize what sub-species a flower belongs to. Select the Assisted Modeling tool, then select the target “Species” from the dropdown.
 
-[Codebook](/assets/docs/paper1.pdf){:target="_blank"}
+3. Use the Transformation tool to prepare your data, making it possible for a machine-learning algorithm to train your model. Preparations include selecting features, setting your data types, cleaning up missing values, and encoding your data into something machine readable. Often you use several Transformation tools in a row to prepare your data.
 
+4. Use the Classification tool to select what machine-learning algorithm you want to use to train your model. For this dataset, use the random-forest algorithm, because one association between target categories (in other words, the association between Iris-versicolor and Iris-virginica) is nonlinear.
 
-# Section 1
+5. Use the Fit tool to train your model.
 
-  This is 1
+6. Use the Predict tool to test your model, which can now predict what sub-species of Iris a flower belongs to, based on the features you’ve chosen.
 
-# Section 2
-
-  This is 2
-
-# Section 3
-  
-  This is 4
-
-
-
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
 
 
 

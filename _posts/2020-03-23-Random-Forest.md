@@ -41,6 +41,16 @@ The goal is to reduce overfifting and improve accuracy.
   
 
 
+RANDOM FOREST
+After you drag a Classification tool onto the canvas, you can select the Random Forest option in the configuration window to solve a binary or multiclass classification problem.
+
+In this example, you predict what species an iris flower is, based on four features: petal length, petal width, sepal length, and sepal width. Select Run to make predictions.
+
+Select the Browse tool that is connected to the Predict tool to see the predictions. In the results grid, the column “Species_predicted” contains predictions for each row in the dataset. Compare the “Species_predicted” column with the “Species” column to see how well the model predicts what species an iris flower is.
+
+The random-forest algorithm randomly samples the data, creates decision trees for all of those samples, and then averages the results to determine what features best predict the target. The algorithm doesn't do anything else to manage the results from the decision trees.
+
+You can use the random-forest algorithm for binary or multiclass classification. The algorithm performs best when making predictions about features and a target that have non-linear associations. The algorithm requires more processing power than others, such as logistic regression and decision tree.
 
 
 

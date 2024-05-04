@@ -47,6 +47,20 @@ Applied whenever we want to predict categorical outputs.
 
 
 
+LOGISTICS REGRESSION
+After you drag a Classification tool onto the canvas, you can select the Logistic Regression option in the configuration window to solve a binary-classification problem.
+
+In this example, you predict whether mushrooms are poisonous or edible based on a number of different features, such as odor, size, and color. Select Run to make predictions.
+
+Select the Browse tool that's connected to the Predict tool to see the predictions. In the results grid, a column called "class_predicted" contains predictions for each row in the dataset. Compare the "class_predicted" column with the "class" column to see how well your model predicts whether mushrooms are poisonous or edible.
+
+The logistic-regression algorithm relies on a sigmoid function to separate the data into two groups (in this example, "poisonous" and "edible"). Observations that fall on one side of the sigmoid represent one category; those that fall on the other side represent a second category. The features you choose to use in your model define the curve of the sigmoid.
+
+You can only use the logistic-regression algorithm for binary classification. The algorithm performs best when making predictions about features and a target that have linear associations. The algorithm doesn't require much processing power compared to many other algorithms.
+
+
+
+
 
 
 

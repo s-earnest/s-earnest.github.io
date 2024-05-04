@@ -27,6 +27,71 @@ image:
 
 
 
+## Business Understanding
+
+### Determine business objectives
+
+### Assess situation
+
+### Determine data mining goals
+
+### Produce project plan
+
+
+## Data Understanding
+
+### Collect initial data
+
+### Describe data
+
+### Explore data
+
+### Verify data quality
+
+
+## Data Preparation
+
+### Select Data
+
+### Clean Data
+
+### Construct Data
+
+### Integrate Data
+
+### Format Data
+
+
+
+## Modeling
+
+### Select Modeling Techniques
+
+### Generate test design
+
+### Build Models
+
+### Assess model
+
+## Evaluation
+
+### Evaluate results
+
+### Review Process
+
+### Determine next steps
+
+## Deployment
+
+### Plan deployment
+
+### Plan monitoring and maintenance
+
+### Produce final report
+
+### Review project
+
+
 
 
 
