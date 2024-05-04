@@ -23,8 +23,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   <br>
 </span>
 
-# Junior Marketing Analyst / Business Analyst
-
+<br>
+# Junior Data Analyst 
+<br>
 
 ## Executive Summary
 
@@ -70,7 +71,7 @@ All content provided is for informational purposes only and shown case studies e
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
-#### [ Industrielle Alliance Groupe Financiaer ]( https://ia.ca/ ){:target="_blank"} (Bilingual Claims Assistant, 2013/01 - 2018/05)
+#### [ Industrielle Alliance Groupe Financier ]( https://ia.ca/ ){:target="_blank"} (Bilingual Claims Assistant, 2013/01 - 2018/05)
 
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
@@ -81,8 +82,8 @@ All content provided is for informational purposes only and shown case studies e
 
 ## Education
 
-* (2020/02) [ Diploma Marketing Management ]( https://s-earnest.github.io/posts/Crime-in-Vancouver/ ){:target="_blank"} - Communication (Sep 2004)
-* (2020/02) High School - Vancouver BC - Canada (2000 - 2004)
+* (2020/02) [ Diploma Marketing Management ]( https://s-earnest.github.io/posts/Crime-in-Vancouver/ ){:target="_blank"} - Communication (Sep 2014)
+* (2020/02) High School - Vancouver BC - Canada (2010 - 2014)
 
 
 ### Extra Curriculum Education
@@ -117,7 +118,7 @@ All content provided is for informational purposes only and shown case studies e
   > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
 
-## Misc. Information
+## Other Information
 
 * Languages: English & French
 * Hobbies: Music, Reading, Travel
