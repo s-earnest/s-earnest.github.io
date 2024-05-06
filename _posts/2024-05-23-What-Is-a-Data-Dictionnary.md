@@ -26,7 +26,7 @@ image:
 Data dictionnary came with creating DBMS in the 1960's. Organization's created them to know what and how their data was structured. Data dictionnary describe data and this include information about the data, data type, structure details and security restrictions. 
 
 
-
+20240505 172307
 
 Data dictionnary support the data structure, the technical infrastructures that connect the business strategy and the date strategy with the technical execution.
 High-quality metadata describes data and their relationships. Engineers and other workerss use this information to build, troubleshooting, maintaining, and improving the data solution foundations.
