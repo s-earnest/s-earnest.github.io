@@ -26,8 +26,6 @@ image:
 Data dictionnary came with creating DBMS in the 1960's. Organization's created them to know what and how their data was structured. Data dictionnary describe data and this include information about the data, data type, structure details and security restrictions. 
 
 
-20240505 172307
-
 Data dictionnary support the data structure, the technical infrastructures that connect the business strategy and the date strategy with the technical execution.
 High-quality metadata describes data and their relationships. Engineers and other workerss use this information to build, troubleshooting, maintaining, and improving the data solution foundations.
 
@@ -109,8 +107,19 @@ The use of data dictionnary is the gain on Data Quality when they are used and u
 
 
 
+<!-- 
 
+A data dictionary is like a map for your data. It’s a centralized repository that stores crucial information about the structure, organization, and meaning of data within a database or information system. Think of it as a detailed catalog that outlines the various elements and attributes present in your dataset, along with their definitions and characteristics.
 
+In simpler terms, imagine you have a massive bookshelf filled with different books. Each book represents a database or dataset, and every page within those books contains specific information. Now, think of the data dictionary as an index at the beginning of each book. It lists all the chapters (tables) and sections (fields) within those chapters, along with a brief description of what you can find in each one.
+
+For instance, if you’re dealing with a customer database, the data dictionary would specify the names of the tables (like "Customers" or "Orders") and the attributes within each table (like "Customer ID," "Name," "Address," etc.). It might also provide additional details such as data types (like text, number, date), allowed values, constraints (like maximum length or format), and relationships between different tables.
+
+Having a data dictionary is incredibly beneficial for both developers and users. Developers can use it as a reference guide when designing or modifying databases, ensuring consistency and accuracy in data management. Meanwhile, users can leverage it to understand the structure of the data they’re working with, making it easier to query, analyze, and interpret information effectively.
+
+Overall, a data dictionary serves as a vital tool for maintaining data integrity, facilitating collaboration between different stakeholders, and promoting better decision-making based on reliable and well-understood data.
+
+-->
 
 
 <!-- 

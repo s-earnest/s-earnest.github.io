@@ -40,6 +40,42 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
+```Python 
+
+code here 
+import pandas as pd
+import matplotlib as plt
+```
+
+```yaml
+import pandas as pd
+import matplotlib as plt
+key: value
+```
+
+
+```python
+def say_hi(name):
+    print(f"Hello {name}")
+    print("Have a good day")
+```
+
+
+```shell
+echo 'No more line numbers!'
+```
+{: .nolineno }
+
+
+{% raw %}
+```liquid
+{% if product.title contains 'Pack' %}
+  This product's title contains the word Pack.
+{% endif %}
+```
+{% endraw %}
+ 
+
 
 
 
@@ -56,7 +92,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ### Contact. 
 
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
