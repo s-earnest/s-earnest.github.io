@@ -24,54 +24,64 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 🔴 
 
 
+### Summary
+
 Inferential statistics is a branch of statistics that involves making predictions or inferences about a population based on a sample of data taken from that population. It is used to analyze the probabilities, assumptions, and outcomes of a hypothesis.
 
-The basic steps of inferential statistics typically involve the following:
+# The basic steps of inferential statistics typically involve the following:
 
-Define a Hypothesis: 
+## Define a Hypothesis: 
 This is often a statement about a parameter of a population, such as the population mean or population proportion.
-Select a Sample: 
+### Select a Sample: 
 In order to test the hypothesis, you’ll select a sample from the population. This should be done randomly and should be representative of the larger population in order to avoid bias.
-Collect Data: 
+### Collect Data: 
 Once you have your sample, you’ll need to collect data. This data will be used to calculate statistics that will help you test your hypothesis.
-Perform Analysis: 
+### Perform Analysis: 
 The collected data is then analyzed using statistical tests such as the t-test, chi-square test, or ANOVA, to name a few. These tests help to determine the likelihood that the results of your analysis occurred by chance.
-Interpret Results: 
+### Interpret Results: 
 The analysis can provide a probability, called a p-value, which represents the likelihood that the results occurred by chance. If this probability is below a certain level (commonly 0.05), you may reject the null hypothesis (the statement that there is no effect or relationship) in favor of the alternative hypothesis (the statement that there is an effect or relationship).
-Inferential Statistics Types
+
+# Inferential Statistics Types
 Inferential statistics can be broadly categorized into two types: parametric and nonparametric. The selection of type depends on the nature of the data and the purpose of the analysis.
 
-Parametric Inferential Statistics
+# Parametric Inferential Statistics
 These are statistical methods that assume data comes from a type of probability distribution and makes inferences about the parameters of the distribution. Common parametric methods include:
 
-T-tests: 
+### T-tests: 
 Used when comparing the means of two groups to see if they’re significantly different.
 Analysis of Variance (ANOVA): Used to compare the means of more than two groups.
-Regression Analysis: 
+### Regression Analysis: 
 Used to predict the value of one variable (dependent) based on the value of another variable (independent).
-Chi-square test for independence: Used to test if there is a significant association between two categorical variables.
-Pearson’s correlation: 
+### Chi-square test for independence: 
+Used to test if there is a significant association between two categorical variables.
+### Pearson’s correlation: 
 Used to test if there is a significant linear relationship between two continuous variables.
-Nonparametric Inferential Statistics
+
+# Nonparametric Inferential Statistics
 These are methods used when the data does not meet the requirements necessary to use parametric statistics, such as when data is not normally distributed. Common nonparametric methods include:
 
-Mann-Whitney U Test: 
+### Mann-Whitney U Test: 
 Non-parametric equivalent to the independent samples t-test.
-Wilcoxon Signed-Rank Test: 
+### Wilcoxon Signed-Rank Test: 
 Non-parametric equivalent to the paired samples t-test.
-Kruskal-Wallis Test: Non-parametric equivalent to the one-way ANOVA.
+### Kruskal-Wallis Test: 
+Non-parametric equivalent to the one-way ANOVA.
 Spearman’s rank correlation: Non-parametric equivalent to the Pearson correlation.
-Chi-square test for goodness of fit: Used to test if the observed frequencies for a categorical variable match the expected frequencies.
-Inferential Statistics Formulas
+### Chi-square test for goodness of fit: 
+Used to test if the observed frequencies for a categorical variable match the expected frequencies.
+
+# Inferential Statistics Formulas
 Inferential statistics use various formulas and statistical tests to draw conclusions or make predictions about a population based on a sample from that population. Here are a few key formulas commonly used:
 
-Confidence Interval for a Mean:
+# Confidence Interval for a Mean:
 
 When you have a sample and want to make an inference about the population mean (µ), you might use a confidence interval.
 
 The formula for a confidence interval around a mean is:
 
+```
 [Sample Mean] ± [Z-score or T-score] * (Standard Deviation / sqrt[n])where:
+```
 
 Sample Mean is the mean of your sample data
 Z-score or T-score is the value from the Z or T distribution corresponding to the desired confidence level (Z is used when the population standard deviation is known or the sample size is large, otherwise T is used)
@@ -81,15 +91,17 @@ Hypothesis Testing:
 
 Hypothesis testing often involves calculating a test statistic, which is then compared to a critical value to decide whether to reject the null hypothesis.
 
-A common test statistic for a test about a mean is the Z-score:
+# A common test statistic for a test about a mean is the Z-score:
 
+```
 Z = (Sample Mean - Hypothesized Population Mean) / (Standard Deviation / sqrt[n])
+```
 
 where all variables are as defined above.
 
 Chi-Square Test:
 
-The Chi-Square Test is used when dealing with categorical data.
+# The Chi-Square Test is used when dealing with categorical data.
 
 The formula is:
 
@@ -114,23 +126,25 @@ t = (mean1 - mean2) / sqrt [ (sd1²/n1) + (sd2²/n2) ]where:
 mean1 and mean2 are the sample means
 sd1 and sd2 are the sample standard deviations
 n1 and n2 are the sample sizes
-Inferential Statistics Examples
+
+# Inferential Statistics Examples
 Sure, inferential statistics are used when making predictions or inferences about a population from a sample of data. Here are a few real-time examples:
 
-Medical Research: 
+### Medical Research: 
 Suppose a pharmaceutical company is developing a new drug and they’re currently in the testing phase. They gather a sample of 1,000 volunteers to participate in a clinical trial. They find that 700 out of these 1,000 volunteers reported a significant reduction in their symptoms after taking the drug. Using inferential statistics, they can infer that the drug would likely be effective for the larger population.
-Customer Satisfaction: 
+### Customer Satisfaction: 
 Suppose a restaurant wants to know if its customers are satisfied with their food. They could survey a sample of their customers and ask them to rate their satisfaction on a scale of 1 to 10. If the average rating was 8.5 from a sample of 200 customers, they could use inferential statistics to infer that the overall customer population is likely satisfied with the food.
-Political Polling: 
+### Political Polling: 
 A polling company wants to predict who will win an upcoming presidential election. They poll a sample of 10,000 eligible voters and find that 55% prefer Candidate A, while 45% prefer Candidate B. Using inferential statistics, they infer that Candidate A has a higher likelihood of winning the election.
-E-commerce Trends: 
+### E-commerce Trends: 
 An e-commerce company wants to improve its recommendation engine. They analyze a sample of customers’ purchase history and notice a trend that customers who buy kitchen appliances also frequently buy cookbooks. They use inferential statistics to infer that recommending cookbooks to customers who buy kitchen appliances would likely increase sales.
-Public Health: 
+### Public Health: 
 A health department wants to assess the impact of a health awareness campaign on smoking rates. They survey a sample of residents before and after the campaign. If they find a significant reduction in smoking rates among the surveyed group, they can use inferential statistics to infer that the campaign likely had an impact on the larger population’s smoking habits.
-Applications of Inferential Statistics
+
+# Applications of Inferential Statistics
 Inferential statistics are extensively used in various fields and industries to make decisions or predictions based on data. Here are some applications of inferential statistics:
 
-Healthcare: 
+### Healthcare: 
 Inferential statistics are used in clinical trials to analyze the effect of a treatment or a drug on a sample population and then infer the likely effect on the general population. This helps in the development and approval of new treatments and drugs.
 Business: 
 Companies use inferential statistics to understand customer behavior and preferences, market trends, and to make strategic decisions. For example, a business might sample customer satisfaction levels to infer the overall satisfaction of their customer base.
@@ -147,13 +161,14 @@ Governments use inferential statistics in policy-making. By analyzing sample dat
 Purpose of Inferential Statistics
 The purposes of inferential statistics include:
 
-Estimation of Population Parameters: 
+# Estimation of Population Parameters: 
 Inferential statistics allows for the estimation of population parameters. This means that it can provide estimates about population characteristics based on sample data. For example, you might want to estimate the average weight of all men in a country by sampling a smaller group of men.
 Hypothesis Testing: 
 Inferential statistics provides a framework for testing hypotheses. This involves making an assumption (the null hypothesis) and then testing this assumption to see if it should be rejected or not. This process enables researchers to draw conclusions about population parameters based on their sample data.
 Prediction: 
 Inferential statistics can be used to make predictions about future outcomes. For instance, a researcher might use inferential statistics to predict the outcomes of an election or forecast sales for a company based on past data.
-Relationships Between Variables: Inferential statistics can also be used to identify relationships between variables, such as correlation or regression analysis. This can provide insights into how different factors are related to each other.
+Relationships Between Variables: 
+Inferential statistics can also be used to identify relationships between variables, such as correlation or regression analysis. This can provide insights into how different factors are related to each other.
 Generalization: 
 Inferential statistics allows researchers to generalize their findings from the sample to the larger population. It helps in making broad conclusions, given that the sample is representative of the population.
 Variability and Uncertainty: 
@@ -162,7 +177,7 @@ Error Estimation:
 It provides measures of possible errors (known as margins of error), which allow us to know how much our sample results may differ from the population parameters.
 Limitations of Inferential Statistics
 
-Inferential statistics, despite its many benefits, does have some limitations. Here are some of them:
+# Inferential statistics, despite its many benefits, does have some limitations. Here are some of them:
 
 Sampling Error: 
 Inferential statistics are often based on the concept of sampling, where a subset of the population is used to infer about the population. There’s always a chance that the sample might not perfectly represent the population, leading to sampling errors.
