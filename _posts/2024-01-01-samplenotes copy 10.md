@@ -1,7 +1,7 @@
 ---
 title: ' notes '
 author: ernest
-date: 2025-01-10 16:20:02 -05:00
+date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
@@ -29,27 +29,19 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ### Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
+This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
 
 
 
-[Codebook](/assets/docs/paper1.pdf){:target="_blank"}
-
-
-# Section 1
-
-  This is 1
-
-# Section 2
-
-  This is 2
-
-# Section 3
-  
-  This is 4
 
 
 
+
+
+## Reference
+
+  - item 
+  - item 
 
 
 
@@ -59,7 +51,12 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 ## Footnote
 
 [^1]: The footnote source
-[^2]: The 2nd footnote source
+
+
+
+
+
+
 
 
 
