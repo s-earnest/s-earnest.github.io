@@ -33,6 +33,27 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
+# Loading and exploring the data
+
+  This is 1
+
+# Cleaning and wrangling data
+
+  This is 2
+
+# Visualization data
+  
+  This is 4
+
+
+# Working with time series
+
+  This is a section
+
+# Creating new metrics
+
+  This is a section
+
 
 
 

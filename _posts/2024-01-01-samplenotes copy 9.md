@@ -29,24 +29,30 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ### Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
+This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. # Loading and exploring the data
+
+  
 
 
 
-[Codebook](/assets/docs/paper1.pdf){:target="_blank"}
 
-
-# Section 1
-
-  This is 1
-
-# Section 2
+# Cleaning and wrangling data
 
   This is 2
 
-# Section 3
+# Visualization data
   
   This is 4
+
+
+# Working with time series
+
+  This is a section
+
+# Creating new metrics
+
+  This is a section
+
 
 
 
@@ -59,8 +65,6 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 ## Footnote
 
 [^1]: The footnote source
-[^2]: The 2nd footnote source
-
 
 
 
