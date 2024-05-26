@@ -22,7 +22,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-> This is a note.
+> Marketers can use Python to better understand their customer, product performances, competition, and marketplace. Python helps to improve marketing, help to how to clean data from different sources like Google Analytics, Facebook, merge data sets, create detailed visualization, analyze the time series data, and build custom metrics and alerts for automate marketing activities is a critical skill. 
 {: .prompt-tip }
 
 
@@ -58,7 +58,7 @@ This is a sample blog post. Lorem ipsum I can't remember the reference[^1] of lo
 
 
 
-  
+
 
 
 ## Reference
