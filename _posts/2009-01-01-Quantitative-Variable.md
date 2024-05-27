@@ -159,12 +159,6 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
-
-
 
 
 

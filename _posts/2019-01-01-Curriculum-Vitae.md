@@ -1,7 +1,7 @@
 ---
 title: ' Curriculum Vitae '
 author: ernest
-date: 2023-12-10 16:20:02 -05:00
+date: 2023-03-20 16:20:02 -05:00
 last_modified_at: 2024-02-30
 categories: [  ]
 pin:     # true
@@ -59,7 +59,14 @@ All content provided is for informational purposes only and shown case studies e
   - [ KNIME Analytics ]( https://www.knime.com/knime-analytics-platform ){:target="_blank"}, (Workflow and database connectors)
   - [ Tableau Desktop ]( https://www.tableau.com/products/desktop ){:target="_blank"}, (Data Visualization)
   - [ JupyterLab Notebook ]( https://jupyterlab.readthedocs.io/en/stable/index.html ){:target="_blank"}, Python (libraries: Pandas, NumPy, Matplotlib, Seaborn)
-  
+
+### Python Libraries
+  - Pandas = 
+  - NumPy = 
+  - Matplotlib = 
+  - Seaborn = 
+
+
 
 ## Working Experience
 
@@ -158,7 +165,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-### Contact. 
+### Contact Me. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 

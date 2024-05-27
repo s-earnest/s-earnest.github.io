@@ -93,12 +93,6 @@ Mapping the process
 
 
 
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
-
-
 
 
 
