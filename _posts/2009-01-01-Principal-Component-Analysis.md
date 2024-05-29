@@ -1,7 +1,7 @@
 ---
 title: ' Principal Component Analysis '
 author: ernest
-date: 2020-08-10 16:20:02 -05:00
+date: 2020-09-21 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
