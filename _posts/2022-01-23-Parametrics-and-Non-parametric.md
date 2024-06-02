@@ -61,7 +61,7 @@ A model parameter is a configuration variable that is internal to the model and 
 
 - k-Nearest Neighbors
 - Decision Trees like CART and C4.5
-- Support Vector Machines
+- Support Vector Machines (SVM)
 
 
 
@@ -92,15 +92,6 @@ A parametric model can predict future values using only the parameters. While no
 In this post, we have learned that parametric methods make large assumptions about the mapping of the input variables to the output variable and in turn are faster to train, require less data but may not be as powerful. Nonparametric methods make few or no assumptions about the target function and in turn require a lot more data, are slower to train, and have a higher model complexity but can result in more powerful models.
 
 
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
