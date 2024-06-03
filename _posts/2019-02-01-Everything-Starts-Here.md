@@ -7,7 +7,7 @@ categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   # - purpose
   # - why
@@ -19,6 +19,10 @@ image:
   # alt: Coming soon article.
 
 ---
+
+
+[🟣] 
+
 
 
 > This is an note explaining how this path started, marketing management (option communication), statistics, and Machine Learning.

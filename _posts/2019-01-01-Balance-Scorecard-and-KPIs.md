@@ -1,5 +1,5 @@
 ---
-title: ' notes '
+title: ' Balance Scorecard and Key Performance Indicators '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -9,9 +9,9 @@ math: true
 mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - notes
-  # - tamplate-tag-2
-  # - template-tag-3
+  - kpi
+  - balance-scored
+  - business-performance
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -20,10 +20,27 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ---
 
+[🟣]
+
+
+### Fiancial Goals
+
+
+### Customer needs and satisfaction
+
+
+
+### Internal processes measures
+
+
+
+### Employee growth and satisfaction
 
 
 
 
+
+### Stay focused on what is important
 
 
 

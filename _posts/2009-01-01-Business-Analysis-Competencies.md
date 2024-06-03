@@ -10,7 +10,7 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - business-analysis
-  # - tamplate-tag-2
+  - competencies
   # - template-tag-3
 
 # image: 
@@ -19,6 +19,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+
+[🟣] 
+
 
 
 
