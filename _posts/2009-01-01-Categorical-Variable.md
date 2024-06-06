@@ -87,22 +87,33 @@ Mutually exclusive: Categorical variables are mutually exclusive, meaning each o
 Counted or calculated as percentages: Categorical variables are often counted or calculated as percentages to understand the distribution of data across different categories. For example, a survey result might show that 45% of respondents prefer vanilla ice cream, while 30% prefer chocolate and 25% prefer strawberry.
 
 # Advantages of Categorical Variable
-Categorical variables have several advantages in data analysis and interpretation. Here are some of the key advantages:
+Categorical variables have several advantages in data analysis and interpretation. the key advantages:
 
-Easy to understand and interpret: Categorical variables are easy to understand and interpret, as they represent data in discrete categories or groups. This makes it easy to summarize and visualize data, and to communicate findings to others.
-Useful for data segmentation: Categorical variables are useful for data segmentation, where data is divided into distinct groups based on specific characteristics or attributes. This can help to identify differences and similarities between groups, and to target interventions or marketing strategies to specific groups.
-Useful for statistical analysis: Categorical variables are commonly used in statistical analysis, where they can be used to test hypotheses, identify correlations, and make predictions. There are many statistical methods available for analyzing categorical data, such as chi-square tests, contingency tables, and logistic regression.
-Useful for data reduction: Categorical variables can be used to reduce the complexity of data, by grouping similar observations into categories. This can help to simplify data analysis and interpretation, and to identify patterns or trends in the data.
-Useful for exploratory data analysis: Categorical variables are useful for exploratory data analysis, as they can help to identify relationships and patterns in the data. For example, a bar chart showing the distribution of a categorical variable can help to identify the most common categories and any outliers.
+ - Easy to understand and interpret: 
+    Categorical variables are easy to understand and interpret, as they represent data in discrete categories or groups. This makes it easy to summarize and visualize data, and to communicate findings to others.
+ - Useful for data segmentation: 
+    Categorical variables are useful for data segmentation, where data is divided into distinct groups based on specific characteristics or attributes. This can help to identify differences and similarities between groups, and to target interventions or marketing strategies to specific groups.
+
+ - Useful for statistical analysis: 
+    Categorical variables are commonly used in statistical analysis, where they can be used to test hypotheses, identify correlations, and make predictions. There are many statistical methods available for analyzing categorical data, such as chi-square tests, contingency tables, and logistic regression.
+ - Useful for data reduction: 
+    Categorical variables can be used to reduce the complexity of data, by grouping similar observations into categories. This can help to simplify data analysis and interpretation, and to identify patterns or trends in the data.
+ - Useful for exploratory data analysis: 
+    Categorical variables are useful for exploratory data analysis, as they can help to identify relationships and patterns in the data. For example, a bar chart showing the distribution of a categorical variable can help to identify the most common categories and any outliers.
 
 # Limitations of Categorical Variable
 Categorical variables also have some limitations that should be considered when using them in data analysis. Here are some of the key limitations:
 
-Limited information: Categorical variables provide limited information compared to continuous variables, as they only represent data in discrete categories or groups. This can make it more difficult to identify patterns or trends in the data, and to make accurate predictions or forecasts.
-Potential loss of information: Categorical variables can also lead to a loss of information, as observations within each category are treated as equal. This can obscure important differences between observations within each category, and can lead to incorrect conclusions or predictions.
-Limited statistical methods: While there are many statistical methods available for analyzing categorical data, they are more limited than those available for continuous data. For example, there are fewer options for modeling relationships between categorical variables and continuous outcomes.
-Limited ability to measure change: Categorical variables are less sensitive to change than continuous variables, as they only represent data in discrete categories or groups. This can make it more difficult to measure small changes in the data, and to identify the factors that drive these changes.
-Potential for bias: Categorical variables can also introduce bias into data analysis, as the categories used to represent data are often subjective and may not accurately reflect the underlying data. This can lead to incorrect conclusions or predictions, and can limit the generalizability of findings.
+Limited information: 
+  Categorical variables provide limited information compared to continuous variables, as they only represent data in discrete categories or groups. This can make it more difficult to identify patterns or trends in the data, and to make accurate predictions or forecasts.
+Potential loss of information: 
+  Categorical variables can also lead to a loss of information, as observations within each category are treated as equal. This can obscure important differences between observations within each category, and can lead to incorrect conclusions or predictions.
+Limited statistical methods: 
+  While there are many statistical methods available for analyzing categorical data, they are more limited than those available for continuous data. For example, there are fewer options for modeling relationships between categorical variables and continuous outcomes.
+Limited ability to measure change: 
+  Categorical variables are less sensitive to change than continuous variables, as they only represent data in discrete categories or groups. This can make it more difficult to measure small changes in the data, and to identify the factors that drive these changes.
+Potential for bias: 
+  Categorical variables can also introduce bias into data analysis, as the categories used to represent data are often subjective and may not accurately reflect the underlying data. This can lead to incorrect conclusions or predictions, and can limit the generalizability of findings.
 
 
 
@@ -147,13 +158,6 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
-
-
-
 
 
 ### Contact. 
@@ -161,6 +165,11 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
+
+## Footnote
+
+[^1]: The footnote source
+[^2]: The 2nd footnote source
 
 
 

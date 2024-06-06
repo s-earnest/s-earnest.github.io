@@ -33,31 +33,31 @@ Dependent variable is a variable in a study or experiment that is being measured
 Types of Dependent Variables are as follows:
 
 Continuous dependent variable: 
-A continuous variable is a variable that can take on any value within a certain range. Examples include height, weight, and temperature.
+  A continuous variable is a variable that can take on any value within a certain range. Examples include height, weight, and temperature.
 Discrete dependent variable: 
-A discrete variable is a variable that can only take on certain values within a certain range. Examples include the number of children in a family, the number of pets someone has, and the number of cars owned by a household.
+  A discrete variable is a variable that can only take on certain values within a certain range. Examples include the number of children in a family, the number of pets someone has, and the number of cars owned by a household.
 Categorical dependent variable: 
-A categorical variable is a variable that can take on values that belong to specific categories or groups. Examples include gender, race, and marital status.
+  A categorical variable is a variable that can take on values that belong to specific categories or groups. Examples include gender, race, and marital status.
 Dichotomous dependent variable: 
-A dichotomous variable is a categorical variable that can take on only two values. Examples include whether someone is a smoker or non-smoker, or whether someone has a certain medical condition or not.
+  A dichotomous variable is a categorical variable that can take on only two values. Examples include whether someone is a smoker or non-smoker, or whether someone has a certain medical condition or not.
 Ordinal dependent variable: 
-An ordinal variable is a categorical variable that has a specific order or ranking to its categories. Examples include education level (e.g., high school diploma, college degree, graduate degree), or socioeconomic status (e.g., low, middle, high).
+  An ordinal variable is a categorical variable that has a specific order or ranking to its categories. Examples include education level (e.g., high school diploma, college degree, graduate degree), or socioeconomic status (e.g., low, middle, high).
 Interval dependent variable: 
-An interval variable is a continuous variable that has a specific measurement scale with equal intervals between the values. Examples include temperature measured in degrees Celsius or Fahrenheit.
+  An interval variable is a continuous variable that has a specific measurement scale with equal intervals between the values. Examples include temperature measured in degrees Celsius or Fahrenheit.
 Ratio dependent variable: 
-A ratio variable is a continuous variable that has a true zero point and equal intervals between the values. Examples include height, weight, and income.
+  A ratio variable is a continuous variable that has a true zero point and equal intervals between the values. Examples include height, weight, and income.
 Count dependent variable: 
-A count variable is a discrete variable that represents the number of times an event occurs within a specific time period. Examples include the number of times a customer visits a store, or the number of times a student misses a class.
+  A count variable is a discrete variable that represents the number of times an event occurs within a specific time period. Examples include the number of times a customer visits a store, or the number of times a student misses a class.
 Time-to-event dependent variable: 
-A time-to-event variable is a type of continuous variable that measures the time it takes for an event to occur. Examples include the time until a customer makes a purchase, or the time until a patient recovers from an illness.
+  A time-to-event variable is a type of continuous variable that measures the time it takes for an event to occur. Examples include the time until a customer makes a purchase, or the time until a patient recovers from an illness.
 Latent dependent variable: 
-A latent variable is a variable that cannot be directly observed or measured, but is inferred from other observable variables. Examples include intelligence, personality traits, and motivation.
+  A latent variable is a variable that cannot be directly observed or measured, but is inferred from other observable variables. Examples include intelligence, personality traits, and motivation.
 Binary dependent variable: 
-A binary variable is a dichotomous variable with only two possible outcomes, usually represented by 0 or 1. Examples include whether a customer will make a purchase or not, or whether a patient will respond to a treatment or not.
+  A binary variable is a dichotomous variable with only two possible outcomes, usually represented by 0 or 1. Examples include whether a customer will make a purchase or not, or whether a patient will respond to a treatment or not.
 Multinomial dependent variable: 
-A multinomial variable is a categorical variable with more than two possible outcomes. Examples include political affiliation, type of employment, or type of transportation used to commute.
+  A multinomial variable is a categorical variable with more than two possible outcomes. Examples include political affiliation, type of employment, or type of transportation used to commute.
 Longitudinal dependent variable: 
-A longitudinal variable is a type of continuous variable that measures change over time. Examples include academic performance, income, or health status.
+  A longitudinal variable is a type of continuous variable that measures change over time. Examples include academic performance, income, or health status.
 
 # Examples of Dependent Variable
 Here are some examples of dependent variables in different fields:
