@@ -1,5 +1,5 @@
 ---
-title: ' work  '
+title: ' Work  '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -96,10 +96,15 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 # Introduction 
+  Business task
+  Problem statement
 
 
 # Data Source
-
+   Describe where the datasets were downloaded from.
+    Link the sites for the datasets if possible.
+    Indicate if the data is from a public or a private license and if it is trusted.
+    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
 
 
 
