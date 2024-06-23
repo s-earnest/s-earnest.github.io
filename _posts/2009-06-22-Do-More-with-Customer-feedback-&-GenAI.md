@@ -3,7 +3,7 @@ title: ' How Can Help GenAI with Customer Feedback '
 author: ernest
 date: 2023-11-05 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Article ]
+categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
