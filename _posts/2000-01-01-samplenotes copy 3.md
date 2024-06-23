@@ -1,5 +1,5 @@
 ---
-title: ' notes '
+title: ' Repairing The Toughest Problems '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -9,9 +9,9 @@ math: true
 mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - notes
-  # - tamplate-tag-2
-  # - template-tag-3
+  - transformation
+  - changes
+  - causes
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -75,8 +75,8 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ## Reference
 
-  - item 
-  - item 
+  - Frei, F., & Morriss, A. (2023). *Move fast and fix things: The trusted leader’s guide to solving hard problems*. Harvard Business Review Press. 
+  - Frei, F., & Morriss, A. (2020). *Unleashed: The unapologetic leader’s guide to empowering everyone around you*. Harvard Business Review Press. 
 
 
 
