@@ -24,9 +24,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ### Summary
 
-An algorithm that classifies a sample based on the categoriy of its K-nearest neighbors, where K is an integer.
+An algorithm that classifies a sample based on the category of its K-nearest neighbors, where K is an integer.
 
-It is the most intuitive and easy-to-implement machine learning algorithm out there. Despite its simplictiy, it could outperform other, more sophisticated methods. It has been and still, the subject of research in terms of optimization and applications.
+It is the most intuitive and easy-to-implement machine learning algorithm out there. Despite its simplicty, it could outperform other, more sophisticated methods. It has been and still, the subject of research in terms of optimization and applications.
 
 
 ### Inputs
