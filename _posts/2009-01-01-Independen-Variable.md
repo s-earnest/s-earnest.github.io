@@ -23,6 +23,15 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 🔴
 
 
+
+<!-- 
+
+
+
+
+-->
+
+
 Definition:
 
 Independent variable is a variable that is manipulated or changed by the researcher to observe its effect on the dependent variable. It is also known as the predictor variable or explanatory variable

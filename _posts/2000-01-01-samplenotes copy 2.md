@@ -21,7 +21,6 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-
 <!-- 
 
 
@@ -29,17 +28,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 -->
 
-<!-- 
 
-2000 = sample notes / starting point 
-2009 = articles and worked ASAP 
-2019 = work in progress stage
-2020 = work in standby stage
-2023 = 
-2024 = 
-2025 = work for 2025 / site & linkedin articles posting
 
-   -->
 
 
 
@@ -106,5 +96,6 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 ## Footnote
 
 [^1]: The footnote source
+
 
 
