@@ -107,7 +107,7 @@ All content provided is for informational purposes only and shown case studies e
 
 
 
-## Acreditation & Certifications
+## Accreditation & Certifications
 
 * (2024/03) [L1-AP]( https://www.knime.com/learning#learning-path ){:target="_blank"} Data Literacy with KNIME Analytics Platform: Basics
   > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
