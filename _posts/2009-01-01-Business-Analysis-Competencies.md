@@ -3,7 +3,7 @@ title: ' Business Analysis Competencies '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Articlea ]
+categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
