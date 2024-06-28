@@ -22,7 +22,16 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+
+
 <!-- 
+
+
+
+
+All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
+{: .prompt-info }
+
 
 ## Explain the why I worked in this problem.
 
