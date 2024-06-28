@@ -79,6 +79,13 @@ By employing these segmentation strategies and tactics, businesses can better un
 
 
 
+## Reference
+
+  - item 
+  - item 
+
+
+
 
 
 
