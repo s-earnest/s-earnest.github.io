@@ -12,6 +12,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - transformation
   - changes
   - causes
+  - challenges
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -34,7 +35,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 2025 = work for 2025 / site & linkedin articles posting
 
 
-
+> All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles, notes and case study on this website are my own the way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my past or current employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
+{: .prompt-info }
 
 
 So, I would love to talk to you about how to move fast and fix things. And I’ll tell you the reason that Anne and I wrote this book – and it’s really a quest we’ve been on – is that Mark Zuckerberg, in his IPO for Facebook, famously said, “we’re going to move fast and break things.” And the problem with that is that it gave the world a false trade-off. It convinced so many of us that you could either move fast and break things or you could take care of people, one or the other. And we have found that there is a third, much better way. And that is, we can move even faster if we fix things along the way. And so, that’s what I’d love to talk to you about right now. And the way that we think about this is that if you want to move fast and fix things, we have to do it on a foundation of trust. And so, the first thing to do is to experience high trust. And we’re going to talk about how to build trust. But the way we see the world can be described in this grid. And in the presence of trust, we can move really fast. That’s how we move fast and fix things. We call it accelerating excellence. It’s only when we’re in the presence of low trust that we move fast and break things, or what we call being reckless disruption. And as I said, so many organizations are afraid of reckless disruption that they actually end up in this state of responsible stewardship, which is really just going slowly. And so, we wrote the book to get those that are in responsible stewardship to realize that we could go across the way to accelerating excellence. And we didn’t have to go down to reckless disruption. 

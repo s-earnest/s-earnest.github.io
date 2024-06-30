@@ -23,8 +23,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-
 <!-- 
+
+> All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles, notes and case study on this website are my own the way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my past or current employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
+{: .prompt-info }
+
 
 Leveraging AI, particularly Generative AI (GenAI), for analyzing customer feedback can significantly enhance a company's ability to understand and respond to customer needs effectively. Here's a comprehensive analysis covering various aspects of how GenAI can assist with customer feedback:
 
