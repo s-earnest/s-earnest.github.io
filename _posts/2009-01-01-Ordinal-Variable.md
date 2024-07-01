@@ -27,7 +27,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
- Definition:
+Definition:
 
 An ordinal variable is a type of categorical variable where the values have a specific order or ranking. The values of an ordinal variable are typically numerical or alphanumeric, but they represent a level of a variable that is not evenly spaced.
 
@@ -114,55 +114,7 @@ Subjectivity: Ordinal variables may be subject to bias or subjectivity in the wa
 
 
 
----
 
-
-> This is a note.
-{: .prompt-tip }
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
-
-
-
-[Codebook](/assets/docs/paper1.pdf){:target="_blank"}
-
-
-# Section 1
-
-  This is 1
-
-# Section 2
-
-  This is 2
-
-# Section 3
-  
-  This is 4
-
-
-
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
