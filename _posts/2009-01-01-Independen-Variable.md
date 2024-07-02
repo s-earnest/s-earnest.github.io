@@ -77,10 +77,14 @@ This method is used to compare the means of two groups for a continuous dependen
 # Measuring Scales of Independent Variable
 There are four commonly used Measuring Scales of Independent Variables:
 
-Nominal Scale: This scale is used for variables that can be categorized but have no inherent order or numerical value. Examples of nominal variables include gender, race, and occupation.
-Ordinal Scale: This scale is used for variables that can be categorized and have a natural order but no specific numerical value. Examples of ordinal variables include levels of education (e.g., high school, bachelor’s degree, master’s degree), socioeconomic status (e.g., low, middle, high), and Likert scales (e.g., strongly disagree, disagree, neutral, agree, strongly agree).
-Interval Scale: This scale is used for variables that have a numerical value and a consistent unit of measurement but no true zero point. Examples of interval variables include temperature in Celsius or Fahrenheit, IQ scores, and time of day.
-Ratio Scale: This scale is used for variables that have a numerical value, a consistent unit of measurement, and a true zero point. Examples of ratio variables include height, weight, and income.
+- Nominal Scale: 
+This scale is used for variables that can be categorized but have no inherent order or numerical value. Examples of nominal variables include gender, race, and occupation.
+- Ordinal Scale: 
+This scale is used for variables that can be categorized and have a natural order but no specific numerical value. Examples of ordinal variables include levels of education (e.g., high school, bachelor’s degree, master’s degree), socioeconomic status (e.g., low, middle, high), and Likert scales (e.g., strongly disagree, disagree, neutral, agree, strongly agree).
+- Interval Scale: 
+This scale is used for variables that have a numerical value and a consistent unit of measurement but no true zero point. Examples of interval variables include temperature in Celsius or Fahrenheit, IQ scores, and time of day.
+- Ratio Scale: 
+This scale is used for variables that have a numerical value, a consistent unit of measurement, and a true zero point. Examples of ratio variables include height, weight, and income.
 
 # Independent Variable Examples
 Here are some examples of independent variables:
@@ -97,11 +101,15 @@ In a study comparing the effects of two different fertilizers on plant growth, t
 # Independent variable vs Dependent variable
 Independent Variable	Dependent Variable
 Definition	The variable that is changed or manipulated in an experiment.	The variable that is measured or observed and is affected by the independent variable.
-Relationship	The independent variable is the cause and influences the dependent variable.	The dependent variable is the effect and is influenced by the independent variable.
-Representation	Typically plotted on the x-axis of a graph.	Typically plotted on the y-axis of a graph.
+Relationship	
+The independent variable is the cause and influences the dependent variable.	The dependent variable is the effect and is influenced by the independent variable.
+Representation	
+Typically plotted on the x-axis of a graph.	Typically plotted on the y-axis of a graph.
+
 Examples	Age, gender, treatment type, temperature, time.	Blood pressure, heart rate, test scores, reaction time, weight.
 Control	The researcher can control the independent variable to observe its effects on the dependent variable.	The researcher cannot control the dependent variable but can measure and observe its changes in response to the independent variable.
-Goal	To determine the effect of the independent variable on the dependent variable.	To observe changes in the dependent variable and understand how it is affected by the independent variable.
+Goal	
+To determine the effect of the independent variable on the dependent variable.	To observe changes in the dependent variable and understand how it is affected by the independent variable.
 
 # Applications of Independent Variable
 Applications of Independent Variable in different fields are as follows:
@@ -128,86 +136,50 @@ When testing hypotheses: Independent variables are used to test hypotheses about
 # Characteristics of Independent Variable
 Here are some of the characteristics of independent variables:
 
-Manipulation: The independent variable is manipulated by the researcher in order to create different experimental conditions. The researcher changes the level or value of the independent variable to observe how it affects the dependent variable.
-Control: The independent variable is controlled by the researcher to ensure that it is the only variable that is changing in the experiment. By controlling other variables that might affect the dependent variable, the researcher can isolate the effect of the independent variable on the dependent variable.
-Categorical or continuous: Independent variables can be either categorical or continuous. Categorical independent variables have distinct categories or levels that are not ordered (e.g., gender, ethnicity), while continuous independent variables are measured on a scale (e.g., age, temperature).
+Manipulation: 
+The independent variable is manipulated by the researcher in order to create different experimental conditions. The researcher changes the level or value of the independent variable to observe how it affects the dependent variable.
+Control: 
+The independent variable is controlled by the researcher to ensure that it is the only variable that is changing in the experiment. By controlling other variables that might affect the dependent variable, the researcher can isolate the effect of the independent variable on the dependent variable.
+Categorical or continuous: 
+Independent variables can be either categorical or continuous. Categorical independent variables have distinct categories or levels that are not ordered (e.g., gender, ethnicity), while continuous independent variables are measured on a scale (e.g., age, temperature).
 Treatment: In some experiments, the independent variable represents a treatment or intervention that is being tested. For example, a researcher might manipulate the independent variable by giving participants a new medication or therapy.
 Random assignment: In order to control for extraneous variables and ensure that the independent variable is the only variable that is changing, participants are often randomly assigned to different levels of the independent variable. This helps to ensure that any differences between the groups are not due to pre-existing differences between the participants.
 
 # Advantages of Independent Variable
 Independent variables have several advantages, including:
 
-Control: Independent variables allow researchers to control the variables being studied, which helps to establish cause-and-effect relationships. By manipulating the independent variable, researchers can see how changes in that variable affect the dependent variable.
-Replication: Manipulating independent variables allows researchers to replicate studies to confirm or refute previous findings. By controlling the independent variable, researchers can ensure that any differences in the dependent variable are due to the manipulation of the independent variable, rather than other factors.
-Predictive Power: Independent variables can be used to predict future outcomes. By examining how changes in the independent variable affect the dependent variable, researchers can make predictions about how the dependent variable will respond in the future.
+Control: 
+Independent variables allow researchers to control the variables being studied, which helps to establish cause-and-effect relationships. By manipulating the independent variable, researchers can see how changes in that variable affect the dependent variable.
+
+Replication: 
+Manipulating independent variables allows researchers to replicate studies to confirm or refute previous findings. By controlling the independent variable, researchers can ensure that any differences in the dependent variable are due to the manipulation of the independent variable, rather than other factors.
+
+Predictive Power: 
+Independent variables can be used to predict future outcomes. By examining how changes in the independent variable affect the dependent variable, researchers can make predictions about how the dependent variable will respond in the future.
 Precision: Independent variables can help to increase the precision of a study by allowing researchers to control for extraneous variables that might otherwise confound the results. This can lead to more accurate and reliable findings.
-Generalizability: Independent variables can help to increase the generalizability of a study by allowing researchers to manipulate variables in a way that reflects real-world conditions. This can help to ensure that findings are applicable to a wider range of situations and contexts.
+
+Generalizability: 
+Independent variables can help to increase the generalizability of a study by allowing researchers to manipulate variables in a way that reflects real-world conditions. This can help to ensure that findings are applicable to a wider range of situations and contexts.
 
 # Disadvantages of Independent Variable
 Independent variables also have several disadvantages, including:
 
-Artificiality: In some cases, manipulating the independent variable in a study may create an artificial environment that does not reflect real-world conditions. This can limit the generalizability of the findings.
-Ethical concerns: Manipulating independent variables in some studies may raise ethical concerns, such as when human participants are subjected to potentially harmful or uncomfortable conditions.
+Artificiality: 
+In some cases, manipulating the independent variable in a study may create an artificial environment that does not reflect real-world conditions. This can limit the generalizability of the findings.
+
+Ethical concerns: 
+Manipulating independent variables in some studies may raise ethical concerns, such as when human participants are subjected to potentially harmful or uncomfortable conditions.
 Limitations in measuring variables: Some variables may be difficult or impossible to manipulate in a study. For example, it may be difficult to manipulate someone’s age or gender, which can limit the researcher’s ability to study the effects of these variables.
-Complexity: Some variables may be very complex, making it difficult to determine which variables are independent and which are dependent. This can make it challenging to design a study that effectively examines the relationship between variables.
-Extraneous variables: Even when researchers manipulate the independent variable, other variables may still affect the results. These extraneous variables can confound the results, making it difficult to draw clear conclusions about the relationship between the independent and dependent variables.
+
+Complexity: 
+Some variables may be very complex, making it difficult to determine which variables are independent and which are dependent. This can make it challenging to design a study that effectively examines the relationship between variables.
+
+Extraneous variables: 
+Even when researchers manipulate the independent variable, other variables may still affect the results. These extraneous variables can confound the results, making it difficult to draw clear conclusions about the relationship between the independent and dependent variables.
 
 
 
 
-
-
-
----
-
-
-
-> This is a note.
-{: .prompt-tip }
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection[^2] right now. Testing testing testing this blog post. Blog posts are cool. This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool. 
-
-
-
-[Codebook](/assets/docs/paper1.pdf){:target="_blank"}
-
-
-# Section 1
-
-  This is 1
-
-# Section 2
-
-  This is 2
-
-# Section 3
-  
-  This is 4
-
-
-
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
-[^2]: The 2nd footnote source
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 

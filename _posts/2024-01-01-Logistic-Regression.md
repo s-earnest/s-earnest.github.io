@@ -7,6 +7,7 @@ categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - logistic-regression
   - supervised-learning
