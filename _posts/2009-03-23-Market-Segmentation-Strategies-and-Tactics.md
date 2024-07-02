@@ -70,6 +70,24 @@ By employing these segmentation strategies and tactics, businesses can better un
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Summary
 
 
