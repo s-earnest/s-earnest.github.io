@@ -1,15 +1,15 @@
 ---
-title: ' notes  '
+title: ' Loneleness Analysis  '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Notes ]
+categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - notes
+  - loneleness
   # - tamplate-tag-2
   # - template-tag-3
 
@@ -30,8 +30,7 @@ All content provided is for informational purposes only and shown case studies e
 
 
 
-> This is a note.
-{: .prompt-tip }
+
 
 
 ### Summary

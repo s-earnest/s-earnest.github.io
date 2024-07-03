@@ -23,14 +23,12 @@ image:
 
 ### Summary
 
-In many industries throughout the world, suppliers compete for business by submitting quotes for work, services or products. A key criterion used to determine the winning quote is the doolar amount of the quote, but other factors include expected quality, estimated delivery time of the product, or quoted completion time of the work.
+In many industries throughout the world, suppliers compete for business by submitting quotes for work, services or products. A key criteria used to determine the winning quote is the dollar amount of the quote, but other factors include expected quality, estimated delivery time of the product, or quoted completion time of the work.
 
 The focus of this case is to increase sales and expand its market position. Many of the quotes provided to prospective customers in the past haven't resulted in orders.
 
 
 
-
-<!-- 
 
 > All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This report is provided with the understanding that the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services.
 {: .prompt-info }
@@ -51,8 +49,23 @@ The focus of this case is to increase sales and expand its market position. Many
 
 
 
+-->
 
-   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

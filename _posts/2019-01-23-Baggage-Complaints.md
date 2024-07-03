@@ -24,7 +24,7 @@ image:
 
 ### Summary
 
-This is analyze and copare baggage complaints for three different airlines using descriptive statistics and time series plots. Exploring differences between the airlines, whether complaints are getting better or worse over time, and if there are othr factors, such destination, seasonal effects, or the volume of travelers that might affect buggage performance.
+This is analyze and compare baggage complaints for three different airlines using descriptive statistics and time series plots. Exploring differences between the airlines, whether complaints are getting better or worse over time, and if there are other factors, such destination, seasonal effects, or the volume of travelers that might affect buggage performance.
 
 
 
@@ -42,6 +42,32 @@ This is analyze and copare baggage complaints for three different airlines using
 {: .prompt-info }
 
    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

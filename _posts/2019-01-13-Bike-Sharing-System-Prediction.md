@@ -27,7 +27,7 @@ image:
 
 ### Summary
 
-Bike sharing has become a popular transport option in many cities because it is green and convenivent and an essential feeder for other transportation modes such as buses and metro.
+Bike sharing has become a popular transport option in many cities because it is green and convenient and an essential feeder for other transportation modes such as buses and metro.
 A key challenge to operations is network rebalancing, while facilitating factors include partnership working and inclusive scheme promotion.
 
 ### Task
@@ -42,7 +42,7 @@ A key challenge to operations is network rebalancing, while facilitating factors
 
 
 > ABOUT THIS PROJECT
-- This project is about building and sharing what I learnt. I’m crafting my understanding as I learn, and the purpose is to convey it back to you in a simple and easy-to-grasp manner, sharing what I’m going to deliver.
+- This project is about building and sharing what I learnt. I’m crafting my understanding as I learn, and the purpose is to convey it back to a lecture in a simple and easy-to-grasp manner, and sharing what I’m going to deliver.
 This project focuses on exploring, analyzing, and presenting ways to enhance City Bike’s business model, offering an improved experience for customers. As a Data Analyst path, I utilize KNIME Analytics, SPSS Statistics software, and PowerPoint for presentation. The entire analysis will be reported in a codebook, and the findings will be summarized and presented using pdf file. Starting with a raw dataset, the project will culminated in professional visualization and clear, actionable insights for key stakeholders.
 {: .prompt-info }
 
@@ -57,7 +57,17 @@ This project focuses on exploring, analyzing, and presenting ways to enhance Cit
 - The inclusion of company examples does not in any way constitute an endorsement of these organisations by myself or the signatories to the Principles for Responsible Investment. While I have endeavoured to ensure that the information contained in this report has been obtained from reliable and up-to-date sources, the changing nature of statistics, laws, rules and regulations may result in delays, omissions or inaccuracies in information contained in this report. I am not responsible for any errors or omissions, or for any decision made or action taken based on information contained in this report, or for any loss or damage arising from or caused by such decision or action. All information in this report is provided “as-is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, expressed or implied.
 {: .prompt-info }
 
-   -->
+
+-->
+
+
+
+
+
+
+
+
+
 
 
 
