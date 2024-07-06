@@ -1,13 +1,13 @@
 ---
 title: ' Balance Scorecard and Key Performance Indicators '
 author: ernest
-date: 2025-01-10 16:20:02 -05:00
+date: 2022-12-11 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - kpi
   - balance-scored
