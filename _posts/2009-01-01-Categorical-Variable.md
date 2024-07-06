@@ -72,19 +72,19 @@ Categorical variables are used in political science to analyze voting behavior, 
 # Examples of Categorical Variable
 Here are some examples of categorical variables:
 
-Gender: 
+- Gender: 
 This is a nominal variable that categorizes people into two distinct categories – male and female.
-Marital Status: 
+- Marital Status: 
 This is a nominal variable that categorizes people into different categories, such as married, single, divorced, or widowed.
-Education Level: 
+- Education Level: 
 This is an ordinal variable that categorizes people into different levels of education, such as high school, college, or graduate school.
-Language Spoken at Home: 
+- Language Spoken at Home: 
 This is a nominal variable that categorizes people based on the language they speak at home, such as English, Spanish, French, or Mandarin.
-Car Make: 
+- Car Make: 
 This is a nominal variable that categorizes cars into different makes, such as Toyota, Ford, BMW, or Honda.
-Likert Scale Responses: 
+- Likert Scale Responses: 
 This is an ordinal variable that categorizes survey responses based on a scale of agreement or disagreement, such as strongly agree, agree, neutral, disagree, or strongly disagree.
-Country of Origin: 
+- Country of Origin: 
 This is a nominal variable that categorizes people based on their country of origin, such as the United States, Canada, Mexico, or India.
 
 # Purpose of Categorical Variable
