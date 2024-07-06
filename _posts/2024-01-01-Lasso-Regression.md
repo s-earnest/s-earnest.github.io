@@ -23,7 +23,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ### Summary
 
-Regression algorithm that applies regularization and feature selection to deal with overfitted data. The method uses L1 regularization. 
+Regression algorithm that applies regularization and feature selection to deal with overfitted[^2] data. The method uses L1 regularization[^1]. 
 
 
 ### Inputs
@@ -35,6 +35,15 @@ Regression algorithm that applies regularization and feature selection to deal w
 
   - Standizadizing the inputs.
   
+
+
+
+
+
+### Footnote
+
+[^1]: definition
+[^2]: definition
 
 
 
