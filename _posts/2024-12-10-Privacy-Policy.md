@@ -1,12 +1,13 @@
 ---
 title: ' Privacy Policy '
 author: ernest
-date: 2019-01-04 16:20:02 -05:00
+date: 2019-06-11 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [  ]
 pin:     # true
 math: true
 mermaid: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - privacy-policy
   # - tamplate-tag-2

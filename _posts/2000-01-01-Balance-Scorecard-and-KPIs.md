@@ -1,14 +1,13 @@
-
 ---
 title: ' Balance Scorecard and Key Performance Indicators '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Notes ]
+categories: [ Articles ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - kpi
   - balance-scored
@@ -20,6 +19,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+
+
 
 [🟣]
 
@@ -54,39 +55,13 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-### 
-
-> This is a note.
-{: .prompt-tip }
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
 
 
 
-# Loading and exploring the data
-
-  This is 1
-
-# Cleaning and wrangling data
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
 
 
-# Working with time series
 
-  This is a section
 
-# Creating new metrics
-
-  This is a section
 
 
 
