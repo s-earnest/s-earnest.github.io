@@ -10,7 +10,7 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - collaboration
-  - stalls
+  - silos
   - cross-functional
   - goals
   - priorities

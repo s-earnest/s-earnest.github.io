@@ -25,7 +25,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ### Summary
 
-Supervised learning models that construct a maximal margin hyperplane during training to find the best solution for the data. SVMs can employ different kernels to separate the space and ensure further flexibility.
+This is a supervised learning models that construct a maximal margin hyperplane during training to find the best solution for the data. SVMs can employ different kernels to separate the space and ensure further flexibility.
 
 
 ### Inputs

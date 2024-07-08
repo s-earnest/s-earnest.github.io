@@ -1,4 +1,3 @@
-
 ---
 title: ' Balance Scorecard and Key Performance Indicators '
 author: ernest
@@ -20,6 +19,13 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+
+
+
+
+
+
+
 
 [🟣]
 
