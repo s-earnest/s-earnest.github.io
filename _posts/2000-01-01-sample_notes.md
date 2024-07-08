@@ -50,9 +50,34 @@ All content provided is for informational purposes only and shown case studies e
 
 -->
 
+10. Name project
+  - Description: objective of the project 
+  - Technologies used: tools used / algorithms used and why 
+  - Results: what I learnt
 
 
+<!--
 
+Bank Customer Churn Prediction
+Description: The main objective of the Bank Customer Churn Prediction project is to analyze the demographics in order to predict whether a customer will leave the bank or not.
+Technologies Used: The notebooks uses Random Forest Classifier and Decision Tree Classifier
+Results: The Random Forest Classifier and Decision Tree Classifier performed equally well with an accuracy of 87%
+
+
+###  License
+This project is licensed under the MIT License. You are free to use the code and resources for educational or personal purposes with citation or reference to the original code and resources used.
+
+
+The MIT License (MIT) / https://mit-license.org/
+Copyright © 2024 <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-->
 
 
 ### 

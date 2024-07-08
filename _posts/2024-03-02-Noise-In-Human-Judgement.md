@@ -51,7 +51,7 @@ Overall, reducing bias during data analysis requires a combination of technical 
 
 ![Alt text](/assets/articles/noise.png)
 
-_Image Caption: Source Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From: "Noise" Oct. 2016
+Source Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From: "Noise" Oct. 2016
 
 
 

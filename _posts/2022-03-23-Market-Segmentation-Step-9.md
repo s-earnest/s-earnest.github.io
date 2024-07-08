@@ -28,7 +28,7 @@ image:
 ## Summary
 
 
-
+market mix & custimizing
 
 
 

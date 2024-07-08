@@ -23,6 +23,9 @@ image:
 
 ### Summary 
 
+Predict the income household base on the census data. We are trying to determine whether a person makes over 50K per year based on different features. 
+
+
 
 
 
@@ -34,7 +37,30 @@ import pandas as pd
 
 
 
+### Dataset Information
 
+
+
+
+
+
+### Reference
+  - Dataset repository ( https://archive.ics.uci.edu/dataset/2/adult )
+  - item 
+
+
+### License
+  - This is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given. / https://creativecommons.org/licenses/by/4.0/legalcode
+
+
+
+### Keywords
+  - fairness
+  - census
+  - prediction
+  - classification
 
 
 

@@ -21,7 +21,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-> This is the schedule for the current and future data analysis projects. This page is contantly updated on the progress of the projects. Projects are calculated on hours end-to-end worked for each of them. 
+> This is the schedule for the current and future data analysis projects. This page is constantly updated on the progress of the projects. Projects are calculated on hours end-to-end worked for each of them. 
 {: .prompt-info }
 
 

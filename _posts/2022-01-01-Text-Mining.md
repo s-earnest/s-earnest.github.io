@@ -10,8 +10,9 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - text-mining
-  # - tamplate-tag-2
-  # - template-tag-3
+  - data-exploration
+  - sentiment-analysis
+  # - 
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -49,8 +50,40 @@ This workflow demonstrates how to perform text mining in Designer, using a NASA 
 
 
 
+### What is text-mining?
+
+
+### Why is useful? 
+
+
+
+### Example 
 
 
 
 
+
+<!-- 
+Text mining, also known as text data mining, is a fascinating field that has numerous applications across various industries. Here are some reasons why text mining is useful:
+
+1. **Insights and Knowledge Discovery**: Text mining helps uncover hidden patterns, relationships, and trends in large amounts of text data, providing valuable insights and knowledge that can inform business decisions.
+2. **Improved Customer Service**: By analyzing customer feedback, reviews, and social media conversations, businesses can identify common issues, sentiment, and preferences, enabling them to improve their products and services.
+3. **Market Research and Intelligence**: Text mining helps companies analyze market trends, competitor analysis, and consumer behavior, giving them a competitive edge in the market.
+4. **Sentiment Analysis**: Text mining can analyze the sentiment of customer feedback, allowing businesses to gauge customer satisfaction and respond promptly to concerns.
+5. **Predictive Maintenance**: By analyzing sensor data from devices and equipment, text mining can predict when maintenance is required, reducing downtime and increasing overall efficiency.
+6. **Medical Research**: Text mining can be applied to medical literature to identify patterns and relationships between diseases, treatments, and outcomes.
+7. **Language Translation**: Text mining can help improve machine translation by identifying patterns in language usage and enabling more accurate translations.
+8. **Information Retrieval**: Text mining can improve search engine algorithms by analyzing query logs and user behavior to provide more relevant search results.
+9. **Social Media Monitoring**: Text mining can analyze social media conversations about a brand or topic, providing insights into public opinion and sentiment.
+10. **Product Development**: By analyzing customer reviews and feedback, product developers can identify areas for improvement and create new products that meet customer needs.
+11. **Marketing Campaign Optimization**: Text mining can analyze the effectiveness of marketing campaigns by analyzing customer responses to different marketing messages.
+12. **Risk Management**: Text mining can help identify potential risks by analyzing news articles, social media posts, and other text data related to market trends and events.
+13. **Compliance Monitoring**: Text mining can help organizations monitor compliance with regulations by analyzing text data related to industry standards and guidelines.
+14. **Supply Chain Optimization**: By analyzing logistics documents and supply chain data, text mining can help optimize supply chain operations and reduce costs.
+15. **Cybersecurity**: Text mining can help detect potential security threats by analyzing malicious code and cyber-attack patterns.
+
+These are just a few examples of the many uses of text mining. The applications are diverse, and the field is constantly evolving as new techniques and algorithms are developed to extract insights from text data.
+
+
+>
 
