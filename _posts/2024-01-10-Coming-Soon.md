@@ -1,70 +1,24 @@
 ---
-title: ' Airlines Baggage Complaints '
+title: ' Coming Soon '
 author: ernest
-date: 2024-03-15  16:20:02 -05:00
-last_modified_at:  2024-03-18
-categories: [ Work ]
+date: 2019-05-15 16:20:02 -05:00
+last_modfied_at: 2023-11-30
+categories: [  ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - forecasting 
-  # - tamplate-tag-2
-  # - template-tag-3
+  # - classification
+  # - logistic-regression
+  # - prediction-profiler
 
 image: 
+  # path: /assets/articles/cover-austin-chan_web.png
   path: /assets/sample/coming-soon.png
-  # image: /assets/sample/coming-soon.png
-  # alt: Responsive rendering of Chirpy theme on multiple devices.
+  # alt: Photo by Austin Chan on Unplash.
 
 ---
-
-
-
-## Summary
-
-  Story behind the dataset
-
-## Techniques used
-
-  keywords Statistical Descriptive
-
-## Task 
-
-  Description
-
-## Data Description
-
-  Description dataset & variables
-
-## Analysis
-  
-  Analysis
-
-## Summary Statistical Insights
-
-  Description
-
-## Managerial Implications
-  
-  Description
-
-## Keywords
-
-
-
-
-
-
-
-
-
-
-### Summary
-
-This is analyze and compare baggage complaints for three different airlines using descriptive statistics and time series plots. Exploring differences between the airlines, whether complaints are getting better or worse over time, and if there are other factors, such destination, seasonal effects, or the volume of travelers that might affect buggage performance.
-
 
 
 
@@ -80,39 +34,9 @@ This is analyze and compare baggage complaints for three different airlines usin
 - The inclusion of company examples does not in any way constitute an endorsement of these organisations by myself or the signatories to the Principles for Responsible Investment. While I have endeavoured to ensure that the information contained in this report has been obtained from reliable and up-to-date sources, the changing nature of statistics, laws, rules and regulations may result in delays, omissions or inaccuracies in information contained in this report. I am not responsible for any errors or omissions, or for any decision made or action taken based on information contained in this report, or for any loss or damage arising from or caused by such decision or action. All information in this report is provided “as-is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, expressed or implied.
 {: .prompt-info }
 
-   -->
+-->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 

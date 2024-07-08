@@ -1,17 +1,17 @@
 ---
-title: ' Ridge Regression '
+title: ' Linear Regression '
 author: ernest
-date: 2023-08-10 16:20:02 -05:00
+date: 2023-07-07 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
+  - linear-regression
   - machine-learning
   - supervised-learning
-  - ridge-regression
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -24,22 +24,19 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ### Summary
 
-  Regression algorithm that applies regualization to deal with overfifted data. The method uses L2 regularization. 
+Supervised learning algorithm that fits a linear regression based on the training data. The equation is used for predictions on new data.
+
+
 
 
 ### Inputs
-
-  - Numerical 
+  - Numerical
   - Categorical
 
+
 ### Preprocessing
-
-  - Standardization
-  - Removing irrelavant features
-
-
-
-
+  - Standardization the inputs
+  - Removing irrelevant features
 
 
 

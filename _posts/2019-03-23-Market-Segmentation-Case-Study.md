@@ -25,6 +25,43 @@ image:
 
 ## Summary
 
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
+
+
+
+## Summary
+
 Market Segmentation for Winter Vacation Acitivities.
 
 The purpose of the data set are from two waves of the Austrian National Guest Survey conducted in three-yearly intervals by the Austrian Tourism Organization to gain market insight for the purpose of strategy development. 

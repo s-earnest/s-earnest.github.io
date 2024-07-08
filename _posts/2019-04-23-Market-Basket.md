@@ -21,6 +21,43 @@ image:
 ---
 
 
+
+
+
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
 ### Summary
 
 Analyze transactional data such as product purchases and occurrence of events to identify those that are

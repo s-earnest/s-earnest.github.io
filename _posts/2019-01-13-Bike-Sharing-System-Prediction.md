@@ -23,6 +23,41 @@ image:
 
 
 
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
+
 
 
 ### Summary

@@ -1,7 +1,7 @@
 ---
 title: ' Market Segmentation - Step 3 '
 author: ernest
-date: 2024-03-03 16:20:02 -05:00
+date: 2021-08-11 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true

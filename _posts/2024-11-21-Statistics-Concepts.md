@@ -1,7 +1,7 @@
 ---
 title: ' Statistics Definitions & Concepts '
 author: ernest
-date: 2020-05-27 16:20:02 -05:00
+date: 2019-10-22 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [   ]
 pin:     # true

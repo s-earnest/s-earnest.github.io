@@ -1,12 +1,13 @@
 ---
 title: ' Privacy Policy '
 author: ernest
-date: 2019-01-04 16:20:02 -05:00
+date: 2019-06-11 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [  ]
 pin:     # true
 math: true
 mermaid: true
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - privacy-policy
   # - tamplate-tag-2
@@ -43,8 +44,12 @@ Posts on this site may include embedded content (e.g., videos, images, tweet, et
 
 Where possible YouTube videos have [privacy-enhanced mode](https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode) enabled. Meaning YouTube won’t store information about a visitor, unless they have played a video.
 
+
+<!--
+
 Twitter content or Twitter products integrated into the website may receive information including the web page visited, IP address, browser type, operating system, and cookie information. This information is used by Twitter for personalized suggestions and personalized ads. Read [Twitter’s privacy policy](https://twitter.com/privacy) and [cookies use](https://help.twitter.com/en/rules-and-policies/twitter-cookies) for more information.
 
+-->
 
 
 

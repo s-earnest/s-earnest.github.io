@@ -26,7 +26,11 @@ image:
 
 
 
+```Python 
+import pandas as pd
 
+
+```
 
 
 

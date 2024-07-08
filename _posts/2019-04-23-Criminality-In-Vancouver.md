@@ -21,6 +21,44 @@ image:
 ---
 
 
+
+
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
+
+
 ### Summary
 
 Several methods and techniques of time series forecasting are used to forecast whether robberies in Vancouver will increase or decrease or decrease in upcoming years. Which will help government and police department to take measure accordingly.

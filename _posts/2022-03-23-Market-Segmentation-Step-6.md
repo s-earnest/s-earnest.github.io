@@ -1,7 +1,7 @@
 ---
 title: ' Market Segmentation - Step 6 '
 author: ernest
-date: 2024-02-06 16:20:02 -05:00
+date: 2022-03-17 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true

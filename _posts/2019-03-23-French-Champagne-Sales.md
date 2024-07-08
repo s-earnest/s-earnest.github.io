@@ -21,6 +21,45 @@ image:
 ---
 
 
+
+
+
+
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
+
 ### Summary
 
 In many industries throughout the world, suppliers compete for business by submitting quotes for work, services or products. A key criteria used to determine the winning quote is the dollar amount of the quote, but other factors include expected quality, estimated delivery time of the product, or quoted completion time of the work.

@@ -1,16 +1,17 @@
 ---
-title: ' Linear Regression '
+title: ' Regression Algorithm '
 author: ernest
-date: 2023-07-07 16:20:02 -05:00
+date: 2024-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - linear-regression
-  - machine-learning
-  - supervised-learning
+  - notes
+  # - tamplate-tag-2
+  # - template-tag-3
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -20,26 +21,29 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-
 ### Summary
 
-Supervised learning algorithm that fits a linear regression based on the training data. The equation is used for predictions on new data.
-
-
+Regression algorithm that applies regularization and feature selection to deal with overfitted[^2] data. The method uses L1 regularization[^1]. 
 
 
 ### Inputs
+
   - Numerical
   - Categorical
 
-
 ### Preprocessing
-  - Standardization the inputs
-  - Removing irrelevant features
+
+  - Standizadizing the inputs.
+  
 
 
 
 
+
+### Footnote
+
+[^1]: definition
+[^2]: definition
 
 
 

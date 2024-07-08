@@ -1,7 +1,7 @@
 ---
 title: ' Education and Training and Certification '
 author: ernest
-date: 2023-01-18 16:20:02 -05:00
+date: 2023-10-19 16:20:02 -05:00
 last_modified_at: 2024-03-10
 categories: [  ]
 pin:     # true
