@@ -4,6 +4,9 @@ author: ernest
 date: 2019-07-01 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [  ]
+pin:     # true
+math: true
+mermaid: true
 published: true
 tags:
  # - reference
@@ -83,7 +86,7 @@ Curated portfolio of things I’ve done with exploring and analysing datasets in
  -->
 
 
-# Reference Books
+### Reference Books
 
 - ACM (1999) ACM honors Dr. John M. Chambers of Bell Labs with the 1998 ACM software system award for creating “S system” software. ACM press release on 1999-03-23
 Brusco M (2004) Clustering binary data in the presence of masking variables. Psychol Methods 9(4):510–523

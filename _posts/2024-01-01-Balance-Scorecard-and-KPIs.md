@@ -39,8 +39,14 @@ key: value
 ```
 
 ```python
-key: value
+# Notes here
+import pandas as pd
+import matplotlib as plt
+
+
 ```
+### Insights
+This is an insight descripting personal thougths
 
 
 ### Internal processes measures
@@ -97,7 +103,7 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 
 
 
-## Footnote
+### Footnote
 
 [^1]: The footnote source
 
