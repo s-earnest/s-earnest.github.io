@@ -1,17 +1,17 @@
 ---
-title: ' Comming Soon '
+title: ' Coming Soon '
 author: ernest
 date: 2021-05-15 16:20:02 -05:00
 last_modfied_at: 2023-11-30
-categories: [ Work ]
+categories: [  ]
 pin:     # true
 math: true
 mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - classification
-  - logistic-regression
-  - prediction-profiler
+  # - classification
+  # - logistic-regression
+  # - prediction-profiler
 
 image: 
   # path: /assets/articles/cover-austin-chan_web.png
