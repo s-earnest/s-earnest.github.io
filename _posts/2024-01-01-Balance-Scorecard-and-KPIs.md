@@ -25,11 +25,22 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 [🟣]
 
 
-### Fiancial Goals
+### Financial Goals
 
 
 ### Customer needs and satisfaction
 
+```
+This is a plaintext code snippet.
+```
+
+```yaml
+key: value
+```
+
+```python
+key: value
+```
 
 
 ### Internal processes measures
