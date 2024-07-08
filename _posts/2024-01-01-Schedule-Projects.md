@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:  true   # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - schedule
   - projects
@@ -50,7 +50,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Analysis ]( https://s-earnest.github.io/posts/Bike-Sharing-System-EDA/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Time Series ]( https://s-earnest.github.io/posts/Bike-Sharing-System-EDA/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System EDA ]( https://s-earnest.github.io/posts/Bike-Sharing-System-EDA/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-ernest.com/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Comming-soon/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-ernest.com/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-ernest.com/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-ernest.com/ ){:target="_blank"} | date  | 🔴 |

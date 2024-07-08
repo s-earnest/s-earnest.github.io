@@ -1,5 +1,5 @@
 ---
-title: ' Titanic Analysis '
+title: ' Comming Soon '
 author: ernest
 date: 2021-05-15 16:20:02 -05:00
 last_modfied_at: 2023-11-30
@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - classification
   - logistic-regression
@@ -22,53 +22,6 @@ image:
 
 
 
-## Summary
-
-  Story behind the dataset
-
-## Techniques used
-
-  keywords Statistical Descriptive
-
-## Task 
-
-  Description
-
-## Data Description
-
-  Description dataset & variables
-
-## Analysis
-  
-  Analysis
-
-## Summary Statistical Insights
-
-  Description
-
-## Managerial Implications
-  
-  Description
-
-## Keywords
-
-
-
-
-
-
-
-### Summary
-
-This is a very interesting classic dataset, and used the passenger data related to the sinking of the RMS Titanic ship to explore some questions of interest about survival rates for the Titanic. For example, were there some key characteristics of the survivors? Were some passenger groups more likely to survive than others? Can we accurately predict survival? These are critical questions that I will try to answer. 
-
-
-
-
-> All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This report is provided with the understanding that the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services.
-{: .prompt-info }
-
-
 
 
 
@@ -81,23 +34,7 @@ This is a very interesting classic dataset, and used the passenger data related 
 - The inclusion of company examples does not in any way constitute an endorsement of these organisations by myself or the signatories to the Principles for Responsible Investment. While I have endeavoured to ensure that the information contained in this report has been obtained from reliable and up-to-date sources, the changing nature of statistics, laws, rules and regulations may result in delays, omissions or inaccuracies in information contained in this report. I am not responsible for any errors or omissions, or for any decision made or action taken based on information contained in this report, or for any loss or damage arising from or caused by such decision or action. All information in this report is provided “as-is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, expressed or implied.
 {: .prompt-info }
 
-
-
-
-   -->
-
-
-
-
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+-->
 
 
 

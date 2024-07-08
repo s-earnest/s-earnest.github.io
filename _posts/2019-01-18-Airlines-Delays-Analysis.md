@@ -22,6 +22,42 @@ image:
 
 
 
+
+
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
 ### Summary
 
 This is the Analyze on thirty different airlines in North America using descriptive statistics and time series plots. Explore the forecasting of passengers for the next year. 

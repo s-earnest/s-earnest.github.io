@@ -21,6 +21,42 @@ image:
 ---
 
 
+
+
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
 ### Summary
 
 Customer retention is a challenge for any organization. Companies are studying factors to customer churn, a term used for customers who have moved to another service provide. 

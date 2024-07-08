@@ -22,6 +22,45 @@ image:
 
 
 
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
+
+
+
+
+
 ### Summary
 
 This is analyze and copare baggage complaints for three different airlines using descriptive statistics and time series plots. Exploring differences between the airlines, whether complaints are getting better or worse over time, and if there are othr factors, such destination, seasonal effects, or the volume of travelers that might affect buggage performance.
