@@ -23,9 +23,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 🔴 
 
 
-### Summary
 
-Definition:
+
+# Definition:
 
 Qualitative variable, also known as a categorical variable, is a type of variable in statistics that describes an attribute or characteristic of a data point, rather than a numerical value.
 
@@ -75,19 +75,29 @@ Qualitative variables are used in education research to study the effectiveness 
 # When to use Qualitative Variable
 Qualitative variables should be used in research when the variable being studied is categorical and does not involve numerical values. Here are some situations where qualitative variables are appropriate:
 
-When studying demographic characteristics: Qualitative variables are useful for studying demographic characteristics such as age, gender, ethnicity, and religion. These variables can be used to segment a population into groups and to compare differences between groups.
-When studying attitudes and beliefs: Qualitative variables can be used to study people’s attitudes and beliefs about various topics, such as politics, social issues, or religion. Researchers can use surveys or interviews to gather data on these variables.
-When studying cultural differences: Qualitative variables are often used in cross-cultural research to study differences between cultures. Researchers may use qualitative variables such as language spoken, nationality, or cultural background to identify groups for comparison.
-When studying consumer behavior: Qualitative variables can be used in market research to study consumer behavior and preferences. Researchers can use qualitative variables such as brand loyalty, product preference, or buying habits to understand consumer behavior.
-When studying patient outcomes: Qualitative variables can be used in healthcare research to study patient outcomes, such as quality of life, satisfaction with treatment, or adherence to medication. Researchers can use qualitative variables to identify factors that influence patient outcomes and to develop interventions to improve patient care.
+When studying demographic characteristics: 
+Qualitative variables are useful for studying demographic characteristics such as age, gender, ethnicity, and religion. These variables can be used to segment a population into groups and to compare differences between groups.
+When studying attitudes and beliefs: 
+Qualitative variables can be used to study people’s attitudes and beliefs about various topics, such as politics, social issues, or religion. Researchers can use surveys or interviews to gather data on these variables.
+When studying cultural differences: 
+Qualitative variables are often used in cross-cultural research to study differences between cultures. Researchers may use qualitative variables such as language spoken, nationality, or cultural background to identify groups for comparison.
+When studying consumer behavior: 
+Qualitative variables can be used in market research to study consumer behavior and preferences. Researchers can use qualitative variables such as brand loyalty, product preference, or buying habits to understand consumer behavior.
+When studying patient outcomes: 
+Qualitative variables can be used in healthcare research to study patient outcomes, such as quality of life, satisfaction with treatment, or adherence to medication. Researchers can use qualitative variables to identify factors that influence patient outcomes and to develop interventions to improve patient care.
 
 # Purpose of Qualitative Variable
 The purpose of a qualitative variable is to categorize data into distinct groups based on non-numerical characteristics or attributes. The use of qualitative variables allows researchers to describe and analyze non-quantifiable phenomena, such as attitudes, beliefs, behaviors, and demographic characteristics, and to identify patterns and trends in the data. The main purposes of qualitative variables are:
 
-To describe and categorize: Qualitative variables are used to describe and categorize data into meaningful groups based on characteristics or attributes that are not numerical.
-To compare and contrast: Qualitative variables allow researchers to compare and contrast different groups or categories of data, such as different demographic groups or cultural backgrounds.
-To identify patterns and trends: Qualitative variables allow researchers to identify patterns and trends in data that may not be apparent with numerical data. For example, a researcher may use qualitative variables to identify cultural differences in attitudes toward healthcare.
-To develop hypotheses: Qualitative variables can be used to develop hypotheses or research questions for further study. For example, a researcher may use qualitative variables to identify risk factors for a particular disease, which can then be further studied using quantitative methods.
+To describe and categorize: 
+Qualitative variables are used to describe and categorize data into meaningful groups based on characteristics or attributes that are not numerical.
+To compare and contrast: 
+Qualitative variables allow researchers to compare and contrast different groups or categories of data, such as different demographic groups or cultural backgrounds.
+To identify patterns and trends: 
+Qualitative variables allow researchers to identify patterns and trends in data that may not be apparent with numerical data. For example, a researcher may use qualitative variables to identify cultural differences in attitudes toward healthcare.
+To develop hypotheses: 
+Qualitative variables can be used to develop hypotheses or research questions for further study. For example, a researcher may use qualitative variables to identify risk factors for a particular disease, which can then be further studied using quantitative methods.
+
 To inform decision-making: Qualitative variables can provide important information to inform decision-making in fields such as healthcare, education, and business. For example, healthcare providers may use qualitative variables to identify patient preferences and needs, which can inform treatment decisions.
 
 # Characteristics of Qualitative Variable
@@ -140,7 +150,8 @@ Qualitative variables require the researcher to be reflexive and acknowledge the
 # Limitations of Qualitative Variable
 Some Limitations of Qualitative Variable are as follows:
 
-Subjectivity: Qualitative data is often collected through open-ended questions or prompts, which can lead to subjective responses that are difficult to quantify or compare. This can make it challenging to establish inter-rater reliability and can limit the generalizability of the findings.
+Subjectivity: 
+Qualitative data is often collected through open-ended questions or prompts, which can lead to subjective responses that are difficult to quantify or compare. This can make it challenging to establish inter-rater reliability and can limit the generalizability of the findings.
 
 Limited sample size: 
 Qualitative research often involves small sample sizes, which can limit the generalizability of the findings. While qualitative research is typically focused on gaining a deep understanding of a particular issue, the findings may not be representative of the broader population.
