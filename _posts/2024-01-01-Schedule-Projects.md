@@ -75,33 +75,33 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 | Details                      | Analysis Type    | Date   | Status |
 |:-----------------------------|:-----------------|:-------|-------:|
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"} | [ Credit-Card-Fraud-Detection ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Delays-Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Income-House-Forecasting ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"} | [ Credit-Card-Fraud-Detection ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Delays-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Income-House-Forecasting ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Passenger-Forecasting ]( https://s-ernest.com/){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ French-Champagne-Sales ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Crime-in-Vancouver ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Market-Basket-Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Energy-Consumption-Forecasting ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ French-Champagne-Sales ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Crime-in-Vancouver ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Market-Basket-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Energy-Consumption-Forecasting ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike-Sharing-System-Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Titanic ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🟠 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Text-Mining ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Telco-Customer-Churn ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Urban-Traffic-Network ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ HR-Employee-Attrition ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Baggage-Complaints-Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Titanic ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🟠 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Text-Mining ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Telco-Customer-Churn ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Urban-Traffic-Network ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ HR-Employee-Attrition ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Baggage-Complaints-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Time Series ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System EDA ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Time Series ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System EDA ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
 
 
 
