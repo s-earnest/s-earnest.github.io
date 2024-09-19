@@ -8,6 +8,13 @@ node_modules
 .log
 dist
 
+
+# Posts selection
+
+
+
+
+
 npm-debug.log
 .nyc_output
 coverage
