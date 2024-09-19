@@ -173,13 +173,6 @@ Potential for bias:
 
 
 
-> This is a note.
-{: .prompt-tip }
-
-
-
-
-
 
 
 
