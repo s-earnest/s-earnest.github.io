@@ -3,7 +3,7 @@
 <!-- 
 
 
-## Dates
+## Dates NOTES
 
 2024-07-09
 2024-08-19
@@ -28,12 +28,48 @@
 
 
 
+## Dates ARTICLES
+
+
+
+
+
+
+
+
+
+## Dates CASES STUDY
+
+
+
+
+
+
+
+2009 articles section
+2010 on hold section
+
+2019 work cases section
+2020 notes section 
+2021 wip section
+2022 in review section
+2023 in progress section
+2024 published section 
+2025 future section 
+
+
+
+
+
+
+
+
+
+
+
 
 
 -->
  
-
-
-
 
 
