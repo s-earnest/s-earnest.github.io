@@ -1,5 +1,5 @@
 ---
-title: ' Work  '
+title: ' USA College Scorecard Data '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -9,9 +9,9 @@ math: true
 mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - work
-  - case-study
-  # - template-tag-3
+  - scorecard
+  - classification
+  - clustering-analysis
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -91,7 +91,31 @@ SOLVE
 CONCLUDE
   Return to the practical question to describe the results in this settings
 
+## Dates
 
+2024-07-09
+2024-08-19
+2024-09-12
+2024-11-22
+2024-12-13
+2024-07-05
+2024-07-11
+2024-08-02
+2024-08-16
+2024-09-09
+2024-10-10
+2024-10-29
+2024-11-04
+2024-11-11
+2024-11-14
+2024-11-18
+2024-12-11
+2024-12-16
+2024-12-18
+2024-12-24
+
+
+ -->
 
 
 <!-- 
@@ -103,7 +127,7 @@ CONCLUDE
 {: .prompt-info }
 
 
-   -->
+ -->
 
 
 
@@ -172,10 +196,8 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ## Reference
 
+  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
   - item 
-  - item 
-
-
 
 
 

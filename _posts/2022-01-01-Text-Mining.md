@@ -165,7 +165,15 @@ In summary, text mining in this example enables the retail company to harness th
 
 
 
->
+-->
+
+
+
+
+## Reference
+
+  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
+  - item 
 
 
 

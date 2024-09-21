@@ -98,6 +98,12 @@ This is the Analyze on thirty different airlines in North America using descript
 
 
 
+## Reference
+
+  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
+  - item 
+
+
 
 
 

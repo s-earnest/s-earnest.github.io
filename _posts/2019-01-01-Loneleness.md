@@ -68,7 +68,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ## Reference
 
-  - item 
+  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
   - item 
 
 

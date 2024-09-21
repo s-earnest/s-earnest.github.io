@@ -184,6 +184,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
+
+## Reference
+
+  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
+  - item 
+
+
+
+
+
+
+
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}

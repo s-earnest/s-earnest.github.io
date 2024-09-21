@@ -1,35 +1,77 @@
 ---
-title: ' Titanic Analysis '
+title: ' French Champagne Sales '
 author: ernest
-date: 2021-05-15 16:20:02 -05:00
-last_modfied_at: 2023-11-30
-categories: [ Work ]
+date: 2025-01-10 16:20:02 -05:00
+last_modified_at: 2023-11-30
+categories: [ Case Study ]
 pin:     # true
 math: true
 mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - classification
-  - logistic-regression
-  - prediction-profiler
+  - sales 
+  - forecasting
+  # - template-tag-3
 
 image: 
-  # path: /assets/articles/cover-austin-chan_web.png
   path: /assets/sample/coming-soon.png
-  # alt: Photo by Austin Chan on Unplash.
+  # image: /assets/sample/coming-soon.png
+  # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
 
 
+
+
+
+
+## Summary
+
+  Story behind the dataset
+
+## Techniques used
+
+  keywords Statistical Descriptive
+
+## Task 
+
+  Description
+
+## Data Description
+
+  Description dataset & variables
+
+## Analysis
+  
+  Analysis
+
+## Summary Statistical Insights
+
+  Description
+
+## Managerial Implications
+  
+  Description
+
+## Keywords
+
+
+
+
+
+
 ### Summary
 
-This is a very interesting classic dataset, and used the passenger data related to the sinking of the RMS Titanic ship to explore some questions of interest about survival rates for the Titanic. Some of the questions for example, were there some key characteristics of the survivors? Were some passenger groups more likely to survive than others? Can we accurately predict survival? These are critical questions that I will try to answer. 
+In many industries throughout the world, suppliers compete for business by submitting quotes for work, services or products. A key criteria used to determine the winning quote is the dollar amount of the quote, but other factors include expected quality, estimated delivery time of the product, or quoted completion time of the work.
+
+The focus of this case is to increase sales and expand its market position. Many of the quotes provided to prospective customers in the past haven't resulted in orders.
 
 
 
 
 > All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This report is provided with the understanding that the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services.
 {: .prompt-info }
+
 
 
 
@@ -46,8 +88,7 @@ This is a very interesting classic dataset, and used the passenger data related 
 
 
 
-
-   -->
+-->
 
 
 
@@ -73,8 +114,6 @@ This is a very interesting classic dataset, and used the passenger data related 
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
 
 
 

@@ -79,9 +79,21 @@ g. This EULA represents the entire agreement between You and the University rega
 - (10) REPRESENTATION. You represent that You are at least 18 years of age.
 {: .prompt-tip }
 
-### Reference
 
+
+
+
+
+
+
+
+## Reference
+
+  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
   - https://www.start.umd.edu/gtd/
-  
+
+
+
+
 
 

@@ -46,6 +46,23 @@ Several methods and techniques of time series forecasting are used to forecast w
 
 
 
+
+
+
+
+
+
+## Reference
+
+  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
+  - item 
+
+
+
+
+
+
+
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
