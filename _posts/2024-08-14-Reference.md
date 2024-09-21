@@ -14,6 +14,7 @@ tags:
   - thoughts
   - articles
   - work
+  - case-study
 
 ---
 
@@ -29,7 +30,11 @@ For shorter, more regular tidbits -peruse the notes tag.
 
 
 ### Work & Projects
-Curated portfolio of things I’ve done with exploring and analysing datasets in my spare time.
+Curated portfolio of things I’ve done with exploring and analysing datasets in my spare time. Often applied in business settings, or academic research with real world data situations. The output is produce deliverables like insights reports, or predictive models. 
+
+
+### Case Study
+Usually used in education or practices setting, and helps to demostrate the best practices and successful applications knowledge. The final outcome is presented as a narrative with highlights insights, challenges faced, and lessons lessons learned.
 
 
 
@@ -47,8 +52,6 @@ Curated portfolio of things I’ve done with exploring and analysing datasets in
 (3) Austin Chan - Photo by <a href="https://unsplash.com/@austinchan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austin Chan</a> on <a href="https://unsplash.com/photos/this-is-the-sign-youve-been-looking-for-neon-signage-ukzHlkoz1IE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
 (4) 
-
-
 
 
 
