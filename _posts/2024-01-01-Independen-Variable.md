@@ -1,13 +1,13 @@
 ---
 title: ' Independent Variable '
 author: ernest
-date: 2024-01-10 16:20:02 -05:00
+date: 2020-02-29 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - independent
   - variable
@@ -20,16 +20,6 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ---
 
-🔴
-
-
-
-<!-- 
-
-
-
-
--->
 
 
 # Definition:
@@ -37,6 +27,22 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 Independent variable is a variable that is manipulated or changed by the researcher to observe its effect on the dependent variable. It is also known as the predictor variable or explanatory variable
 
 The independent variable is the presumed cause in an experiment or study, while the dependent variable is the presumed effect or outcome. The relationship between the independent variable and the dependent variable is often analyzed using statistical methods to determine the strength and direction of the relationship.
+
+# Types of Independent Variables
+
+- Categorical Independent Variables:
+- Continuous variables
+- Discrete variables
+
+
+
+
+
+
+
+
+
+<!-- 
 
 # Types of Independent Variables
 Types of Independent Variables are as follows:
@@ -121,9 +127,9 @@ Scientific experiments:
 
 Independent variables are commonly used in scientific experiments to study the cause-and-effect relationships between different variables. By controlling and manipulating the independent variable, scientists can observe how changes in that variable affect the dependent variable.
 
-arket research: 
-I
-ndependent variables are also used in market research to study consumer behavior. For example, researchers may manipulate the price of a product (independent variable) to see how it affects consumer demand (dependent variable).
+Market research: 
+
+Independent variables are also used in market research to study consumer behavior. For example, researchers may manipulate the price of a product (independent variable) to see how it affects consumer demand (dependent variable).
 
 Psychology: 
 
@@ -203,7 +209,7 @@ Some variables may be very complex, making it difficult to determine which varia
 Extraneous variables: 
 Even when researchers manipulate the independent variable, other variables may still affect the results. These extraneous variables can confound the results, making it difficult to draw clear conclusions about the relationship between the independent and dependent variables.
 
-
+-- > 
 
 
 

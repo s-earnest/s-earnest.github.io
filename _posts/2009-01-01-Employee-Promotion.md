@@ -1,5 +1,5 @@
 ---
-title: ' notes '
+title: ' Employee Promotion Analysis '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -22,6 +22,17 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+### Methedology steps:
+- Importing Libraries and dataset
+- Data Analysis
+- Feature Engineering
+- Model building using ML models
+- Model building and prediction using Auto ML
+- Insights 
+
+
+
+
 
 <!-- 
 
@@ -40,20 +51,15 @@ All content provided is for informational purposes only and shown case studies e
 
 <!-- 
 
-2000 = sample notes / starting point 
-2009 = articles and needs to be work ASAP 
-2019 = work in progress stage
-2020 = work in standby stage
-2023 = nothing in this section 
-2024 = notes / work / article published
-2025 = work for 2025 / site & schedule the linkedin articles posting
 
--->
+
+< --
 
 10. Name project
   - Description: objective of the project 
   - Technologies used: tools used / algorithms used and why 
   - Results: what I learnt
+  - Insights: observations about hte analysis 
 
 
 <!--
@@ -82,15 +88,33 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ### 
 
-> This is a note.
+> This is a case study[^1] about employees in the ficticious company working last year and they got promoted or not. Every time this process get delayed due to so many details available for each employee - it get difficult to compare and decide. 
 {: .prompt-tip }
+
 
 
 ### Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
+This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. 
 
+
+
+# Features:
+
+- employee_id: Unique ID for employee
+- department: Department of employee
+- region: Region of employment (unordered)
+- education: Education Level
+- gender: Gender of Employee
+- recruitment_channel: Channel of recruitment for employee
+- no_ of_ trainings: no of other trainings completed in previous year on soft skills, technical skills etc.
+- age: Age of Employee
+- previous_ year_ rating: Employee Rating for the previous year
+- length_ of_ service: Length of service in years
+- awards_ won?: if awards won during previous year then 1 else 0
+- avg_ training_ score: Average score in current training evaluations
+- is_promoted: (Target) Recommended for promotion
 
 
 # Loading and exploring the data
@@ -120,8 +144,8 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ## Reference
 
-  - item 
-  - item 
+  - https://www.kaggle.com/datasets/arashnic/hr-ana
+  - [Codebook](www.google.ca)
 
 
 
@@ -139,6 +163,6 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 
 ## Footnote
 
-[^1]: The footnote source
+[^1]: This is for educational or practices setting, and helps to demostrate the best practices and application knowledge. The final outcome is presented as a narrative with highlights insights, challenges I faced, and lessons learned. 
 
 

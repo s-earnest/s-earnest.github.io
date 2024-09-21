@@ -1,13 +1,13 @@
 ---
 title: ' Categorical Variable '
 author: ernest
-date: 2024-01-10 16:20:02 -05:00
+date: 2020-02-16 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - categorical
   - variable
@@ -21,12 +21,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-🔴 
 
-<!-- 
-
-
--->
 
 
 ## Definition:
@@ -44,6 +39,17 @@ Nominal variables are those that describe a characteristic or quality without an
 ## Ordinal Variables
 
 Ordinal variables, on the other hand, have categories that can be ordered or ranked based on their value. They represent data that can be divided into distinct categories, and these categories have an inherent order or hierarchy. Examples of ordinal variables include levels of education, income brackets, or survey responses that use a Likert scale (e.g., strongly agree, agree, neutral, disagree, strongly disagree).
+
+
+
+
+
+
+
+
+
+<!--
+
 
 # Applications of Categorical Variable
 
@@ -165,9 +171,7 @@ Potential for bias:
   Categorical variables can also introduce bias into data analysis, as the categories used to represent data are often subjective and may not accurately reflect the underlying data. This can lead to incorrect conclusions or predictions, and can limit the generalizability of findings.
 
 
-
-
----
+--->
 
 
 
