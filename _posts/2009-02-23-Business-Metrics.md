@@ -44,8 +44,8 @@ image:
 
 ## Reference
 
-  - item 
-  - item 
+  - [item]( link ){:target="_blank"}
+  - [item]( link ){:target="_blank"}
 
 
 

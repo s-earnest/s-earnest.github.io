@@ -103,8 +103,8 @@ Keep in mind that these are rough estimates and actual costs may vary depending 
 
 ## Reference
 
-  - item 
-  - item 
+  - [item]( link ){:target="_blank"}
+  - [item]( link ){:target="_blank"}
 
 
 

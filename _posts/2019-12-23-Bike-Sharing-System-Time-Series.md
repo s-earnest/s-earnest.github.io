@@ -80,7 +80,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ##  References
 
-  - item
+  - [item]( link ){:target="_blank"}
 
 
 

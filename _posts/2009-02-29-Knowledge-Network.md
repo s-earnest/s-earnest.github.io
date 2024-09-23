@@ -35,8 +35,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ## Reference
 
-  - item 
-  - item 
+  - [item]( link ){:target="_blank"}
+  - [item]( link ){:target="_blank"}
 
 
 
