@@ -21,6 +21,39 @@ image:
 
 ---
 
+🟢 
+
+
+## Sumaary
+   Market segmentatino involves dividing the market target into small groups and more homegeneous who share the same characteristics, needs, or behaviors. This process allow business to tailor the marketing strategies and offering a product or services that meet the specific the target needs and preferences with each segment. 
+
+## Segmentation methods
+
+- Descriptive segmetnation 
+   It describes and categorize customer segments
+
+- Cluster analysis
+   With statistical techniques it is easy to identify natural cluster of customers based on similarities in their characteristics.
+
+- Factor analysis 
+   Identify the dimensions that explain customers pattenrs with data.
+
+- Conjoint analysis
+   Understanding customer preferences and trade-off by presenting the different product or services and analyzing their choices.
+
+
+
+
+
+### Contact. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
+
+
+
+
+
 <!--  
 
 Market segmentation involves dividing a heterogeneous market into smaller, more homogeneous groups of customers who share similar characteristics, needs, or behaviors. This process allows businesses to tailor their marketing strategies and offerings to better meet the specific needs and preferences of each segment. Here’s a more detailed look at the specifics of market segmentation:

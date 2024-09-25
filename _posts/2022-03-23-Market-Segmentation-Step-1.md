@@ -21,12 +21,12 @@ image:
 
 ---
 
-
+🟢 
 
 
 ## Summary
    Market segmentation is a critical process in marketing that involves a population target into small groups, which are more manageable based on criterias. 
-   
+
 
 ## Description
 
