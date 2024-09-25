@@ -25,14 +25,67 @@ image:
 
 
 ## Summary
+   Market segmentation is a critical process in marketing that involves a population target into small groups, which are more manageable based on criterias. 
+   
+
+## Description
+
+ Market segmentation process involves typically the following steps:
+ 1. Define the goals and objectives:
+   Identify the goals and objective of the market segmentation process, like increasing sales, improving customer satisfaction or simple expand in a new market. 
+ 2. Gather and analyze data:
+   Collect and analyze data on the target market included demographic, behavioral, and transactional data. This can be extented in customer surveys, focus groups, online review, social media data, or other sources.
+ 3. Identify the key variables:
+    - Demographics
+    - Geographic location
+    - Psycholographic characteristics
+    - Behavioral
+ 4. Choose a segmentation method:
+   Select the best method that suits the goals and objectives of the project. This inlcuded:
+      - Cluster analysis
+      - Factor analysis
+      - K-means clustering
+      - Hierarchical clustering
+ 5. Apply the segmentation method:
+   We  use the key variables and the method chosen which distinct groups.
+ 6. Evaluate and refine the segments:
+   Evaluate the size, potential growth based on factors like:
+      - Market size
+      - Growth rate
+      - Competition
+      - Custome loyalty
+  7. Develop a strategy for each segment with:
+      - Targeting which segment to target and why?
+      - Positioning how the product or service fits in each segment
+      - Message tha appeal each segment
+      - Product development adapted to each segment
+   
+   8. Test and refine the segment strategy with small pilot to gather feedback and refine it as needed.
+   9. Monitor and adjust continuously the customer behavior and preferences withing each sgement. 
 
 
-deciding 
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
+
+
+
+
+
 
 
 
