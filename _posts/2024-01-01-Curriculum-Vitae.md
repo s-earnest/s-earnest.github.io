@@ -61,11 +61,11 @@ All content provided is for informational purposes only and shown case studies e
   - [ JupyterLab Notebook ]( https://jupyterlab.readthedocs.io/en/stable/index.html ){:target="_blank"}, Python (libraries: Pandas, NumPy, Matplotlib, Seaborn)
 
 ### Python Libraries
-  - Pandas = 
-  - NumPy = 
-  - Matplotlib = 
-  - Seaborn = 
-
+  - [Pandas](https://numpy.org/){:target="_blank"}  = Libraries for data analysis and manipulation tool, built on top of the Python programming language
+  - [NumPy](https://numpy.org/){:target="_blank"} = This a package for scientific computing with Python
+  - [Matplotlib](https://matplotlib.org/){:target="_blank"} = This is library for creating static, animated, and interactive visualizations in Python
+  - [Seaborn](https://seaborn.pydata.org/){:target="_blank"} = Statistical data visualization 
+  - [Plotly](https://plotly.com/python/){:target="_blank"} = This is graphing library that helps to make interactive, publication-quality graphs.
 
 
 ## Working Experience
