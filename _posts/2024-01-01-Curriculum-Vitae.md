@@ -29,7 +29,14 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ## Executive Summary
 
+<!-- 
+
 All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. 
+
+
+-->
+ 
+
 
 
 
