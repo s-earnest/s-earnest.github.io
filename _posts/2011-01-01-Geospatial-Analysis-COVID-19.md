@@ -10,7 +10,7 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
-  # - geospatial-analysis
+  - geospatial-analysis
   # - template-tag-3
 
 # image: 
@@ -170,10 +170,20 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-## Reference
+# Usefull resources 
 
+<!--
   - [item]( link ){:target="_blank"}
   - [item]( link ){:target="_blank"}
+-->
+  - [Notebook report]( /assets/projects/1/sample.html ){:target="_blank"}
+
+__Online tutorials:__  
+
+  - [R for Data Science](https://r4ds.had.co.nz){:target="_blank"}  
+  - [Quick R](https://www.statmethods.net){:target="_blank"}  
+  - [Learn the tidyverse](https://www.tidyverse.org/learn/){:target="_blank"}
+  - [R markdown cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/){:target="_blank"}
 
 
 
@@ -184,11 +194,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-
-
-
-
-### Contact. 
+# Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
