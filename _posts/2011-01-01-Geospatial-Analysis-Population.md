@@ -196,7 +196,7 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 
   - [Notebook report]( /assets/projects/1/sample.html ){:target="_blank"}
   - [Getting started with R and R-spatial](https://bakaniko.github.io/foss4g2022-getting-started-rspatial){:target="_blank"}
-  - [Spatial Data Science] (https://r-spatial.org/book){:target="_blank"}
+  - [Spatial Data Science](https://r-spatial.org/book){:target="_blank"}
   - [Geocomputation with R](https://r.geocompx.org){:target="_blank"}
   - [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html){:target="_blank"}
   - [Open spatial datasets](https://www.paulamoraga.com/book-spatial/r-packages-to-download-open-spatial-data.html) (see https://rspatialdata.github.io/index.html){:target="_blank"}
@@ -214,17 +214,17 @@ __Online tutorials:__
 
 ## Remote sensing
 
-- Free satellite imagery data sources https://gisgeography.com/free-satellite-imagery-data-list/
+- [Free satellite imagery data sources](https://gisgeography.com/free-satellite-imagery-data-list/){:target="_blank"}
 - Online portals
-- NASA’s earth observation datasets: EarthData https://search.earthdata.nasa.gov/search
-- Sentinel imagery: SciHub https://scihub.copernicus.eu/
-- R Package openeo https://open-eo.github.io/openeo-r-client/
-- Connect your R client to openEO (https://openeo.org) back-end servers to process big datasets before retrieving results for further analysis
-- R Package sen2r https://sen2r.ranghetti.info/
-- Download and preprocess Sentinel-2 images, including through a graphical user interface (GUI)
+  - [NASA’s earth observation datasets: EarthData](https://search.earthdata.nasa.gov/search){:target="_blank"}
+  - [Sentinel imagery: SciHub](https://scihub.copernicus.eu/){:target="_blank"}
+  - [R Package openeo](https://open-eo.github.io/openeo-r-client/){:target="_blank"}
+  - [Connect your R client to openEO](https://openeo.org) back-end servers to process big datasets before retrieving results for further analysis
+- [R Package sen2r](https://sen2r.ranghetti.info/){:target="_blank"}
+  - Download and preprocess Sentinel-2 images, including through a graphical user interface (GUI)
 
 
-## Packages
+## Packages installed and used
 - sf - Analyse spatial data as simple features
 - terra - Analyse raster and vector data with support for large file sizes
 - spData - Example dataset for spatial analysis
