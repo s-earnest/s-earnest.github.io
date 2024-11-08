@@ -10,7 +10,7 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
-  # - tamplate-tag-2
+  # - geospatial-analysis
   # - template-tag-3
 
 # image: 
