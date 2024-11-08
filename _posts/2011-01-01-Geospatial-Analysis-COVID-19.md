@@ -1,17 +1,17 @@
 ---
-title: ' Geospatial Analysis topic  '
+title: ' Geospatial-Analysis-COVID-19 Deaths '
 author: ernest
-date: 2024-01-10 16:20:02 -05:00
+date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
-  - geospatial-analysis
-  - geospatial
+  # - tamplate-tag-2
+  # - template-tag-3
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -24,11 +24,13 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+<!-- 
+
 > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles, notes and case study on this website are my own the way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my past or current employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 {: .prompt-info }
 
-
-<!-- 
+> All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
+{: .prompt-info }
 
 
 ## Explain the why I worked in this problem.
@@ -115,7 +117,7 @@ CONCLUDE
 ### Summary
 
 
-This is a case study for geospation[^1] of lorem ipsum and don't have an internet connection right now. 
+This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
 
 
 # Introduction 
@@ -168,12 +170,21 @@ This is a case study for geospation[^1] of lorem ipsum and don't have an interne
 
 
 
+## Reference
+
+  - [item]( link ){:target="_blank"}
+  - [item]( link ){:target="_blank"}
 
 
 
 
-> All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
-{: .prompt-info }
+
+
+
+
+
+
+
 
 
 
@@ -186,90 +197,8 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 
 
 
-
-## Reference
-
-  - [item]( link ){:target="_blank"}
-  - [item]( link ){:target="_blank"}
-
-
-- Getting started with R and R-spatial: https://bakaniko.github.io/foss4g2022-getting-started-rspatial
-- Spatial Data Science https://r-spatial.org/book
-- Geocomputation with R https://r.geocompx.org
-- Spatial Statistics for Data Science: Theory and Practice with R https://www.paulamoraga.com/book-spatial/index.html
-- Open spatial datasets https://www.paulamoraga.com/book-spatial/r-packages-to-download-open-spatial-data.html (see https://rspatialdata.github.io/index.html)
-- R packages for spatial data analyses https://cran.r-project.org/web/views/Spatial.html
-
-
-
-## Remote sensing
-
-- Free satellite imagery data sources https://gisgeography.com/free-satellite-imagery-data-list/
-- Online portals
-- NASA’s earth observation datasets: EarthData https://search.earthdata.nasa.gov/search
-- Sentinel imagery: SciHub https://scihub.copernicus.eu/
-- R Package openeo https://open-eo.github.io/openeo-r-client/
-- Connect your R client to openEO (https://openeo.org) back-end servers to process big datasets before retrieving results for further analysis
-- R Package sen2r https://sen2r.ranghetti.info/
-- Download and preprocess Sentinel-2 images, including through a graphical user interface (GUI)
-
-
-## Packages
-- sf - Analyse spatial data as simple features
-- terra - Analyse raster and vector data with support for large file sizes
-- spData - Example dataset for spatial analysis
-- mapview - Quickly plot interactive visualisation of spatial data
-- ggplot2 - Visualise data and maps
-- ggmap - Get ggplot basemaps from service such as GoogleMaps, OSM and Stament Maps
-- tmpa - Plot thematic and customisable maps based on ggplot syntax 
-
-
-
-
-
 ## Footnote
 
-[^1]: Geospatial analysis refers to the process of gathering, manipulating, and interpreting geographic or spatial data to understand patterns, relationships, and trends that occur within a specific geographic area. It involves using various techniques, technologies, and tools to analyze spatially referenced data, such as maps, satellite imagery, GPS coordinates, or data linked to specific locations.
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-- Key components of geospatial analysis include:
-
-1. **Geographic Information Systems (GIS):** GIS is a primary tool for geospatial analysis, allowing users to visualize, analyze, and interpret spatial data in layers. GIS software like ArcGIS or QGIS is used to map and analyze various types of geographic data.
-
-2. **Spatial Data Types:** Geospatial data can be divided into two main categories:
-   - **Vector Data:** Representing features like points (e.g., cities), lines (e.g., roads), and polygons (e.g., land use areas).
-   - **Raster Data:** Representing continuous data, like satellite imagery or elevation models, often in grid form.
-
-3. **Spatial Analysis Techniques:** These include operations like buffering (creating zones around features), overlay analysis (combining multiple layers of data), proximity analysis (calculating distances between features), and spatial statistics (identifying spatial patterns or clusters).
-
-4. **Applications of Geospatial Analysis:**
-   - **Urban planning:** Understanding how land is used and making decisions about zoning, transportation, and infrastructure.
-   - **Environmental management:** Monitoring deforestation, habitat loss, or pollution levels.
-   - **Disaster response:** Analyzing affected areas during natural disasters and planning evacuation routes.
-   - **Market analysis:** Identifying optimal locations for businesses based on geographic factors like population density and competition.
-
-Geospatial analysis is used in a wide range of fields, including urban planning, environmental science, transportation, agriculture, public health, and more.
-
--->
-
-
-
-
-
-
-
-
-
-
+[^1]: The footnote source
 
 
