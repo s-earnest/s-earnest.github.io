@@ -12,6 +12,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - market-segmentation
   - winter-vacation
+  - segmentation
 
 image: 
   path: /assets/sample/coming-soon.png

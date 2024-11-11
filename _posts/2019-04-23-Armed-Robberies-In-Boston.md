@@ -10,7 +10,7 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - forecasting 
-  # - tamplate-tag-2
+  # - case-study
   # - template-tag-3
 
 image: 
@@ -72,7 +72,7 @@ Several methods and techniques of time series forecasting are used to forecast w
 
 
 
-> DISCKAIMER
+> DISCLAIMER
 - All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report is meant for the purposes of information only and is not intended to be investment, legal advice, tax purpose or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
 {: .prompt-info }
 

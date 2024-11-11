@@ -11,8 +11,10 @@ published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - market-segmentation
-  - fat-food
+  - fast-food
   - mcdonald's
+  - segmentation
+  
 
 image: 
   path: /assets/sample/coming-soon.png
