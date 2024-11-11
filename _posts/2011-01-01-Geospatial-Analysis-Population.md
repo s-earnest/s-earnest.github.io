@@ -194,7 +194,7 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
   - [item]( link ){:target="_blank"}
 -->
 
-  - [Notebook report]( /assets/projects/1/sample.html ){:target="_blank"}
+  - [Notebook report]( /assets/projects/1/sample.html ){:target="_blank"} 
   - [Getting started with R and R-spatial](https://bakaniko.github.io/foss4g2022-getting-started-rspatial){:target="_blank"}
   - [Spatial Data Science](https://r-spatial.org/book){:target="_blank"}
   - [Geocomputation with R](https://r.geocompx.org){:target="_blank"}

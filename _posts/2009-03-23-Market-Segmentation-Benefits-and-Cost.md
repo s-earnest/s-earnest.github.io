@@ -13,6 +13,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - market-segmentation
   - cost
   - benefits
+  - segmentation
+  
 
 image: 
   path: /assets/sample/coming-soon.png

@@ -13,6 +13,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - market-segmentation
   - strategies
   - tactics
+  - segmentation
 
 image: 
   path: /assets/sample/coming-soon.png

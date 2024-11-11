@@ -10,7 +10,7 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - pareto-principle
-  # - tamplate-tag-2
+  - notes
   # - template-tag-3
 
 # image: 

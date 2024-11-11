@@ -96,7 +96,7 @@ All content provided is for informational purposes only and shown case studies e
 
 ## Education
 
-* (2020/02) [ Diploma Marketing Management ]( https://s-earnest.github.io/posts/Crime-in-Vancouver/ ){:target="_blank"} - Communication (Sep 2014)
+* (2020/02) [ Diploma Marketing Management ]( https://www.google.com ){:target="_blank"} - Communication (Sep 2014)
 * (2020/02) High School - Vancouver BC - Canada (2010 - 2014)
 
 
