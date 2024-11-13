@@ -39,7 +39,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ### 
 
-> This is a note.
+> This is a practical case study.
 {: .prompt-tip }
 
 
