@@ -7,7 +7,7 @@ categories: [ Case Study ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - case-study
   # - tamplate-tag-2
