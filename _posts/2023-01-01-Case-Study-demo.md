@@ -75,13 +75,32 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-## Reference
 
-  - [item]( link ){:target="_blank"} 
+
+
+
+
+# Usefull resources 
+
+<!--
   - [item]( link ){:target="_blank"}
+  - [item]( link ){:target="_blank"}
+-->
 
+  - [Notebook report]( /assets/projects/1/sample.html ){:target="_blank"} 
+  - [Getting started with R and R-spatial](https://bakaniko.github.io/foss4g2022-getting-started-rspatial){:target="_blank"}
+  - [Spatial Data Science](https://r-spatial.org/book){:target="_blank"}
+  - [Geocomputation with R](https://r.geocompx.org){:target="_blank"}
+  - [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html){:target="_blank"}
+  - [Open spatial datasets](https://www.paulamoraga.com/book-spatial/r-packages-to-download-open-spatial-data.html) (see https://rspatialdata.github.io/index.html){:target="_blank"}
+  - [R packages for spatial data analyses](https://cran.r-project.org/web/views/Spatial.html){:target="_blank"}
 
+__Online tutorials:__  
 
+  - [R for Data Science](https://r4ds.had.co.nz){:target="_blank"}  
+  - [Quick R](https://www.statmethods.net){:target="_blank"}  
+  - [Learn the tidyverse](https://www.tidyverse.org/learn/){:target="_blank"}
+  - [R markdown cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/){:target="_blank"}
 
 
 
