@@ -7,7 +7,7 @@ categories: [ Thoughts ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - thoughts
   # - tamplate-tag-2
