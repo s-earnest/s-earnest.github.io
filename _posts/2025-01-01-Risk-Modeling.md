@@ -119,6 +119,35 @@ Risk modeling is the process of identifying, analyzing, and managing potential r
 The choice of risk modeling method depends largely on the specific context, the nature of the risks involved, and the available data. In practice, a combination of qualitative and quantitative methods is often used to provide a more comprehensive view of risk. For example, a project manager might use a risk matrix to qualitatively assess risks and then apply Monte Carlo simulation to quantitatively model the potential outcomes.
 
 
+example loan 2015 dataset 
+example loan from 2007 - 2014 dataset
+
+
+
+## SUMMARY
+Risk modeling is the process of identifying, analyzing, and managing potential risk for an organization, project, or system. There are vairous methods used to assess and quantify the risk, depending on the context, objectives, and type of business. 
+
+
+## METHODS
+
+1. Qualitative risk modeling 
+
+
+
+2. Quanatitive risk modeling 
+
+
+
+
+
+## FINAL THOUGHTS
+
+
+
+
+
+
+
 -->
 
 
