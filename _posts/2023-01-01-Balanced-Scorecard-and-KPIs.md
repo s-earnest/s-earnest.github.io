@@ -23,7 +23,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-<!-->
+<!--
 
 [🟣]
 
@@ -68,93 +68,98 @@ In summary, the **Balanced Scorecard** offers a broad strategic framework, while
 
 
 
-
 ### Financial Goals
 
 This is the core perspective for financial goals, where you focus on profitability, revenue growth, cost management, and investment strategy. Specific financial goals include:
 
-Revenue Growth:
+### Revenue Growth:
 
-Target: Increase annual revenue by 10% year-over-year.
-Key Metrics: Total revenue, revenue by segment, revenue per customer.
+**Target**: Increase annual revenue by 10% year-over-year.
+__Key Metrics:__ Total revenue, revenue by segment, revenue per customer.
 Profitability:
 
-Target: Achieve a net profit margin of 15% by the end of the fiscal year.
-Key Metrics: Gross profit margin, operating profit margin, net profit.
+**Target**: Achieve a net profit margin of 15% by the end of the fiscal year.
+__Key Metrics:__ Gross profit margin, operating profit margin, net profit.
 Cost Efficiency:
 
-Target: Reduce operating costs by 5% without affecting quality.
-Key Metrics: Cost of goods sold (COGS), operational expenses, cost-to-income ratio.
+**Target**: Reduce operating costs by 5% without affecting quality.
+__Key Metrics:__ Cost of goods sold (COGS), operational expenses, cost-to-income ratio.
 Return on Investment (ROI):
 
-Target: Increase ROI by 20% within two years.
-Key Metrics: ROI, Return on Equity (ROE), Return on Assets (ROA).
+**Target**: Increase ROI by 20% within two years.
+__Key Metrics:__ ROI, Return on Equity (ROE), Return on Assets (ROA).
 Cash Flow:
 
-Target: Improve cash flow by optimizing working capital and reducing the receivables cycle.
-Key Metrics: Cash conversion cycle, working capital ratio, free cash flow.
+**Target**: Improve cash flow by optimizing working capital and reducing the receivables cycle.
+__Key Metrics:__ Cash conversion cycle, working capital ratio, free cash flow.
 Capital Allocation:
 
-Target: Increase returns on capital investments by prioritizing high-impact projects.
-Key Metrics: Internal Rate of Return (IRR), Net Present Value (NPV), Capital expenditure to revenue ratio.
+**Target**: Increase returns on capital investments by prioritizing high-impact projects.
+__Key Metrics:__ Internal Rate of Return (IRR), Net Present Value (NPV), Capital expenditure to revenue ratio.
+
 
 
 ### Customer needs and satisfaction
 
 While the financial perspective drives profitability, customer satisfaction and loyalty directly impact those financial outcomes. The goal is to align financial objectives with customer expectations and market demand.
 
-Customer Satisfaction:
+### Customer Satisfaction:
 
 Target: Achieve a customer satisfaction score of 90% or above.
-Key Metrics: Net Promoter Score (NPS), customer retention rate, customer satisfaction surveys.
+__Key Metrics:__ Net Promoter Score (NPS), customer retention rate, customer satisfaction surveys.
 Customer Acquisition:
 
-Target: Increase customer base by 15% over the next 12 months.
-Key Metrics: Customer acquisition cost (CAC), number of new customers, customer lifetime value (CLTV).
+**Target**: Increase customer base by 15% over the next 12 months.
+__Key Metrics:__ Customer acquisition cost (CAC), number of new customers, customer lifetime value (CLTV).
 Market Share:
 
-Target: Capture 5% more market share in the next two years.
-Key Metrics: Market share growth, competitive positioning, market penetration rates.
+**Target**: Capture 5% more market share in the next two years.
+__Key Metrics:__ Market share growth, competitive positioning, market penetration rates.
+
 
 ### Internal processes measures
 
 This perspective ensures that the internal operations of the company are aligned with the financial goals. Improving efficiency, reducing waste, and optimizing operations can directly improve financial outcomes.
 
-Operational Efficiency:
 
-Target: Increase operational efficiency by reducing process cycle time by 10%.
-Key Metrics: Process time reduction, automation, error rates, throughput.
+### Operational Efficiency:
+
+**Target**: Increase operational efficiency by reducing process cycle time by 10%.
+__Key Metrics:__ Process time reduction, automation, error rates, throughput.
 Productivity Improvements:
 
-Target: Achieve a 15% increase in employee productivity.
-Key Metrics: Output per employee, employee engagement, process improvements.
+**Target**: Achieve a 15% increase in employee productivity.
+__Key Metrics:__ Output per employee, employee engagement, process improvements.
 Innovation and Quality Control:
 
-Target: Launch 2 new products per year that contribute 10% to total revenue.
-Key Metrics: Number of new product launches, product defect rates, product development cycle time.
+**Target**: Launch 2 new products per year that contribute 10% to total revenue.
+__Key Metrics:__ Number of new product launches, product defect rates, product development cycle time.
 
 
 ### Employee growth and satisfaction
 
 This perspective focuses on the internal capabilities of the organization to support future financial goals. Investing in human capital, technology, and organizational culture is key to long-term success.
 
-Employee Training and Development:
+### Employee Training and Development:
 
-Target: Implement a leadership training program for all mid-level managers.
-Key Metrics: Training hours per employee, employee skills improvement, leadership retention rate.
+**Target**: Implement a leadership training program for all mid-level managers.
+__Key Metrics:__ Training hours per employee, employee skills improvement, leadership retention rate.
 Innovation and Technology:
 
-Target: Increase technology adoption by 20% across operations.
-Key Metrics: Technology implementation, R&D spending, patents filed.
+**Target**: Increase technology adoption by 20% across operations.
+__Key Metrics:__ Technology implementation, R&D spending, patents filed.
 Organizational Culture:
 
-Target: Foster a culture of continuous improvement and innovation.
-Key Metrics: Employee engagement, turnover rate, innovation index.
+**Target**: Foster a culture of continuous improvement and innovation.
+__Key Metrics:__ Employee engagement, turnover rate, innovation index.
 
 
 
 
 
+
+
+<!-- 
 
 
 This perspective focuses on the internal capabilities of the organization to support future financial goals. Investing in human capital, technology, and organizational culture is key to long-term success.
@@ -203,12 +208,6 @@ By integrating financial goals with the other BSC perspectives, organizations ca
 
 
 
-
-<!-- 
-
-
-
-
 -->
 
 
@@ -220,66 +219,11 @@ By integrating financial goals with the other BSC perspectives, organizations ca
 
 
 
-### 
-
-> This is a note.
-{: .prompt-tip }
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
-
-
-
-# Loading and exploring the data
-
-  This is 1
-
-# Cleaning and wrangling data
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
-
-
-# Working with time series
-
-  This is a section
-
-# Creating new metrics
-
-  This is a section
-
-
-
-
-
-## Reference
-
-  - item 
-  - item 
-
-
-
-
-
-
-
-
 
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
-
-
-## Footnote
-
-[^1]: The footnote source
 
 
 
