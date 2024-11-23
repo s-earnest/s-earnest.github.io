@@ -10,7 +10,7 @@ mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - kpi
-  - balance-scored
+  - balanced-scorecard
   - business-performance
   - notes
 
