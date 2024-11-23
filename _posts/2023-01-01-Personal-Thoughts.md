@@ -1,13 +1,13 @@
 ---
 title: ' Thoughts Note '
 author: ernest
-date: 2025-01-10 16:20:02 -05:00
-last_modified_at: 2023-11-30
+date: 2024-12-10 16:20:02 -05:00
+last_modified_at: 2024-12-13
 categories: [ Thoughts ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - thoughts
   # - tamplate-tag-2
@@ -43,42 +43,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 {: .prompt-tip }
 
 
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
-
-
-
-# Loading and exploring the data
-
-  This is 1
-
-# Cleaning and wrangling data
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
-
-
-# Working with time series
-
-  This is a section
-
-# Creating new metrics
-
-  This is a section
 
 
 
 
 
-## Reference
-
-  - [item]( link ){:target="_blank"} 
-  - [item]( link ){:target="_blank"}
 
 
 
