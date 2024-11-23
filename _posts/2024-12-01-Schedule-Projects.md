@@ -95,7 +95,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System EDA ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ US College Scorecard Data ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Customer Analytics ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Logistic Regression |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |

@@ -1,8 +1,8 @@
 ---
-title: ' Market Segmentation Analysis  '
+title: ' Customer Analytics Case  '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
-last_modified_at: 2023-11-30
+last_modified_at: 2024-11-30
 categories: [ Work ]
 pin:     # true
 math: true
@@ -204,6 +204,9 @@ for i in range(10):
 
 
 
+Logistic Regression is a classificaiton method which outputs a probability between 0 and 1
+PCA 
+Classifeir 
 
 
 
