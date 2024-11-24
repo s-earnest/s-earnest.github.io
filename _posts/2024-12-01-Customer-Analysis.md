@@ -13,6 +13,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - clustering-analysis
   - market-segmentation
   - customer-analytics
+  - price-elasticity
+  
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -208,7 +210,7 @@ Logistic Regression is a classificaiton method which outputs a probability betwe
 PCA 
 Classifeir 
 
-
+Price elasticity of purchase probability is the % change in purchase probability in response to a 1% change in price.
 
 
 
