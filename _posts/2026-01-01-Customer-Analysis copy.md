@@ -120,13 +120,7 @@ CONCLUDE
 ### Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum[^1] and don't have an internet connection right[^1] now. 
-
-# Keywords
-  - clustering analysis
-  - logistic regression
-  - price elasticity
-  - classifier
+This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
 
 
 # Introduction 
@@ -211,6 +205,12 @@ for i in range(10):
 
 
 
+Logistic Regression is a classificaiton method which outputs a probability between 0 and 1
+PCA 
+Classifeir 
+
+Price elasticity of purchase probability is the % change in purchase probability in response to a 1% change in price.
+
 
 
 
@@ -226,5 +226,5 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 ## Footnote
 
 [^1]: The footnote source
-[^1]: Logistic Regression is a classificaiton method which outputs a probability between 0 and 1
-[^1]: Price elasticity of purchase probability is the % change in purchase probability in response to a 1% change in price
+
+
