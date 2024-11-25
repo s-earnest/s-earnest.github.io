@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - clustering-analysis
@@ -117,10 +117,10 @@ CONCLUDE
 
 
 
-### Summary
+# Summary
 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum[^1] and don't have an internet connection right[^1] now. 
+This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum[^2] and don't have an internet connection right[^3] now. 
 
 # Keywords
   - clustering analysis
@@ -158,20 +158,27 @@ print("Hello, world!")
 for i in range(10):
     print(i)
 ```
-## Images
-
-<div style="text-align: center;">
-
-![alt text]( /assets/sample/coming-soon.png "Our logo")
-
-</div>
-
-
-![example {caption=Caption - changeme.}]( /assets/sample/coming-soon.png )
 
 
 
 
+# Images
+
+
+
+![name of the image](  /assets/sample/coming-soon.png  )
+*<small> The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum. </small>*
+
+
+
+<!-- 
+
+
+Top caption 
+Logistic Regression is a classificaiton method which outputs a probability between 0 and 1. Logistic Regression is a classificaiton method which outputs a probability between 0 and 1. Logistic Regression is a classificaiton method which outputs a probability between 0 and 1 ![alt attribute goes here!]( /assets/sample/coming-soon.png )
+
+
+-->
 
 # Methodology
 
@@ -226,5 +233,18 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 ## Footnote
 
 [^1]: The footnote source
-[^1]: Logistic Regression is a classificaiton method which outputs a probability between 0 and 1
-[^1]: Price elasticity of purchase probability is the % change in purchase probability in response to a 1% change in price
+[^2]: Logistic Regression is a classificaiton method which outputs a probability between 0 and 1
+[^3]: Price elasticity of purchase probability is the % change in purchase probability in response to a 1% change in price
+
+[^3]: Machine Learning is a field of study that gives computers the ability to learn without being explicitly programmed.
+  - main techniques:
+    - regression
+    - classification = categorical = quantity discret output  / 
+    - clustering = 
+
+count 90% commercial used in the market 
+
+
+
+
+
