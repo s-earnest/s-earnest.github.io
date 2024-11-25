@@ -10,7 +10,8 @@ mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - schedule
-  - projects
+  - work
+  - case-study
 # -
  
 # image: 
@@ -21,16 +22,16 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-> This is the schedule for the current and future data analysis projects. This page is constantly updated on the progress of the projects. Projects are calculated on hours end-to-end worked for each of them. 
+> This is the schedule for the current and future data analysis projects and/or case study. This page is constantly updated on the progress of the projects. Projects are calculated on hours end-to-end worked for each of them. 
 {: .prompt-info }
 
 
 
+<!--
+
 
 ### Schedule Projects
 
-
-<!--
 
 | Details                      | Analysis Type    | Date   | Status |
 |:-----------------------------|:-----------------|:-------|-------:|
@@ -75,33 +76,33 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 | Notebook                      | Analysis Type    | Date   | Status | Methods |
 |:-----------------------------|:-----------------|:-------|-------:|-------:|
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"} | [ Credit-Card-Fraud-Detection ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Delays-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Income-House-Forecasting ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Passenger-Forecasting ]( https://s-ernest.com/){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ French-Champagne-Sales ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Crime-in-Vancouver ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Market-Basket-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Energy-Consumption-Forecasting ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike-Sharing-System-Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Titanic ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🟠 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Text-Mining ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Telco-Customer-Churn ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Urban-Traffic-Network ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ HR-Employee-Attrition ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Baggage-Complaints-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Time Series ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System EDA ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ US College Scorecard Data ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"} | [ Credit-Card-Fraud-Detection ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Delays-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Income-House-Forecasting ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Airlines-Passenger-Forecasting ]( https://s-ernest.com/){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ French-Champagne-Sales ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Crime-in-Vancouver ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Market-Basket-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Energy-Consumption-Forecasting ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike-Sharing-System-Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Titanic ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🟠 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Text-Mining ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Telco-Customer-Churn ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Urban-Traffic-Network ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ HR-Employee-Attrition ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Baggage-Complaints-Analysis ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Analysis ]( https://s-earnest.github.io/posts/Coming-soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System Time Series ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Bike Sharing System EDA ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ US College Scorecard Data ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
 | [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ Customer Analytics ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Logistic Regression |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
-| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Status |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
+| [Codebook](/assets/docs/paper1.pdf){:target="_blank"}  | [ TBD ]( https://s-earnest.github.io/posts/Coming-Soon/ ){:target="_blank"} | date  | 🔴 | Classification, classification, regression |
 
 
 

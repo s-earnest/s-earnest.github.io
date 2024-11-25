@@ -117,7 +117,7 @@ CONCLUDE
 
 
 
-### Summary
+# Summary
 
 
 This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
@@ -134,6 +134,39 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
     Indicate if the data is from a public or a private license and if it is trusted.
     Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
 
+
+# **Python Libraries**
+ 
+* **pandas**: pandas is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool built on top of the Python programming language. Refer to [documentation](https://pandas.pydata.org/) for more information.
+ 
+* **NumPy**: The fundamental package for scientific computing with Python. Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today. NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more. Refer to [documentation](https://numpy.org/) for more information. pandas and NumPy are together used for most of the data analysis and manipulation in Python.
+ 
+* **Matplotlib**: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Refer to [documentation](https://matplotlib.org/) for more information.
+ 
+* **seaborn**: Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. Refer to [documentation](https://seaborn.pydata.org/) for more information.
+ 
+* **scikit-learn**: Simple and efficient tools for predictive data analysis
+accessible to everybody and reusable in various contexts.
+It is built on NumPy, SciPy, and matplotlib to support machine learning in Python. Refer to [documentation](https://scikit-learn.org/stable/) for more information.
+ 
+* **statsmodels**: statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests and statistical data exploration. Refer to [documentation](https://www.statsmodels.org/stable/index.html) for more information.
+
+
+## **Data Dictionary**
+
+* Team: name of the team
+* Points_Scored: points scored by the team
+* Weightlifting_Sessions_Average: weighlifting sessions on an average done by the team
+* Yoga_Sessions_Average: yoga sessions on an average done by the team
+* Laps_Run_Per_Practice_Average: laps run on an average by the team
+* Water_Intake: total water intake
+* Players_Absent_For_Sessions: number of players absent for sessions
+
+
+## **Exploratory Data Analysis**
+Exploratory Data Analysis, commonly known as EDA, is a technique to analyze the data with visuals. It involves using statistics and visual techniques to identify particular trends in data. 
+ 
+It is used to understand data patterns, spot anomalies, check assumptions, etc. The main purpose of EDA is to help look into the data before making any hypothesis about it.
 
 
 
