@@ -1,5 +1,5 @@
 ---
-title: ' Customer Analytics Case  '
+title: ' Sports Team Analytics Case  '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2024-11-30
@@ -11,8 +11,8 @@ published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - clustering-analysis
-  - customer-analytics
-  - price-elasticity
+  - sports-analytics
+  # - item
 
 
 # image: 
@@ -224,9 +224,14 @@ for i in range(10):
 
 
 
+# Final thoughts
+
+  - 
 
 
-## Resources
+
+
+# Resources
 
   - [ Notebook ]( /assets/projects/wheat_seeds.html ){:target="_blank"}
   - [ nbviewer ]( https://nbviewer.org/ ){:target="_blank"}
