@@ -14,7 +14,7 @@ order: 4
 
 
 
-### What drive me in life? 
+# What drive me in life? 
 
 What's really important to me? How do I want to be remembered? What gives me energy?  are the questions that I pose myself every day, and the short answer is helping people in a digital world where information and technology has a huge impact in human on day-to-day activity.
 
@@ -26,6 +26,21 @@ I have expertise spans across various facets of data analysis and marketing stra
 
 What sets me apart is the dedication to continual learning. I constantly seek out new knowledge, staying abreast of the latest trends and technologies in both fields. This continuous expansion of the skill set is not solely for personal growth; it's also about empowering others. By breaking down sophisticated topics into easier-to-grasp concepts, I help peers and other people alike to light up with "aha" moments, fostering a learning environment that is both informative and inspiring.
 
+
+
+# Online
+I promise not to junk your emails or feedback as I rarely post on social media these days. Feel free to keep in touch via email or on any of the online service below to connect. 
+
+
+# Offline
+
+When I am not in front of a computer, I spend time riding Onewheel around Vancouver, or going out for dinner or to watch a good movie at the theatre. As you can see, simple things in life make me happy.
+
+
+
+### Ways to Contact Me. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
