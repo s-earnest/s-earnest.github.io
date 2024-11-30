@@ -37,13 +37,13 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-### 
+# Disclainer
 
 > This is a practical case study.
 {: .prompt-tip }
 
 
-### Summary
+# Summary
 
 
 This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
@@ -107,7 +107,7 @@ __Online tutorials:__
 
 
 
-### Contact. 
+# Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
