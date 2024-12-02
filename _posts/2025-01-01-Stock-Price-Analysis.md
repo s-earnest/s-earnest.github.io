@@ -24,9 +24,10 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 # DISCLAIMER
-  - This is theory of investment strategies presented in this educational purpose only. They are not intended to be, and should not be considered as, financial advice or an invitation to invest real money. Trading and investing in financial markets involve significant risks, and you should consult with a qualified financial advisor before making any investment decisions.
 
-  - The education institution and I are not responsible for any actions taken based on the educational content, including but not limited to financial losses or other types of damages. Any application of the techniques for real-world investing is at the individual's own risk and discretion. will not be held liable for any misuse of the techniques or information provided, including any financial losses incurred. Always perform your own due diligence and consult professionals when considering any financial investments. The only purpose is to demonstrate the workflow process.
+  - This is theory of investment strategies and presented in this example for educational purpose only. This is not intended to be, and should not be considered as, financial advice or an invitation to invest real money. Trading and investing in financial markets involve significant risks, and you should consult with a qualified financial advisor before making any investment decisions.
+
+  - The education institution and I are not responsible for any actions taken based on the educational content of this example, including but not limited to financial losses or other types of damages. Any application of the techniques for real-world investing is at the **individual's own risk** and **discretion**. I will not be held liable for any misuse of the techniques or information provided, including any financial losses incurred. Always perform your own due diligence and consult professionals when considering any financial investments. The only purpose is to demonstrate the workflow process.
 
 
 
@@ -52,14 +53,12 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ### Summary
 
-
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. 
+  - Description 
 
 
 # Introduction 
-  Business task
-  Problem statement
 
+  - Descritpion 
 
 
 
@@ -74,13 +73,13 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
   - (6) Modifying the SMA
   - (7) Using SMA as Trading Strategy
   - (8) SMA and the Lag issue
-  - (9) SMA and the Lag issue
-  - (10) SMA and the Lag issue
-  - (11) SMA and the Lag issue
-  - (12) SMA and the Lag issue
-  - (13) SMA and the Lag issue
-  - (14) SMA and the Lag issue
-  - (15) SMA and the Lag issue
+  - (9) Double Simple Moving 
+  - (10) Slop analysis
+  - (11) EMA
+  - (12) DEMA
+  - (13) HMA
+  - (14) DMI 
+  - (15) MACD
 
 
 
@@ -110,6 +109,9 @@ print("Variances:", variances)
 ```
 
 
+
+![name of the image](  /assets/sample/coming-soon.png  )
+*<small> Logistic Regression is a classificaiton method which outputs a probability between 0 and 1. Logistic Regression is a classificaiton method which outputs a probability between 0 and 1. Logistic Regression is a classificaiton method which outputs a probability between 0 and 1 </small>*
 
 
 
@@ -570,13 +572,16 @@ for i in range(10):
 
 
 
-# (9) Beyond SMA
-In this notebook, I will provide you with several other techniques used to better model the quick changes in prices to avoid the delayed decisions inherent of SMA-based models.
-
 
 
 # (9) Double Simple Moving Average
 The Double Simple Moving Average (SMA) strategy is a classic trading technique used in stock trading and other financial markets. This strategy employs two moving averages: a short-term SMA and a long-term SMA.
+
+
+## Beyond SMA
+In this notebook, I will provide you with several other techniques used to better model the quick changes in prices to avoid the delayed decisions inherent of SMA-based models.
+
+
 
   - **Short-term SMA**: A shorter period, such as 20 days, is commonly used for this SMA. It reacts more quickly to recent price changes.
   - **Long-term SMA**: A longer period, such as 50 days or 200 days, is commonly used for this SMA. It reacts more slowly and smoothens out price data over a longer time frame.
@@ -639,6 +644,14 @@ plt.show()
 
 
 # (10) Slope Analysis
+
+
+
+
+
+
+
+
 
 ```Python
 
@@ -712,7 +725,7 @@ plt.show()
 
 
 
-# (11) EMA( Exponential Moving Average)[^4]
+# (11) EMA[^4] (Exponential Moving Average)
 The class below will estimate the optimal short and long windows for EMA using the first five months of data, then apply those to trade the stock for the last seven months of the year. I've also included plotting and performance measurement.
 
 **NOTE:** The symbol for the gold/death crossovers are placed on the actual stock price used for the transaction. This will make the model more transparent.
@@ -758,8 +771,10 @@ plt.show()
 
 
 
-# (12) DEMA (Double Exponential Moving Average)[^6]
+# (12) DEMA[^6] (Double Exponential Moving Average)
  Below is a Python class that uses the Double Exponential Moving Average (DEMA) trading strategy. The class includes methods for estimating the best short and long window parameters using the first five months of the data, as well as for applying the DEMA strategy and plotting the stock prices, DEMA lines, and buy/sell signals.
+
+
 
 
 ```Python
@@ -806,7 +821,8 @@ plt.show()
 
 
 
-# (13) Hull Moving Average (HMA)[^7]
+# (13) HMA[^7] Hull Moving Average 
+
 The Hull Moving Average (HMA) is a type of moving average that is designed to be more responsive to recent price movements, making it faster than a Simple Moving Average (SMA) or an Exponential Moving Average (EMA). The HMA aims to reduce lag in moving averages, which can improve its effectiveness for both trend-following and mean-reversion strategies.
 
 Here's how the HMA is typically used for trading:
@@ -891,7 +907,7 @@ plt.show()
 
 
 
-# (14) Directional Moving Index (DMI)[^8] or Average Directional Index (ADX)[^5] / are name the same 
+# (14) DMI[^8] Directional Moving Index or Average Directional Index (ADX)[^5] / are name the same 
 
 The Average Directional Index (ADX) is a technical indicator that quantifies the strength of a trend in a financial instrument. It doesn't provide information on the direction of the trend, but it can help traders to identify strong trends that are likely to continue.
 
@@ -1020,7 +1036,7 @@ if __name__ == '__main__':
 
 
 
-# (15) Moving Average Convergence Divergence (MACD)[^4]
+# (15) MACD[^4] Moving Average Convergence Divergence 
 The Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price. The MACD is calculated by subtracting the 26-period Exponential Moving Average (EMA) from the 12-period EMA. A nine-day EMA of the MACD, called the "signal line," is then plotted on top of the MACD line, which can function as a trigger for buy and sell signals.
 Strategy:
 
