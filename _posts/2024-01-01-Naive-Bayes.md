@@ -1,5 +1,5 @@
 ---
-title: ' Naive Bayes '
+title: ' Naive-Bayes Algorithm '
 author: ernest
 date: 2024-02-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -22,18 +22,21 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-### Summary
+
+🔴 
+
+# Summary
 
   This algorithm performs classification according to Bayes Theorem. The model assisgns a sample to the class with the largest conditional probability.
 
 
 
-### Inputs
+# Inputs
 
   - Numerical
   - Categorical
 
-### Preprocessing
+# Preprocessing
 
   - Resistant to overfifting
   

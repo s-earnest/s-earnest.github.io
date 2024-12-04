@@ -1,7 +1,7 @@
 ---
 title: ' Parametrics and Non-parametric Models '
 author: ernest
-date: 2022-01-23 16:20:02 -05:00
+date: 2022-06-23 16:20:02 -05:00
 last_modified_at:  2024-03-07
 categories: [ Notes ]
 pin:     # true

@@ -44,6 +44,8 @@ The independent variable is the presumed cause in an experiment or study, while 
 
 <!-- 
 
+🟢 
+
 # Types of Independent Variables
 Types of Independent Variables are as follows:
 

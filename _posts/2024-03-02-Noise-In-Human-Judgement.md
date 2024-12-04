@@ -1,7 +1,7 @@
 ---
 title: ' Noise in Human Judgement '
 author: ernest
-date: 2024-03-02 16:20:02 -05:00
+date: 2020-12-28 16:20:02 -05:00
 last_modified_at: 2024-03-03
 categories: [ Articles ]
 pin:     # true
@@ -46,14 +46,8 @@ Overall, reducing bias during data analysis requires a combination of technical 
 
 
 
-
-
-
-![Alt text](/assets/articles/noise.png)
-
-Source Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From: "Noise" Oct. 2016
-
-
+![ Noise ](  /assets/articles/noise.png  )
+*<small> Source Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From: "Noise" Oct. 2016 </small>*
 
 
 
@@ -61,6 +55,15 @@ Source Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From
 
 
 <!-- 
+
+🟢 
+
+
+![Alt text](/assets/articles/noise.png)
+
+Source Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From: "Noise" Oct. 2016
+
+
 
 ## Footnote
 
@@ -71,12 +74,14 @@ Source Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From
 caption: source: Daniel Kahneman, Andrew M. Rosenfield, Linnea Gandhi, and Tom Blaser From: "Noise" Oct. 2016
 
 
- -->
-
 
 
 ### Contact. 
 
 Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
+ -->
+
+
 
 

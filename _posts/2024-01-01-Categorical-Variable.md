@@ -50,6 +50,7 @@ Ordinal variables, on the other hand, have categories that can be ordered or ran
 
 <!--
 
+🟢
 
 # Applications of Categorical Variable
 

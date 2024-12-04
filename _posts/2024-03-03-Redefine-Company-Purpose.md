@@ -10,6 +10,7 @@ mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - purpose
+  - notes
   # - tamplate-tag-2
   # - template-tag-3
 
@@ -32,11 +33,6 @@ I think that we should start with people in the organization, then go to custome
 Yes, because we've all realized the humanity of people around us is first.
 
 
-
-
-### Contact information. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 

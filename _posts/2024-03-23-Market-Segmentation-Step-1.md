@@ -1,7 +1,7 @@
 ---
 title: ' Market Segmentation - Step 1 '
 author: ernest
-date: 2020-03-10 16:20:02 -05:00
+date: 2020-04-16 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
@@ -15,16 +15,18 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - deciding
 
 image: 
-  path: /assets/sample/coming-soon.png
+  # path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png
   # alt: Photo by Austin Chan on Unplash.
 
 ---
 
 
+🔴 
+
 
 ## Summary
-   Market segmentation is a critical process in marketing that involves a population target into small groups, which are more manageable based on criterias. 
+   Step 1 is defining the objective and goals on the market segmentation. This is a critical process in marketing that involves a population target into small groups, which are more manageable based on criterias. 
 
 
 ## Description
@@ -70,25 +72,9 @@ image:
 
 
 
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
-
-
-
-
-
-
-
 <!-- 
+
+🟢 
 
 The market segmentation deciding process typically involves the following steps:
 
@@ -172,8 +158,7 @@ By following these steps, organizations can effectively segment their target mar
 
 
 
-
-
-
 -->
+
+
 

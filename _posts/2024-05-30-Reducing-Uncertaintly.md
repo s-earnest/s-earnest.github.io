@@ -1,7 +1,7 @@
 ---
 title: ' Reducing Uncertainty '
 author: ernest
-date: 2021-04-26 16:20:02 -05:00
+date: 2020-04-25 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true

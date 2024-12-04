@@ -1,7 +1,7 @@
 ---
 title: ' Theory Of Constraints '
 author: ernest
-date: 2021-10-31 16:20:02 -05:00
+date: 2021-10-12 16:20:02 -05:00
 last_modified_at: 2024-02-23
 categories: [ Articles ]
 pin:     # true
@@ -63,9 +63,6 @@ In conclusion, the Theory of Constraints offers a valuable framework for optimiz
 
 
 
-
-
-
 <!-- 
 
 ## Footnote
@@ -75,13 +72,4 @@ In conclusion, the Theory of Constraints offers a valuable framework for optimiz
 
  -->
  
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
-
-
 
