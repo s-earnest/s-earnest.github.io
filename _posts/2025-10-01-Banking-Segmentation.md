@@ -12,7 +12,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # - item
   - clustering-analysis
   - customer-analytics
-  - price-elasticity
+  - gaussian-mixture-model
+  - gmm model
 
 
 # image: 
@@ -21,6 +22,28 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
