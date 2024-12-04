@@ -1,8 +1,8 @@
 ---
 title: ' Balanced Scorecard and Key Performance Indicators '
 author: ernest
-date: 2025-02-02 16:20:02 -05:00
-last_modified_at: 2025-02-02
+date: 2021-02-08 16:20:02 -05:00
+last_modified_at: 2024-02-02
 categories: [ Notes ]
 pin:     # true
 math: true
@@ -13,6 +13,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - balanced-scorecard
   - business-performance
   - notes
+  - focus 
+
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -23,10 +25,32 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+
+
+# Definition
+
+Balanced Scorecard (BSC) and Key Performance Indicators (KPIs) are common management tools used in business to align acitivities with organization strategy, a measure of performance, and drive improvements. 
+
+
+# Process
+
+The strategic management framework provide a comprehensive view of an organization performance. It expands more than the traditional financial metrics by incorporating non-financial aspects and making it a more holistic approach. The BSC focus on four (4) key perspectives: Financial perspective, customer perspective, internal perspective and finally the employees learning and growth perspective.
+
+Each perspective includes the objective, measures, targets and initiatives algniment with the entire organization including the strategic goals. Ths balance helps the organization not only track the financial aspect of outcomes but also monitor customer satisfaction, internal processess and long-term capabilities. 
+
+
+In summary, the **Balanced Scorecard** offers a broad strategic framework, while **KPIs** provide the specific metrics to measure success across various areas of performance. Together, they ensure both strategic alignment and operational focus. It helps to keep focus on what's important for the company. 
+
+
+
+
+
+
+
+
 <!--
 
-[🟣]
-
+🟢 
 
 The **Balanced Scorecard (BSC)** and **Key Performance Indicators (KPIs)** are popular management tools used to align business activities with organizational strategy, measure performance, and drive improvements. Here’s a brief explanation of each technique:
 
@@ -53,8 +77,6 @@ By focusing on KPIs, companies can track progress towards achieving strategic ob
 
 In summary, the **Balanced Scorecard** offers a broad strategic framework, while **KPIs** provide the specific metrics to measure success across various areas of performance. Together, they ensure both strategic alignment and operational focus.
 
-
--->
 
 
 ## Summary
@@ -153,14 +175,7 @@ Organizational Culture:
 **Target**: Foster a culture of continuous improvement and innovation.
 __Key Metrics:__ Employee engagement, turnover rate, innovation index.
 
-
-
-
-
-
-
-<!-- 
-
+---
 
 This perspective focuses on the internal capabilities of the organization to support future financial goals. Investing in human capital, technology, and organizational culture is key to long-term success.
 
@@ -209,20 +224,6 @@ By integrating financial goals with the other BSC perspectives, organizations ca
 
 
 -->
-
-
-
-### Stay focused on what is important
-
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 

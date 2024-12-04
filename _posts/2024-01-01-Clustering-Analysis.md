@@ -31,11 +31,26 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 -->
 
-🔴 
 
 **Clustering analysis** is an unsupervised machine learning technique used to group a set of objects or data points into clusters, such that objects within the same cluster are more similar to each other than to those in other clusters. The primary goal of clustering is to uncover inherent structures in the data, making it useful in a variety of applications like customer segmentation, anomaly detection, and image compression.
 
 ### Key Concepts:
+
+The clustering measures the similarity, the euclidean distance but data points, the Manhattan distance (absolute difference between coordinates) and the cosine similarity (cosine of the angle between two vectors). Clustering analysis has a multitude of applications, for example in customer satisfaction, anomaly detection, document clustering,
+
+But also has its own challenges like choosing the number of clusters, the scalability and interpretability as high dimensioal spaces, can be difficult to interpret. 
+
+Overall, clustering is a powerfull too for exploratory data analysis and unsupervided learning, helping to uncover hidden patterns in complex data sets. 
+
+
+
+
+
+
+
+<!--
+
+🟢 
 
 1. **Similarity Measure**: Clustering relies on defining a measure of similarity (or distance) between data points. Common distance metrics include:
    - **Euclidean distance**: Measures the straight-line distance between two points in a multi-dimensional space.
@@ -67,74 +82,12 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 Overall, clustering is a powerful tool for exploratory data analysis and unsupervised learning, helping to uncover hidden patterns in complex data sets.
 
 
+-->
 
 
 
 
 
-
-
-
-### 
-
-> This is a note.
-{: .prompt-tip }
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
-
-
-
-# Loading and exploring the data
-
-  This is 1
-
-# Cleaning and wrangling data
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
-
-
-# Working with time series
-
-  This is a section
-
-# Creating new metrics
-
-  This is a section
-
-
-
-
-
-## Reference
-
-  - [item]( link ){:target="_blank"} 
-  - [item]( link ){:target="_blank"}
-
-
-
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
-
-## Footnote
-
-[^1]: The footnote source
 
 
 
