@@ -1,15 +1,15 @@
 ---
-title: ' Sports Team Analytics Case  '
+title: ' Sports Team Analytics Case (9) '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2024-11-30
-categories: [ Work ]
+categories: [  ]
 pin:     # true
 math: true
 mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - work
+  - learning
   - clustering-analysis
   - sports-analytics
   # - item
@@ -21,6 +21,17 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,16 +196,18 @@ print("Hello, world!")
 for i in range(10):
     print(i)
 ```
-## Images
-
-<div style="text-align: center;">
-
-![alt text]( /assets/sample/coming-soon.png "Our logo")
-
-</div>
 
 
-![example {caption=Caption - changeme.}]( /assets/sample/coming-soon.png )
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -243,25 +256,11 @@ for i in range(10):
 
 
 
-Logistic Regression is a classificaiton method which outputs a probability between 0 and 1
-PCA 
-Classifeir 
-
-Price elasticity of purchase probability is the % change in purchase probability in response to a 1% change in price.
 
 
 
 
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
-
-
-
-
-## Footnote
+# Footnote
 
 [^1]: The footnote source
 

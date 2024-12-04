@@ -3,15 +3,17 @@ title: ' Geospatial Analysis Global Warming  '
 author: ernest
 date: 2025-11-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Work ]
+categories: [  ]
 pin:     # true
 math: true
 mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - work
+  # - item  
   - geospatial-analysis
   # - template-tag-3
+  - learning
+
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -19,6 +21,12 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+
+
+
+
+
+
 
 
 https://raw.githubusercontent.com/datasets/covid-19/master/data/countries-aggregated.csv
@@ -114,7 +122,7 @@ CONCLUDE
 
 
 
-### Summary
+# Summary
 
 
 This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
@@ -194,17 +202,20 @@ __Online tutorials:__
 
 
 
-
-# Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+![name of the image](  /assets/sample/coming-soon.png  )
+*<small> Logistic Regression is a classificaiton method which outputs a probability between 0 and 1. Logistic Regression is a classificaiton method which outputs a probability between 0 and 1. Logistic Regression is a classificaiton method which outputs a probability between 0 and 1 </small>*
 
 
 
 
 
 
-## Footnote
+
+
+
+
+
+# Footnote
 
 [^1]: The footnote source
 
