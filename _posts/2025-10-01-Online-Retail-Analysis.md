@@ -30,6 +30,25 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+
+
+(7) Describing the segments
+  - (1) champions
+  - (2) loyal
+  - (3) need attention
+  - (4) potential
+  - (5) overall stratgy
+(8) 
+
+
+
+
+this is a real-world dataset from a online retail in the UK. 
+UCI repositiory 
+
+
+
+
 # Online Shopper Segmentation
 I will use the newly available **online_retail_ii.xlsx** dataset available at the UCI repository: https://archive.ics.uci.edu/dataset/502/online+retail+ii.
 
@@ -47,7 +66,7 @@ Fields available:
 
 
 
-```
+```Python
 
 from datetime import timedelta
 import pandas as pd
@@ -62,9 +81,9 @@ import seaborn as sns
 
 
 
-```
+```Python
 
-df_all = pd.read_excel('./online_retail_II.xlsx', sheet_name=None, index_col=None, header=0)
+df_all = pd.read_excel('./online_retail_II.xlsx', sheet_name=None, index_col=None, header=0) # upload all then we tell them what to select 
 for k, v in df_all.items():
     v['Year'] = k
 
@@ -75,8 +94,14 @@ print('# of records', len(df))
 ```
 
 
+2009 & 2010
+1/2 million records 
+very 
 
-```
+
+
+
+```Python
 df.head()
 
 ```
@@ -93,7 +118,7 @@ Because the data does not contain the value of a purchase, we need to create a *
 
 
 
-```
+```Python
 
 df['Total']=df['Quantity']*df['Price']
 df.head()
@@ -111,7 +136,7 @@ Recency is ordered differently from Frequency and Monetary: the most recent purc
 
 
 
-```
+```Python
 
 df['InvoiceDate']
 
@@ -130,7 +155,7 @@ Let's calculate the beginning of the period.
 Because this represent the most recent purchase, we will add one day to this date so that when we calculate the number of days from the most recent purchase, the record with the most recent purchase will result, as a purchase that took place in the last day instead of in the last zero days. Not a big deal, but it is more elegant.
 
 
-```
+```Python
 
 most_recent_purchase = df['InvoiceDate'].max() + timedelta(days = 1)
 print('Most recent purchase:', most_recent_purchase)
@@ -147,21 +172,24 @@ To do this, we will calculate the number of days elapsed from the most recent pu
 
 
 
-```
+```Python
 
 df_agg = df.groupby(['Customer ID'], as_index=False).agg({'InvoiceDate': lambda x: (most_recent_purchase-x.max()).days, 'Invoice': 'count', 'Total': 'sum'})
-df_agg.rename(columns={'InvoiceDate':'Recency', 'Invoice':'Frequency','Total':'Monetary'}, inplace=True)
+df_agg.rename(columns={'InvoiceDate':'Recency', 'Invoice':'Frequency','Total':'Monetary'}, inplace=True) # rename a few columns
 df_agg.head()
 
 
 ```
 
+it will help for the segmentation 
 
 
 
 
 
-Sometimes for Monetary, you can calculate the average value of an invoice instead of its total value.
+
+Sometimes for Monetary, you can calculate the average value of an invoice instead of its total value. total value vs avg on the calculation
+
 
 **Pros**:
 
@@ -212,9 +240,7 @@ For demonstration, I am reporting the line of code to average out the monetary v
 
 
 
-
-
-```
+```Python
 
 df_agg['Moneteraty_AVG'] = df_agg.Monetary/df_agg.Frequency
 df_agg.head()
@@ -228,9 +254,11 @@ df_agg.head()
 As you saw in the learning module, you want to apply the RFM analysis using a meaningful period of time: 3 months, 6 months, etc.
 
 
+identify the period of interest / we are using 6 month on data 
 
 
-```
+
+```Python
 
 # Six months worth of data
 period_in_days = 180
@@ -250,7 +278,7 @@ You so that a trick to generate the proper segmentations is to create the quinti
 
 
 
-```
+```Python
 df_agg['R'] = pd.qcut(x=df_agg['Recency'], q=5, labels = range(5, 0, -1))
 df_agg.R
 
@@ -261,7 +289,7 @@ df_agg.R
 
 ## 3.3 Generating Frequency Score
 
-```
+```Python
 
 df_agg['F'] = pd.qcut(x=df_agg['Frequency'], q=5, labels = range(1, 6))
 df_agg.F
@@ -271,7 +299,8 @@ df_agg.F
 
 ## 3.3 Generating Monetary Score
 
-```
+```Python
+
 df_agg['M'] = pd.qcut(x=df_agg['Monetary'], q=5, labels = range(1, 6))
 df_agg.M
 
@@ -282,7 +311,8 @@ df_agg.M
 
 
 
-```
+```Python
+
 df_agg.head()
 
 ```
@@ -293,7 +323,8 @@ In this example I will use the Additive method, which is the most common one.
 
 
 
-```
+```Python
+
 # The axis=1 in the sum, indicates that we want to sum the fields by column
 df_agg['RFM'] = df_agg[['R', 'F', 'M']].sum(axis=1)
 df_agg.head()
@@ -305,11 +336,13 @@ df_agg.head()
 # 5. Segmentation
 With the RFM score in place, we can simply define a function that returns the appropriate segment according to the segmentation strategy saw in the learning module.
 
-**NOTE:** That segmentation was done for explanation purposes only. The table should be adapted to the specific analysis and business context.
+**NOTE:** 
+  - That segmentation was done for explanation purposes only. The table should be adapted to the specific analysis and business context.
 
 
 
-```
+```Python
+
 def get_RFM_Segment(rfm_score):
 
   if rfm_score > 13:
@@ -330,7 +363,7 @@ df_agg.head()
 
 # 6. Display the Segmentation & Generating Summaries
 
-```
+```Python
 # Set Seaborn style
 sns.set(style="whitegrid")
 
@@ -350,7 +383,7 @@ plt.show()
 
 
 
-```
+```Python
 
 pd.set_option('display.precision', 2)
 df_agg.groupby('Segment').agg({'Recency': 'mean', 'Frequency': 'mean', 'Monetary': ['mean', 'count']})
@@ -459,7 +492,7 @@ We will perform the segmentation using the clustering algorithm kMeans as an alt
 
 
 
-```
+```Python
 
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
@@ -495,15 +528,11 @@ df_agg['Segment'] = kmeans.fit_predict(X)
 # View the resultant DataFrame
 print(df_agg)
 
-
-
 ```
 
 
 
-```
-
-
+```Python
 
 # Set Seaborn style
 sns.set(style="whitegrid")
@@ -523,7 +552,7 @@ plt.show()
 
 
 
-```
+```Python
 df_agg[df_agg.Segment == 3].describe()
 
 ```
