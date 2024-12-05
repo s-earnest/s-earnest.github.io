@@ -12,6 +12,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - logistic-regression
   - supervised-learning
   - machine-learning
+  - regression
+  
 
 # image: 
   # path: /assets/sample/coming-soon.png

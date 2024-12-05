@@ -208,3 +208,148 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 [^1]: The footnote source
 
 
+
+
+
+###
+
+
+
+
+
+
+
+# Introduction 
+  Business task
+  Problem statement
+
+
+# Data Source
+   Describe where the datasets were downloaded from.
+    Link the sites for the datasets if possible.
+    Indicate if the data is from a public or a private license and if it is trusted.
+    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
+
+
+
+
+# Outline
+  Every project seeks to answer a question effectively. 
+    introduction
+    related work
+    methods
+    experimental setup
+
+
+
+
+# Methodology
+
+  This is 1
+
+# Results
+
+  This is 2
+
+# Visualization data
+  
+  This is 4
+
+
+# Working with time series
+
+  This is a section
+
+# Creating new metrics
+
+  This is a section
+
+
+
+
+
+
+
+
+
+
+> All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
+{: .prompt-info }
+
+
+
+# Contact. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
+
+
+
+
+
+
+# Usefull resources 
+
+<!--
+  - [item]( link ){:target="_blank"}
+  - [item]( link ){:target="_blank"}
+-->
+
+  - [Notebook report]( /assets/projects/1/sample.html ){:target="_blank"} 
+  - [Getting started with R and R-spatial](https://bakaniko.github.io/foss4g2022-getting-started-rspatial){:target="_blank"}
+  - [Spatial Data Science](https://r-spatial.org/book){:target="_blank"}
+  - [Geocomputation with R](https://r.geocompx.org){:target="_blank"}
+  - [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html){:target="_blank"}
+  - [Open spatial datasets](https://www.paulamoraga.com/book-spatial/r-packages-to-download-open-spatial-data.html) (see https://rspatialdata.github.io/index.html){:target="_blank"}
+  - [R packages for spatial data analyses](https://cran.r-project.org/web/views/Spatial.html){:target="_blank"}
+
+__Online tutorials:__  
+
+  - [R for Data Science](https://r4ds.had.co.nz){:target="_blank"}  
+  - [Quick R](https://www.statmethods.net){:target="_blank"}  
+  - [Learn the tidyverse](https://www.tidyverse.org/learn/){:target="_blank"}
+  - [R markdown cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/){:target="_blank"}
+
+
+
+
+## Remote sensing
+
+- [Free satellite imagery data sources](https://gisgeography.com/free-satellite-imagery-data-list/){:target="_blank"}
+- Online portals
+  - [NASA’s earth observation datasets: EarthData](https://search.earthdata.nasa.gov/search){:target="_blank"}
+  - [Sentinel imagery: SciHub](https://scihub.copernicus.eu/){:target="_blank"}
+  - [R Package openeo](https://open-eo.github.io/openeo-r-client/){:target="_blank"}
+  - [Connect your R client to openEO](https://openeo.org) back-end servers to process big datasets before retrieving results for further analysis
+- [R Package sen2r](https://sen2r.ranghetti.info/){:target="_blank"}
+  - Download and preprocess Sentinel-2 images, including through a graphical user interface (GUI)
+
+
+## Packages installed and used
+- sf - Analyse spatial data as simple features
+- terra - Analyse raster and vector data with support for large file sizes
+- spData - Example dataset for spatial analysis
+- mapview - Quickly plot interactive visualisation of spatial data
+- ggplot2 - Visualise data and maps
+- ggmap - Get ggplot basemaps from service such as GoogleMaps, OSM and Stament Maps
+- tmpa - Plot thematic and customisable maps based on ggplot syntax 
+
+
+
+
+
+## Footnote
+
+[^1]: Geospatial analysis refers to the process of gathering, manipulating, and interpreting geographic or spatial data to understand patterns, relationships, and trends that occur within a specific geographic area. It involves using various techniques, technologies, and tools to analyze spatially referenced data, such as maps, satellite imagery, GPS coordinates, or data linked to specific locations.
+
+
+
+
+
+
+####
+
+
+
+
+

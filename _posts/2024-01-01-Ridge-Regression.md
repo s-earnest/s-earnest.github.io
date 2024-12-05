@@ -21,12 +21,14 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 ---
 
 
-🔴 
-
 
 ### Summary
 
-  This regression algorithm applies regualization to deal with overfifted data. The method uses L2 regularization. 
+  Ridge regression is a linear regression technique to adress multicollarity[^1] or overfiftting in statistical models. It's particularly useful when dealing with dataset where the independend variable is highly correlated (multicollarity) or when is a larger number of predictors which give a potential to overfitting. 
+
+  - Ridge regression does **not** perform feature selection but rather shrinks all coefficients towards zero, and the key hyperparameter is \( \lambda \), which controls the strength of the regularization.
+  
+  - By adding a penalty to the loss function, ridge regression provides a way to make regression models more robust and effective, especially when faced with complex, high-dimensional datasets.
 
 
 ### Inputs
@@ -38,11 +40,6 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
   - Standardization
   - Removing irrelavant features
-
-
-
-
-
 
 
 

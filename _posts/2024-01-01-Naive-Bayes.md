@@ -23,12 +23,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-🔴 
-
 # Summary
 
-  This algorithm performs classification according to Bayes Theorem. The model assisgns a sample to the class with the largest conditional probability.
+  This algorithm performs classification according to Bayes Theorem. The model assisgns a sample to the class with the largest conditional probability of independent features. Despite its simplicity, it performs will in practice for text-based and high-dimentisonal problems. 
 
+  This models is known as fast, interpretable and work will small or middle-sized datasets. However, it does have limitations due to the independence assumpton and sensibility to corretaled features. 
 
 
 # Inputs
@@ -40,6 +39,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
   - Resistant to overfifting
   
+
+
 
 
 
