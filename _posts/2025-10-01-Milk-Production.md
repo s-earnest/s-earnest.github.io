@@ -1,7 +1,7 @@
 ---
 title: ' Milk Production Forecasting (1) '
 author: ernest
-date: 2024-01-10 16:20:02 -05:00
+date: 2026-01-10 16:20:02 -05:00
 last_modified_at: 2024-10-30
 categories: [   ]
 pin:     # true
