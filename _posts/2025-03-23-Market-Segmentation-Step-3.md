@@ -24,6 +24,7 @@ image:
 
 🔴 
 
+collection data 
 
 
 
@@ -50,16 +51,29 @@ image:
 
 
 
-## Summary
+# NB.
+
+1. **Define the market and objectives**: Clarify the market and set segmentation goals.
+2. **Identify segmentation variables**: Choose the characteristics to segment by (demographics, geography, psychographics, behavior).
+3. **Collect data**: Gather primary and secondary data on potential customers.
+4. **Analyze the data**: Look for patterns and group customers with similar traits.
+5. **Profile the segments**: Develop detailed profiles for each segment.
+6. **Evaluate segment attractiveness**: Assess the size, profitability, and fit of each segment.
+7. **Select target segments**: Choose which segments to target based on your evaluation.
+8. **Develop positioning and marketing strategies**: Tailor positioning and marketing efforts for each segment.
+9. **Implement marketing tactics**: Execute campaigns that speak directly to each segment.
+10. **Monitor, evaluate, and adjust**: Continuously track and refine your segmentation strategy.
 
 
-collecting data 
 
+Collect and organize data
+after selecting the method, start the actual process of data collection. 
 
+- Ensoure data quality
+- Use digital tools
+- Ensure ethical data collection
 
-## Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+Once the data is collected, we applied the common analysis techiques (Cluster analysis, Factor analysis, Segmentation analysis, Cross-tabulaton)
 
 
 
