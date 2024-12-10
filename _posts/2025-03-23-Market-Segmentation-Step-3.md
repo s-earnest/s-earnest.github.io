@@ -1,7 +1,7 @@
 ---
 title: ' Market Segmentation - Step 3 '
 author: ernest
-date: 2021-08-11 16:20:02 -05:00
+date: 2025-08-11 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
@@ -21,10 +21,6 @@ image:
 
 ---
 
-
-🔴 
-
-collection data 
 
 
 
@@ -47,6 +43,8 @@ collection data
 
 
 
+An enable these processes we are ensuring to collect accurate data that can lead to more effective market segmentation and provide a better marketing campaigns and better business strategies.
+
 
 
 
@@ -66,14 +64,22 @@ collection data
 
 
 
-Collect and organize data
-after selecting the method, start the actual process of data collection. 
-
-- Ensoure data quality
-- Use digital tools
-- Ensure ethical data collection
-
 Once the data is collected, we applied the common analysis techiques (Cluster analysis, Factor analysis, Segmentation analysis, Cross-tabulaton)
+
+
+
+## Data collection methods 
+1. Primary data collection
+   - Surveys and questionnaires
+   - Interviews
+   - Focus groups
+2. Secondary data collection
+   - Market research
+   - Government and public data
+   - Web analytics
+
+
+
 
 
 

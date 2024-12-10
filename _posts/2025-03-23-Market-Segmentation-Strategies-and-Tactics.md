@@ -1,7 +1,7 @@
 ---
 title: ' Market Segmentation - Strategies and Tactics '
 author: ernest
-date: 2027-06-19 16:20:02 -05:00
+date: 2022-03-13 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
@@ -22,8 +22,6 @@ image:
 
 ---
 
-[🟣]
-
 
 ## Summary 
 
@@ -36,12 +34,28 @@ Marketing strategies and tactics work closely but they have distinct concepts in
 
 ## Market segmentation strategies
 
+A marketing strategy helps a business stay focused, allocate resources efficiently, and adapt to changes in the market, ensuring that all marketing efforts align with the company's overall mission and goals.
 
 
 
+## For example
+   - Differentiation strategy
+   - Market penetration to increase market share
+   - Market development strategy is focusing on entering new markets
+   - Diversificaiton strategy is when we focus on new products or services to expand company's offering.
 
 
 ## Marketing strategies vs marketing tactics
+
+Marketing tactics are actions that it is used to implement a marketing strategy. Tactics are (1) short-term plans with specific objective. (2) often are mesuarables and trackable but they can be adjusted or modified their effectiveness.
+
+## For example
+   - Social media campaings
+   - Email marketing
+   - Search engine optimization (SEO)
+   - Paid advertising
+
+
 
 
 
