@@ -14,6 +14,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - strategies
   - tactics
   - segmentation
+  
 
 image: 
   # path: /assets/sample/coming-soon.png
