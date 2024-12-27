@@ -1,7 +1,7 @@
 ---
 title: ' Curriculum Vitae '
 author: ernest
-date: 2023-03-20 16:20:02 -05:00
+date: 2025-03-20 16:20:02 -05:00
 last_modified_at: 2024-02-30
 categories: [  ]
 pin:     # true
@@ -36,8 +36,10 @@ All content provided is for informational purposes only and shown case studies e
 
 -->
  
+  
+  
 
-
+https://s-earnest.github.io/online_curriculum_vitae/
 
 
 ## Hands-on Projects examples
@@ -116,7 +118,7 @@ All content provided is for informational purposes only and shown case studies e
 
 ## Accreditation & Certifications
 
-* (2024/03) [L1-AP]( https://www.knime.com/learning#learning-path ){:target="_blank"} Data Literacy with KNIME Analytics Platform: Basics
+* (2024/03) [L1-AP]( https://www.knime.com/events/data-literacy-basics-1224 ){:target="_blank"} Data Literacy with KNIME Analytics Platform: Basics
   > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
 * (2024/03) [L2-DA]( https://www.knime.com/learning#learning-path ){:target="_blank"} Data Analytics with KNIME Analytics Platform: Advanced
@@ -125,7 +127,7 @@ All content provided is for informational purposes only and shown case studies e
 * (2024/03) [L3-DA]( https://www.knime.com/learning#learning-path ){:target="_blank"} Productionizing Data Apps
   > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies.
 
-* (2024/04) [L4-DA]( https://www.knime.com/learning#learning-path ){:target="_blank"} Data Analytics and Visualization: Specialization
+* (2024/04) [L4-DA](      ){:target="_blank"} Data Analytics and Visualization: Specialization
   > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles and posts on this website are my own way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
 * (2020/02) The Chinese University of Hong Kong (2000 - 2004)
