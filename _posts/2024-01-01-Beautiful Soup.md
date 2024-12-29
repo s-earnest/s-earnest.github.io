@@ -11,7 +11,7 @@ published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - note
   - web-scraping
-  # - item
+  - beautiful-soup
   # - item
 
 
@@ -26,38 +26,10 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-
-
 # Summary
 
 We scraping is a technique to extract data from websites. This techniques involves fetching the content of the web pages and parsing the data into a structured format[^1]. The technique used will depend on the complexity of the website and the type of data we want to extract. 
 
-
-
-
-
-
-# Process
-
-1. Parsing the HTML
-2. XPath and CSS selector
-3. Handlin the dynamic content
-4. API scraping (if available)
-5. Handle Pagination
-6. Error Handling and rate limiting
-7. Data storage
-8. Ethical consideration
-
-
-
-
-
-
-# Libraries
-
-- Selenium
-- BeautifulSoup
-- 
 
 
 
