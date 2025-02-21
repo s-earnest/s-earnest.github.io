@@ -148,7 +148,9 @@ GEM
 PLATFORMS
   arm64-darwin
   x86_64-darwin
+  x86_64-linux
 
+  
 DEPENDENCIES
   html-proofer (~> 5.0)
   jekyll-theme-chirpy (~> 7.2, >= 7.2.4)
