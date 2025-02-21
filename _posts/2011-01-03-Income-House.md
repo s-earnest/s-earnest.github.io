@@ -1,0 +1,43 @@
+---
+title: ' Income House '
+author: ernest
+date: 2024-03-24  16:20:02 -05:00
+last_modified_at:   2024-05-08
+categories: [ Work ]
+pin:     # true
+math: true
+mermaid: true
+published: false
+tags:   # or [typography, tag-01, tag-02, etc.]
+  - forecasting 
+  # - tamplate-tag-2
+  # - template-tag-3
+
+image: 
+  path: /assets/sample/coming-soon.png
+  # image: /assets/sample/coming-soon.png
+  # alt: Responsive rendering of Chirpy theme on multiple devices.
+
+---
+
+
+### Summary 
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Contact. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+
+
+
