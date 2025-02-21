@@ -42,7 +42,9 @@ social:
     - https://github.com/s-earnest # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/ernest.salvat
+    # - https://s-earnest.github.io
+    - https://github.com/s-earnest 
+    
 
 # Site Verification Settings
 webmaster_verifications:
