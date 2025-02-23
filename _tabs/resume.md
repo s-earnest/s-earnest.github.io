@@ -9,8 +9,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 - 👋 Hello World, I’m @s-earnest
-- 👀 I’m interested in ... anything related with data & Machine Learning.
-- Thank you for stoppoing by.
+- 👀 Thank you for stoppoing by and trying to know me more.
 
 
 
@@ -85,12 +84,14 @@ I honestly think you should get a good picture of who I am, what I like to do an
 ## Work Experience <i class="fas fa-briefcase"></i>
 
 `2022-05 - Current`
-### [ Aviso Wealth ]( https://www.aviso.ca/en/ ){:target="_blank"} 
-**Bilingual Client Solutions Officer**
-<br>— Provided assistance for product and administrative information to Credit Union advisors
-<br>— Investigate account-related problems using a variety of systems and take the appropriate action to correct such issues
-<br>— Communicate and coordinate with internal departments to ensure accurate information
-<br>— Good knowledge in the financial services industry
+[ Aviso Wealth ]( https://www.aviso.ca/en/ ){:target="_blank"} 
+Bilingual Client Solutions Officer
+- Vancouver, BC, Canada
+
+- Provided assistance for product and administrative information to Credit Union advisors
+- Investigate account-related problems using a variety of systems and take the appropriate action to correct such issues
+- Communicate and coordinate with internal departments to ensure accurate information
+- Good knowledge in the financial services industry
 
 
 <!-- 
@@ -106,20 +107,21 @@ I honestly think you should get a good picture of who I am, what I like to do an
 -->
 
 `2018-10 - 2021-08`
-### [ Sterling Background Check Inc.]( https://www.sterlingbackcheck.ca/backcheck-canada/?utm_source=redirects&utm_medium=backcheck.net&utm_campaign=301_Redirects ){:target="_blank"} 
-**Bilingual Client Services**
+[ Sterling Background Check Inc.]( https://www.sterlingbackcheck.ca/backcheck-canada/?utm_source=redirects&utm_medium=backcheck.net&utm_campaign=301_Redirects ){:target="_blank"} 
+Bilingual Client Services
+- Surrey, BC, Canada
 
-— Responded to incoming calls from clients and candidates from 8 different telephone queues in English and French.
-<br>— Responded incoming emails from clients and candidates asking for clarifications regarding privacy.
-<br>— Maintained client files by modifying information relating to their accounts and users; add services and plans to accounts; reset passwords.
-<br>— Provided the liaison between candidate and client requests and the operations team followed by the company guidelines.
-<br>— Checked the status of files and orders for current customers.
-<br>— Supported clients during the review of their accounts; provide current customer service and pricing information.
-<br>— Gave instructions to applicants over the phone to help them complete consent forms.
-<br>— Logged client and candidate communication by entering their calls and emails into Salesforce.com.
-<br>— Manipulated information from different databases and e-application forms.
-<br>— Resolved any service disputes by clarifying procedures and explain over the phone client requirements and procedures.
-<br>— Responded questions regarding any privacy concerns.
+- Responded to incoming calls from clients and candidates from 8 different telephone queues in English and French.
+- Responded incoming emails from clients and candidates asking for clarifications regarding privacy.
+- Maintained client files by modifying information relating to their accounts and users; add services and plans to accounts; reset passwords.
+- Provided the liaison between candidate and client requests and the operations team followed by the company guidelines.
+- Checked the status of files and orders for current customers.
+- Supported clients during the review of their accounts; provide current customer service and pricing information.
+- Gave instructions to applicants over the phone to help them complete consent forms.
+- Logged client and candidate communication by entering their calls and emails into Salesforce.com.
+- Manipulated information from different databases and e-application forms.
+- Resolved any service disputes by clarifying procedures and explain over the phone client requirements and procedures.
+- Responded questions regarding any privacy concerns.
 
 
 <!-- 
@@ -137,35 +139,36 @@ I honestly think you should get a good picture of who I am, what I like to do an
 <br>
 
 `2013-08 - 2018-05`
-### [ IA Groupe Financier ]( https://ia.ca/ ){:target="_blank"} 
-**Bilingual Claims Assistant**
+[ IA Groupe Financier ]( https://ia.ca/ ){:target="_blank"} 
+Bilingual Claims Assistant
+- Vancouver, BC, Canada
  
-#### Accomplishements <i class="fa fa-seedling"></i>
+## Accomplishements <i class="fa fa-seedling"></i>
 > Prepared and arrange meeting room as needed. Prepared and arrange meeting room as neede.Prepared and arrange meeting room as neede.Prepared and arrange meeting room as neede.
 > Prepared and arrange meeting room as neede.
 <br>
 
-### DATA PROCESSING TASKS
-— Sorted the mail to the different section of the Claims Department. 
-<br>— Shipped outgoing mail and parcels.
-<br>— Entered data on log system.
-<br>— Tracked supplies and printer paper and ordered supplies when needed.
-<br>— Processed all new paper claims and preparation for scanning.
-<br>— Indexed and ensured that document was readable for added to Case Management System.
-<br>— Prepared and send any medical charts requests.
-<br>— Process medical clinics invoice payment.
+DATA PROCESSING TASKS
+- Sorted the mail to the different section of the Claims Department. 
+- Shipped outgoing mail and parcels.
+- Entered data on log system.
+- Tracked supplies and printer paper and ordered supplies when needed.
+- Processed all new paper claims and preparation for scanning.
+- Indexed and ensured that document was readable for added to Case Management System.
+- Prepared and send any medical charts requests.
+- Process medical clinics invoice payment.
 
-### ADMINISTRATIVE SUPPORT TASKS
-<br>— Responded to incoming calls from customers in English and French.
-<br>— Responded incoming emails from customers asking for clarifications regarding insurance coverage and exclusions.
-<br>— Maintained customers files by modifying information relating to their claim’s records.
-<br>— Provided the liaison between customers and claims specialist as per the company guidelines.
-<br>— Checked the status of files and payments for current customers’ claims.
-<br>— Gave instructions to applicants over the phone to help them complete claim forms.
-<br>— Logged customer’s communications by entering their calls and e-mail on tracking system.
-<br>— Manipulated information from different databases.
-<br>— Resolved any service complaints by clarifying procedures and explain over the phone contract’s terms and conditions.
-<br>— Responded questions regarding any privacy concerns.
+ADMINISTRATIVE SUPPORT TASKS
+- Responded to incoming calls from customers in English and French.
+- Responded incoming emails from customers asking for clarifications regarding insurance coverage and exclusions.
+- Maintained customers files by modifying information relating to their claim’s records.
+- Provided the liaison between customers and claims specialist as per the company guidelines.
+- Checked the status of files and payments for current customers’ claims.
+- Gave instructions to applicants over the phone to help them complete claim forms.
+- Logged customer’s communications by entering their calls and e-mail on tracking system.
+- Manipulated information from different databases.
+- Resolved any service complaints by clarifying procedures and explain over the phone contract’s terms and conditions.
+- Responded questions regarding any privacy concerns.
 
 
 <!-- 
@@ -181,20 +184,21 @@ I honestly think you should get a good picture of who I am, what I like to do an
 -->
 
 `2011-08 - 2013-04`
-### [ Victorial Hotel ]( https://victorianhotel.ca/ ){:target="_blank"} 
-**Front Desk / Night Auditor**
+[ Victorial Hotel ]( https://victorianhotel.ca/ ){:target="_blank"} 
+Front Desk / Night Auditor
+- Vancouver, BC, Canada
 
-— Prepared and arrange meeting room as needed.
-<br>— Arranged booking extra activities for hotel travelers with vouchers when needed.
-<br>— Performed reception desk and guest services duties, and handled guest general inquiries.
-<br>— Operated the hotel main switchboard, answered and transfer calls, monitored the hotel emergency lines, and act as overall communication hub for the hotel during my shift.
-<br>— Ensured all external and internal colleagues and guess inquiries and concerns regarding outdoors activities.
-<br>— Verified all invoices are accurate.
-<br>— Registered guests, and took payment and assigned guest rooms.
-<br>— Processed reservations received by e-mail or fax into the hotel booking system.
-<br>— Handled availability of room on booking reservation system.
-<br>— Settled guest account while ensuring all services standards were followed.
-<br>— Ensured all hotel reports, and accounting reports were printed, and verified, and balanced.
+- Prepared and arrange meeting room as needed.
+- Arranged booking extra activities for hotel travelers with vouchers when needed.
+- Performed reception desk and guest services duties, and handled guest general inquiries.
+- Operated the hotel main switchboard, answered and transfer calls, monitored the hotel emergency lines, and act as overall communication hub for the hotel during my shift.
+- Ensured all external and internal colleagues and guess inquiries and concerns regarding outdoors activities.
+- Verified all invoices are accurate.
+- Registered guests, and took payment and assigned guest rooms.
+- Processed reservations received by e-mail or fax into the hotel booking system.
+- Handled availability of room on booking reservation system.
+- Settled guest account while ensuring all services standards were followed.
+- Ensured all hotel reports, and accounting reports were printed, and verified, and balanced.
 
 
 <!-- 
@@ -212,21 +216,22 @@ I honestly think you should get a good picture of who I am, what I like to do an
 
 
 `2011-02 - 2011-11`
-### Grouse INN Hotel
-**Front Desk / Night Auditor**
+**Grouse INN Hotel**
+Front Desk / Night Auditor
+- North Vancouver, BC, Canada
 
-— Prepared and arrange meeting room as needed.
-<br>— Arranged booking extra activities for hotel travelers with vouchers when needed.
-<br>— Performed reception desk and guest services duties, and handled guest general inquiries.
-<br>— Operated the hotel main switchboard, answered and transfer calls, monitored the hotel emergency lines, and act as overall communication hub for the hotel during my shift.
-<br>— Ensured all external and internal colleagues and guess inquiries and concerns regarding outdoors activities.
-<br>— Verified all invoices are accurate.
-<br>— Registered guests, and took payment and assigned guest rooms.
-<br>— Processed reservations received by e-mail or fax into the hotel booking system.
-<br>— Handled availability of room on booking reservation system.
-<br>— Settled guest account while ensuring all services standards were followed.
-<br>— Ensured all hotel reports, and accounting reports were printed, and verified, and balanced.
-<br>— Handled payment by credit card, debit card or cash.
+- Prepared and arrange meeting room as needed.
+- Arranged booking extra activities for hotel travelers with vouchers when needed.
+- Performed reception desk and guest services duties, and handled guest general inquiries.
+- Operated the hotel main switchboard, answered and transfer calls, monitored the hotel emergency lines, and act as overall communication hub for the hotel during my shift.
+- Ensured all external and internal colleagues and guess inquiries and concerns regarding outdoors activities.
+- Verified all invoices are accurate.
+- Registered guests, and took payment and assigned guest rooms.
+- Processed reservations received by e-mail or fax into the hotel booking system.
+- Handled availability of room on booking reservation system.
+- Settled guest account while ensuring all services standards were followed.
+- Ensured all hotel reports, and accounting reports were printed, and verified, and balanced.
+- Handled payment by credit card, debit card or cash.
 
 
 <!-- 
@@ -244,32 +249,32 @@ I honestly think you should get a good picture of who I am, what I like to do an
 
 ## Post-secondary Education <i class="fas fa-university"></i>
 
-`2014-2022`
-**DIPLOMA MARKETING MANAGEMENT — British Columbia Institute of Technology**, 
-Burnaby, BC, Canada.
-<br>- Majors: Communication
-<br>- Acquired total credits: 92.5/120
-<br>Business Analytics, Business Communication, Statistics for Business, Project Management
+`2014 - 2022`
+**DIPLOMA MARKETING MANAGEMENT** (not completed) — [ British Columbia Institute of Technology ]( https://www.bcit.ca/ ), 
+- Burnaby, BC, Canada
+- Majors: Communication
+- Acquired total credits: 92.5/120
+- Business Analytics, Business Communication, Statistics for Business, Project Management
 
 
 
-`2010-2014`
-**Adult Education High-School**, 
-Lord Roberts School, Vancouver, BC, Canada.
+`2010 - 2014`
+**Adult Education High-School** - Lord Roberts School, 
+- Vancouver, BC, Canada
 
 
 ## Relevant Training <i class="fas fa-university"></i>
 
-`2025-current`
-**Canadian Securities Course (CSC®)**
-<br>[ Canadian Securities ]( https://www.csi.ca/en/learning/courses/csc ){:target="_blank"}
+`2025 - current`
+[Canadian Securities Course (CSC®)]( https://www.csi.ca/en/learning/courses/csc ){:target="_blank"}
+**Canadian Securities**
 
 Objective:
 <br>The Canadian Securities Course (CSC®) is a foundational credential required for financial services roles involving securities, mutual funds, and alternative funds. It helps learners meet regulatory requirements for licensing in various financial sectors, including mutual fund sales, exempt securities, and more. The course covers the Canadian financial services landscape, financial instruments, market performance analysis, and industry standards. It's ideal for those pursuing careers as investment advisors, mutual fund license holders, financial planners, or anyone seeking a role in the Canadian financial services industry. The course also prepares individuals to deal in Alternative Mutual Funds.
 
-`2025-current`
-**Conduct and Practices Handbook Course (CPH®)** 
-<br>[ Canadian Securities ]( https://www.csi.ca/en/learning/courses/cph ){:target="_blank"}
+`2025 - current`
+[Conduct and Practices Handbook Course (CPH®)]( https://www.csi.ca/en/learning/courses/cph ){:target="_blank"}
+**Canadian Securities**
 
 Objective:
 <br>The Conduct and Practices Handbook Course (CPH®) helps financial professionals navigate the complex regulatory landscape, ensuring compliance with provincial securities administrators and CIRO. The course focuses on ethics, standards of conduct, securities rules, and legislation. It’s ideal for investment advisors, financial services professionals, and those required to meet CIRO proficiency requirements, offering a deeper understanding of regulations governing securities professionals.
@@ -279,26 +284,32 @@ Objective:
 
 ## Volunteering <i class="fa fa-hand-holding-heart"></i>
 
-`2010-2017`
-**Vancouver International Film Festival**, 
-<br>Vancouver BC, Canada.
+`2010 - 2017`
+[Vancouver International Film Festival]( https://www.freegeek.org/ ){:target="_blank"}, 
+<br>Vancouver BC, Canada
+
+
+`2007 - 2008`
+[FreeGeek]( https://www.freegeek.org/ ){:target="_blank"},
+<br>Vancouver, BC, Canada
+
 
 
 <br>
 
 ## Hobbies <i class="fas fa-campground"></i>
-**Travel**
-<br>**Movies**
-<br>**Music**
-<br>**Reading**
+ - Travel
+ - Movies
+ - Music
+ - Reading
 
 
 ## Miscellenous <i class="fa fa-masks-theater"></i>
-<br> - Proficient with Microsoft Office 365: Excel, Visio, Project, Word and PowerPoint.
-<br> - Proficient experience in CRM (Creatio CRM and SalesForce).
-<br> - Interest with statistics, data visualization and data analysis with Python, R.
-<br> - Fluent in languages: English and French.
-<br> - Techsavvy guru and how to navigate in databases.
+- Proficient with Microsoft Office 365: Excel, Visio, Project, Word and PowerPoint.
+- Proficient experience in CRM (Creatio CRM and SalesForce).
+- Interest with statistics, data visualization and data analysis with Python, R.
+- Fluent in languages: English and French.
+- Techsavvy guru and how to navigate in databases.
 
 
 <!--
@@ -310,13 +321,12 @@ Objective:
 --> 
 
 ## Personal <i class="fas fa-info-circle"></i>
-
-**Citizenship:** Canadian & French
-<br> **Clearances:** n/a
+- Citizenship: Canadian & French
+- Clearances: n/a
 
 
 ## References <i class="fas fa-user-friends"></i>
- **Available on request only ...**
+- Available on request only ...
 
 
 
@@ -332,10 +342,5 @@ Objective:
 
 
 <br>
-
-
-
-
-
 
 
