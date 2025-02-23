@@ -293,11 +293,21 @@ Objective:
 <br>**Reading**
 
 
+## Miscellenous <i class="fa fa-masks-theater"></i>
+<br> - Proficient with Microsoft Office 365: Excel, Visio, Project, Word and PowerPoint.
+<br> - Proficient experience in CRM (Creatio CRM and SalesForce).
+<br> - Interest with statistics, data visualization and data analysis with Python, R.
+<br> - Fluent in languages: English and French.
+<br> - Techsavvy guru and how to navigate in databases.
+
+
+<!--
 
 ## Languages <i class="fas fa-language"></i>
->**Fluent:** English 
+**Fluent:** English 
 <br>**Fluent:**: French 
 
+--> 
 
 ## Personal <i class="fas fa-info-circle"></i>
 
