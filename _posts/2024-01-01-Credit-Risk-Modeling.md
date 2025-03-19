@@ -50,8 +50,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 ### Summary
 
+Credit Risk Modeling covers the process, from pre-processing and model the creation, validation, maintenance, and improvement. It has provided a deep understanding of credit risk concepts such **Probability of Default** (PD), **Loss Given Default** (LGD) and **Exposure at Default** (EAD). 
+This project emphasis Python skills, techniques like **Weigth of Evidence** (WoE), **Information Value** (IV), regression analysis, and model performance evaluation. 
 
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
+
+
 
 
 
