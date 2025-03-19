@@ -9,8 +9,8 @@ math: true
 mermaid: true
 published: true
 tags:
- # - reference
-  - notes
+  - reference
+ # - notes
   - thoughts
   - articles
   - work
