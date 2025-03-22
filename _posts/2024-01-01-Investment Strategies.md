@@ -315,9 +315,10 @@ As investor want to predict future stock prices for certain companies in order t
 ## Resources
 
   - [ Notebook ]( /assets/projects/wheat_seeds.html ){:target="_blank"}
+  - [ Report Insights ]( /assets/sample/coming-soon.png ){:target="_blank"}
   - [ Alpha Vantage ]( https://www.alphavantage.co/ ){:target="_blank"}
   - [ Yahoo Finance ]( https://finance.yahoo.com/markets/ ){:target="_blank"}
-  - [ Report Insights ]( /assets/sample/coming-soon.png ){:target="_blank"}
+  - [ Quandl ]( https://data.nasdaq.com/institutional-investors){:target="_blank"}
 
 
 
