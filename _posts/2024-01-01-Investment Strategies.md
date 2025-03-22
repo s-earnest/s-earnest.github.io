@@ -7,7 +7,7 @@ categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - investment
   - time-series
@@ -260,8 +260,8 @@ As investor want to predict future stock prices for certain companies in order t
 
 
 # Variables
-  Target variable: is the future stock price (or return) of a selected company.
-  Outome metric: is accuracy of the forecast and typically evaluated using metrics such Mean Absolute Error, Root Mean Squared Error or Mean Squared Error
+  - Target variable: is the future stock price (or return) of a selected company.
+  - Outome metric: is accuracy of the forecast and typically evaluated using metrics such Mean Absolute Error, Root Mean Squared Error or  Mean Squared Error
 
 
 
@@ -284,11 +284,11 @@ As investor want to predict future stock prices for certain companies in order t
 
 
 # Outline
-  Every project seeks to answer a question effectively. 
-    introduction
-    related work
-    methods
-    experimental setup
+  - Every project seeks to answer a question effectively. 
+    - introduction
+    - related work
+    - methods
+    - experimental setup
 
 
 
