@@ -7,7 +7,7 @@ categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - investment
   - time-series
@@ -166,12 +166,6 @@ By applying time series analysis to stock market data, the investment firm can p
 
 
 
-
-
-
-
-
-
 <!-- 
 
 > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles, notes and case study on this website are my own the way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my past or current employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
@@ -240,22 +234,7 @@ CONCLUDE
   Return to the practical question to describe the results in this settings
 
 
-
-
-<!-- 
-
-> DISCLAIMER
-- The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This report is provided with the understanding that the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
-- I am not responsible for the content of websites and information resources that may be referenced in the report. The access provided to these sites or the provision of such information resources does not constitute an endorsement by myself. of the information contained therein. However, unless expressly stated otherwise, the opinions, recommendations, findings, interpretations and conclusions expressed in this report represent the views of myself. 
-- The inclusion of company examples does not in any way constitute an endorsement of these organisations by myself or the signatories to the Principles for Responsible Investment. While I have endeavoured to ensure that the information contained in this report has been obtained from reliable and up-to-date sources, the changing nature of statistics, laws, rules and regulations may result in delays, omissions or inaccuracies in information contained in this report. I am not responsible for any errors or omissions, or for any decision made or action taken based on information contained in this report, or for any loss or damage arising from or caused by such decision or action. All information in this report is provided “as-is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, expressed or implied.
-{: .prompt-info }
-
-
-   -->
-
-
-
-
+-->
 
 
 
@@ -282,7 +261,7 @@ As investor want to predict future stock prices for certain companies in order t
 
 # Variables
   Target variable: is the future stock price (or return) of a selected company.
-  Outome metric: is accuracy of the forecast and typically evaluted using metrics such Mean Absolute Error, Root Mean Squared Error or Mean Squared Error
+  Outome metric: is accuracy of the forecast and typically evaluated using metrics such Mean Absolute Error, Root Mean Squared Error or Mean Squared Error
 
 
 
@@ -336,15 +315,9 @@ As investor want to predict future stock prices for certain companies in order t
 ## Resources
 
   - [ Notebook ]( /assets/projects/wheat_seeds.html ){:target="_blank"}
-  - [ nbviewer ]( https://nbviewer.org/ ){:target="_blank"}
-      - A simple way to share Jupyter Notebooks
-
-  - [ item ]
-
-
-
-
-
+  - [ Alpha Vantage ]( https://www.alphavantage.co/ ){:target="_blank"}
+  - [ Yahoo Finance ]( https://finance.yahoo.com/markets/ ){:target="_blank"}
+  - [ Report Insights ]( /assets/sample/coming-soon.png ){:target="_blank"}
 
 
 
@@ -356,7 +329,7 @@ As investor want to predict future stock prices for certain companies in order t
 
 ### Contact. 
 
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
 
 
 
