@@ -144,6 +144,26 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
+```python
+print("Hello, world!")
+for i in range(10):
+    print(i)
+```
+## Images
+
+<div style="text-align: center;">
+
+![alt text]( /assets/sample/coming-soon.png "Our logo")
+
+</div>
+
+
+![example {caption=Caption - changeme.}]( /assets/sample/coming-soon.png )
+
+
+
+
+
 # Methodology
 
   This is 1
@@ -177,8 +197,6 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
       - A simple way to share Jupyter Notebooks
 
   - [ item ]
-
-
 
 
 
