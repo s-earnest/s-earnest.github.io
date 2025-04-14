@@ -38,7 +38,7 @@ Through the courses in post-secondary education in Marketing Management, I’ve 
     Burnaby, BC
 
     - [Marketing Management - Marketing Communication Option]( https://www.bcit.ca/programs/marketing-management-marketing-communications-option-certificate-part-time-630dmcert/ ){:target="_blank"}
-    - Total Credit 92.5
+    - Total Credit 92.5/120
 
 
 
@@ -125,11 +125,15 @@ https://www.linkedin.com/learning/certificates/5f7aeb8191650875aaf69c8a297958569
 ### Statistical Software I am using
 
   - [SPSS Statistics]( https://www.ibm.com/products/spss-statistics ){:target="_blank"}
+  
+  <!--
+
   - [SPSS Modeler]( https://www.ibm.com/products/spss-modeler ){:target="_blank"}
   - [KNIME Analytics]( https://www.knime.com/ ){:target="_blank"}
+  - [SPSS Statistics]( https://www.ibm.com/products/spss-statistics ){:target="_blank"}
 
 
-
+-->
 
 
 ### Machine Learning and AI Foundations: Classification Modeling
@@ -251,7 +255,7 @@ Unsupervised learning is a type of machine learning where algorithms parse unlab
 
 ### Contact. 
 
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
 
 
 
