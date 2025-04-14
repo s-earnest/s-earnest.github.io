@@ -144,12 +144,13 @@ CONCLUDE
 This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
 
 
+
 # Introduction 
   Business task
   Problem statement
 
 
-# Data Source
+# Data Source & data dictionnary
    Describe where the datasets were downloaded from.
     Link the sites for the datasets if possible.
     Indicate if the data is from a public or a private license and if it is trusted.
@@ -196,8 +197,9 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ## Reference
 
-  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
-  - item 
+  - [Technical Report](/assets/docs/paper1.pdf){:target="_blank"}
+  - [Link dataset]( /assets/docs/paper2.pdf){:target="_blank"}
+
 
 
 
@@ -212,7 +214,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 ### Contact. 
 
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
 
 
 
