@@ -68,19 +68,26 @@ based on the occurrence of other items/events, among others are produced.
 | Athlete | text | And | text | Text |
 | Height | text | And | text | Text |
 | Weight | text | And | text | Text |
-| Smoking | text | And | text | Text |
-| Sprint | text | And | text | Text |
-| MileMinDur | text | And | text | Text |
-| English | text | And | text | Text |
-| Reading | text | And | text | Text |
-| Math | text | And | text | Text |
-| Writing | text | And | text | Text |
-| State | text | And | text | Text |
-| LiveOnCampus | text | And | text | Text |
-| HowCommute | text | And | text | Text |
-| CommuteTime | text | And | text | Text |
-| SleepTime | text | And | text | Text |
-| StudyTime | About how many hours per week do you study? | Numeric | Scale |   |
+| Smoking | Does student smoke? | Numeric | Nominal | 0 = Nonsmoker
+1 = Past smoker
+2 = Current smoker |
+| Sprint | 35-meter sprint time (seconds) | Numeric | Scale | Text |
+| MileMinDur | Mile run time (hh:mm:ss) | Datetime | Scale | Text |
+| English | Score on English placement test (out of 100 points) | Numeric | Scale | Text |
+| Reading | Score on Reading placement test (out of 100 points) | Numeric | Scale | Text |
+| Math | Score on Math placement test (out of 100 points) | Numeric | Scale | Text |
+| Writing | Score on Writing placement test (out of 100 points) | Numeric | Scale | n/a |
+| State | Is student in-state or out-of-state resident? | String | Nominal | n/a |
+| LiveOnCampus | Does student live on campus? | Numeric | Nominal | 0 = Off-campus
+1 = On-campus |
+| HowCommute | How does student commute to campus? | Numeric| Nominal | 1 = Walk
+2 = Bike
+3 = Car
+4 = Public transit
+5 = Other |
+| CommuteTime | How long does it take you to commute to campus? (minutes) | Numeric | Scale | n/a |
+| SleepTime | About how many hours of sleep do you get per night? | Numeric | textScale | n/a |
+| StudyTime | About how many hours per week do you study? | Numeric | Scale | n/a |
 
 
 
@@ -111,8 +118,8 @@ based on the occurrence of other items/events, among others are produced.
 
 ## Reference
 
-  - [Codebook](/assets/docs/paper1.pdf){:target="_blank"}
-  - item 
+  - [ Technical Report ](/assets/docs/paper1.pdf){:target="_blank"}
+  - [Statistical Consulting at University Libraries]( www.library.kent.edu/statconsulting ){:target="_blank"}
 
 
 
