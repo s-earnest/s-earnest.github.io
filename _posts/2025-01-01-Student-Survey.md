@@ -1,17 +1,18 @@
 ---
-title: ' Student Survey  '
+title: ' Student Survey Analysis '
 author: ernest
 date: 2025-05-08 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Notes ]
+categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - notes
-  # - tamplate-tag-2
-  # - template-tag-3
+  - work
+  # - quantitative-analysis
+  # - student-survey
+  - analysis
 
 # image: 
   # path: /assets/sample/coming-soon.png
