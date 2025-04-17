@@ -103,18 +103,6 @@ based on the occurrence of other items/events, among others are produced.
 
 
 
-| Variable Name | Description | Type (In Data File)  | Measure (Actual)  | Value labels  |
-| ------------- |:--------:| :------: | :-----: | :---: | -----:|
-| ids | ID number | Numeric | Numeric | d |
-| bday | Date of birth (mm/dd/yyyy) | Date, mm/dd/yyyy | Scale | d |
-| enrolldate | Date of college enrollment (mm/dd/yyyy) | String | Scale | d |
-| expgradate | Expected date of college graduation (mm/dd/yyyy) | String | Scale | d |
-| Rank | Class rank | Numeric | Ordinal | 1=Freshman
-2=Sophomore
-3=Junior
-4=Senior |
-
-
 
 Variable Name | Description | Type (In Data File) | Measure (Actual)| Value labels| 
 --- | --- | --- | --- | --- | ---
@@ -122,10 +110,7 @@ Variable Name | Description | Type (In Data File) | Measure (Actual)| Value labe
 `bday` | Date of birth (mm/dd/yyyy)| Date, mm/dd/yyyy | Scale |  | 
 `enrolldate` | Date of college enrollment (mm/dd/yyyy) | String| Scale |  | 
 `expgradate` | Expected date of college graduation (mm/dd/yyyy) | String | Scale |  |
-`Rank` | Class rank | Numeric | Ordinal | 1=Freshman
-2=Sophomore
-3=Junior
-4=Senior |
+`Rank` | Class rank | Numeric | Ordinal | 1=Freshman |
 `Major` | Major | String | Nominal |  |
 
 
