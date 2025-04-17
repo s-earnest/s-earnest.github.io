@@ -71,15 +71,11 @@ based on the occurrence of other items/events, among others are produced.
 3=Junior
 4=Senior |
 | Major | Major | String | Nominal |  |
-| Gender | Gender | Numeric | Nominal | 0=Male
-1=Female |
-| Athlete | Is student an athlete? | Numeric | Nominal | 0 = Non-athlete
-1 = Athlete |
+| Gender | Gender | Numeric | Nominal | 0=Male / 1=Female |
+| Athlete | Is student an athlete? | Numeric | Nominal | 0 = Non-athlete / 1 = Athlete |
 | Height | Height (inches) | Numeric | Scale |  |
 | Weight | Weight (pounds) | Numeric | Scale |  |
-| Smoking | Does student smoke? | Numeric | Nominal | 0 = Nonsmoker
-1 = Past smoker
-2 = Current smoker |
+| Smoking | Does student smoke? | Numeric | Nominal | 0 = Nonsmoker /1 = Past smoke / 2 = Current smoker |
 | Sprint | 35-meter sprint time (seconds) | Numeric | Scale |  |
 | MileMinDur | Mile run time (hh:mm:ss) | Datetime | Scale |  |
 | English | Score on English placement test (out of 100 points) | Numeric | Scale |  |
@@ -87,8 +83,7 @@ based on the occurrence of other items/events, among others are produced.
 | Math | Score on Math placement test (out of 100 points) | Numeric | Scale |  |
 | Writing | Score on Writing placement test (out of 100 points) | Numeric | Scale |  |
 | State | Is student in-state or out-of-state resident? | String | Nominal |  |
-| LiveOnCampus | Does student live on campus? | Numeric | Nominal | 0 = Off-campus
-1 = On-campus |
+| LiveOnCampus | Does student live on campus? | Numeric | Nominal | 0 = Off-campus / 1 = On-campus |
 | HowCommute | How does student commute to campus? | Numeric| Nominal | 1 = Walk
 2 = Bike
 3 = Car
@@ -104,7 +99,7 @@ based on the occurrence of other items/events, among others are produced.
 
 
 
-Variable Name | Description | Type (In Data File) | Measure (Actual)| Value labels| 
+Variable Name | Description | Type (In Data File) | Measure (Actual)| Value labels | 
 --- | --- | --- | --- | --- | ---
 `ids` | ID number | Numeric | Numeric |  | 
 `bday` | Date of birth (mm/dd/yyyy)| Date, mm/dd/yyyy | Scale |  | 
@@ -112,7 +107,19 @@ Variable Name | Description | Type (In Data File) | Measure (Actual)| Value labe
 `expgradate` | Expected date of college graduation (mm/dd/yyyy) | String | Scale |  |
 `Rank` | Class rank | Numeric | Ordinal | 1=Freshman / 2=Sophomore / 3=Junior / 4=Senior |
 `Major` | Major | String | Nominal |  |
-
+`Gender` | Gender | Numeric | Nominal | 0=Male / 1=Female |
+`Athlete` | Is student an athlete? | Numeric | Nominal | 0 = Non-athlete / 1 = Athlete |
+`Height` | Height (inches) | Numeric | Scale |  |
+`Weight` | Weight (pounds) | Numeric | Scale |  |
+`Smoking` | Does student smoke? | Numeric | Nominal | 0 = Nonsmoker /1 = Past smoke / 2 = Current smoker |
+`print` | 35-meter sprint time (seconds) | Numeric | Scale |  |
+| MileMinDur | Mile run time (hh:mm:ss) | Datetime | Scale |  |
+| English | Score on English placement test (out of 100 points) | Numeric | Scale |  |
+| Reading | Score on Reading placement test (out of 100 points) | Numeric | Scale |  |
+| Math | Score on Math placement test (out of 100 points) | Numeric | Scale |  |
+| Writing | Score on Writing placement test (out of 100 points) | Numeric | Scale |  |
+| State | Is student in-state or out-of-state resident? | String | Nominal |  |
+| LiveOnCampus | Does student live on campus? | Numeric | Nominal | 0 = Off-campus / 1 = On-campus |
 
 
 
