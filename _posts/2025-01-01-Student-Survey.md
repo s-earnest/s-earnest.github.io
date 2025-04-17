@@ -105,7 +105,7 @@ Variable Name | Description | Type (In Data File) | Measure (Actual) | Value lab
 `bday` | Date of birth (mm/dd/yyyy)| Date, mm/dd/yyyy | Scale |  | 
 `enrolldate` | Date of college enrollment (mm/dd/yyyy) | String| Scale |  | 
 `expgradate` | Expected date of college graduation (mm/dd/yyyy) | String | Scale |  |
-`Rank` | Class rank | Numeric | Ordinal | 1=Freshman / 2=Sophomore / 3=Junior / 4=Senior |
+`Rank` | Class rank | Numeric | Ordinal | 1=Freshman <br> 2=Sophomore / 3=Junior / 4=Senior |
 `Major` | Major | String | Nominal |  |
 `Gender` | Gender | Numeric | Nominal | 0=Male / 1=Female |
 `Athlete` | Is student an athlete? | Numeric | Nominal | 0 = Non-athlete / 1 = Athlete |
