@@ -7,7 +7,7 @@ categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - notes
   # - tamplate-tag-2

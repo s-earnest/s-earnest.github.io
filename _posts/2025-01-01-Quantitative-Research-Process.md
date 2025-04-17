@@ -1,5 +1,5 @@
 ---
-title: ' notes  '
+title: ' Quantitative Research Process  '
 author: ernest
 date: 2025-12-27 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -10,8 +10,9 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - notes
-  # - tamplate-tag-2
-  # - template-tag-3
+  # - quantiative-variable
+  # - research
+  - procedure
 
 # image: 
   # path: /assets/sample/coming-soon.png
