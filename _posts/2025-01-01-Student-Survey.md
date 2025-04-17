@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - quantitative-analysis
@@ -58,6 +58,8 @@ based on the occurrence of other items/events, among others are produced.
 
 # Data definition
 
+<!-- 
+
 | Variable Name | Description | Type (In Data File)| Measure (Actual)| Value labels | 
 | ------------- |:--------:| :------: | :-----: | -----:|
 | ids | ID number | Numeric | Numeric | d |
@@ -97,12 +99,23 @@ based on the occurrence of other items/events, among others are produced.
 | StudyTime | About how many hours per week do you study? | Numeric | Scale | n/a |
 
 
+-->
 
-| Tables        | Are           | Cool  | Cool  | Cool  |
+
+
+| Variable Name | Description | Type (In Data File)  | Measure (Actual)  | alue labels  |
 | ------------- |:--------:| :------: | :-----: | -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| ids | ID number | Numeric | Numeric | d |
+| bday | Date of birth (mm/dd/yyyy) | Date, mm/dd/yyyy | Scale | d |
+| enrolldate | Date of college enrollment (mm/dd/yyyy) | String | Scale | d |
+| expgradate | Expected date of college graduation (mm/dd/yyyy) | String | Scale | d |
+| Rank | Class rank | Numeric | Ordinal | 1=Freshman
+2=Sophomore
+3=Junior
+4=Senior |
+
+
+
 
 
 Markdown | Less | Pretty | text | Hello | 
