@@ -10,8 +10,8 @@ mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
-  # - quantitative-analysis
-  # - student-survey
+  - quantitative-analysis
+  - student-survey
   - analysis
 
 # image: 
