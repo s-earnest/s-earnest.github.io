@@ -98,15 +98,15 @@ based on the occurrence of other items/events, among others are produced.
 
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Tables        | Are           | Cool  | Cool  | Cool  |
+| ------------- |:--------:| :------: | :-----: | -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
 
-Markdown | Less | Pretty
---- | --- | ---
+Markdown | Less | Pretty | text | Hello | 
+--- | --- | --- | --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
