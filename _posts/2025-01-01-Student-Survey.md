@@ -110,7 +110,7 @@ Variable Name | Description | Type (In Data File) | Measure (Actual)| Value labe
 `bday` | Date of birth (mm/dd/yyyy)| Date, mm/dd/yyyy | Scale |  | 
 `enrolldate` | Date of college enrollment (mm/dd/yyyy) | String| Scale |  | 
 `expgradate` | Expected date of college graduation (mm/dd/yyyy) | String | Scale |  |
-`Rank` | Class rank | Numeric | Ordinal | 1=Freshman |
+`Rank` | Class rank | Numeric | Ordinal | 1=Freshman / 2=Sophomore / 3=Junior / 4=Senior |
 `Major` | Major | String | Nominal |  |
 
 
@@ -126,6 +126,7 @@ Markdown | Less | Pretty | text | Hello |
 1 | 2 | 3
 
 
+2=Sophomore / 3=Junior / 4=Senior
 
 
 # Final Insights
