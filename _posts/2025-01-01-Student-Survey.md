@@ -100,7 +100,7 @@ based on the occurrence of other items/events, among others are produced.
 
 
 Variable Name | Description | Type (In Data File) | Measure (Actual) | Value labels | 
---- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | ---
 `ids` | ID number | Numeric | Numeric |  | 
 `bday` | Date of birth (mm/dd/yyyy)| Date, mm/dd/yyyy | Scale |  | 
 `enrolldate` | Date of college enrollment (mm/dd/yyyy) | String| Scale |  | 
