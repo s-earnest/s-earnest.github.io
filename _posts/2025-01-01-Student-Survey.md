@@ -113,13 +113,13 @@ Variable Name | Description | Type (In Data File) | Measure (Actual)| Value labe
 `Weight` | Weight (pounds) | Numeric | Scale |  |
 `Smoking` | Does student smoke? | Numeric | Nominal | 0 = Nonsmoker /1 = Past smoke / 2 = Current smoker |
 `print` | 35-meter sprint time (seconds) | Numeric | Scale |  |
-| MileMinDur | Mile run time (hh:mm:ss) | Datetime | Scale |  |
-| English | Score on English placement test (out of 100 points) | Numeric | Scale |  |
-| Reading | Score on Reading placement test (out of 100 points) | Numeric | Scale |  |
-| Math | Score on Math placement test (out of 100 points) | Numeric | Scale |  |
-| Writing | Score on Writing placement test (out of 100 points) | Numeric | Scale |  |
-| State | Is student in-state or out-of-state resident? | String | Nominal |  |
-| LiveOnCampus | Does student live on campus? | Numeric | Nominal | 0 = Off-campus / 1 = On-campus |
+`MileMinDur` | Mile run time (hh:mm:ss) | Datetime | Scale |  |
+`English` | Score on English placement test (out of 100 points) | Numeric | Scale |  |
+`Reading` | Score on Reading placement test (out of 100 points) | Numeric | Scale |  |
+`Math` | Score on Math placement test (out of 100 points) | Numeric | Scale |  |
+`Writing` | Score on Writing placement test (out of 100 points) | Numeric | Scale |  |
+`State` | Is student in-state or out-of-state resident? | String | Nominal |  |
+`LiveOnCampus` | Does student live on campus? | Numeric | Nominal | 0 = Off-campus / 1 = On-campus |
 
 
 
