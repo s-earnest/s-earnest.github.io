@@ -12,6 +12,12 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - notes
   # - tamplate-tag-2
   # - template-tag-3
+  - risk
+  - market-risk
+  - credit-risk
+  - operational-risk
+  - stress-testing
+  
 
 # image: 
   # path: /assets/sample/coming-soon.png
