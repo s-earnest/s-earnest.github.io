@@ -12,6 +12,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - notes
   # - tamplate-tag-2
   # - template-tag-3
+  - qualitative-research
+  - statistics
+
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -22,30 +25,44 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+# Summary 
 
-This is the process for qualitative statistical analysis** (which is sometimes called *qualitative data analysis*, or QDA). Unlike quantitative analysis, which deals with numbers, qualitative analysis focuses on **non-numeric data** — like interviews, focus groups, observations, documents, open-ended survey responses, and more.
+Qualitative analysis, also called as qualitative research or qualitative inquiry is referring to analyzing non-numerical data. The goal of this research is not to quantify or measure something but more to explore patterns, themes, and meaning that emerge from the data.
 
-📌 **Note:** While qualitative research isn’t “statistical” in the traditional numeric sense, it can still be **systematic, rigorous**, and often includes **frequency counts**, **coding**, and **theme development** — which are sometimes referred to as *qualitative statistics*.
+This type of analysis is often used in social science, sociology, psychology, education, etc. to explore complex phenomena, and trying to understand human experiences: people perception, attitudes, behaviors related to a topics, or identifying patterns and trends or developing theories or models. 
 
----
 
-## 🧭 Step-by-Step Process for Qualitative Statistical Analysis
+
+# Qualitative research typically involves:
+
+1. **Data collection**: Gathering rich, descriptive data through methods such as interviews, focus groups, observations, or content analysis.
+2. **Data coding**: Assigning labels (codes) to specific segments of text or audio recordings to identify recurring themes, patterns, and concepts.
+3. **Theme identification**: Identifying broader categories or themes that emerge from the coded data.
+4. **Analysis and interpretation**: Interpreting the themes in relation to each other and in the context of the research question.
+
+
+
+## Common techniques used in qualitative analysis include:
+
+1. **Open coding**: Assigning initial codes to identify key concepts and themes.
+2. **Axial coding**: Grouping open-coded data into more abstract categories (e.g., "personal experiences" vs. "professional responsibilities").
+3. **Selective coding**: Identifying the core category or theme that encompasses other coded categories.
+
+Overall, qualitative analysis provides a rich, contextual understanding of complex phenomena and is particularly useful when exploring human experiences, behaviors, and perceptions.
+
+
+
+
+# Step-by-Step Process for Qualitative Statistical Analysis
 
 ---
 
 ### **Step 1: Define Your Research Question and Objectives**
 
-Ask yourself:
+Questions:
 - What am I trying to explore or understand?
 - Why is this question best suited to a qualitative approach?
 
-✅ **Examples:**
-- What are customers’ perceptions of our online support experience?
-- How do employees describe their onboarding process?
-
-🎯 **Your goal:** Understand *why*, *how*, or *what* people think, feel, or do — rather than just *how many*.
-
----
 
 ### **Step 2: Collect Qualitative Data**
 
@@ -59,7 +76,6 @@ Choose the right data sources for your question:
 
 Make sure your data is rich and relevant.
 
----
 
 ### **Step 3: Prepare and Transcribe the Data**
 
@@ -68,17 +84,7 @@ If your data includes audio/video:
 - Clean the transcripts (remove filler words, fix typos if needed).
 - Anonymize names and sensitive info if needed for ethics.
 
-If it’s text:
-- Organize it in a format that allows for **line-by-line analysis** — like Word, Excel, or qualitative software.
 
-📌 Tools you might use:  
-- **NVivo**  
-- **MAXQDA**  
-- **ATLAS.ti**  
-- **Dedoose**  
-- Or even **Excel or Google Docs** for simpler analysis
-
----
 
 ### **Step 4: Familiarize Yourself with the Data**
 
@@ -110,9 +116,6 @@ A **code** is a short phrase or label that summarizes a small chunk of data (lik
 | Emotional | "anxiety", "confidence" |
 | Value | "loyalty", "trust" |
 
-💡 **Tip:** Assign multiple codes to the same text when necessary.
-
----
 
 ### **Step 6: Categorize Codes into Themes**
 
@@ -310,18 +313,7 @@ This helps during both **data collection** and **analysis** (e.g., creating cate
 | Operational Example | Frequency of posts, engagement rates, Google Analytics metrics |
 | Qualitative Clues | Participant quotes about success, difficulty, or tools used |
 
----
-
-## 🧠 Pro Tip: Use Concept Maps
-
-A **concept map** is a great way to visualize and break down a complex variable. Start with the variable in the middle, and branch out into:
-- Definitions
-- Dimensions
-- Related concepts
-- Example indicators
-
-It helps organize your thinking and is especially useful in team research settings.
-
+-
 ---
 
 ## 📝 Summary Checklist: Conceptualizing a Variable

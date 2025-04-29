@@ -13,6 +13,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - quantiative-analysis
   # - research
   - procedure
+  - statisitcs
 
 # image: 
   # path: /assets/sample/coming-soon.png
