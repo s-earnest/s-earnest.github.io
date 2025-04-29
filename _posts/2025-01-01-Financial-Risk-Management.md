@@ -1,7 +1,7 @@
 ---
-title: ' Quantitative Research Process  '
+title: ' Financial Risk Management  '
 author: ernest
-date: 2025-12-27 16:20:02 -05:00
+date: 2025-12-19 16:20:02 -05:00
 last_modified_at: 2023-11-30
 categories: [ Notes ]
 pin:     # true
@@ -10,9 +10,8 @@ mermaid: true
 published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - notes
-  - quantiative-analysis
-  # - research
-  - procedure
+  # - tamplate-tag-2
+  # - template-tag-3
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -27,6 +26,55 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+# Summary
+
+
+
+# What is risk?
+
+
+# Business Management Risk
+
+
+
+## Market Risk
+
+
+## Credit Risk
+
+
+
+## Operational Risk
+
+
+## Enterprise Risk
+
+
+
+# Financial Regulatory Risk
+
+
+## USA
+
+
+## Europe
+
+
+
+## UK
+
+
+
+# Financial Risk Modeling
+
+## Scenario Analysis
+
+
+## Stress-testing portfolio
+
+
+
+
 
 
 
@@ -37,12 +85,14 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 
 
 
-# Footnotes
 
-Qualitative Analysis
-  This analsysis is based on non-numeric data -like interviews, focus groups, observations, documents, open-ended survey responses, etc.
-Quantitative Analysis
-  This analysis is the traditional numeric and often includes frequency counts and coding.
+
+
+## Footnote
+
+[^1]: The footnote source
+
+
 
 
 

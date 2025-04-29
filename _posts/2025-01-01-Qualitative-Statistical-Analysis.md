@@ -23,7 +23,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
-Great! Let’s walk through a **step-by-step process for qualitative statistical analysis** (which is sometimes called *qualitative data analysis*, or QDA). Unlike quantitative analysis, which deals with numbers, qualitative analysis focuses on **non-numeric data** — like interviews, focus groups, observations, documents, open-ended survey responses, and more.
+This is the process for qualitative statistical analysis** (which is sometimes called *qualitative data analysis*, or QDA). Unlike quantitative analysis, which deals with numbers, qualitative analysis focuses on **non-numeric data** — like interviews, focus groups, observations, documents, open-ended survey responses, and more.
 
 📌 **Note:** While qualitative research isn’t “statistical” in the traditional numeric sense, it can still be **systematic, rigorous**, and often includes **frequency counts**, **coding**, and **theme development** — which are sometimes referred to as *qualitative statistics*.
 
