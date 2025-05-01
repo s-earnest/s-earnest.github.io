@@ -131,7 +131,7 @@ What data do we need?
 
 
 
-## Think on the stakeholder perspective
+# Think on the stakeholder perspective
 
 What is the situation?
 Why is this an issue?
@@ -142,7 +142,7 @@ What would success looks like?
 
 
 
-## Problems and Solutions = identify the top predictors variables 
+# Problems and Solutions = identify the top predictors variables 
  Brain Storming problems
  
 Is our product differenticiated from competitors?
@@ -157,10 +157,36 @@ Brain storming problems
 (4) Research external resources 
 
 
+# Data Requirements
+
+## Structure
+
+
+## Features
 
 
 
-## Modeling Techniques
+## Sources
+
+
+## Scope
+
+
+
+# Modeling Techniques
+
+## Summary
+
+
+
+What factors might help us to predict cancellations?
+it could how we do the auto-renewals process ?
+Maybe a competitor launched a new product or price discount?
+
+
+
+
+
 
 
 ## Supervised learning technique
@@ -170,10 +196,6 @@ Brain storming problems
 
 
 
-
-
-
-## Data Requirements
 
 
 
