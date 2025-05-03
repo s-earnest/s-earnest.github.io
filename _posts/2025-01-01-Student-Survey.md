@@ -14,7 +14,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - student-survey
   - analysis
 
-image: /assets/articles/coming-soon.png
+image: /assets/articles/cover-austin-chan_web.png
 
 # image: 
   # path: /assets/img/articles/cover-austin-chan_web.png
