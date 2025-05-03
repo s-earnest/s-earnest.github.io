@@ -14,8 +14,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - student-survey
   - analysis
 
+image: /assets/articles/coming-soon.png
+
 # image: 
-  # path: /assets/sample/coming-soon.png
+  # path: /assets/img/articles/cover-austin-chan_web.png
+  # image: /assets/articles/coming-soon.png
   # image: /assets/sample/coming-soon.png
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
