@@ -13,6 +13,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # - tamplate-tag-2
   # - template-tag-3
 
+image: 
+   path: /assets/sample/coming-soon.png
+   image: /assets/sample/coming-soon.png
+   alt: Expected publishing date: May 2025
+
 # image: 
   # path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png

@@ -18,6 +18,10 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - operational-risk
   - stress-testing
   
+image:
+  # path: /assets/articles/cover-austin-chan_web.png
+  path: /assets/sample/coming-soon.png
+  alt: Photo by Austing Chan - Unsplash.
 
 # image: 
   # path: /assets/sample/coming-soon.png

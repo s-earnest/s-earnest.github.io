@@ -13,6 +13,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - classification
   - clustering-analysis
 
+image: 
+   path: /assets/sample/coming-soon.png
+   # image: /assets/sample/coming-soon.png
+   alt: Expected publishing date: May 2025
+
 # image: 
   # path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png

@@ -14,7 +14,10 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - student-survey
   - analysis
 
-image: /assets/articles/cover-austin-chan_web.png
+image:
+  # path: /assets/articles/cover-austin-chan_web.png
+  path: /assets/sample/coming-soon.png
+  alt: Photo by Austing Chan - Unsplash.
 
 # image: 
   # path: /assets/img/articles/cover-austin-chan_web.png
@@ -26,13 +29,14 @@ image: /assets/articles/cover-austin-chan_web.png
 
 
 
+<!-- 
 # image: /assets/articles/coming-soon.png
 
 sample/
 articles/
 docs/
 
-
+--> 
 
 ### Summary
 
