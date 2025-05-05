@@ -130,8 +130,8 @@ Variable Name | Description | Type (In Data File) | Measure (Actual) | Value lab
 ## Reference
 
   - [ Technical Report ](/assets/docs/paper1.pdf){:target="_blank"}
-  - [Statistical Consulting at University Libraries]( www.library.kent.edu/statconsulting ){:target="_blank"}
-
+  - [Statistical Consulting at University Libraries]( https://www.library.kent.edu/about/departments/statistical-consulting ){:target="_blank"}
+  - [Autin Chan Photography]( https://unsplash.com/fr ){:target="_blank"}
 
 
 
