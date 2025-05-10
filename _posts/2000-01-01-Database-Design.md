@@ -1,22 +1,19 @@
 ---
-title: ' USA College Scorecard Data '
+title: ' Database Design '
 author: ernest
-date: 2025-01-10 16:20:02 -05:00
+date: 2020-02-16 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Work ]
+categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - scorecard
-  - classification
-  - clustering-analysis
+  - work
+  # - tamplate-tag-2
+  # - template-tag-3
 
-image: 
-   path: /assets/sample/coming-soon.png
-   # image: /assets/sample/coming-soon.png
-   alt: Expected publishing date: May 2025
+image: /assets/sample/coming-soon.png
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -96,31 +93,7 @@ SOLVE
 CONCLUDE
   Return to the practical question to describe the results in this settings
 
-## Dates
 
-2024-07-09
-2024-08-19
-2024-09-12
-2024-11-22
-2024-12-13
-2024-07-05
-2024-07-11
-2024-08-02
-2024-08-16
-2024-09-09
-2024-10-10
-2024-10-29
-2024-11-04
-2024-11-11
-2024-11-14
-2024-11-18
-2024-12-11
-2024-12-16
-2024-12-18
-2024-12-24
-
-
- -->
 
 
 <!-- 
@@ -132,7 +105,8 @@ CONCLUDE
 {: .prompt-info }
 
 
- -->
+   -->
+
 
 
 
@@ -150,16 +124,141 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
+
+
+
+
+```sql
+/* Question 1
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* Question 1
+
+
+
+
+*/
+
+
+
+
+
+
+
+/* Question 1
+
+
+
+
+*/
+
+
+
+
+
+
+/* Question 1
+
+
+
+
+*/
+
+
+
+
+
+
+
+/* Question 1
+
+
+
+
+*/
+
+
+
+
+
+/* Question 1
+
+
+
+
+*/
+
+
+
+
+
+/* Question 1
+
+
+
+
+*/
+
+
+
+
+print s
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Introduction 
   Business task
   Problem statement
 
 
-# Data Source & data dictionnary
+# Data Source
    Describe where the datasets were downloaded from.
     Link the sites for the datasets if possible.
     Indicate if the data is from a public or a private license and if it is trusted.
     Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
+
+
+
 
 
 
@@ -170,6 +269,9 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
     related work
     methods
     experimental setup
+
+
+
 
 
 
@@ -200,31 +302,20 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 
 
 
-## Reference
 
-  - [Technical Report](/assets/docs/paper1.pdf){:target="_blank"}
-  - [Link dataset]( /assets/docs/paper2.pdf){:target="_blank"}
+## Table: orders
+**Description:** Stores all completed customer transactions.
 
+| Column       | Type     | Description                       |
+|--------------|----------|-----------------------------------|
+| order_id     | INT      | Primary key                       |
+| customer_id  | INT      | FK to customers                   |
+| order_date   | DATE     | Date of transaction               |
+| amount       | DECIMAL  | Total order value                 |
 
-
-
-
-
-
-```sql
-s = "Python syntax highlighting"
-print s
-```
-
-
-
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-
+**Notes:**
+- Orders only include completed purchases (not abandoned carts).
+- Use `order_date` for time-based reporting.
 
 
 
@@ -234,7 +325,7 @@ print s
 
 ### Contact. 
 
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
