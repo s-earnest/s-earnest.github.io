@@ -1,25 +1,20 @@
 ---
-title: ' Database Design  '
+title: ' Work  '
 author: ernest
-date: 2024-01-10 16:20:02 -05:00
-last_modified_at: 2024-11-30
+date: 2025-01-10 16:20:02 -05:00
+last_modified_at: 2023-11-30
 categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   # - tamplate-tag-2
-  - SQL
-  - databases
-  - schemas
-  - design
-  - business-intelligence
   # - template-tag-3
 
 image: 
-   # path: /assets/sample/coming-soon.png
+   path: /assets/sample/coming-soon.png
    image: /assets/sample/coming-soon.png
    alt: Expected publishing date: May 2025
 
@@ -32,324 +27,9 @@ image:
 
 
 
-<<<<<<< Updated upstream
-# Summary
-=======
-
-
-
-
-
-
-
-## Schema Table
-**Description:** Stores all completed customer transactions.
-
-| Column       | Type     | Description                       |
-|--------------|----------|-----------------------------------|
-| order_id     | INT      | Primary key                       |
-| customer_id  | INT      | FK to customers                   |
-| order_date   | DATE     | Date of transaction               |
-| amount       | DECIMAL  | Total order value                 |
-
-**Notes:**
-- Orders only include completed purchases (not abandoned carts).
-- Use `order_date` for time-based reporting.
-
-
-
-
-
-
-
-
-### Summary
-
-
-
-
->>>>>>> Stashed changes
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Introduction 
-  Business task
-  Problem statement
-
-
-# Data Source
-   Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-
-
-
-# Outline
-  Every project seeks to answer a question effectively. 
-    introduction
-    related work
-    methods
-    experimental setup
-
-
-
-
-<<<<<<< Updated upstream
-
-## Schema Table
-**Description:** Stores all completed customer transactions.
-
-| Column       | Type     | Description                       |
-|--------------|----------|-----------------------------------|
-| order_id     | INT      | Primary key                       |
-| customer_id  | INT      | FK to customers                   |
-| order_date   | DATE     | Date of transaction               |
-| amount       | DECIMAL  | Total order value                 |
-
-**Notes:**
-- Orders only include completed purchases (not abandoned carts).
-- Use `order_date` for time-based reporting.
-
-
-
-
-
-
-=======
-```SQL
-print("Hello, world!")
-for i in range(10):
-    print(i)
-```
-## Images
-
-<div style="text-align: center;">
-
-![alt text]( /assets/sample/coming-soon.png "Our logo")
-
-</div>
-
-
-![example {caption=Caption - changeme.}]( /assets/sample/coming-soon.png )
->>>>>>> Stashed changes
-
-
-
-
-
-```sql
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-print s
-```
-
-
-
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- 
-
-
-
-
-
-<<<<<<< Updated upstream
-```SQL
-print("Hello, world!")
-for i in range(10):
-    print(i)
-```
-## Images
-
-<div style="text-align: center;">
-
-![alt text]( /assets/sample/coming-soon.png "Our logo")
-
-</div>
-
-
-![example {caption=Caption - changeme.}]( /assets/sample/coming-soon.png )
-
-
-
-
-
-=======
->>>>>>> Stashed changes
-
-# Methodology
-
-  This is 1
-
-# Results
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
-
-
-# Working with time series
-
-  This is a section
-
-# Creating new metrics
-
-  This is a section
-
-
-
-
-
-
-## Resources
-
-  - [ Notebook ]( /assets/projects/wheat_seeds.html ){:target="_blank"}
-  - [ nbviewer ]( https://nbviewer.org/ ){:target="_blank"}
-      - A simple way to share Jupyter Notebooks
-
-  - [ item ]
-
-
-===
-
-
-
-
-
-
-
 
 > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles, notes and case study on this website are my own the way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my past or current employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 {: .prompt-info }
@@ -435,10 +115,31 @@ CONCLUDE
 
 
 
-<<<<<<< Updated upstream
-<<<<<<<< Updated upstream:_posts/2025-01-01-Database-Design.md
-========
 
+
+
+
+### Summary
+
+
+This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
+
+
+# Introduction 
+  Business task
+  Problem statement
+
+
+# Data Source
+   Describe where the datasets were downloaded from.
+    Link the sites for the datasets if possible.
+    Indicate if the data is from a public or a private license and if it is trusted.
+    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
+
+
+
+
+# Data Dictionnary
 
 Variable Name | Description | Type (In Data File) | Measure (Actual) | Value labels | 
 --- | --- | --- | --- | --- | --- | ---
@@ -467,41 +168,6 @@ Variable Name | Description | Type (In Data File) | Measure (Actual) | Value lab
 `SleepTime` | About how many hours of sleep do you get per night? | Numeric | textScale |  |
 `StudyTime` | About how many hours per week do you study? | Numeric | Scale |  |
 
-
-
-## Table: orders
-**Description:** Stores all completed customer transactions.
-
-| Column       | Type     | Description                       |
-|--------------|----------|-----------------------------------|
-| order_id     | INT      | Primary key                       |
-| customer_id  | INT      | FK to customers                   |
-| order_date   | DATE     | Date of transaction               |
-| amount       | DECIMAL  | Total order value                 |
-
-**Notes:**
-- Orders only include completed purchases (not abandoned carts).
-- Use `order_date` for time-based reporting.
-
-
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
-
-
-# Introduction 
-  Business task
-  Problem statement
-
-
-# Data Source
-   Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
 
 
 
@@ -573,6 +239,19 @@ for i in range(10):
 
 
 
+## Table: orders
+**Description:** Stores all completed customer transactions.
+
+| Column       | Type     | Description                       |
+|--------------|----------|-----------------------------------|
+| order_id     | INT      | Primary key                       |
+| customer_id  | INT      | FK to customers                   |
+| order_date   | DATE     | Date of transaction               |
+| amount       | DECIMAL  | Total order value                 |
+
+**Notes:**
+- Orders only include completed purchases (not abandoned carts).
+- Use `order_date` for time-based reporting.
 
 
 
@@ -580,12 +259,9 @@ for i in range(10):
 
 
 
->>>>>>>> Stashed changes:_posts/2000-01-01-sample_work copy 8.md
-=======
->>>>>>> Stashed changes
 ### Contact. 
 
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
