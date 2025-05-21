@@ -1,9 +1,9 @@
 ---
-title: ' Database Design '
+title: ' Website Traffic Analysis  '
 author: ernest
-date: 2020-02-16 16:20:02 -05:00
+date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
-categories: [ Notes ]
+categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
@@ -12,8 +12,16 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   # - tamplate-tag-2
   # - template-tag-3
+  - marketing
+  - SQL
+  - MySQL
+  - training
+  
 
-image: /assets/sample/coming-soon.png
+image: 
+   path: /assets/sample/coming-soon.png
+   image: /assets/sample/coming-soon.png
+   alt: Expected publishing date 2025 May
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -21,6 +29,42 @@ image: /assets/sample/coming-soon.png
   # alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+
+
+
+
+
+### Purpose
+
+
+This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
+
+
+### Introduction 
+  Business task
+  Problem statement
+
+
+### Data Source
+   Describe where the datasets were downloaded from.
+    Link the sites for the datasets if possible.
+    Indicate if the data is from a public or a private license and if it is trusted.
+    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
+
+
+
+
+
+### Analyzing Traffic Sources
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,235 +149,13 @@ CONCLUDE
 {: .prompt-info }
 
 
-   -->
 
 
+-->
 
 
 
 
 
-
-
-
-
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
-
-
-
-
-
-
-
-```sql
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-
-/* Question 1
-
-
-
-
-*/
-
-
-
-
-print s
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Introduction 
-  Business task
-  Problem statement
-
-
-# Data Source
-   Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-
-
-
-
-
-
-# Outline
-  Every project seeks to answer a question effectively. 
-    introduction
-    related work
-    methods
-    experimental setup
-
-
-
-
-
-
-
-# Methodology
-
-  This is 1
-
-# Results
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
-
-
-# Working with time series
-
-  This is a section
-
-# Creating new metrics
-
-  This is a section
-
-
-
-
-
-
-
-## Table: orders
-**Description:** Stores all completed customer transactions.
-
-| Column       | Type     | Description                       |
-|--------------|----------|-----------------------------------|
-| order_id     | INT      | Primary key                       |
-| customer_id  | INT      | FK to customers                   |
-| order_date   | DATE     | Date of transaction               |
-| amount       | DECIMAL  | Total order value                 |
-
-**Notes:**
-- Orders only include completed purchases (not abandoned carts).
-- Use `order_date` for time-based reporting.
-
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
 
 
