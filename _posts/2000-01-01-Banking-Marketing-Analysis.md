@@ -33,6 +33,70 @@ image:
 
 
 
+
+
+
+### Purpose
+
+The goal was to provide actionable insights to help optimize marketing strategies and improve conversion rates for term deposits.
+
+1. Understanding the Dataset:
+
+The dataset comes from a Portuguese bank’s direct marketing campaigns, where customers were contacted to subscribe to term deposits. The goal of my analysis was to determine which customers were more likely to subscribe and how to improve campaign efficiency.
+
+
+
+
+
+
+## Table: orders
+
+| Customer Attributes       | Type     | Description        |
+|--------------|----------|-----------------------------------|
+| age    | INT      | Age of the customer  |
+| Job  | INT      | Type of job (e.g., admin., blue-collar, technician)    |
+| Marital Status   | DATE     | Marital status of the customer (single, married, divorced)  |
+| Education | DECIMAL  | Level of education (e.g., primary, secondary, tertiary)  |
+| Default |item | Has the customer credit in default? (Yes/No) |
+| Housing Loan | item | Does the customer have a housing loan? (Yes/No) |
+| Personal Loan | item | Does the customer have a personal loan? (Yes/No) |
+| item | item | item |
+| item | item | item |
+
+
+
+| Campaign Attributes       | Type     | Description        |
+|--------------|----------|-----------------------------------|
+| Contact Type    | INT  | Communication method used to contact the customer (cellular, telephone).  |
+| Last Contact Date | item | Date of the last contact made to the customer. |
+| Duration | item | Duration of the last contact (in seconds). |
+| Campaign | item | Variable representing the current direct marketing campaign |
+| Previous   | iteme | Variable representing the number of contacts made with the <br> customer during previous marketing campaigns before the current campaign. | 
+
+
+
+
+
+| Economic Attributes       | Type     | Description        |
+|--------------|----------|-----------------------------------|
+| EmpVarRate | item  | Employment variation rate — a measure of employment growth or decline. |
+| Euribor3m | item | Three-month Euro Interbank Offered Rate, a benchmark interest rate.
+| ConsPriceIdx | item | Consumer Price Index, an indicator of inflation. | 
+| ConsConfIdx | item | Consumer Confidence Index — an economic sentiment indicator. | 
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
 Citation Request:
   This dataset is public available for research. The details are described in [Moro et al., 2011]. 
   Please include this citation if you plan to use this database:
@@ -144,25 +208,47 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 ## Table: orders
 **Description:** Stores all completed customer transactions.
 
-| Column       | Type     | Description                       |
+| Customer Attributes       | Type     | Description        |
 |--------------|----------|-----------------------------------|
-| order_id     | INT      | Primary key                       |
-| customer_id  | INT      | FK to customers                   |
-| order_date   | DATE     | Date of transaction               |
-| amount       | DECIMAL  | Total order value                 |
+| age    | INT      | Age of the customer  |
+| Job  | INT      | Type of job (e.g., admin., blue-collar, technician)    |
+| Marital Status   | DATE     | Marital status of the customer (single, married, divorced)  |
+| Education | DECIMAL  | Level of education (e.g., primary, secondary, tertiary)  |
+| Default |item | Has the customer credit in default? (Yes/No) |
+| Housing Loan | item | Does the customer have a housing loan? (Yes/No) |
+| Personal Loan | item | Does the customer have a personal loan? (Yes/No) |
+| item | item | item |
+| item | item | item |
 
-**Notes:**
-- Orders only include completed purchases (not abandoned carts).
-- Use `order_date` for time-based reporting.
+
+
+| Campaign Attributes       | Type     | Description        |
+|--------------|----------|-----------------------------------|
+| Contact Type    | INT  | Communication method used to contact the customer (cellular, telephone).  |
+| Last Contact Date | item | Date of the last contact made to the customer. |
+| Duration | item | Duration of the last contact (in seconds). |
+| Campaign | item | Variable representing the current direct marketing campaign |
+| Previous   | iteme | Variable representing the number of contacts made with the <br> customer during previous marketing campaigns before the current campaign. | 
+
+
+Target Outcome (y): Whether the customer subscribed to the term deposit after being contacted (Yes/No).
+
+
+| Economic Attributes       | Type     | Description        |
+|--------------|----------|-----------------------------------|
+| EmpVarRate | item  | Employment variation rate — a measure of employment growth or decline. |
+| Euribor3m | item | Three-month Euro Interbank Offered Rate, a benchmark interest rate.
+| ConsPriceIdx | item | Consumer Price Index, an indicator of inflation. | 
+| ConsConfIdx | item | Consumer Confidence Index — an economic sentiment indicator. | 
 
 
 
-# Outline
-  Every project seeks to answer a question effectively. 
-    introduction
-    related work
-    methods
-    experimental setup
+
+
+
+
+
+
 
 
 
@@ -188,33 +274,6 @@ for i in range(10):
 
 
 ![example {caption=Caption - changeme.}]( /assets/sample/coming-soon.png )
-
-
-
-
-
-# Methodology
-
-  This is 1
-
-# Results
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
-
-
-# Working with time series
-
-  This is a section
-
-# Creating new metrics
-
-  This is a section
-
-
 
 
 
@@ -295,121 +354,7 @@ HAVING COUNT(b.booking_id) = 1;
 
 
 
-```sql
-/* Question 1
-movenmoviesmini schema. 
-What do we notice about it? How many table are there? What does the data represent? What do we think about the current schema?
 
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-/* Question 2
-If we wanted to break out the data from the inventory_non_normalized table into multiple tables, how many table do we think would be ideal? What would we name thise tables?
-
-
-
-*/
-
-
-
-
-
-
-
-/* Question 3
-Based on our answer from question 2, create a new schema with the tables we think will best serve this data set. We cna use SQL code or workbench UI tools (whichever we feel more comfortable with).
-
-
-
-*/
-
-
-
-
-/* Question 4
-
-- Next, use the data from the original schema to populate the tables is newly optimized schema
-
-*/
-
-
-/* Question 5
-
-Make sure our new table have the proper primary keys defined and that applicable foreign keys are added. Add any contratints we thing should apply to the data as well (unique, non-NULL, etc>)
-
-
-
-
-
-*/
-
-
-
-
-
-/* Question 6
-
-Finally, after doing all of this technical work, write a brief summary of what we have done, in a way that your non-technical client can understand. Communicate what we did, and why our new schem design is better.
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-## Resources
-
-  - [ Notebook ]( /assets/projects/wheat_seeds.html ){:target="_blank"}
-  - [ nbviewer ]( https://nbviewer.org/ ){:target="_blank"}
-      - A simple way to share Jupyter Notebooks
-
-  - [ item ]
-
-
-
-
-
-
-
-
-### Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
-
-
-
-
-
-
-## Footnote
-
-[^1]: The footnote source
-
-
-
-
-
-
-
-<!-- 
 
 > All content provided is for informational purposes only and shown case studies examples for open source data resources. The articles, notes and case study on this website are my own the way on seen opportunities and problem-solving but don’t necessarily represent the positions, strategies, or opinions of my past or current employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 {: .prompt-info }
@@ -488,8 +433,8 @@ CONCLUDE
 {: .prompt-info }
 
 
-   -->
 
+-->
 
 
 

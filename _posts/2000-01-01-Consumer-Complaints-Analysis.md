@@ -1,15 +1,15 @@
 ---
-title: ' Consuemr Complaints Analysis '
+title: ' Consumer Complaints Analysis '
 author: ernest
-date: 2025-02-16 16:20:02 -05:00
-last_modified_at: 2023-11-30
+date: 2024-02-16 16:20:02 -05:00
+last_modified_at: 2024-11-30
 categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
 published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
-  - database-design
+  
   - database
   # - tamplate-tag-2
   # - template-tag-3
@@ -19,33 +19,25 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - complaints
   - consumer
   - customer-satisfaction
-  - financial
+  
 
 
 
 image: 
   path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png
-  alt: Expected publishing date 2025-06-15
+  alt: Expected publishing date unknown
 
 ---
 
 
 
-###### Last update: 6:01:09 PM 
 
 
-
-
-
-# Summary 
+### Summary 
 
 This dataset serves as a valuable resource for identifying trends, assessing company practices, and informing policy decisions. 
 As of February 22, 2025, the database contains a total of 7,867,198 complaints. The dataset is 1,36 GB in size and available for download in CSV format. The dataset spans from December 1, 2011, to the present, with regular updates to include new complaints.
-
-
-
-
 
 
 
@@ -61,7 +53,7 @@ With their consent and after taking steps to remove sensitive information, we pu
 
 
 # Data Dictionnary
-**Description:** describes the variables meaning.
+
 
 | Column Name      | Type data    | Description               |
 |--------------|----------|-----------------------------------|
@@ -96,9 +88,419 @@ As of February 22, 2025, the database contains a total of 7,867,198 complaints. 
 
 
 
+
+<!-- 
+
+
+
+===
+
+
+
+
+SCHEMA 
+
+
+CREATE TABLE complaints (
+    complaint_id       BIGINT AUTO_INCREMENT PRIMARY KEY,
+    received_date      DATE NOT NULL,
+    product            VARCHAR(255),
+    sub_product        VARCHAR(255),
+    issue              VARCHAR(255),
+    sub_issue          VARCHAR(255),
+    company            VARCHAR(255),
+    state              CHAR(2),
+    zip_code           VARCHAR(10),
+    submitted_via      VARCHAR(100),
+    date_sent_to_company DATE,
+    company_response   VARCHAR(255),
+    timely_response    BOOLEAN,
+    consumer_disputed  BOOLEAN,
+    status             ENUM('Pending', 'In Progress', 'Resolved', 'Closed', 'Duplicate') DEFAULT 'Pending',
+    resolved_date      DATE,
+    complaint_narrative TEXT,
+    tags               VARCHAR(255),
+    consumer_consent   VARCHAR(100),
+    date_created       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+==== 
+
+questions 
+
+
+
+
+Absolutely! Here are **20 MySQL questions** tailored for analyzing your **consumer complaints dataset**, focusing on trends, company performance, resolution metrics, geography, and product issues.
+
+---
+
+## 🔍 **A. General Overview & Time Trends**
+
+1. **How many total complaints are in the dataset?**
+
+```sql
+SELECT COUNT(*) FROM complaints;
+```
+
+2. **What is the time range of the complaints?**
+
+```sql
+SELECT MIN(received_date) AS start_date, MAX(received_date) AS end_date FROM complaints;
+```
+
+3. **How many complaints are received each year?**
+
+```sql
+SELECT YEAR(received_date) AS year, COUNT(*) AS total FROM complaints GROUP BY year ORDER BY year;
+```
+
+4. **Which month has the highest number of complaints overall?**
+
+```sql
+SELECT DATE_FORMAT(received_date, '%Y-%m') AS month, COUNT(*) AS total
+FROM complaints
+GROUP BY month
+ORDER BY total DESC
+LIMIT 1;
+```
+
+5. **How many complaints were received in the last 30 days?**
+
+```sql
+SELECT COUNT(*) FROM complaints WHERE received_date >= CURDATE() - INTERVAL 30 DAY;
+```
+
+---
+
+## 🏢 **B. Company-Level Analysis**
+
+6. **Which companies received the most complaints?**
+
+```sql
+SELECT company, COUNT(*) AS total FROM complaints GROUP BY company ORDER BY total DESC LIMIT 10;
+```
+
+7. **What are the average resolution times per company?**
+
+```sql
+SELECT company, AVG(DATEDIFF(resolved_date, received_date)) AS avg_days
+FROM complaints
+WHERE resolved_date IS NOT NULL
+GROUP BY company
+ORDER BY avg_days;
+```
+
+8. **What percentage of complaints are marked as ‘Resolved’ per company?**
+
+```sql
+SELECT company, 
+       ROUND(SUM(status = 'Resolved') / COUNT(*) * 100, 2) AS resolution_rate
+FROM complaints
+GROUP BY company
+ORDER BY resolution_rate DESC;
+```
+
+9. **Which companies have the highest consumer dispute rate?**
+
+```sql
+SELECT company, 
+       ROUND(SUM(consumer_disputed = TRUE) / COUNT(*) * 100, 2) AS dispute_rate
+FROM complaints
+GROUP BY company
+ORDER BY dispute_rate DESC;
+```
+
+10. **For each company, what are the most common issues reported?**
+
+```sql
+SELECT company, issue, COUNT(*) AS total
+FROM complaints
+GROUP BY company, issue
+ORDER BY company, total DESC;
+```
+
+---
+
+## 🌍 **C. Geographic Patterns**
+
+11. **Which states have the highest complaint volume?**
+
+```sql
+SELECT state, COUNT(*) AS total FROM complaints GROUP BY state ORDER BY total DESC;
+```
+
+12. **What is the complaint volume per ZIP code?**
+
+```sql
+SELECT zip_code, COUNT(*) AS total FROM complaints GROUP BY zip_code ORDER BY total DESC LIMIT 10;
+```
+
+13. **What are the top issues in a specific state (e.g., 'CA')?**
+
+```sql
+SELECT issue, COUNT(*) AS total FROM complaints WHERE state = 'CA' GROUP BY issue ORDER BY total DESC;
+```
+
+---
+
+## 📦 **D. Product & Issue Trends**
+
+14. **Which products have the most complaints?**
+
+```sql
+SELECT product, COUNT(*) AS total FROM complaints GROUP BY product ORDER BY total DESC;
+```
+
+15. **Which sub-products are associated with the most issues?**
+
+```sql
+SELECT sub_product, COUNT(*) AS total FROM complaints GROUP BY sub_product ORDER BY total DESC;
+```
+
+16. **Which product categories have the highest dispute rate?**
+
+```sql
+SELECT product,
+       ROUND(SUM(consumer_disputed = TRUE) / COUNT(*) * 100, 2) AS dispute_rate
+FROM complaints
+GROUP BY product
+ORDER BY dispute_rate DESC;
+```
+
+---
+
+## 📆 **E. Submission, Response & Status Analysis**
+
+17. **What are the most common submission channels?**
+
+```sql
+SELECT submitted_via, COUNT(*) AS total FROM complaints GROUP BY submitted_via ORDER BY total DESC;
+```
+
+18. **What is the distribution of complaint statuses?**
+
+```sql
+SELECT status, COUNT(*) AS total FROM complaints GROUP BY status;
+```
+
+19. **How many complaints were resolved within 7 days?**
+
+```sql
+SELECT COUNT(*) FROM complaints
+WHERE resolved_date IS NOT NULL AND DATEDIFF(resolved_date, received_date) <= 7;
+```
+
+20. **What percentage of complaints received a timely response?**
+
+```sql
+SELECT ROUND(SUM(timely_response = TRUE) / COUNT(*) * 100, 2) AS timely_response_rate FROM complaints;
+```
+
+---
+
+Would you like a downloadable `.sql` file with these questions or to generate a dashboard layout based on them?
+
+
+
+
+===
+
+
+
+
+Great question! For a dataset containing **consumer complaints** (with millions of rows, spanning from 2011 to 2025), you’ll want MySQL queries that help you extract insights, track trends, identify problematic companies, and monitor complaint resolution. Below is a list of **high-value query types** organized by analysis goals, along with why they’re useful.
+
+---
+
+### 🔍 **1. Data Overview & Integrity**
+
+#### ✅ Total Number of Complaints
+
+```sql
+SELECT COUNT(*) AS total_complaints FROM complaints;
+```
+
+#### ✅ Complaints Over Time
+
+```sql
+SELECT YEAR(received_date) AS year, COUNT(*) AS complaints_count
+FROM complaints
+GROUP BY year
+ORDER BY year;
+```
+
+#### ✅ Range of Complaint Dates
+
+```sql
+SELECT MIN(received_date) AS earliest, MAX(received_date) AS latest FROM complaints;
+```
+
+---
+
+### 📊 **2. Trend Analysis**
+
+#### ✅ Monthly Complaint Volume
+
+```sql
+SELECT DATE_FORMAT(received_date, '%Y-%m') AS month, COUNT(*) AS complaints
+FROM complaints
+GROUP BY month
+ORDER BY month;
+```
+
+#### ✅ Year-over-Year Growth
+
+```sql
+SELECT YEAR(received_date) AS year,
+       COUNT(*) AS complaints,
+       LAG(COUNT(*)) OVER (ORDER BY YEAR(received_date)) AS prev_year,
+       ROUND((COUNT(*) - LAG(COUNT(*)) OVER (ORDER BY YEAR(received_date))) / 
+              LAG(COUNT(*)) OVER (ORDER BY YEAR(received_date)) * 100, 2) AS percent_change
+FROM complaints
+GROUP BY year;
+```
+
+---
+
+### 🏢 **3. Company Performance**
+
+#### ✅ Most Complained-About Companies
+
+```sql
+SELECT company, COUNT(*) AS total_complaints
+FROM complaints
+GROUP BY company
+ORDER BY total_complaints DESC
+LIMIT 10;
+```
+
+#### ✅ Complaints per Company per Year
+
+```sql
+SELECT company, YEAR(received_date) AS year, COUNT(*) AS complaints
+FROM complaints
+GROUP BY company, year
+ORDER BY company, year;
+```
+
+---
+
+### ⚖️ **4. Resolution & Status Analysis**
+
+#### ✅ Complaint Status Distribution
+
+```sql
+SELECT status, COUNT(*) AS count
+FROM complaints
+GROUP BY status;
+```
+
+#### ✅ Resolution Rate per Company
+
+```sql
+SELECT company,
+       SUM(status = 'Resolved') / COUNT(*) * 100 AS resolution_rate
+FROM complaints
+GROUP BY company
+ORDER BY resolution_rate DESC;
+```
+
+---
+
+### 🌍 **5. Geographic Insights**
+
+#### ✅ Complaints by State or Region
+
+```sql
+SELECT state, COUNT(*) AS complaints
+FROM complaints
+GROUP BY state
+ORDER BY complaints DESC;
+```
+
+---
+
+### 🔎 **6. Keyword or Category Insights**
+
+#### ✅ Most Common Issues or Complaint Topics
+
+```sql
+SELECT issue, COUNT(*) AS frequency
+FROM complaints
+GROUP BY issue
+ORDER BY frequency DESC
+LIMIT 10;
+```
+
+---
+
+### 📈 **7. Time to Resolve (if timestamps available)**
+
+#### ✅ Average Resolution Time
+
+```sql
+SELECT AVG(DATEDIFF(resolved_date, received_date)) AS avg_days_to_resolve
+FROM complaints
+WHERE resolved_date IS NOT NULL;
+```
+
+---
+
+### ⚙️ **Indexing Recommendations for Performance:**
+
+If the dataset is large (\~8M rows), add indexes on frequently queried columns:
+
+```sql
+CREATE INDEX idx_received_date ON complaints(received_date);
+CREATE INDEX idx_company ON complaints(company);
+CREATE INDEX idx_status ON complaints(status);
+CREATE INDEX idx_state ON complaints(state);
+```
+
+---
+
+Would you like help writing a data model (schema) or a sample dashboard query set (for BI tools like Metabase or Power BI)?
+
+
+
+
+
+
+
+
+
+
+
+===
+
+
+
+
+Certainly! Here's a concise **MySQL-focused summary** based on the dataset description:
+
+---
+
+### **MySQL Dataset Summary**
+
+This dataset provides a comprehensive record of consumer complaints, useful for trend analysis, company performance evaluation, and policy development. As of **February 22, 2025**, the database contains approximately **7.87 million records**, covering the period from **December 1, 2011**, to the present. The dataset is updated regularly and is available in **CSV format**, with a file size of **1.36 GB**.
+
+In a MySQL environment, this dataset can be imported for efficient querying, filtering by date ranges, company names, complaint types, and other dimensions. Proper indexing, partitioning (e.g., by year or month), and normalization can greatly enhance performance and storage efficiency when analyzing this volume of data.
+
+
+
+
+
+
+
+
 **Notes:**
 - Orders only include completed purchases (not abandoned carts).
 - Use `order_date` for time-based reporting.
+
+
 
 
 
@@ -121,66 +523,6 @@ What do we notice about it? How many table are there? What does the data represe
 
 
 
-
-
-
-/* Question 2
-If we wanted to break out the data from the inventory_non_normalized table into multiple tables, how many table do we think would be ideal? What would we name thise tables?
-
-
-
-*/
-
-
-
-
-
-
-
-/* Question 3
-Based on our answer from question 2, create a new schema with the tables we think will best serve this data set. We cna use SQL code or workbench UI tools (whichever we feel more comfortable with).
-
-
-
-*/
-
-
-
-
-/* Question 4
-
-- Next, use the data from the original schema to populate the tables is newly optimized schema
-
-*/
-
-
-/* Question 5
-
-Make sure our new table have the proper primary keys defined and that applicable foreign keys are added. Add any contratints we thing should apply to the data as well (unique, non-NULL, etc>)
-
-
-
-
-
-*/
-
-
-
-
-
-/* Question 6
-
-Finally, after doing all of this technical work, write a brief summary of what we have done, in a way that your non-technical client can understand. Communicate what we did, and why our new schem design is better.
-
-
-
-*/
-
-
-
-
-
-```
 
 
 
@@ -244,17 +586,6 @@ When we make changes to products, sub-products, issues, and sub-issues we provid
 The Consumer Complaint Database shows the consumer's original products, sub-products, issues, and sub-issues selections consistent with the options available on the form at the time the consumer submitted the complaint.
 
 Below are a collection of updates by year, including full lists of complaint form products, sub-products, issues, and sub-issues.
-
-
-
-
-
-
-
-
-
-
-
 
 
 
