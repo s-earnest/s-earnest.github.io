@@ -201,7 +201,76 @@ These tables and their relationships provide a structured representation of empl
 **1.4** *What is the average tenure of employees in each department?*
 
 
+### 2. **Department Dynamics**
 
+**2.1** *Which departments have the highest employee turnover rate?*
+
+
+**2.2** *What is the size of each department over time?*
+
+
+**2.3** *Are there any departments with an unusually high or low number of employees compared to the rest?*
+
+
+### 3. **Titles & Job Roles**
+
+**3.1** *What is the distribution of employees by title?*
+
+
+**3.2** *How many employees have been promoted within the organization?*
+
+
+**3.3** *What is the average time it takes for an employee to be promoted within the company?*
+
+
+**3.4** *Which job titles are associated with the highest average salaries?*
+
+
+### 4. **Salary Analysis**
+
+**4.1** *What is the average salary for employees in each department?*
+
+**4.2** *What is the trend of salary growth over the past 5 years for employees?*
+
+**4.3** *What is the salary gap between employees with different titles?*
+
+**4.4** *Are there any departments with significant salary discrepancies compared to the overall company average?*
+
+**4.5** *How does salary vary based on tenure within the company?*
+
+
+
+
+### 5. **Employee Performance & Career Development**
+
+**5.1** *Do employees in certain titles or departments tend to have longer or shorter careers?*
+**5.2** *What is the relationship between department size and employee satisfaction or performance?*
+**5.3** *Are employees in specific departments more likely to leave the company after receiving a salary increase?*
+
+
+### 6. **Cross-Department & Organizational Insights**
+
+**6.1** *Which departments tend to collaborate the most with others?*
+**6.2** *Are there departments with employees in similar job titles but drastically different salary ranges?*
+**6.3** *How often do employees change departments, and is there a trend of movement between departments?*
+
+
+### 7. **Compensation & Market Analysis**
+
+**7.1** *How do the salaries within the company compare to industry standards for similar roles?*
+
+**7.2** *How do employee salaries correlate with market trends (e.g., inflation, economic downturn)?*
+
+
+
+
+
+
+
+
+
+
+===
 
 
 
@@ -278,6 +347,12 @@ These questions are focused on the compensation trends within the organization.
 ---
 
 ### 5. **Employee Performance & Career Development**
+**5.1** *Do employees in certain titles or departments tend to have longer or shorter careers?*
+**5.2** *What is the relationship between department size and employee satisfaction or performance?*
+**5.3** *Are employees in specific departments more likely to leave the company after receiving a salary increase?*
+
+
+
 
 These questions will help you measure performance and development.
 
@@ -293,6 +368,10 @@ These questions will help you measure performance and development.
 ---
 
 ### 6. **Cross-Department & Organizational Insights**
+**6.1** *Which departments tend to collaborate the most with others?*
+**6.2** *Are there departments with employees in similar job titles but drastically different salary ranges?*
+**6.3** *How often do employees change departments, and is there a trend of movement between departments?*
+
 
 These questions focus on the interaction between departments and their collective impact.
 
@@ -308,6 +387,11 @@ These questions focus on the interaction between departments and their collectiv
 ---
 
 ### 7. **Compensation & Market Analysis**
+**7.1** *How do the salaries within the company compare to industry standards for similar roles?*
+
+**7.2** *How do employee salaries correlate with market trends (e.g., inflation, economic downturn)?*
+
+
 
 These questions help compare the company's compensation strategies with external benchmarks.
 
