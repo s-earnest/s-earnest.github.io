@@ -34,28 +34,15 @@ image:
 
 
 
-### Purpose
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
-
-
-### Introduction 
-  Business task
-  Problem statement
-
-
-### Data Source
-   Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-
-
-
 
 ### Analyzing Traffic Sources
+
+Website content analysis is about understanding which pages are seen the most by our users, and identify where to focus on improving our business.
+
+
+- (1) help to find the most viewed pages that customers view on our site
+- (2) identifying the most common entry pages to our website, the landing page is the first thing a user sees
+- (3) for most viewed pages and most common entry pages, understanding how those pages perform for our business objectives.
 
 
 

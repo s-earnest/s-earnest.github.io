@@ -1,5 +1,5 @@
 ---
-title: ' Spirit Airline Analysis  '
+title: ' Spirit Airline Database Analysis  '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -22,7 +22,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 image: 
    path: /assets/sample/coming-soon.png
    image: /assets/sample/coming-soon.png
-   alt: Expected publishing date 2025 May
+   alt: Expected publishing date 2025 05
 
 
 # image: 
@@ -52,27 +52,99 @@ image:
 
 
 
-## Data dictionnary 
+### Data dictionnary 
 
 
 | Column       | Type     | Description                       |
 |--------------|----------|-----------------------------------|
 | num_passengers    | INT      | number of passengers travelling    |
-| sales_channel | INT      | sales channel booking was made on    |
-| trip_type   | DATE     | trip Type (Round Trip, One Way, Circle Trip)    |
-| purchase_lead   | DECIMAL  | number of days between travel date and booking date   |
-| length_of_stay  | DECIMAL  | number of days spent at destination  |
-| flight_hour   | DECIMAL  | hour of flight departure    |
-| route   | DECIMAL  | origin -> destination flight route    |
-| wants_extra_baggage   | DECIMAL  | if the customer wanted extra baggage in the booking    |
-| wants_preferred_seat   | DECIMAL  | if the customer wanted a preferred seat in the booking    |
+| sales_channel     | INT      | sales channel booking was made on    |
+| trip_type         | DATE     | trip Type (Round Trip, One Way, Circle Trip)    |
+| purchase_lead     | DECIMAL  | number of days between travel date and booking date   |
+| length_of_stay    | DECIMAL  | number of days spent at destination  |
+| flight_hour       | DECIMAL  | hour of flight departure    |
+| route             | DECIMAL  | origin -> destination flight route    |
+| wants_extra_baggage | DECIMAL  | if the customer wanted extra baggage in the booking    |
+| wants_preferred_seat  | DECIMAL  | if the customer wanted a preferred seat in the booking    |
 | wants_in_flight_meals   | DECIMAL  | if the customer wanted in-flight meals in the booking    |
-| flight_duration   | DECIMAL  | total duration of flight (in hours)    |
-| booking_complete   | DECIMAL  | flag indicating if the customer completed the booking    |
-| flight_day   | DECIMAL  | day of week of flight departure    |
+| flight_duration  | DECIMAL  | total duration of flight (in hours)    |
+| booking_complete | DECIMAL  | flag indicating if the customer completed the booking    |
+| flight_day | DECIMAL  | day of week of flight departure    |
 | booking_origin | INT |  country from where booking was made | 
 
 
+
+
+
+### (1) **Booking Behavior Analysis**
+
+1. **What is the average number of passengers per booking across all routes?**
+
+
+2. **Which sales channel has the highest booking completion rate?**
+
+
+3. **What are the top 5 trip types by volume of completed bookings?**
+
+
+4. **How does the number of days between booking and travel (purchase\_lead) impact booking completion?**
+
+
+### (2) **Flight and Route Analysis**
+
+
+5. **What are the top 10 most popular routes by booking volume?**
+
+
+6. **What is the average flight duration per route?**
+
+
+7. **Which days of the week have the highest booking completions?**
+
+### (3)  **Add-On Services Demand**
+
+8. **What percentage of customers opt for extra baggage?**
+
+
+9. **What is the overlap between customers who want all 3 services (baggage, meals, preferred seat)?**
+
+
+10. **How does add-on preference vary by booking origin (country)?**
+
+
+### (4) **Temporal Patterns**
+
+11. **What is the distribution of flights by hour of the day?**
+
+
+12. **Is there a correlation between length of stay and trip type?**
+
+
+
+### (5) **Geographic Trends**
+
+13. **Which booking origins have the highest completion rate?**
+
+
+14. **Top 5 countries with customers requesting preferred seats the most?**
+
+
+
+### (6) **Conversion & Optimization**
+
+15. **What is the average purchase lead for completed bookings vs. incomplete?**
+
+
+16. **Which flight routes have the lowest booking completion rate?**
+
+
+18. **Is there a difference in add-on requests between One Way and Round Trips?**
+
+
+19. **What is the relationship between number of passengers and add-on service requests?**
+
+
+20. **Which combinations of trip\_type and flight\_day are most successful (by completion rate)?**
 
 
 
@@ -84,10 +156,8 @@ image:
 <!-- 
 
 
+flughafendb
 
-Certainly! Here's a list of **20 detailed MySQL query questions** based on the provided fields. These questions are designed to extract meaningful insights, identify patterns, and help with decision-making. Each question is followed by a brief description of what it aims to achieve.
-
----
 
 ### 🎯 **Booking Behavior Analysis**
 
@@ -362,11 +432,6 @@ Let me know if you’d like to turn any of these into a full MySQL script or das
 
 
 
-
-
-
-
-
 ```sql
 
 print("Hello, world!")
@@ -374,22 +439,6 @@ for i in range(10):
     print(i)
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- 
@@ -471,25 +520,6 @@ CONCLUDE
 {: .prompt-info }
 
 
-   -->
-
-
-
-
-
-### Refernece
-- https://github.com/stefanproell/flughafendb
-
-
-
-
-
-
-
-# Contact. 
-
-Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
-
 
 
 
@@ -502,6 +532,12 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 
 
 
+### Refernece
+- https://github.com/stefanproell/flughafendb
+
+
+
+-->
 
 
 
@@ -509,8 +545,9 @@ Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you 
 
 
 
+### Contact. 
 
-
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/30min ){:target="_blank"}
 
 
 

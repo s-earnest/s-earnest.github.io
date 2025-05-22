@@ -1,5 +1,5 @@
 ---
-title: ' Classic Models Cars  '
+title: ' Classic Models Cars Database '
 author: ernest
 date: 2023-01-10 16:20:02 -05:00
 last_modified_at: 2025-01-30
@@ -16,9 +16,10 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - relational-structured
   - MySQL
   - SQL
-
-
-
+  - retail
+  - ecommerce
+  - business 
+  - database 
 
 
 image: 
@@ -35,23 +36,46 @@ image:
 
 
 
-
-
-
-
-
 ## Information about the dataset.
 
 
-- The Classic Models business, is a retailer of scale models of classic cars. The database contains typical business data such as customers, orders, order line items, products and so on. And the purpose is extract insights from this business dataset
+- This is a retailer of scale models of classic cars. The database contains typical business data such as customers, orders, order line items, products and so on. And the purpose is extract insights from this business dataset. The purpose of this case study is to provide to the business owner some insights from their customers. 
 
 
 
 
+## Date dictionnary 
 
 
+| Column Name     | Type     | Description                |
+|--------------|----------|-----------------------------------|
+| customers  | INT      | stores customer’s data.        |
+| products | INT      | stores a list of scale model cars.      |
+| productilines | DATE     |  stores a list of product lines     |
+| orders   | DECIMAL  | stores sales orders placed by customers.                  |
+| orderdetails | item | stores sales order line items for every sales order. | 
+| payments | item | stores payments made by customers based on their accounts. | 
+| employees | item | stores employee information and the organization structure such as who reports to whom. | 
+| offices | varch | stores sales office datat | 
 
-## What I will be looking 
+
+- Count of tables: 8 
+- Count of rows: 3,864
+- Count of columns: 59 
+- Missing values: Yes
+
+
+### Techncial approach 
+
+- (1) understanding the business context
+- (2) get familiar with tables and do a data exploration and cleaning
+- (3) identify key relationships with ER diagram
+- (4) look for metrics and kIPs
+- (5) understanding business processes and workflow
+- (6) build reports from queries
+
+
+## These are the sections I will be looking for answers. 
 
 
 
@@ -133,6 +157,458 @@ The schema is for Classic Models, a retailer of scale models of classic cars. Th
 
 
 
+SCHEMA LINK
+https://relational.fel.cvut.cz/assets/img/datasets-generated/classicmodels.svg
+
+
+
+
+Data exploration and cleaning are critical steps in preparing your dataset for analysis. This process helps you understand the data's structure, quality, and any issues that might affect the results of your analysis. Here's a detailed guide on what queries you should run to explore the data and perform cleaning.
+
+### **1. Data Exploration:**
+
+The goal of data exploration is to get a sense of the data you're working with. This step includes inspecting the tables, identifying missing values, checking for duplicates, and understanding the basic statistics.
+
+#### **Step 1: Get Table Structure**
+
+Start by exploring the structure of each table. This gives you an overview of what columns exist, their data types, and whether there are any constraints (like primary keys or foreign keys).
+
+* **Query to describe the table structure:**
+
+  ```sql
+  DESCRIBE customers; -- Replace 'customers' with the name of any table.
+  ```
+
+This query will show:
+
+* **Column names**
+* **Data types** (e.g., `VARCHAR`, `INT`, `DATE`, etc.)
+* **Nullability** (whether a column can have missing values or not)
+* **Key constraints** (e.g., primary key, foreign key)
+
+#### **Step 2: Get Basic Table Summary**
+
+You’ll want to know how many rows are in the table and get a quick look at the first few records to understand the data.
+
+* **Query to check the number of rows in a table:**
+
+  ```sql
+  SELECT COUNT(*) FROM customers;
+  ```
+
+* **Query to preview the first few rows:**
+
+  ```sql
+  SELECT * FROM customers LIMIT 10;
+  ```
+
+This will help you get an initial feel for the data.
+
+#### **Step 3: Check for Missing Values**
+
+You need to check for any missing data. Missing data could either be represented as `NULL`, empty strings, or just unexpected values.
+
+* **Query to check the count of NULL values for each column:**
+
+  ```sql
+  SELECT
+    COUNT(*) AS total_rows,
+    COUNT(column_name) AS non_null_count,
+    COUNT(*) - COUNT(column_name) AS null_count
+  FROM customers;
+  ```
+
+Repeat this query for each table and column. If you see that a large number of rows in certain columns are `NULL`, you may need to handle this in your cleaning process.
+
+* **Alternative query to check for missing values in multiple columns:**
+
+  ```sql
+  SELECT
+    SUM(CASE WHEN column_name IS NULL THEN 1 ELSE 0 END) AS missing_column_name
+  FROM customers;
+  ```
+
+#### **Step 4: Check for Duplicates**
+
+You should check for duplicate rows, especially in tables like `orders`, `orderdetails`, `payments`, or `customers` where duplicates can skew the analysis.
+
+* **Query to find duplicate rows:**
+
+  ```sql
+  SELECT 
+    column1, column2, COUNT(*)
+  FROM customers
+  GROUP BY column1, column2 -- Specify columns that should be unique (e.g., customer_id)
+  HAVING COUNT(*) > 1;
+  ```
+
+This query will return rows where combinations of `column1` and `column2` are duplicated. Adjust it based on the specific columns you expect to be unique (e.g., `customer_id`, `order_id`).
+
+#### **Step 5: Identify Outliers and Data Ranges**
+
+Check for any unrealistic values, such as negative quantities in order details, negative prices, or future dates in the `orders` table.
+
+* **Query to check for outliers:**
+
+  ```sql
+  SELECT MIN(column_name), MAX(column_name), AVG(column_name), STDDEV(column_name)
+  FROM orders;
+  ```
+
+This will give you the minimum, maximum, average, and standard deviation, helping you spot any outliers or strange values.
+
+#### **Step 6: Get Summary Statistics for Numerical Data**
+
+For numerical columns like `order_amount`, `quantity`, or `payment_amount`, you can generate summary statistics to check if there are any issues.
+
+* **Query to get summary statistics for a numerical column:**
+
+  ```sql
+  SELECT 
+    AVG(price_column) AS avg_price,
+    MIN(price_column) AS min_price,
+    MAX(price_column) AS max_price,
+    COUNT(DISTINCT price_column) AS distinct_prices
+  FROM products;
+  ```
+
+### **2. Data Cleaning:**
+
+Once you've explored the data, the next step is cleaning it. Data cleaning involves handling missing values, duplicates, correcting data types, and addressing any outliers or incorrect entries. Here's how to proceed:
+
+#### **Step 1: Handle Missing Values**
+
+There are several ways to handle missing values, and your choice will depend on the context and the data.
+
+* **Option 1: Remove rows with missing values**
+  If a column has too many missing values or if the missing data cannot be reasonably imputed, you might want to drop the rows entirely.
+
+  * **Query to remove rows with missing values in a specific column:**
+
+    ```sql
+    DELETE FROM customers WHERE column_name IS NULL;
+    ```
+
+* **Option 2: Fill missing values with default values (mean, median, or constant)**
+  For numerical columns, you may choose to replace missing values with the mean or median. For categorical columns, you could replace missing values with the mode (most frequent value) or a placeholder value (e.g., "Unknown").
+
+  * **Query to fill missing values with a default (e.g., "Unknown" for a categorical column):**
+
+    ```sql
+    UPDATE customers
+    SET column_name = 'Unknown'
+    WHERE column_name IS NULL;
+    ```
+
+  * **Query to fill missing values with the mean (for numerical columns):**
+
+    ```sql
+    SET @mean_value = (SELECT AVG(column_name) FROM customers WHERE column_name IS NOT NULL);
+    UPDATE customers
+    SET column_name = @mean_value
+    WHERE column_name IS NULL;
+    ```
+
+#### **Step 2: Remove Duplicates**
+
+If you identified duplicate rows in the data during exploration, you will need to clean those up.
+
+* **Query to delete duplicates (keeping only the first occurrence):**
+  You can use `ROW_NUMBER()` or `DISTINCT` to keep only the first occurrence of each row:
+
+  ```sql
+  DELETE FROM customers
+  WHERE id NOT IN (
+    SELECT MIN(id) FROM customers GROUP BY column1, column2
+  );
+  ```
+
+#### **Step 3: Correct Data Types**
+
+Check that all the columns have appropriate data types. For example:
+
+* Dates should be stored as `DATE` or `DATETIME`.
+* Numerical values (e.g., prices) should be stored as `DECIMAL` or `FLOAT`.
+* Categorical columns should be stored as `VARCHAR`.
+
+If you need to change the data type of a column:
+
+* **Query to alter the data type:**
+
+  ```sql
+  ALTER TABLE customers
+  MODIFY COLUMN date_of_birth DATE;
+  ```
+
+#### **Step 4: Handle Outliers**
+
+If you notice outliers or unrealistic values (e.g., negative quantities or prices), you might choose to correct or remove them.
+
+* **Query to remove rows with unrealistic values:**
+
+  ```sql
+  DELETE FROM orderdetails
+  WHERE quantity < 0 OR quantity > 1000;  -- Adjust based on your context
+  ```
+
+* **Query to cap or replace extreme values:**
+
+  ```sql
+  UPDATE orderdetails
+  SET quantity = 1000
+  WHERE quantity > 1000;  -- Capping outliers to a maximum of 1000
+  ```
+
+#### **Step 5: Standardize and Normalize Data (Optional)**
+
+If your dataset contains categorical columns with inconsistent values (e.g., `Yes` vs. `yes` or inconsistent date formats), you can standardize or normalize them.
+
+* **Query to standardize categorical data:**
+
+  ```sql
+  UPDATE customers
+  SET marital_status = 'Single'
+  WHERE marital_status IN ('single', 'Single');
+  ```
+
+### **3. Example Queries for Data Exploration and Cleaning:**
+
+Here are a few example queries that combine exploration and cleaning steps:
+
+* **Find all rows in `orders` where the order date is in the future (which shouldn't happen):**
+
+  ```sql
+  SELECT * FROM orders WHERE order_date > CURDATE();
+  ```
+
+* **Update invalid `NULL` payment statuses to 'Pending':**
+
+  ```sql
+  UPDATE payments SET payment_status = 'Pending' WHERE payment_status IS NULL;
+  ```
+
+* **Remove orders with invalid order amounts (less than or equal to 0):**
+
+  ```sql
+  DELETE FROM orders WHERE order_amount <= 0;
+  ```
+
+---
+
+### **Final Thoughts:**
+
+* **Iterate:** Data exploration and cleaning is an iterative process. After cleaning the data, always go back and recheck to ensure there are no unintended changes.
+* **Documentation:** Keep detailed notes on what changes you make during data cleaning—this will be important for tracking your steps and for reproducibility.
+
+By running these queries, you'll ensure that the data is clean, consistent, and ready for analysis!
+
+
+
+
+
+===
+
+
+Getting familiar with a new database, especially when you're new to the business, can seem overwhelming at first. However, by systematically breaking down the data and understanding its structure, you can quickly start making sense of things. Here's a step-by-step approach you can follow:
+
+### 1. **Understand the Business Context:**
+
+* **Meet with Stakeholders:** Before diving into the data, talk with business stakeholders (managers, team leads, etc.) to understand the core business. In this case, it seems like you are working with sales data for a company that sells scale model cars. Knowing how the company operates—sales processes, payment flows, product catalog, customer base, etc.—will help you understand how the data fits into the business.
+* **Review Business Documentation (if available):** If there are any internal documents explaining the processes, workflows, or KPIs, make sure to review them. For example, look for reports on sales performance, product inventory, or customer feedback.
+
+### 2. **Familiarize Yourself with the Tables:**
+
+The first step in getting acquainted with a database is understanding the schema. Start by identifying what each table contains.
+
+#### **List and Understand the Tables:**
+
+* **customers:** Understand what customer data is stored (e.g., customer demographics, contact details, status, etc.). This is crucial for understanding who your buyers are.
+* **products:** Learn about the products (scale model cars) being sold. What attributes are tracked (e.g., product name, type, size, etc.)?
+* **productlines:** See how products are grouped into categories (e.g., different car brands, model types). Understanding product lines will help when analyzing sales by category.
+* **orders:** This will contain the sales orders placed by customers. Pay attention to the order date, order status, and customer ID—this table will help link orders to customers.
+* **orderdetails:** This stores the line items of each order (e.g., quantity, price, product ID). It’s critical for understanding the specifics of each sale.
+* **payments:** This contains payment data. You'll want to understand how payments are linked to customer accounts and what payment methods are used.
+* **employees:** Contains employee data. You may need this to analyze sales performance by employee or region, or if there’s a hierarchy you need to consider (like reporting structures).
+* **offices:** Stores data about sales offices (likely locations or teams). This is useful for geographic or regional analysis.
+
+**Action:** Create a data dictionary (either manually or with a tool) for each table. This will help you map out what each column in the table represents and how the tables are connected.
+
+### 3. **Identify Key Relationships (ER Diagram):**
+
+Look for **primary and foreign keys** in the tables:
+
+* Which columns link the **customers** table to the **orders** table (e.g., customer\_id)?
+* Which columns link the **orders** table to the **orderdetails** table (e.g., order\_id)?
+* Is there any connection between the **employees** and **offices** table (e.g., employee office\_id)?
+* Is there a connection between **products** and **orderdetails** (e.g., product\_id)?
+
+**Action:** Sketch an **Entity-Relationship (ER) Diagram** to visualize these connections. If you use a tool like MySQL Workbench, it can auto-generate this for you.
+
+### 4. **Data Exploration and Cleaning:**
+
+Given that there are **missing values** in the dataset, you’ll need to perform some basic data cleaning and exploration:
+
+* **Check for Missing Values:** Identify which columns have missing values and decide what actions to take (e.g., fill with defaults, use mean/median values, drop rows, or flag for further review).
+* **Check for Duplicates:** Check if there are duplicate records that might be skewing your analysis.
+* **Data Types:** Make sure each column is in the correct data type (e.g., date columns should be in `DATE` format, numerical values should be integers or floats).
+
+**Action:** Run queries to summarize the data and check for missing, null, or outlier values. For example:
+
+```sql
+SELECT COUNT(*) FROM orders;  -- To get total records in the table
+SELECT * FROM orders LIMIT 10; -- Preview data
+SELECT column_name, COUNT(*) FROM orders GROUP BY column_name; -- For checking missing values
+```
+
+### 5. **Look for Key Metrics & KPIs:**
+
+Think about some **key performance indicators (KPIs)** that are crucial for the business. These can include:
+
+* **Sales performance** (total revenue, orders per month, top-selling products, etc.)
+* **Customer retention** (repeat customers, order frequency)
+* **Payment status** (pending, paid, overdue, etc.)
+* **Employee performance** (sales by employee, commission-based metrics)
+
+**Action:** Write some initial queries to calculate basic KPIs, such as:
+
+```sql
+SELECT COUNT(*) AS total_orders FROM orders;  -- Total orders
+SELECT SUM(total_amount) AS total_sales FROM payments;  -- Total payments
+SELECT COUNT(DISTINCT customer_id) FROM orders;  -- Total unique customers
+```
+
+### 6. **Get Familiar with Common Queries:**
+
+Once you understand the schema, practice some of the most common SQL queries:
+
+* **Joins:** Learn how to combine data from different tables (e.g., join `orders` with `orderdetails` to get product details for each order).
+* **Aggregations:** Use `SUM()`, `AVG()`, `COUNT()`, and `GROUP BY` to summarize data.
+* **Filtering:** Use `WHERE` clauses to narrow down data by specific conditions (e.g., date ranges, customer types).
+* **Sorting:** Use `ORDER BY` to get insights on top-selling products, highest-paying customers, etc.
+
+**Action:** Try the following:
+
+```sql
+SELECT products.product_name, SUM(orderdetails.quantity) AS total_sales
+FROM orderdetails
+JOIN products ON orderdetails.product_id = products.product_id
+GROUP BY products.product_name
+ORDER BY total_sales DESC
+LIMIT 10;  -- Top 10 selling products
+```
+
+### 7. **Understand Business Processes & Workflows:**
+
+Talk to stakeholders about how sales, payments, and orders work from a process perspective. Are there common customer behaviors or seasonal trends? Are there any marketing campaigns running that you should be aware of? Understanding these aspects can help you tailor your data analysis to be more useful.
+
+### 8. **Create Reports & Visualizations:**
+
+Once you’re familiar with the data, start building simple reports and dashboards. You could use tools like:
+
+* **SQL-based reports:** Write complex SQL queries for recurring reports (e.g., sales by product, total revenue per employee, etc.).
+* **Business Intelligence tools:** Use a tool like Tableau, Power BI, or Google Data Studio to visualize the data and make it more actionable. If you are focusing on customer segmentation, these tools can help visualize clusters and trends.
+
+---
+
+### Summary of Initial Steps:
+
+1. **Get the context**: Understand the business and processes.
+2. **Explore the tables**: Understand each table’s purpose and the relationships between them.
+3. **Perform data cleaning**: Handle missing data, duplicates, and data types.
+4. **Start querying**: Run simple queries to explore KPIs and trends.
+5. **Build reports**: Use SQL or BI tools to create meaningful reports for stakeholders.
+
+As you get more familiar with the business, you’ll be able to answer more specific questions and build more sophisticated analysis models.
+
+
+
+
+
+
+
+
+
+
+
+### **1. Total Sales by Product Line**
+
+* Write a query to find the total sales amount for each product line from the `orderdetails` and `products` tables.
+
+### **2. Most Popular Product**
+
+* Write a query to identify the product that has been ordered the most (based on quantity) from the `orderdetails` table.
+
+### **3. Total Revenue by Customer**
+
+* Write a query to calculate the total revenue generated by each customer. The revenue should be based on their orders and payments.
+
+### **4. Employees with Most Sales**
+
+* Write a query to identify which employees have generated the most revenue (based on the total order value) from the `orders` table.
+
+### **5. Orders Without Payments**
+
+* Write a query to list all orders that have not received any payments, based on the `orders` and `payments` tables.
+
+### **6. Total Revenue for Each Employee**
+
+* Write a query to calculate the total sales revenue generated by each employee, considering the employee’s association with orders in the `orders` table.
+
+### **7. Average Payment per Order**
+
+* Write a query to calculate the average payment made per order in the `payments` table.
+
+### **8. Customers Who Have Never Ordered**
+
+* Write a query to list customers who have never placed an order, based on the `customers` and `orders` tables.
+
+### **9. Products Not Sold in Last Year**
+
+* Write a query to find products that have not been ordered in the last year from the `products` and `orderdetails` tables.
+
+### **10. Sales Breakdown by Office**
+
+* Write a query to calculate the total sales revenue generated by each sales office, based on the orders placed by customers in the `orders` table.
+
+### **11. Employee Hierarchy**
+
+* Write a query to display the reporting structure in the organization (i.e., each employee and their manager), using the `employees` table.
+
+### **12. Payment Trends by Month**
+
+* Write a query to display the total payments made each month in the `payments` table.
+
+### **13. Average Order Value by Product Line**
+
+* Write a query to calculate the average order value for each product line from the `orderdetails` and `products` tables.
+
+### **14. Top 3 Customers by Payment Amount**
+
+* Write a query to identify the top 3 customers who have made the highest total payment based on the `payments` table.
+
+### **15. Most Common Product Line Purchased by Customers**
+
+* Write a query to identify the most frequently purchased product line by customers from the `orders`, `orderdetails`, and `products` tables.
+
+### **16. Employees Handling the Most Orders**
+
+* Write a query to list the employees who are handling the most orders, considering the employee's relationship with each order from the `orders` table.
+
+### **17. Payment Status of Orders**
+
+* Write a query to show the status of payments for each order (whether the order has been fully paid or not), using the `orders` and `payments` tables.
+
+### **18. Average Number of Products per Order**
+
+* Write a query to calculate the average number of products purchased in a single order from the `orderdetails` table.
+
+### **19. Total Orders by Country**
+
+* Write a query to calculate the total number of orders placed by customers from each country, based on the `customers` and `orders` tables.
+
+### **20. Customers with Payments Greater Than Order Amount**
+
+* Write a query to find customers who have made payments that are greater than the total value of their orders, using the `payments` and `orders` tables.
 
 
 
@@ -140,16 +616,30 @@ The schema is for Classic Models, a retailer of scale models of classic cars. Th
 ## Date dictionnary 
 
 
-| Column       | Type     | Description                       |
+| Column Name     | Type     | Description                |
 |--------------|----------|-----------------------------------|
-| order_id     | INT      | Primary key                       |
-| customer_id  | INT      | FK to customers                   |
-| order_date   | DATE     | Date of transaction               |
-| amount       | DECIMAL  | Total order value                 |
+| order  | INT      | Primary                      |
+| customer  | INT      | customers                   |
+| order   | DATE     |  transaction               |
+| amount       | DECIMAL  | Total                  |
 
 
 
+customers: stores customer’s data.
 
+products: stores a list of scale model cars.
+
+productlines: stores a list of product lines.
+
+orders: stores sales orders placed by customers.
+
+orderdetails: stores sales order line items for every sales order.
+
+payments: stores payments made by customers based on their accounts.
+
+employees: stores employee information and the organization structure such as who reports to whom.
+
+offices: stores sales office data.
 
 
 
@@ -328,10 +818,14 @@ Would you like me to help write actual SQL queries for some of these questions?
 
 
 
-```python
+```sql
+
 print("Hello, world!")
 for i in range(10):
     print(i)
+
+
+
 ```
 
 
@@ -350,64 +844,6 @@ for i in range(10):
 > All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
 {: .prompt-info }
 
-
-## Explain the why I worked in this problem.
-
-
-1. Introduction
-  Business task
-  Probleme statement
-
-2. Data sources
-  In this section, you will describe all the datasets you are using. Use the following format:
-    Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-3. Documentation of cleaning and manipulation
-
-4. Summary of data analysis
-5. Key visualization and findings
-  Make sure to list the key findings from the analysis that we did in the step earlier, list them out in layman's terms, and remember that the people you are presenting to will not be data analysts so make it as plain as day.
-6. Recommendations
-  Here, you will provide high-level recommendations from the key findings, make sure they align with the goal and business task you were given, and also answer the problem statement of the project.
-
-STATISTICAL Problem
-PLAN
-  What specific statistical operations does this problem call for?
-SOLVE
-  Make the graphs and carry out the calculation needed for this problem
-CONCLUDE
-  Give the practical conclusion in the setting of the real-world problem
-
-
-CONFIDENCE intervals
-STATE
-
-PLAN
-
-SOLVE
-
-CONCLUDE
-
-
-
-TEST OF SIGNIFICANCE
-STATE
-  What is the practical question that requires a statistical test?
-
-PLAN
-  Identify the parameter, state null and alternative hypotheses, and choose the type of test that fits the situation.
-
-SOLVE
-  Carry out the test in three phases:
-      1. Check the conditions for the test you plan to use
-      2. Calculate the test statistic
-      3. Find the p-value
-
-CONCLUDE
-  Return to the practical question to describe the results in this settings
 
 
 

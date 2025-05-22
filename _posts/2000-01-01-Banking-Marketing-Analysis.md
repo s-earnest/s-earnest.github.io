@@ -1,5 +1,5 @@
 ---
-title: ' Banking Marketing  '
+title: ' Banking Marketing Campaigns Database '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -15,6 +15,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - SQL
   - MySQL
   - training
+  - database
+  
 
   # - tamplate-tag-2
   # - template-tag-3
@@ -22,7 +24,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 image: 
    path: /assets/sample/coming-soon.png
    image: /assets/sample/coming-soon.png
-   alt: Expected publishing date unknown 
+   alt: Expected publishing date in-progress 
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -38,56 +40,103 @@ image:
 
 ### Purpose
 
-The goal was to provide actionable insights to help optimize marketing strategies and improve conversion rates for term deposits.
+The goal was to provide actionable insights to help optimize marketing strategies and improve conversion rates for term deposits. The project consists, (1) I analyzed data from a bank’s marketing campaigns to reveal factors that drive customer engagement. (2) By exploring patterns in demographics, financial status, and previous campaign outcomes, (3) I aimed to uncover what influences customers to make a deposit. This analysis provides insights that can guide future strategies, helping the bank target the right audiences with the most effective messages. This dataset was more used for Machine Learning. 
+
 
 1. Understanding the Dataset:
 
-The dataset comes from a Portuguese bank’s direct marketing campaigns, where customers were contacted to subscribe to term deposits. The goal of my analysis was to determine which customers were more likely to subscribe and how to improve campaign efficiency.
+- The dataset comes from UV Urvine repository and the information is from a Portuguese bank’s direct marketing campaigns, where customers were contacted to subscribe to term deposits. The goal of my analysis was to determine which customers were more likely to subscribe and how to improve campaign efficiency.
 
 
 
 
 
 
-## Table: orders
+### Data dictionnary
 
-| Customer Attributes       | Type     | Description        |
-|--------------|----------|-----------------------------------|
-| age    | INT      | Age of the customer  |
-| Job  | INT      | Type of job (e.g., admin., blue-collar, technician)    |
-| Marital Status   | DATE     | Marital status of the customer (single, married, divorced)  |
-| Education | DECIMAL  | Level of education (e.g., primary, secondary, tertiary)  |
-| Default |item | Has the customer credit in default? (Yes/No) |
-| Housing Loan | item | Does the customer have a housing loan? (Yes/No) |
-| Personal Loan | item | Does the customer have a personal loan? (Yes/No) |
-| item | item | item |
-| item | item | item |
+| Column Attributes  | Type     | Description        |
+|--------------|----------|----------------------------|
+| age           | numeric |                  | 
+| job       | categorical |  "admin.","unknown","unemployed","management","housemaid","entrepreneur", <br> "student", "blue-collar","self-employed","retired","technician","services")  |
+| marital | categorical  |  "married","divorced","single"; <br> note: "divorced" means divorced or widowed) | 
+| education | categoricla | "unknown","secondary","primary","tertiary") | 
+| default | binary  | has credit in default? |
+| balance | numeric | average yearly balance, in euros | 
+| housing | binary | has housing loan?  | 
+| loan | binary | has personal loan? | 
+| contact | categorical | contact communication type: "unknown","telephone","cellular")  | 
+| day | numeric | last contact day of the month | 
+| month | categorical | last contact month of year  | 
+| duration | numeric | last contact duration, in seconds | 
+| campaign | item | number of contacts performed during this <br> campaign and for this client (numeric, includes last contact) |
+| pdays | item | number of days that passed by after the client was last contacted <br> from a previous campaign (numeric, -1 means client was not previously contacted) | 
+| previous | item | number of contacts performed before this campaign and for this client (numeric) |
+| poutcome | item | outcome of the previous marketing campaign <br> (categorical: "unknown","other","failure","success") | 
 
-
-
-| Campaign Attributes       | Type     | Description        |
-|--------------|----------|-----------------------------------|
-| Contact Type    | INT  | Communication method used to contact the customer (cellular, telephone).  |
-| Last Contact Date | item | Date of the last contact made to the customer. |
-| Duration | item | Duration of the last contact (in seconds). |
-| Campaign | item | Variable representing the current direct marketing campaign |
-| Previous   | iteme | Variable representing the number of contacts made with the <br> customer during previous marketing campaigns before the current campaign. | 
-
-
-
-
-
-| Economic Attributes       | Type     | Description        |
-|--------------|----------|-----------------------------------|
-| EmpVarRate | item  | Employment variation rate — a measure of employment growth or decline. |
-| Euribor3m | item | Three-month Euro Interbank Offered Rate, a benchmark interest rate.
-| ConsPriceIdx | item | Consumer Price Index, an indicator of inflation. | 
-| ConsConfIdx | item | Consumer Confidence Index — an economic sentiment indicator. | 
+No missing values
 
 
 
 
 
+
+### 1. **Demographic Insights:**
+
+
+- What is the average age of individuals in the dataset?
+
+- How does the distribution of age groups look like across different job categories?
+
+- What is the percentage of individuals with different education levels (e.g., high school, undergraduate, graduate)?
+
+- How does marital status correlate with age and education level?
+
+- What is the relationship between job type and marital status?
+
+
+
+### 2. Loan Defaults and Financial Behavior:
+
+- What percentage of individuals have defaulted on a loan?
+
+- Is there any correlation between age and loan default rates?
+
+- How do loan defaults differ by job category?
+
+- Is there any relationship between education level and likelihood of defaulting on a loan?
+
+- What percentage of individuals with a housing loan also have a personal loan?
+
+
+### 3. Housing and Personal Loans Insights:
+
+- How many individuals have both a housing loan and a personal loan?
+
+- What is the correlation between marital status and having a housing or personal loan?
+
+- How do housing and personal loans correlate with education level?
+
+
+### 4. Contact and Campaign Insights:
+
+
+- What is the distribution of contact types (e.g., telephone, email, etc.) used for last contact?
+
+- Which contact types are most successful in converting leads to customers (if conversion data is available)?
+
+- How does the last contact date impact the likelihood of loan default or acceptance?
+
+- What percentage of individuals were contacted during each campaign, and what was the outcome?
+
+
+### 5. Customer Segmentation and Targeting:
+
+
+- Which job categories are most likely to have a loan default or a housing loan?
+
+- How does the campaign outcome vary across different education levels and marital statuses?
+
+- What is the impact of marital status on the decision to take a housing loan or personal loan?
 
 
 
@@ -96,6 +145,24 @@ The dataset comes from a Portuguese bank’s direct marketing campaigns, where c
 
 
 <!--
+
+
+In this project, I analyzed data from a bank’s marketing campaigns to reveal factors that drive customer engagement. By exploring patterns in demographics, financial status, and previous campaign outcomes, I aimed to uncover what influences customers to make a deposit.
+
+Link project
+https://github.com/DanieltheAnalyst1/Bank_Marketing_Campaign_Analysis-SQL
+
+
+Bank Marketing Campaign Analysis: Uncovering What Works
+In this project, I analyzed data from a bank’s marketing campaigns to reveal factors that drive customer engagement. By exploring patterns in demographics, financial status, and previous campaign outcomes, I aimed to uncover what influences customers to make a deposit. This analysis provides insights that can guide future strategies, helping the bank target the right audiences with the most effective messages.
+
+📌 Analysis Highlights:
+Who is more likely to respond positively to the campaign?
+Which demographics and financial factors show higher engagement rates?
+How does contact frequency and previous campaign outcome impact deposit success?
+
+
+
 
 Citation Request:
   This dataset is public available for research. The details are described in [Moro et al., 2011]. 
@@ -178,35 +245,10 @@ Citation Request:
 
 
 
-### Summary
-
-
-This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem ipsum and don't have an internet connection right now. 
-
-
-# Introduction 
-  Business task
-  Problem statement
-
-
-# Data Source
-   Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-
-
-
-# Data Dictionnary
-
-
-
-
 
 
 ## Table: orders
-**Description:** Stores all completed customer transactions.
+age, job, mariatal status, education, defaulted the loan, housing loan, personal loan, conctact type durant last contact date, campaing, 
 
 | Customer Attributes       | Type     | Description        |
 |--------------|----------|-----------------------------------|
@@ -221,6 +263,195 @@ This is a sample blog post. Lorem ipsum I can't remember the rest[^1] of lorem i
 | item | item | item |
 
 
+===
+
+
+
+
+
+Sure! Here are 20 questions you could explore to extract insights from your dataset:
+
+### 1. **Demographic Insights:**
+
+1. What is the average age of individuals in the dataset?
+2. How does the distribution of age groups look like across different job categories?
+3. What is the percentage of individuals with different education levels (e.g., high school, undergraduate, graduate)?
+4. How does marital status correlate with age and education level?
+5. What is the relationship between job type and marital status?
+
+### 2. **Loan Defaults and Financial Behavior:**
+
+6. What percentage of individuals have defaulted on a loan?
+7. Is there any correlation between age and loan default rates?
+8. How do loan defaults differ by job category?
+9. Is there any relationship between education level and likelihood of defaulting on a loan?
+10. What percentage of individuals with a housing loan also have a personal loan?
+
+### 3. **Housing and Personal Loans Insights:**
+
+11. How many individuals have both a housing loan and a personal loan?
+12. What is the correlation between marital status and having a housing or personal loan?
+13. How do housing and personal loans correlate with education level?
+
+### 4. **Contact and Campaign Insights:**
+
+14. What is the distribution of contact types (e.g., telephone, email, etc.) used for last contact?
+15. Which contact types are most successful in converting leads to customers (if conversion data is available)?
+16. How does the last contact date impact the likelihood of loan default or acceptance?
+17. What percentage of individuals were contacted during each campaign, and what was the outcome?
+
+### 5. **Customer Segmentation and Targeting:**
+
+18. Which job categories are most likely to have a loan default or a housing loan?
+19. How does the campaign outcome vary across different education levels and marital statuses?
+20. What is the impact of marital status on the decision to take a housing loan or personal loan?
+
+### Bonus Considerations:
+
+You can also try analyzing seasonal trends if there’s any date/time data that can be correlated with loan behavior (e.g., Does loan default increase in certain months?)
+
+
+
+
+I'll divide the questions into specific topics to help you focus on different aspects of SQL: **Basic Queries**, **Aggregations and Joins**, **Subqueries**, **Date Functions**, **Grouping and Filtering**, **Advanced Analysis**, and **Advanced Joins**.
+
+### Tables (Assumed Schema):
+
+1. **customers**: Contains customer data (e.g., age, job, marital status, education).
+2. **loans**: Contains loan-related data (e.g., housing loan, personal loan, defaulted loans).
+3. **campaign**: Contains information about marketing campaigns (e.g., contact date, campaign type).
+4. **contact\_history**: Stores contact information related to the campaign, including contact types and dates.
+
+---
+
+## **Basic Queries**
+
+### 1. Retrieve All Customer Information
+
+* Write an SQL query to retrieve all details from the `customers` table, including age, job, marital status, and education.
+
+### 2. List All Active Campaigns
+
+* Write an SQL query to list all campaigns that are currently active in the `campaign` table (assuming there’s a status or date field that indicates active campaigns).
+
+### 3. Retrieve Loan Information for Specific Customer
+
+* Write a query to fetch the loan information (housing loan, personal loan) for a customer with a given `customer_id` from the `loans` table.
+
+---
+
+## **Aggregations and Joins**
+
+### 4. Count of Customers Who Defaulted on Loans
+
+* Write an SQL query to count how many customers have defaulted on loans from the `loans` table.
+
+### 5. Number of Customers by Job Type
+
+* Write an SQL query to group customers by their job type (from the `customers` table) and count how many customers are in each job category.
+
+### 6. Average Age of Customers with Housing Loans
+
+* Write an SQL query to calculate the average age of customers who have a housing loan from the `loans` table.
+
+### 7. Sum of Defaulted Loan Amounts
+
+* Write a query to calculate the total amount of loans defaulted by customers (assuming the loan amount is in the `loans` table).
+
+---
+
+## **Subqueries**
+
+### 8. Customers Who Have Not Been Contacted in the Last Month
+
+* Write an SQL query to find customers who have not been contacted in the last month from the `contact_history` table. Use a subquery to find the customers who don't have recent contacts.
+
+### 9. Customers with Personal Loans Who Have Not Defaulted
+
+* Write a query to find customers who have a personal loan but have not defaulted on it (use the `loans` table with a subquery or `JOIN`).
+
+### 10. Customers in Specific Campaign with Age Greater Than 30
+
+* Write a query to find customers who participated in a specific campaign and are over the age of 30. Use a subquery to identify those in the campaign.
+
+---
+
+## **Date Functions**
+
+### 11. Number of Contacts Made in the Last 30 Days
+
+* Write a query to count how many contacts were made in the last 30 days from the `contact_history` table, using the current date.
+
+### 12. Customers Contacted in Specific Month
+
+* Write a query to list all customers who were contacted in March 2023 (from the `contact_history` table).
+
+### 13. Most Recent Contact for Each Customer
+
+* Write an SQL query to find the most recent contact date for each customer from the `contact_history` table.
+
+---
+
+## **Grouping and Filtering**
+
+### 14. Average Loan Amount for Defaulted vs. Non-Defaulted Loans
+
+* Write an SQL query to calculate the average loan amount for customers who have defaulted on their loan versus those who have not from the `loans` table.
+
+### 15. Number of Customers by Marital Status
+
+* Write an SQL query to count the number of customers for each marital status category (e.g., single, married, divorced) from the `customers` table.
+
+### 16. Customers Who Have Both Housing and Personal Loans
+
+* Write a query to find customers who have both a housing loan and a personal loan from the `loans` table.
+
+---
+
+## **Advanced Analysis**
+
+### 17. Loan Default Rate by Education Level
+
+* Write a query to calculate the loan default rate for each education level (from the `customers` table and the `loans` table). Show the number of defaults vs. total customers for each education level.
+
+### 18. Percentage of Customers Who Have Been Contacted and Subscribed to Campaigns
+
+* Write an SQL query to calculate the percentage of customers who have been contacted (from the `contact_history` table) and have subscribed to any campaign (from the `campaign` table).
+
+### 19. Predictive Analysis: Loan Default Based on Age, Job, and Housing Loan
+
+* Write an SQL query that combines `customers` and `loans` tables to find patterns in loan defaults based on customer attributes like age, job, and whether they have a housing loan (e.g., calculate default rates for each group).
+
+---
+
+## **Advanced Joins**
+
+### 20. Customers Who Were Contacted and Have a Loan Default
+
+* Write an SQL query to find customers who have both been contacted (from the `contact_history` table) and have defaulted on their loan (from the `loans` table). Use an appropriate `JOIN`.
+
+---
+
+### **Summary of Topics:**
+
+* **Basic Queries**: Simple SELECT, retrieving all customer data.
+* **Aggregations and Joins**: Counting, summing, averaging, using JOINs.
+* **Subqueries**: Handling nested queries and filtering based on conditions.
+* **Date Functions**: Working with time-related data, such as filtering or calculating based on dates.
+* **Grouping and Filtering**: Using GROUP BY and HAVING for categorized and conditional aggregations.
+* **Advanced Analysis**: Applying business logic, analyzing default rates, and percentages.
+* **Advanced Joins**: Combining data from multiple tables, including those with complex conditions.
+
+These questions span a variety of topics and will help you explore different advanced concepts in MySQL. Let me know if you need help with any of the queries or further explanations!
+
+
+
+
+
+
+
+
+===
 
 | Campaign Attributes       | Type     | Description        |
 |--------------|----------|-----------------------------------|
@@ -363,65 +594,6 @@ HAVING COUNT(b.booking_id) = 1;
 {: .prompt-info }
 
 
-## Explain the why I worked in this problem.
-
-
-1. Introduction
-  Business task
-  Probleme statement
-
-2. Data sources
-  In this section, you will describe all the datasets you are using. Use the following format:
-    Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-3. Documentation of cleaning and manipulation
-
-4. Summary of data analysis
-5. Key visualization and findings
-  Make sure to list the key findings from the analysis that we did in the step earlier, list them out in layman's terms, and remember that the people you are presenting to will not be data analysts so make it as plain as day.
-6. Recommendations
-  Here, you will provide high-level recommendations from the key findings, make sure they align with the goal and business task you were given, and also answer the problem statement of the project.
-
-STATISTICAL Problem
-PLAN
-  What specific statistical operations does this problem call for?
-SOLVE
-  Make the graphs and carry out the calculation needed for this problem
-CONCLUDE
-  Give the practical conclusion in the setting of the real-world problem
-
-
-CONFIDENCE intervals
-STATE
-
-PLAN
-
-SOLVE
-
-CONCLUDE
-
-
-
-TEST OF SIGNIFICANCE
-STATE
-  What is the practical question that requires a statistical test?
-
-PLAN
-  Identify the parameter, state null and alternative hypotheses, and choose the type of test that fits the situation.
-
-SOLVE
-  Carry out the test in three phases:
-      1. Check the conditions for the test you plan to use
-      2. Calculate the test statistic
-      3. Find the p-value
-
-CONCLUDE
-  Return to the practical question to describe the results in this settings
-
-
 
 
 <!-- 
@@ -435,6 +607,22 @@ CONCLUDE
 
 
 -->
+
+### Reference
+
+- Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. 
+  In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, 
+  Portugal, October, 2011. EUROSIS.
+
+- https://archive.ics.uci.edu/dataset/222/bank+marketing
+
+
+
+### License
+
+- This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
+
+
 
 
 

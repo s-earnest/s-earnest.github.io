@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   # - tamplate-tag-2
@@ -17,6 +17,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - MySQL
   - SQL
   - training
+  - database
 
 
 image: 
@@ -39,66 +40,10 @@ image:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-
-
-
-https://github.com/chen-zhu/Airport-database/blob/chenzhu1/flights_data.csv
-
-
-
-
-### Disclamer 
-
-This dataset is for learning purposes. This means I used an airport database and extract insignts for writing a report. 
-
-
-
-
-### Introduction 
-  Business task
-  Problem statement
-
-
-### Data Source
-   Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-
-
-> All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer or future employers, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
-{: .prompt-info }
-
-
-
-This dataset is also used for learning purposes. Flughafen contain a large MySQL data set for training and testing. This means I used an airpot and flights related scenarios for writing this report. The small set was used as it was easy to quickly import, and work than the large one which it took more time to extract insight with my little computer. 
-
-
-
-
 ### Data dictionnary
 
 
-| Column Name       | Description     |  
+| Column Name       | Type     |  Description           |
 |--------------|----------|-----------------------------------|
 | airplone    | INT      | 
 | employee  | INT      | 
@@ -106,41 +51,6 @@ This dataset is also used for learning purposes. Flughafen contain a large MySQL
 | test_log       | DECIMAL  | 
 | ticket_purchase     | DECIMAL  | 
 | flights    | DECIMAL  | 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```sql
-/* 
-Q1 
-Get the flight number, arrival time, and departure time of all flights flying either from, or to, LAX.
-(flight num, arrival, departure)
-
-
-SELECT flightno AS flight_no, arrival, depart AS departure FROM airport.Flight 
-WHERE src = "LAX" OR dest = "LAX"; 
-
-
-```
-
-
-
-
-## Insights
-
-
-
-
 
 
 
@@ -187,6 +97,317 @@ WHERE src = "LAX" OR dest = "LAX";
   
   - (m). To better understand flight delays, you want to see how long a technician actually spends on a test compared to the expected completion time. To do that, you want to calculate the average deviation of completion time for each technician, on each test. The deviation is the ’expected completion time’ of a test minus the time it actually took to complete the test. For each technician, get the FAA test number and average deviation for every test they conducted. (name, faa no, avg deviation)
   
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+chenzhu github
+
+
+
+
+```sql
+SELECT p.passenger_id, p.first_name, p.last_name
+FROM passenger p
+JOIN booking b ON p.passenger_id = b.passenger_id
+GROUP BY p.passenger_id
+HAVING COUNT(b.booking_id) = 1;
+```
+
+
+
+
+
+
+
+### Basic to Intermediate SQL Questions
+
+1. **Simple SELECT Query**
+
+   * Write an SQL query to retrieve all customer names and their contact numbers from the `customers` table.
+
+2. **Filtering Data**
+
+   * Write an SQL query to retrieve all products from the `products` table that belong to the product line 'Sports Cars'.
+
+3. **Aggregation (COUNT)**
+
+   * How many customers are listed in the `customers` table who live in 'USA'?
+
+4. **Aggregation (SUM)**
+
+   * Write an SQL query to calculate the total payment amount from the `payments` table.
+
+5. **JOIN (Inner Join)**
+
+   * Write an SQL query to get a list of all orders (from the `orders` table) with their corresponding customer names (from the `customers` table).
+
+6. **JOIN (Left Join)**
+
+   * Write an SQL query to list all customers and any orders they have made. Show customers who have not made any orders as well.
+
+7. **GROUP BY and HAVING**
+
+   * Write a query to show how many orders each customer has placed, but only for customers who have placed more than 5 orders.
+
+8. **Subquery (IN)**
+
+   * Write an SQL query to list all products from the `products` table that are part of product lines that have more than 3 products.
+
+9. **Subquery (EXISTS)**
+
+   * Write an SQL query to find all employees from the `employees` table who have at least one order associated with them in the `orders` table.
+
+10. **ORDER BY and LIMIT**
+
+    * Write an SQL query to display the top 5 highest-paid customers based on the total amount of payments made in the `payments` table.
+
+11. **DATE Functions**
+
+    * Write a query to find all orders from the `orders` table placed in the year 2023.
+
+12. **DISTINCT**
+
+    * Write an SQL query to list all the unique product lines available in the `productlines` table.
+
+13. **JOIN (Multiple Tables)**
+
+    * Write an SQL query to list the names of employees and their office locations from the `employees` and `offices` tables. Use an appropriate join to connect the data.
+
+14. **UPDATE Query**
+
+    * Write an SQL query to update the contact number of a specific customer in the `customers` table.
+
+15. **DELETE Query**
+
+    * Write an SQL query to delete all orders from the `orders` table that were placed before January 1st, 2022.
+
+
+
+
+
+
+
+===
+
+
+Here are five advanced MySQL user queries, based on the tables you've described, that involve complex SQL concepts like window functions, subqueries, multi-table joins, and CTEs (Common Table Expressions). These queries are designed to extract deeper insights and analyze the data in ways that are more relevant to real-world business use cases.
+
+---
+
+### **1. Ranking Employees by Sales Revenue**
+
+**Objective:** Rank employees based on the total revenue they have generated from sales. Use a window function to rank them.
+
+```sql
+WITH EmployeeSales AS (
+    SELECT 
+        e.employeeNumber,
+        e.lastName,
+        e.firstName,
+        SUM(od.quantityOrdered * od.priceEach) AS total_sales
+    FROM 
+        employees e
+    JOIN orders o ON e.employeeNumber = o.salesRepEmployeeNumber
+    JOIN orderdetails od ON o.orderNumber = od.orderNumber
+    GROUP BY e.employeeNumber
+)
+SELECT 
+    employeeNumber,
+    lastName,
+    firstName,
+    total_sales,
+    RANK() OVER (ORDER BY total_sales DESC) AS sales_rank
+FROM EmployeeSales
+ORDER BY sales_rank;
+```
+
+**Explanation:**
+
+* This query calculates total sales for each employee by joining the `employees`, `orders`, and `orderdetails` tables.
+* The `RANK()` window function assigns a rank to each employee based on their total sales, ordered from the highest to the lowest.
+
+---
+
+### **2. Top 5 Best-Selling Products by Quantity Sold**
+
+**Objective:** Identify the top 5 best-selling products based on the quantity sold.
+
+```sql
+SELECT 
+    p.productName,
+    SUM(od.quantityOrdered) AS total_quantity_sold
+FROM 
+    products p
+JOIN orderdetails od ON p.productCode = od.productCode
+GROUP BY p.productName
+ORDER BY total_quantity_sold DESC
+LIMIT 5;
+```
+
+**Explanation:**
+
+* This query calculates the total quantity sold for each product by joining the `products` and `orderdetails` tables.
+* It then orders the products by total quantity sold and limits the result to the top 5.
+
+---
+
+### **3. Yearly Revenue Growth (Comparison of Two Consecutive Years)**
+
+**Objective:** Calculate the percentage revenue growth from one year to the next.
+
+```sql
+WITH YearlyRevenue AS (
+    SELECT 
+        YEAR(o.orderDate) AS order_year,
+        SUM(od.quantityOrdered * od.priceEach) AS total_revenue
+    FROM 
+        orders o
+    JOIN orderdetails od ON o.orderNumber = od.orderNumber
+    GROUP BY order_year
+)
+SELECT 
+    current_year.order_year,
+    current_year.total_revenue AS current_year_revenue,
+    previous_year.total_revenue AS previous_year_revenue,
+    ROUND(((current_year.total_revenue - previous_year.total_revenue) / previous_year.total_revenue) * 100, 2) AS revenue_growth_percentage
+FROM 
+    YearlyRevenue current_year
+JOIN 
+    YearlyRevenue previous_year ON current_year.order_year = previous_year.order_year + 1
+ORDER BY current_year.order_year;
+```
+
+**Explanation:**
+
+* This query calculates yearly revenue by summing the sales in each year.
+* It then compares the revenue between consecutive years and calculates the percentage growth in revenue.
+
+---
+
+### **4. Customers Who Have Made Payments Greater Than Their Orders**
+
+**Objective:** Identify customers who have paid more than the value of their orders.
+
+```sql
+SELECT 
+    c.customerName,
+    SUM(p.amount) AS total_payment,
+    SUM(od.quantityOrdered * od.priceEach) AS total_order_value
+FROM 
+    customers c
+JOIN orders o ON c.customerNumber = o.customerNumber
+JOIN orderdetails od ON o.orderNumber = od.orderNumber
+JOIN payments p ON c.customerNumber = p.customerNumber
+GROUP BY c.customerNumber
+HAVING total_payment > total_order_value
+ORDER BY total_payment DESC;
+```
+
+**Explanation:**
+
+* This query identifies customers who have made payments greater than the total value of their orders.
+* The query uses `HAVING` to filter customers whose total payments exceed their total order values, grouping by customer.
+
+---
+
+### **5. Monthly Revenue Trend (Year-over-Year Comparison)**
+
+**Objective:** Display the monthly revenue for two consecutive years and compare the changes in revenue.
+
+```sql
+WITH MonthlyRevenue AS (
+    SELECT 
+        YEAR(o.orderDate) AS order_year,
+        MONTH(o.orderDate) AS order_month,
+        SUM(od.quantityOrdered * od.priceEach) AS total_revenue
+    FROM 
+        orders o
+    JOIN orderdetails od ON o.orderNumber = od.orderNumber
+    GROUP BY order_year, order_month
+)
+SELECT 
+    current_year.order_year,
+    current_year.order_month,
+    current_year.total_revenue AS current_year_revenue,
+    previous_year.total_revenue AS previous_year_revenue,
+    ROUND(((current_year.total_revenue - previous_year.total_revenue) / previous_year.total_revenue) * 100, 2) AS revenue_growth_percentage
+FROM 
+    MonthlyRevenue current_year
+JOIN 
+    MonthlyRevenue previous_year ON current_year.order_year = previous_year.order_year + 1
+    AND current_year.order_month = previous_year.order_month
+ORDER BY current_year.order_year, current_year.order_month;
+```
+
+**Explanation:**
+
+* This query calculates the total revenue for each month.
+* It compares the monthly revenue from two consecutive years and calculates the percentage growth or decline in revenue month-over-month.
+
+---
+
+These advanced queries demonstrate a range of advanced SQL techniques, including window functions, CTEs, subqueries, and complex joins. They can be used to extract meaningful insights from your database, which can help with decision-making, performance analysis, and reporting.
+
+Let me know if you'd like further explanations or additional queries!
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/chen-zhu/Airport-database/blob/chenzhu1/flights_data.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+```sql
+/* 
+Q1 
+Get the flight number, arrival time, and departure time of all flights flying either from, or to, LAX.
+(flight num, arrival, departure)
+
+
+SELECT flightno AS flight_no, arrival, depart AS departure FROM airport.Flight 
+WHERE src = "LAX" OR dest = "LAX"; 
+
+
+```
+
+
+
+
+## Insights
+
+
+
+
+
+
+
+
 
 
 

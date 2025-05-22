@@ -1,5 +1,5 @@
 ---
-title: ' Consumer Complaints Analysis '
+title: ' Consumer Complaints Database Analysis '
 author: ernest
 date: 2024-02-16 16:20:02 -05:00
 last_modified_at: 2024-11-30
@@ -19,7 +19,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - complaints
   - consumer
   - customer-satisfaction
-  
+  - training
+  - database 
 
 
 
@@ -41,18 +42,18 @@ As of February 22, 2025, the database contains a total of 7,867,198 complaints. 
 
 
 
-# About the data
+### About the data
 Complaints that the CFPB sends to companies for response are published in the Consumer Complaint Database after the company responds, confirming a commercial relationship with the consumer, or after 15 days, whichever comes first.
 
 
-# Complaint narratives
+### Complaint narratives
 With their consent and after taking steps to remove sensitive information, we publish consumers’ complaint narratives in their own words. One consumer’s experience is not necessarily representative of all consumers’ experiences and narratives are not verified before publication.
 
 
 
 
 
-# Data Dictionnary
+###  Data Dictionnary
 
 
 | Column Name      | Type data    | Description               |
@@ -78,9 +79,14 @@ With their consent and after taking steps to remove sensitive information, we pu
 
 
 
-# Dataset Description:
+### Dataset Description:
 The database encompasses a wide array of complaints related to various financial sectors, including debt collection, credit reporting, mortgages, credit cards, and more. Each week we send thousands of consumers' complaints about financial products and services to companies for response. Those complaints are published here after the company responds, confirming a commercial relationship with the consumer, or after 15 days, whichever comes first. Complaint narratives are consumers' descriptions of their experiences in their own words. By adding their voice, consumers help improve the financial marketplace. The database generally updates daily.  Each complaint entry includes details such as the date received, product type, issue, company involved, consumer's narrative (if consented for publication), company response, and the complaint's current status. This dataset serves as a valuable resource for identifying trends, assessing company practices, and informing policy decisions. 
 As of February 22, 2025, the database contains a total of 7,867,198 complaints. The dataset is 1,36 GB in size and available for download in CSV format. The dataset spans from December 1, 2011, to the present, with regular updates to include new complaints.
+
+
+
+
+
 
 
 
