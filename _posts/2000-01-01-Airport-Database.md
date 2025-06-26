@@ -108,10 +108,7 @@ WHERE src = "LAX" OR dest = "LAX";
 
 <!-- 
 
-
 chenzhu github
-
-
 
 
 ```sql
@@ -121,11 +118,6 @@ JOIN booking b ON p.passenger_id = b.passenger_id
 GROUP BY p.passenger_id
 HAVING COUNT(b.booking_id) = 1;
 ```
-
-
-
-
-
 
 
 ### Basic to Intermediate SQL Questions
@@ -189,9 +181,6 @@ HAVING COUNT(b.booking_id) = 1;
 15. **DELETE Query**
 
     * Write an SQL query to delete all orders from the `orders` table that were placed before January 1st, 2022.
-
-
-
 
 
 
@@ -361,24 +350,7 @@ Let me know if you'd like further explanations or additional queries!
 
 
 
-
-
-
-
-
-
-
-
 https://github.com/chen-zhu/Airport-database/blob/chenzhu1/flights_data.csv
-
-
-
-
-
-
-
-
-
 
 
 
@@ -397,27 +369,13 @@ WHERE src = "LAX" OR dest = "LAX";
 ```
 
 
-
-
 ## Insights
 
 
 
 
 
-
-
-
-
-
-
-
-
-
 <!--
-
-
-
 
 
 Absolutely! Below are **20 insightful questions** you can ask to extract value from a MySQL database — especially if your schema includes **passenger, booking, flight, airport, payment, aircraft, route, and schedule tables** (like in an airline or travel system).
@@ -483,11 +441,6 @@ Would you like me to turn a few of these into working queries next? Let me know 
 
 
 
-
-
-
-
-
 ```sql
 /* Question 1
 
@@ -495,8 +448,6 @@ Would you like me to turn a few of these into working queries next? Let me know 
 
 
 */
-
-
 
 
 
