@@ -11,7 +11,7 @@ published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - marketing
-  - baking
+  - banking
   - SQL
   - MySQL
   - training
