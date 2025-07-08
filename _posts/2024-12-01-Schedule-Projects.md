@@ -4,7 +4,7 @@ author: ernest
 date: 2023-12-04 16:20:02 -05:00
 last_modified_at: 2024-02-24
 categories: [  ]
-pin:  true   # true
+pin:  false   # true
 math: true
 mermaid: true
 published: true
