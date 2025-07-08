@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: false
+published: true
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   # - tamplate-tag-2
@@ -19,7 +19,7 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 image: 
    path: /assets/sample/coming-soon.png
    image: /assets/sample/coming-soon.png
-   alt: Expected publishing date: May 2025
+   alt: Expected publishing date in progress
 
 # image: 
   # path: /assets/sample/coming-soon.png
@@ -33,7 +33,7 @@ image:
 
 ### Summary
 
-
+In progress
 
 
 
@@ -137,14 +137,7 @@ VendorID, date pick up time, drop date time, passenger count, trip distance, rat
 
 
 
-
-
-
-Hello! Absolutely — crafting smart SQL questions is a great way to reveal meaningful **insights** from your database. Based on your table columns, here's a list of **20 questions** that can help you explore and analyze the data effectively:
-
----
-
-### 📈 **Trip Patterns & Volume**
+### **Trip Patterns & Volume**
 
 1. **How many total trips were recorded in the database?**
 2. **What is the average trip distance overall?**
@@ -154,7 +147,7 @@ Hello! Absolutely — crafting smart SQL questions is a great way to reveal mean
 
 ---
 
-### 🚕 **Vendor & Passenger Insights**
+### **Vendor & Passenger Insights**
 
 6. **Which `VendorID` handled the most trips?**
 7. **What is the average number of passengers per trip?**
@@ -162,7 +155,7 @@ Hello! Absolutely — crafting smart SQL questions is a great way to reveal mean
 
 ---
 
-### 💸 **Fare & Tip Analysis**
+### **Fare & Tip Analysis**
 
 9. **What is the average fare amount?**
 10. **What is the average tip amount per payment type?**
@@ -172,7 +165,7 @@ Hello! Absolutely — crafting smart SQL questions is a great way to reveal mean
 
 ---
 
-### 🧾 **Charges Breakdown**
+### **Charges Breakdown**
 
 14. **What is the average total amount broken down by surcharge types (e.g., congestion surcharge, improvement surcharge)?**
 15. **How many trips included an airport fee, and what was the total amount collected?**
@@ -180,7 +173,7 @@ Hello! Absolutely — crafting smart SQL questions is a great way to reveal mean
 
 ---
 
-### 📍 **Temporal Trends**
+### **Temporal Trends**
 
 17. **How does the number of trips vary by day of the week?**
 18. **What are the busiest hours for pickups vs. drop-offs?**
@@ -188,15 +181,11 @@ Hello! Absolutely — crafting smart SQL questions is a great way to reveal mean
 
 ---
 
-### 🧠 **Operational or Anomaly Insights**
+### **Operational or Anomaly Insights**
 
 20. **Are there trips with 0 distance or 0 fare — possibly indicating data quality issues or canceled trips?**
 
 ---
-
-Would you like the **SQL queries** for some of these questions next? I can generate them directly.
-
-
 
 
 
