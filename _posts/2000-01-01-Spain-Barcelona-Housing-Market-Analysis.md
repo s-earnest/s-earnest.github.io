@@ -16,6 +16,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - housing-market
   - MySQL
   - housing
+  - showcase
+  - case-study
 
 
 image: 

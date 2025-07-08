@@ -16,7 +16,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - MySQL
   - SQL
   - traning
-
+  - showcase
+  - case-study
 
 
 image: 

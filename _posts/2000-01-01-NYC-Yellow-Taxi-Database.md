@@ -14,6 +14,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   # - template-tag-3
   - database
   - nyc-taxi
+  - case-study
+  - showcase
   
 
 image: 

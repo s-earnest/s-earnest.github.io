@@ -16,6 +16,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - MySQL
   - training
   - database
+  - showcase
+  - case-study
   
 
   # - tamplate-tag-2
