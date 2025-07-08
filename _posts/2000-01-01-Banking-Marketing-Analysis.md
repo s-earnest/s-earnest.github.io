@@ -40,7 +40,7 @@ image:
 
 ### Purpose
 
-The goal was to provide actionable insights to help optimize marketing strategies and improve conversion rates for term deposits. The project consists, (1) I analyzed data from a bank’s marketing campaigns to reveal factors that drive customer engagement. (2) By exploring patterns in demographics, financial status, and previous campaign outcomes, (3) I aimed to uncover what influences customers to make a deposit. This analysis provides insights that can guide future strategies, helping the bank target the right audiences with the most effective messages. This dataset was more used for Machine Learning. 
+The goal of this showcase is to provide actionable insights to help optimize marketing strategies and improve conversion rates for term deposits. The project consists on: (1) I analyzed data from a bank’s marketing campaigns to reveal factors that drive customer engagement, (2) By exploring patterns in demographics, financial status, and previous campaign outcomes, (3) I aimed to uncover what influences customers to make a deposit. This analysis provides insights that can guide future strategies, helping the bank target the right audiences with the most effective messages. This dataset was more used for Machine Learning but I decided to use it as first data analysis hands-on. 
 
 
 1. Understanding the Dataset:
@@ -94,6 +94,12 @@ No missing values
 - What is the relationship between job type and marital status?
 
 
+## Key insights:
+
+- (1)
+- (2)
+
+
 
 ### 2. Loan Defaults and Financial Behavior:
 
@@ -106,6 +112,8 @@ No missing values
 - Is there any relationship between education level and likelihood of defaulting on a loan?
 
 - What percentage of individuals with a housing loan also have a personal loan?
+
+
 
 
 ### 3. Housing and Personal Loans Insights:
@@ -160,8 +168,6 @@ In this project, I analyzed data from a bank’s marketing campaigns to reveal f
 Who is more likely to respond positively to the campaign?
 Which demographics and financial factors show higher engagement rates?
 How does contact frequency and previous campaign outcome impact deposit success?
-
-
 
 
 Citation Request:
@@ -237,16 +243,6 @@ Citation Request:
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Table: orders
 age, job, mariatal status, education, defaulted the loan, housing loan, personal loan, conctact type durant last contact date, campaing, 
 
@@ -259,17 +255,13 @@ age, job, mariatal status, education, defaulted the loan, housing loan, personal
 | Default |item | Has the customer credit in default? (Yes/No) |
 | Housing Loan | item | Does the customer have a housing loan? (Yes/No) |
 | Personal Loan | item | Does the customer have a personal loan? (Yes/No) |
-| item | item | item |
-| item | item | item |
+| Contact | item | Type during last contact date |
+| Campaing | item | item |
 
 
 ===
 
 
-
-
-
-Sure! Here are 20 questions you could explore to extract insights from your dataset:
 
 ### 1. **Demographic Insights:**
 
@@ -442,13 +434,6 @@ I'll divide the questions into specific topics to help you focus on different as
 * **Advanced Analysis**: Applying business logic, analyzing default rates, and percentages.
 * **Advanced Joins**: Combining data from multiple tables, including those with complex conditions.
 
-These questions span a variety of topics and will help you explore different advanced concepts in MySQL. Let me know if you need help with any of the queries or further explanations!
-
-
-
-
-
-
 
 
 ===
@@ -471,12 +456,6 @@ Target Outcome (y): Whether the customer subscribed to the term deposit after be
 | Euribor3m | item | Three-month Euro Interbank Offered Rate, a benchmark interest rate.
 | ConsPriceIdx | item | Consumer Price Index, an indicator of inflation. | 
 | ConsConfIdx | item | Consumer Confidence Index — an economic sentiment indicator. | 
-
-
-
-
-
-
 
 
 

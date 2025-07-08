@@ -1,5 +1,5 @@
 ---
-title: ' NYV Yellow Taxi Database  '
+title: ' NYC Yellow Taxi Database  '
 author: ernest
 date: 2025-01-10 16:20:02 -05:00
 last_modified_at: 2023-11-30
@@ -41,7 +41,7 @@ In progress
 
 ### Data description
 
-Trip data is published monthly on this website, typically with a two-month delay to allow time for full vendor submissions. Due to the size of the datasets, the trip record files have been stored in the PARQUET format. Please see the ‘Working With PARQUET Format’ under the Data Dictionaries and MetaData section for details. Please be advised that there may be minor changes in the near future to standardize the parquet schema across all years and datasets. If you would like to view the data on NYC Open Data, and export the data in various other formats, you may view the collection here .
+Trip data is published monthly on this website, typically with a two-month delay to allow time for full vendor submissions. Due to the size of the datasets, the trip record files have been stored in the PARQUET format. I had to work and transform dataset into csv format to be able to work with SQL. Be advised that there may be minor changes in the future standardize the parquet schema across all years and datasets. 
 
 Taxi zones: Bronx, Brooklyn, Manhattan, Queens and Staten Island.
 
@@ -190,6 +190,15 @@ VendorID, date pick up time, drop date time, passenger count, trip distance, rat
 
 
 
+## Reference 
+
+
+- https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq/data_preview
+
+- https://www.nyc.gov/site/tlc/index.page
+
+- https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
 
 
 
@@ -199,29 +208,9 @@ VendorID, date pick up time, drop date time, passenger count, trip distance, rat
 [^1]: The footnote source
 
 
-https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq/data_preview
-
-https://www.nyc.gov/site/tlc/index.page
-
-
-https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- 
-
-
-
-
 
 # Introduction 
   Business task
@@ -300,32 +289,6 @@ for i in range(10):
 
 
 
-# Methodology
-
-  This is 1
-
-# Results
-
-  This is 2
-
-# Visualization data
-  
-  This is 4
-
-
-# Working with time series
-
-  This is a section
-
-# Creating new metrics
-
-  This is a section
-
-
-
-
-
-
 ## Resources
 
   - [ Notebook ]( /assets/projects/wheat_seeds.html ){:target="_blank"}
@@ -333,8 +296,6 @@ for i in range(10):
       - A simple way to share Jupyter Notebooks
 
   - [ item ]
-
-
 
 
 
