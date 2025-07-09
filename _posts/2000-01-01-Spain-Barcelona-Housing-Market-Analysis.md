@@ -34,6 +34,16 @@ image:
 
 
 
+Objective
+Business problem
+Approach
+Key findings
+Recommendations
+
+
+
+
+
 # Objective
 
 - This a dataset from {idealista18} which is an open data product with big geo-referenced micro-data sets of 2018 real estate listings in Spain. These data were originally published on the idealista.com real estate website. The data sets are for the three largest cities in Spain: Madrid (n = 94,815 observations), Barcelona (n = 61,486 observations), and Valencia (n = 33,622 observations), and for this analysis I will focusing on Barcelona alone. 

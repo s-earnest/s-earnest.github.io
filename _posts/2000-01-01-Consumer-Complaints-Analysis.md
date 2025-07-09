@@ -34,6 +34,15 @@ image:
 
 
 
+Objective
+Business problem
+Approach
+Key findings
+Recommendations
+
+
+
+
 
 ### Summary 
 

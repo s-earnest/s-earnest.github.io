@@ -27,8 +27,20 @@ image:
   # path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png
   # alt: Responsive rendering of Chirpy theme on multiple devices.
-
+  # reference N8RKW3MBTQFY
+  
 ---
+
+
+
+Objective
+Business problem
+Approach
+Key findings
+Recommendations
+
+
+
 
 
 

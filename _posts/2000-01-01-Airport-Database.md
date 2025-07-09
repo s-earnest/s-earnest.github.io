@@ -29,12 +29,110 @@ image:
   # path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png
   # alt: Responsive rendering of Chirpy theme on multiple devices.
+  # reference J7X9V2M8K1TQ
 
 ---
 
 
+Objective
+Business problem
+Approach
+Key findings
+Recommendations
+
+https://vondy.com/deliverable/8342036d-b2ba-427e-8838-e83d9c207b81
 
 
+J7X9V2M8K1TQ ✔️ or ✓ 
+B4DZ3Q9L7NCP ✔️ or ✓ 
+Y6AWF5M2G0KR ✔️ or ✓ 
+
+V1PHC9LZXS7J ✔️ or ✓ 
+N8RKW3MBTQFY ✔️ or ✓ 
+G0VZP7JXAS56
+
+S9MTY2LR8KFW
+QJP3XNCV7ZHS
+LKA5YT8R0VJW
+
+D6XQW7ZBHP1R
+YN4ZKSRVJ87M
+MVX5LJQC1GTB
+
+F9WR6H0ZNTDK
+P3VJY8S1XQML
+ZT7XGWDK45BC
+
+JQCS0Y9LZK8N
+RBN6AW1MKVZP
+WGL7XQ5JYVCS
+
+K8TRZ0MJFPNS
+VMCXJ1YH9LGB
+TS9PZ6WQXJFR
+
+HQN3MGYXLZ8D
+P7KV0SWTJQRM
+ZG6XDW9YBNFL
+MFL05PZTKWJX
+XJHY7VSMRLCN
+YCR1DWQZ8XTS
+G8NTZXPYWMFJ
+KQLVJ6ZNFPXB
+WB3MCSYRDATX
+Z7NMLQKVXJPS
+F0XTRDKCWNY9
+PGLS6YJQZRMN
+V9ZJHYK1TRXQ
+KBP7AMVZFGXJ
+N4QYJZTRXWMC
+SDX8VJTGZLPN
+YWV9JQKMCXFR
+LRHPZXTG5VJN
+MQWZNFJYTKRV
+GJPXMTZ6RNSQ
+B0NLRVJXGZKY
+SWKQTYZRVHCM
+FXL9GMDTNVJP
+CNQHTZVBRYMW
+VJXWGLRFMPS9
+PYKTBMRZQJX6
+MZSQVWNJTYXP
+
+
+RYLCNFWK8VJXZ
+DKWJZXQMNTPRV
+
+
+
+
+
+
+
+
+Objective
+
+
+Business Problem
+
+
+Approach 
+
+- The initial step involves performing data cleaning on the dataset. Surprisingly, there are no duplicated transaction records in the dataset. The next step is to split the transaction_date column into Month, Day of Week, and Hour. Additionally, I separated the product_detail column into item and size. This helps reducing data redundancy.
+- For the KPIs. I chose to display the total sales, total transaction, and the number of coffees sold, along with their corresponding charts illustrating monthly trends from January to June 2023
+- To represent the sales breakdown by the hour of the day and by days of the week, I used bar chart to track sales, highlighting the peak sales period with a darker color.
+- For the heatmap, I created a separate worksheet to allow uniform resizing of cloumns and rows into narrower squares. By utilizing SUMIFS, conditional formatting, and number format customization, I successfully built a heatmap for the sales breakdown across both hours and days of the week. (note that heatmap chart is not available in Google Sheet)
+- To compare categories, I used a horizontal bar chart and arranged the categories in descending order. Once again, the bar/category with the highest quantity sold has been colored in a darker tone.
+- For displaying items within the selected category, I opted for the QUERY function instead of Pivot Tables. This function is more flexible and performs better with the dynamic drop-down list. With just one formula, I can retrieve three pieces of information items. Quantity, and Sales for the selected category
+
+
+
+
+Key findings
+
+
+
+Recommendations
 
 
 
@@ -68,9 +166,10 @@ image:
 
   - (a). Get the flight number, arrival time, and departure time of all flights flying either from, or to, LAX. (flight no, arrival, departure)
 
+```sql
   SELECT flightno AS flight_no, arrival, depart AS departure FROM airport.Flight 
 WHERE src = "LAX" OR dest = "LAX"; 
-
+```
 
   
   - (b). Find the average salary of the pilots. (avg salary)
