@@ -1,8 +1,8 @@
 ---
 title: ' Employees Database  '
 author: ernest
-date: 2025-01-10 16:20:02 -05:00
-last_modified_at: 2023-11-30
+date: 2024-03-11 16:20:02 -05:00
+last_modified_at: 2024-11-30
 categories: [ Work ]
 pin:     # true
 math: true
@@ -33,6 +33,7 @@ image:
 
 
 
+
 Objective
 Business problem
 Approach
@@ -44,11 +45,15 @@ Recommendations
 
 
 
-### Summary
+# Summary
 
 This database is designed to store information about employees, departments, roles, and salaries. The employee database schema is designed to store comprehensive information about employees, departments, roles, and salaries within an organization. 
 
+This document describes the Employees sample database.
 
+The Employees sample database was developed by Patrick Crews and Giuseppe Maxia and provides a combination of a large base of data (approximately 160MB) spread over six separate tables and consisting of 4 million records in total. The structure is compatible with a wide range of storage engine types. Through an included data file, support for partitioned tables is also provided.
+
+In addition to the base data, the Employees database also includes a suite of tests that can be executed across the test data to ensure the integrity of the data that you have loaded. This should help ensure the quality of the data during initial load, and can be used after usage to ensure that no changes have been made to the database during testing.
 
 
 ### Data dictionnary
@@ -110,6 +115,34 @@ This database is designed to store information about employees, departments, rol
 - to_date: End date of the salary.
 
 
+
+## Approach 
+
+1. To improve data quality and simplify analysis, I added an explicit `is_active` column to the `dept_emp` table. Previously, active employees were inferred from `to_date = '9999-01-01'` or future dates, which is error-prone and less transparent. The `is_active` flag is directly populated based on current date comparisons, making queries for active or inactive employees simple, clear, and resilient to changes over time. This approach enhances readability, reduces reliance on arbitrary placeholder dates, and aligns with best practices for robust HR data management. Future updates to employment status can now update this flag explicitly, ensuring consistent and accurate reporting.
+
+2. item
+
+
+
+## Purpose
+
+1. 
+2. 
+
+
+
+
+## Insights
+
+1. 
+2. 
+
+
+
+## Recommendations
+
+1. 
+2. 
 
 
 
