@@ -76,7 +76,7 @@ booking_complete = flag indicating if the customer completed the booking
 
 # Data dictionary 
 
-
+- Total records 5 millions 
 
 | Description Table      | Small DB    |  Large DB |  Reduced Percentage |
 | --------------- | --------------------- | -------------------- | --------- |
@@ -100,6 +100,15 @@ booking_complete = flag indicating if the customer completed the booking
 # Objective
 
 Based on the [airportdb schema](https://dev.mysql.com/doc/airportdb/en/airportdb-structure.html), here are **20 detailed analytical questions** I want to explore using SQL queries. These questions are designed to help me extract valuable insights from the relational structure (db original size 50831531 rows and I worked with 3446513 rows ).
+
+
+# Approach 
+
+
+
+
+
+# Methodology 
 
 
 

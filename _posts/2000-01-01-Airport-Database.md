@@ -57,6 +57,138 @@ Crew scheduling conflicts, though less common, also play a role in delaying flig
 In investigating flight delays, the primary goal is to identify patterns and factors contributing to delays, such as the relationship between the source and destination airports, aircraft models, and personnel involved in the flight. By analyzing the **flights** table, we can calculate the delay for each flight by comparing the scheduled departure and actual arrival times. Key insights can be drawn by examining delays from specific airports like **LAX**, or looking at average delays across different sources and destinations. Additionally, correlating delays with **pilot performance** can offer a deeper understanding, especially when considering **pilot certifications** and whether certain pilots or airplane models tend to experience more frequent delays. Further investigation could explore the **employee** table to evaluate if specific pilots or traffic controllers are associated with delayed flights, or whether certain airplane models registered in the **airplane** table are linked to recurrent delays. Additionally, it may be insightful to track delays over time, identifying trends or seasons when delays tend to peak. By creating a comprehensive analysis of these variables, we can pinpoint factors that significantly contribute to flight delays, offering actionable insights for operational improvements.
 
 
+# Methodology 
+
+- step 1 Understanding the airport database schema
+Based on the AirportDB schema, here are the key tables you might be working with:
+
+1. **airports**: Information about the airports (ID, name, location, etc.)
+2. **flights**: Information about flights (flight number, source, destination, departure/arrival times, etc.)
+3. **airplanes**: Information about airplanes (model, capacity, weight, etc.)
+4. **employees**: Data on airport staff (SSN, name, job title, salary, etc.)
+5. **passenger\_tickets**: Information about tickets purchased by passengers (ticket ID, customer ID, flight number, date, etc.)
+6. **airlines**: Airlines information (airline ID, name, etc.)
+7. **maintenance\_logs**: Logs for airplane maintenance.
+
+- step 2 Basic data overview EDA
+
+I am looking for the general structure of the tables, ensuring that each table is populated correctly and checking for any anomalies in the dataset.
+
+```sql
+-- Get table structure for airports
+DESCRIBE airports;
+
+-- Get table structure for flights
+DESCRIBE flights;
+
+-- Get table structure for airplanes
+DESCRIBE airplanes;
+
+-- Get table structure for employees
+DESCRIBE employees;
+
+-- Get table structure for passenger_tickets
+DESCRIBE passenger_tickets;
+```
+
+
+2. **Check Basic Descriptive Statistics (Counts, Nulls, and Duplicates)**
+
+For the **airports** table, we would first check how many rows exist and how many distinct values we have for key columns (e.g., airport names, locations).
+
+```sql
+-- Count of rows in airports table
+SELECT COUNT(*) FROM airports;
+
+-- Check for distinct airport names and locations
+SELECT COUNT(DISTINCT airport_name), COUNT(DISTINCT location) FROM airports;
+
+-- Check for missing values (nulls) in airports table
+SELECT COUNT(*) FROM airports WHERE airport_name IS NULL OR location IS NULL;
+```
+
+Similarly, you can perform the same checks for the **flights**, **airplanes**, **employees**, and **passenger\_tickets** tables.
+
+```sql
+-- Count of rows in flights table
+SELECT COUNT(*) FROM flights;
+
+-- Check for distinct flight numbers and source-destination combinations
+SELECT COUNT(DISTINCT flight_number), COUNT(DISTINCT source, destination) FROM flights;
+
+-- Check for missing values (nulls) in flights table
+SELECT COUNT(*) FROM flights WHERE flight_number IS NULL OR departure_time IS NULL OR arrival_time IS NULL;
+```
+
+I repeated this step for the other tables as well.
+
+
+
+- Step 3 identify outliers and extreme values (descriptive stats
+
+
+It’s crucial step to identify any extreme values or outliers in columns like **flight duration**, **airplane capacity**, **employee salary**, etc. This gives me insights into whether there are any data entry errors or unusual patterns.
+
+For example, get summary statistics for flight durations and employee salaries:
+
+```sql
+-- Summary statistics for flight duration (e.g., difference between departure and arrival)
+SELECT 
+    MIN(DATEDIFF(arrival_time, departure_time)) AS min_duration,
+    MAX(DATEDIFF(arrival_time, departure_time)) AS max_duration,
+    AVG(DATEDIFF(arrival_time, departure_time)) AS avg_duration,
+    STDDEV(DATEDIFF(arrival_time, departure_time)) AS stddev_duration
+FROM flights;
+
+-- Summary statistics for employee salaries
+SELECT 
+    MIN(salary) AS min_salary,
+    MAX(salary) AS max_salary,
+    AVG(salary) AS avg_salary,
+    STDDEV(salary) AS stddev_salary
+FROM employees;
+```
+
+
+- step 4 check the distribution of key variable
+
+For variables like **flight delay times**, **employee salaries**, and **airplane capacity**, it's important to visualize the distribution to understand the range of values. In SQL, you can get counts for different ranges:
+
+```sql
+-- Distribution of flight delays (e.g., delay in minutes)
+SELECT 
+    CASE 
+        WHEN DATEDIFF(arrival_time, departure_time) < 30 THEN '0-30'
+        WHEN DATEDIFF(arrival_time, departure_time) BETWEEN 30 AND 60 THEN '30-60'
+        ELSE '60+'
+    END AS delay_range, 
+    COUNT(*) 
+FROM flights
+GROUP BY delay_range;
+```
+
+For other variables like employee salaries or airplane capacity, you can adjust the ranges accordingly.
+
+
+- step 3 visualizing the data
+
+
+
+
+
+- step 4 general insights from descriptive analysis
+
+
+
+
+
+
+
+
+
+
+)
+
 
 
 # Key findings
@@ -217,6 +349,186 @@ WHERE
 
 
 <!-- 
+
+
+
+
+To begin the process of **Exploratory Data Analysis (EDA)** and **descriptive analysis** for the **AirportDB schema**, we will focus on extracting key insights and providing an overview of the data. Given the large dataset, it's important to approach this step by step, starting with high-level descriptive statistics and working down to specific insights.
+
+### **Step 1: Understanding the AirportDB Schema**
+
+Based on the AirportDB schema, here are the key tables you might be working with (assuming they are in line with typical airport databases):
+
+1. **airports**: Information about the airports (ID, name, location, etc.)
+2. **flights**: Information about flights (flight number, source, destination, departure/arrival times, etc.)
+3. **airplanes**: Information about airplanes (model, capacity, weight, etc.)
+4. **employees**: Data on airport staff (SSN, name, job title, salary, etc.)
+5. **passenger\_tickets**: Information about tickets purchased by passengers (ticket ID, customer ID, flight number, date, etc.)
+6. **airlines**: Airlines information (airline ID, name, etc.)
+7. **maintenance\_logs**: Logs for airplane maintenance.
+
+Given that you’ve already worked with a subset of the data (3.45 million rows from the original 50 million), we will keep that in mind as we design the queries.
+
+### **Step 2: Basic Data Overview (EDA)**
+
+#### 1. **Check the Structure of Key Tables**
+
+We’ll start by looking at the general structure of the tables, ensuring that each table is populated correctly and checking for any anomalies in the dataset.
+
+```sql
+-- Get table structure for airports
+DESCRIBE airports;
+
+-- Get table structure for flights
+DESCRIBE flights;
+
+-- Get table structure for airplanes
+DESCRIBE airplanes;
+
+-- Get table structure for employees
+DESCRIBE employees;
+
+-- Get table structure for passenger_tickets
+DESCRIBE passenger_tickets;
+```
+
+#### 2. **Check Basic Descriptive Statistics (Counts, Nulls, and Duplicates)**
+
+For the **airports** table, we would first check how many rows exist and how many distinct values we have for key columns (e.g., airport names, locations).
+
+```sql
+-- Count of rows in airports table
+SELECT COUNT(*) FROM airports;
+
+-- Check for distinct airport names and locations
+SELECT COUNT(DISTINCT airport_name), COUNT(DISTINCT location) FROM airports;
+
+-- Check for missing values (nulls) in airports table
+SELECT COUNT(*) FROM airports WHERE airport_name IS NULL OR location IS NULL;
+```
+
+Similarly, you can perform the same checks for the **flights**, **airplanes**, **employees**, and **passenger\_tickets** tables.
+
+```sql
+-- Count of rows in flights table
+SELECT COUNT(*) FROM flights;
+
+-- Check for distinct flight numbers and source-destination combinations
+SELECT COUNT(DISTINCT flight_number), COUNT(DISTINCT source, destination) FROM flights;
+
+-- Check for missing values (nulls) in flights table
+SELECT COUNT(*) FROM flights WHERE flight_number IS NULL OR departure_time IS NULL OR arrival_time IS NULL;
+```
+
+Repeat this step for the other tables as well.
+
+#### 3. **Identify Outliers and Extreme Values (Descriptive Stats)**
+
+It’s crucial to identify any extreme values or outliers in columns like **flight duration**, **airplane capacity**, **employee salary**, etc. This gives us insights into whether there are any data entry errors or unusual patterns.
+
+For example, you could get summary statistics for flight durations and employee salaries:
+
+```sql
+-- Summary statistics for flight duration (e.g., difference between departure and arrival)
+SELECT 
+    MIN(DATEDIFF(arrival_time, departure_time)) AS min_duration,
+    MAX(DATEDIFF(arrival_time, departure_time)) AS max_duration,
+    AVG(DATEDIFF(arrival_time, departure_time)) AS avg_duration,
+    STDDEV(DATEDIFF(arrival_time, departure_time)) AS stddev_duration
+FROM flights;
+
+-- Summary statistics for employee salaries
+SELECT 
+    MIN(salary) AS min_salary,
+    MAX(salary) AS max_salary,
+    AVG(salary) AS avg_salary,
+    STDDEV(salary) AS stddev_salary
+FROM employees;
+```
+
+#### 4. **Check the Distribution of Key Variables**
+
+For variables like **flight delay times**, **employee salaries**, and **airplane capacity**, it's important to visualize the distribution to understand the range of values. In SQL, you can get counts for different ranges:
+
+```sql
+-- Distribution of flight delays (e.g., delay in minutes)
+SELECT 
+    CASE 
+        WHEN DATEDIFF(arrival_time, departure_time) < 30 THEN '0-30'
+        WHEN DATEDIFF(arrival_time, departure_time) BETWEEN 30 AND 60 THEN '30-60'
+        ELSE '60+'
+    END AS delay_range, 
+    COUNT(*) 
+FROM flights
+GROUP BY delay_range;
+```
+
+For other variables like employee salaries or airplane capacity, you can adjust the ranges accordingly.
+
+---
+
+### **Step 3: Visualizing the Data (if needed)**
+
+While SQL alone won’t provide advanced visualizations, you can export the results of your queries and use tools like **Python (matplotlib, seaborn)** or **Excel** to create visualizations (e.g., histograms, bar charts, box plots) to further understand the distribution and relationships between variables.
+
+For example, if you have flight data showing delays, you could plot a **histogram** of the delays to understand how often flights are delayed and by how much.
+
+---
+
+### **Step 4: General Insights from Descriptive Analysis**
+
+Here are some useful **general insights** we can derive from the **EDA** and **descriptive statistics**:
+
+1. **Flight Delays**: Are there patterns in delays (e.g., delays longer than 60 minutes? Are some airlines more prone to delays?).
+2. **Airplane Utilization**: How often are airplanes being used? Are some models more frequently used than others?
+3. **Employee Salaries**: What is the salary distribution for employees (e.g., pilots vs. ground staff)?
+4. **Passenger Load**: What is the average capacity utilization for flights? Are there flights consistently under-filled?
+5. **Airports**: Which airports have the most flights or passengers? Are some airports hubs for specific airlines?
+
+---
+
+### **Step 5: Additional Analytical Questions (Moving Beyond EDA)**
+
+Once you have the EDA and descriptive analysis complete, you can start formulating deeper analytical questions, such as:
+
+1. **What factors contribute to flight delays (airline, airport, time of day, etc.)?**
+2. **Which employees (based on job title or location) have the highest or lowest average salary?**
+3. **How do flight delays vary across different airports or airlines?**
+4. **How do airplane models perform in terms of on-time departure and arrival?**
+5. **Which airlines are consistently more efficient in terms of departure/arrival times?**
+6. **What is the average load factor (passenger count to capacity ratio) for each flight?**
+7. **Which routes have the highest frequency of flights?**
+8. **How are employee roles and salaries distributed across departments (e.g., pilots, ground crew)?**
+
+---
+
+### **Step 6: Next Steps**
+
+Once the EDA and descriptive analysis are complete, you can start building **predictive models** or deeper **analytical queries** to answer these complex questions. SQL will help you identify correlations, patterns, and trends that can guide these advanced analyses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 chenzhu github
 
