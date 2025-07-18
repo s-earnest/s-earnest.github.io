@@ -119,7 +119,7 @@ WHERE
 
   - (2). Get the SSN, union number, and exam date, for all traffic controllers. (ssn, union no, exam date)
 
-
+```sql
 SELECT 
     ssn, 
     union_no, 
@@ -128,11 +128,12 @@ FROM
     employee
 WHERE 
     job_title = 'Traffic Controller';
-
+```
 
 
   - (3). Get the FAA number, test name, and max score, of all tests that have a ’Refuel’ stage. (faa no, name, max score)
-  
+
+ ```sql 
 SELECT 
     faa_no, 
     test_name, 
@@ -141,10 +142,12 @@ FROM
     test
 WHERE 
     stages LIKE '%Refuel%';
+```
 
 
   - (4). Get the FAA number, test name, and date of all the testing events that scored the max score. (faa no, name, date)
-  
+
+```sql  
 SELECT 
     tl.faa_no, 
     tl.test_name, 
@@ -155,6 +158,7 @@ JOIN
     test t ON tl.faa_no = t.faa_no AND tl.test_name = t.test_name
 WHERE 
     tl.score = t.max_score;
+```
 
 
 
