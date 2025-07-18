@@ -34,16 +34,6 @@ image:
 
 
 
-Objective
-Business problem
-Approach
-Key findings
-Recommendations
-
-
-
-
-
 
 # Summary
 
@@ -150,7 +140,7 @@ In addition to the base data, the Employees database also includes a suite of te
 
 ### DISCLAIMER
 
-- To the best of my knowledge, this data is fabricated and it does not correspond to real people. Any similarity to existing people is purely coincidental.
+- To the best of my knowledge, this data is fabricated and it does not correspond to real people. Any similarity to existing people is purely coincidental. This is coming from the sample SQL directory. 
 
 
 ### LICENSE
@@ -392,6 +382,7 @@ These questions are focused on the compensation trends within the organization.
 ---
 
 ### 5. **Employee Performance & Career Development**
+
 **5.1** *Do employees in certain titles or departments tend to have longer or shorter careers?*
 **5.2** *What is the relationship between department size and employee satisfaction or performance?*
 **5.3** *Are employees in specific departments more likely to leave the company after receiving a salary increase?*
@@ -413,6 +404,7 @@ These questions will help you measure performance and development.
 ---
 
 ### 6. **Cross-Department & Organizational Insights**
+
 **6.1** *Which departments tend to collaborate the most with others?*
 **6.2** *Are there departments with employees in similar job titles but drastically different salary ranges?*
 **6.3** *How often do employees change departments, and is there a trend of movement between departments?*
@@ -432,6 +424,7 @@ These questions focus on the interaction between departments and their collectiv
 ---
 
 ### 7. **Compensation & Market Analysis**
+
 **7.1** *How do the salaries within the company compare to industry standards for similar roles?*
 
 **7.2** *How do employee salaries correlate with market trends (e.g., inflation, economic downturn)?*
@@ -473,67 +466,6 @@ Let me know if you'd like to dig deeper into any specific question or need help 
 
 > All statements are my own, and do not necessarily reflect the opinion(s) of the past or current employer, or previous or current educational institution. The information contained in this report/article/note is meant for the purposes of information only and is not intended to be investment, legal, tax or other advice, nor is it intended to be relied upon in making an investment or other decision. This information provided with my own understanding which the authors and publishers are not providing advice on legal, economic, investment or other professional issues and services. 
 {: .prompt-info }
-
-
-## Explain the why I worked in this problem.
-
-
-1. Introduction
-  Business task
-  Probleme statement
-
-2. Data sources
-  In this section, you will describe all the datasets you are using. Use the following format:
-    Describe where the datasets were downloaded from.
-    Link the sites for the datasets if possible.
-    Indicate if the data is from a public or a private license and if it is trusted.
-    Describe the datasets, the columns, and what each dataset summarizes if there are more than one.
-
-3. Documentation of cleaning and manipulation
-
-4. Summary of data analysis
-5. Key visualization and findings
-  Make sure to list the key findings from the analysis that we did in the step earlier, list them out in layman's terms, and remember that the people you are presenting to will not be data analysts so make it as plain as day.
-6. Recommendations
-  Here, you will provide high-level recommendations from the key findings, make sure they align with the goal and business task you were given, and also answer the problem statement of the project.
-
-STATISTICAL Problem
-PLAN
-  What specific statistical operations does this problem call for?
-SOLVE
-  Make the graphs and carry out the calculation needed for this problem
-CONCLUDE
-  Give the practical conclusion in the setting of the real-world problem
-
-
-CONFIDENCE intervals
-STATE
-
-PLAN
-
-SOLVE
-
-CONCLUDE
-
-
-
-TEST OF SIGNIFICANCE
-STATE
-  What is the practical question that requires a statistical test?
-
-PLAN
-  Identify the parameter, state null and alternative hypotheses, and choose the type of test that fits the situation.
-
-SOLVE
-  Carry out the test in three phases:
-      1. Check the conditions for the test you plan to use
-      2. Calculate the test statistic
-      3. Find the p-value
-
-CONCLUDE
-  Return to the practical question to describe the results in this settings
-
-
 
 
 <!-- 
