@@ -34,56 +34,54 @@ image:
 ---
 
 
-Objective
-Business problem
-Approach
-Key findings
-Recommendations
 
-https://vondy.com/deliverable/8342036d-b2ba-427e-8838-e83d9c207b81
+# Business 
 
+Flight delays have become an increasingly frequent issue for many airlines, and our company is no exception. Several factors contribute to these delays, with weather conditions often being the most unpredictable and disruptive. Heavy rainfall, thunderstorms, and fog can significantly impact visibility, leading to delays in both takeoff and landing. Another major contributor is air traffic congestion, particularly during peak travel times, which leads to longer waiting times on the tarmac. Additionally, technical issues, such as mechanical malfunctions or the need for aircraft maintenance, can cause last-minute delays, sometimes requiring parts or repairs that weren’t initially anticipated.
+
+Crew scheduling conflicts, though less common, also play a role in delaying flights. A shortage of available crew members due to last-minute illnesses or other operational hiccups can delay or even cancel a flight, leaving passengers frustrated. In response to these challenges, our company has implemented a compensation policy to mitigate passenger dissatisfaction. Affected passengers are offered various forms of compensation, ranging from meal vouchers and hotel accommodations for overnight delays, to partial refunds or free future flights. By addressing the root causes of delays and offering thoughtful compensation, we strive to maintain customer trust and satisfaction, ensuring that passengers feel valued even during these unfortunate disruptions.
 
 
 
-Objective
 
-
-Business Problem
-
-
-Approach 
+# Approach 
 
 - The initial step involves performing data cleaning on the dataset. Surprisingly, there are no duplicated transaction records in the dataset. The next step is to split the transaction_date column into Month, Day of Week, and Hour. Additionally, I separated the product_detail column into item and size. This helps reducing data redundancy.
 - For the KPIs. I chose to display the total sales, total transaction, and the number of coffees sold, along with their corresponding charts illustrating monthly trends from January to June 2023
 - To represent the sales breakdown by the hour of the day and by days of the week, I used bar chart to track sales, highlighting the peak sales period with a darker color.
-- For the heatmap, I created a separate worksheet to allow uniform resizing of cloumns and rows into narrower squares. By utilizing SUMIFS, conditional formatting, and number format customization, I successfully built a heatmap for the sales breakdown across both hours and days of the week. (note that heatmap chart is not available in Google Sheet)
+- For the heatmap, I created a separate worksheet to allow uniform resizing of columns and rows into narrower squares. By utilizing SUMIFS, conditional formatting, and number format customization, I successfully built a heatmap for the sales breakdown across both hours and days of the week. (note that heatmap chart is not available in Google Sheet)
 - To compare categories, I used a horizontal bar chart and arranged the categories in descending order. Once again, the bar/category with the highest quantity sold has been colored in a darker tone.
 - For displaying items within the selected category, I opted for the QUERY function instead of Pivot Tables. This function is more flexible and performs better with the dynamic drop-down list. With just one formula, I can retrieve three pieces of information items. Quantity, and Sales for the selected category
 
 
-
-
-Key findings
-
-
-
-Recommendations
+In investigating flight delays, the primary goal is to identify patterns and factors contributing to delays, such as the relationship between the source and destination airports, aircraft models, and personnel involved in the flight. By analyzing the **flights** table, we can calculate the delay for each flight by comparing the scheduled departure and actual arrival times. Key insights can be drawn by examining delays from specific airports like **LAX**, or looking at average delays across different sources and destinations. Additionally, correlating delays with **pilot performance** can offer a deeper understanding, especially when considering **pilot certifications** and whether certain pilots or airplane models tend to experience more frequent delays. Further investigation could explore the **employee** table to evaluate if specific pilots or traffic controllers are associated with delayed flights, or whether certain airplane models registered in the **airplane** table are linked to recurrent delays. Additionally, it may be insightful to track delays over time, identifying trends or seasons when delays tend to peak. By creating a comprehensive analysis of these variables, we can pinpoint factors that significantly contribute to flight delays, offering actionable insights for operational improvements.
 
 
 
 
+# Key findings
 
-### Data dictionnary
 
 
-| Column Name       | Type     |  Description           |
+# Recommendations
+
+
+
+
+
+### Data dictionary
+
+
+| Column Name    |  Description           |
 |--------------|----------|-----------------------------------|
-| airplone    | INT      | 
-| employee  | INT      | 
-| test   | DATE     | 
-| test_log       | DECIMAL  | 
-| ticket_purchase     | DECIMAL  | 
-| flights    | DECIMAL  | 
+| airplane    | Stores airplane info	id, model, manufacturer, seats	id: Unique identifier for airplane      | 
+| employee  | Staff details	id, name, role, hire_date, salary	role: Employee role, e.g., pilot, attendant      | 
+| test   | Stores test records	id, test_type, test_date, result	test_type: Nature of test (safety, skills)     | 
+| test_log       | Log of tests performed	id, test_id, employee_id, timestamp	test_id: Refers to an entry in test table  | 
+| ticket_purchase     | Ticket sales	id, customer_id, flight_id, purchase_dt	purchase_dt: Date and time of ticket purchase  | 
+| flights    | Flight schedules/info	id, airplone_id, departure, arrival	departure: Scheduled departure datetime  | 
+
+
 
 
 
@@ -102,35 +100,109 @@ Recommendations
   - (a). Get the flight number, arrival time, and departure time of all flights flying either from, or to, LAX. (flight no, arrival, departure)
 
 ```sql
-  SELECT flightno AS flight_no, arrival, depart AS departure FROM airport.Flight 
+  SELECT flight_no AS flight_no, arrival, depart AS departure FROM airport.Flight 
 WHERE src = "LAX" OR dest = "LAX"; 
 ```
 
   
-  - (b). Find the average salary of the pilots. (avg salary)
+  - (1). Find the average salary of the pilots. (avg salary)
   
-  - (c). Get the SSN, union number, and exam date, for all traffic controllers. (ssn, union no, exam date)
+  ```sql
+  SELECT 
+    AVG(salary) AS avg_salary
+FROM 
+    employee
+WHERE 
+    job_title = 'Pilot';
+```
+
+
+  - (2). Get the SSN, union number, and exam date, for all traffic controllers. (ssn, union no, exam date)
+
+
+SELECT 
+    ssn, 
+    union_no, 
+    exam_date
+FROM 
+    employee
+WHERE 
+    job_title = 'Traffic Controller';
+
+
+
+  - (3). Get the FAA number, test name, and max score, of all tests that have a ’Refuel’ stage. (faa no, name, max score)
   
-  - (d). Get the FAA number, test name, and max score, of all tests that have a ’Refuel’ stage. (faa no, name, max score)
+SELECT 
+    faa_no, 
+    test_name, 
+    max_score
+FROM 
+    test
+WHERE 
+    stages LIKE '%Refuel%';
+
+
+  - (4). Get the FAA number, test name, and date of all the testing events that scored the max score. (faa no, name, date)
   
-  - (e). Get the FAA number, test name, and date of all the testing events that scored the max score. (faa no, name, date)
+SELECT 
+    tl.faa_no, 
+    tl.test_name, 
+    tl.date
+FROM 
+    test_log tl
+JOIN 
+    test t ON tl.faa_no = t.faa_no AND tl.test_name = t.test_name
+WHERE 
+    tl.score = t.max_score;
+
+
+
+  - (5). Get the names of pilots certified to fly every airplane model. (name)
   
-  - (f). Get the names of pilots certified to fly every airplane model. (name)
+
+
+  - (6). Get the average number of airplane models that pilots are certified to fly. (aver- age )
   
-  - (g). Get the average number of airplane models that pilots are certified to fly. (aver- age )
+
+
+  - (7). For all pilots with a salary of over $100,000, get their name and how many models they are certified to fly. (name, num certified)
   
-  - (h). For all pilots with a salary of over $100,000, get their name and how many models they are certified to fly. (name, num certified)
+
+
+  - (8). Give the pilots in (f) a 10% raise. Then output their names and their new salary. (name, salary)
   
-  - (i). Give the pilots in (f) a 10% raise. Then output their names and their new salary. (name, salary)
+
+
+  - (9). Delete all flights from Santa Barbara to Chicago. Then output all the flight number, source, and destination of the remaining flights. (flight no, source, destination )
   
-  - (j). Delete all flights from Santa Barbara to Chicago. Then output all the flight number, source, and destination of the remaining flights. (flight no, source, destination )
+
+
+  - (10). Get the technician name, technician phone number, test name, and airplane registration number, for which a technician scored less than half the max score on a testing event. (name, phone, test name, reg no)
   
-  - (k). Get the technician name, technician phone number, test name, and airplane registration number, for which a technician scored less than half the max score on a testing event. (name, phone, test name, reg no)
+
+
+  - (11). Get the name, address, and phone number of the technician with the highest salary who is an expert at ’Boeing’ models. Assume an airplane’s model number always starts with the manufacturer name, i.e. ’Boeing-747’, ’Airbus-A300’. (name, address, phone)
   
-  - (l). Get the name, address, and phone number of the technician with the highest salary who is an expert at ’Boeing’ models. Assume an airplane’s model number always starts with the manufacturer name, i.e. ’Boeing-747’, ’Airbus-A300’. (name, address, phone)
+
+
+  - (12). To better understand flight delays, you want to see how long a technician actually spends on a test compared to the expected completion time. To do that, you want to calculate the average deviation of completion time for each technician, on each test. The deviation is the ’expected completion time’ of a test minus the time it actually took to complete the test. For each technician, get the FAA test number and average deviation for every test they conducted. (name, faa no, avg deviation)
   
-  - (m). To better understand flight delays, you want to see how long a technician actually spends on a test compared to the expected completion time. To do that, you want to calculate the average deviation of completion time for each technician, on each test. The deviation is the ’expected completion time’ of a test minus the time it actually took to complete the test. For each technician, get the FAA test number and average deviation for every test they conducted. (name, faa no, avg deviation)
-  
+(1) how long a technician spends on a test compared to the expected completion time.
+(2) calculate the avg deviation of completion time for each technician on each test
+(3) DEVIATION  is the expected completion time of a test minus the time it actually took to complete the test
+(4) for each technician, get the FAA test number and average deviation for every test they conducted.
+
+
+
+
+
+
+# Reference 
+
+
+
+
 
 
 

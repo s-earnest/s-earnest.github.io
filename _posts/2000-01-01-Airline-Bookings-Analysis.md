@@ -47,7 +47,16 @@ image:
 
 This dataset contains information about airline bookings, including the number of passengers, sales channel, trip type, purchase lead time, length of stay, flight hour, flight day, route, booking origin, and various flags indicating if the customer wanted extra baggage, preferred seat, or in-flight meals. The dataset also includes the total flight duration and a flag indicating if the booking was completed. This information can be used for various analyses, such as predicting demand, identifying popular routes, and understanding customer preferences.
 
-Column Description:
+The database is a large data set intended for use with MySQL HeatWave on Oracle Cloud Infrastructure (OCI) and AWS. The database is approximately 2GB in size and consists of 14 tables containing a total of 55,983,205 records. I decided to installed on the laptop macos 8gb ram. 
+
+
+The airportdb sample database can be installed on an on-premise MySQL Server instance, but due to the volume of data, it is only advisable to do so if your system has sufficient disk space and is capable of supporting large load operations consisting of millions of rows of data.
+
+
+
+# Data dictionary 
+
+Column - Description:
 num_passengers = number of passengers travelling
 sales_channel = sales channel booking was made on
 trip_type = trip Type (Round Trip, One Way, Circle Trip)
@@ -108,9 +117,9 @@ Based on the [airportdb schema](https://dev.mysql.com/doc/airportdb/en/airportdb
 
 
 
+# Reference 
 
-
-
+https://dev.mysql.com/doc/airportdb/en/airportdb-introduction.html
 
 
 

@@ -29,7 +29,7 @@ image:
   # path: /assets/sample/coming-soon.png
   # image: /assets/sample/coming-soon.png
   # alt: Responsive rendering of Chirpy theme on multiple devices.
-  # reference J7X9V2M8K1TQ
+  # reference 
 
 ---
 
