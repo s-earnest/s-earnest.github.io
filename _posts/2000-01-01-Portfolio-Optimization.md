@@ -15,7 +15,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - finance
   - measuring
   - risk
-  - single-asset
+  - portfolio
+  - optimization
 
 
 
