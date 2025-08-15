@@ -13,6 +13,9 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - time-series
   - strategies
   - portfolio-management
+  - investment
+  - management
+  
 
 # image: 
   # path: /assets/sample/coming-soon.png

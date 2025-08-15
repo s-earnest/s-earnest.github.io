@@ -16,6 +16,8 @@ tags:   # or [typography, tag-01, tag-02, etc.]
   - measuring
   - risk
   - diversification
+  - investment
+  - management
 
 
 
