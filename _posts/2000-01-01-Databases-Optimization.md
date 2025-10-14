@@ -7,7 +7,7 @@ categories: [ Notes ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - notes
   # - tamplate-tag-2
@@ -92,7 +92,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ### 
 
-> This is a note.
+> This is in progress 
 {: .prompt-tip }
 
 
