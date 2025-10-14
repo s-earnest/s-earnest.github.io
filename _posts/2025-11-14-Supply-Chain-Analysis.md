@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - supply-chain
@@ -48,6 +48,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 
+
+
+# Feedback. 
+
+Have a question? Feel free to send an [email](mailto:s.ernest@gmx.us) or if you prefer a virtual [meeting]( https://calendly.com/s-earnest/15min ){:target="_blank"}
 
 
 
