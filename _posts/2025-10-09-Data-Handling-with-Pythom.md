@@ -32,12 +32,11 @@ tags:   # or [typography, tag-01, tag-02, etc.]
 
 
 # Why I am using Python for data analysis? 
-- (1) reason:
+- (1) reason: Data handling is about organizing data, data with its methodological and technical aspects, affects all types of collection, recording, and analysis of data.
 
-- (2) reason:
+- (2) reason: Using Python and dealing with data require Python skills, library support, and know-how about data.
 
-- (3) reason: 
-
+- (3) reason: Data is about learning move data into tabular from which can be analyzed and graphed. Companies collect a lot of data, by itself can not be analyzed, and it needs to be transformed to extract insights. 
 
 
 Step-by-step process for handling data in Python, from ingestion to deployment. I’ll note common tools and short examples so you can adapt based on your use case.
