@@ -7,7 +7,7 @@ categories: [ Work ]
 pin:     # true
 math: true
 mermaid: true
-published: true
+published: false
 tags:   # or [typography, tag-01, tag-02, etc.]
   - work
   - marketing
@@ -38,16 +38,21 @@ image:
 
 
 
-Objective
-Business problem
-Approach
-Key findings
-Recommendations
+# Objective
+- Business problem
+- Approach
+- Key findings
+- Recommendations
 
 
-### Purpose
+## Purpose
 
-The goal of this showcase is to provide actionable insights to help optimize marketing strategies and improve conversion rates for term deposits. The project consists on: (1) I analyzed data from a bank’s marketing campaigns to reveal factors that drive customer engagement, (2) By exploring patterns in demographics, financial status, and previous campaign outcomes, (3) I aimed to uncover what influences customers to make a deposit. This analysis provides insights that can guide future strategies, helping the bank target the right audiences with the most effective messages. This dataset was more used for Machine Learning but I decided to use it as first data analysis hands-on. 
+The goal of this showcase is to provide actionable insights to help optimize marketing strategies and improve conversion rates for term deposits. The project consists on: 
+  - (1) I analyzed data from a bank’s marketing campaigns to reveal factors that drive customer engagement, 
+  - (2) By exploring patterns in demographics, financial status, and previous campaign outcomes, 
+  - (3) I aimed to uncover what influences customers to make a deposit. 
+
+This analysis provides insights that can guide future strategies, helping the bank target the right audiences with the most effective messages. This dataset was more used for Machine Learning but I decided to use it as first data analysis hands-on. 
 
 
 1. Understanding the Dataset:
@@ -59,7 +64,7 @@ The goal of this showcase is to provide actionable insights to help optimize mar
 
 
 
-### Data dictionnary
+## Data dictionnary
 
 | Column Attributes  | Type     | Description        |
 |--------------|----------|----------------------------|
@@ -78,7 +83,7 @@ The goal of this showcase is to provide actionable insights to help optimize mar
 | campaign | item | number of contacts performed during this <br> campaign and for this client (numeric, includes last contact) |
 | pdays | item | number of days that passed by after the client was last contacted <br> from a previous campaign (numeric, -1 means client was not previously contacted) | 
 | previous | item | number of contacts performed before this campaign and for this client (numeric) |
-| poutcome | item | outcome of the previous marketing campaign <br> (categorical: "unknown","other","failure","success") | 
+| outcome | item | outcome of the previous marketing campaign <br> (categorical: "unknown","other","failure","success") | 
 
 No missing values
 
@@ -87,7 +92,7 @@ No missing values
 
 
 
-### 1. **Demographic Insights:**
+## 1. **Demographic Insights:**
 
 
 - What is the average age of individuals in the dataset?
@@ -108,7 +113,7 @@ No missing values
 
 
 
-### 2. Loan Defaults and Financial Behavior:
+## 2. Loan Defaults and Financial Behavior:
 
 - What percentage of individuals have defaulted on a loan?
 
@@ -123,7 +128,7 @@ No missing values
 
 
 
-### 3. Housing and Personal Loans Insights:
+## 3. Housing and Personal Loans Insights:
 
 - How many individuals have both a housing loan and a personal loan?
 
@@ -132,7 +137,7 @@ No missing values
 - How do housing and personal loans correlate with education level?
 
 
-### 4. Contact and Campaign Insights:
+## 4. Contact and Campaign Insights:
 
 
 - What is the distribution of contact types (e.g., telephone, email, etc.) used for last contact?
@@ -144,7 +149,7 @@ No missing values
 - What percentage of individuals were contacted during each campaign, and what was the outcome?
 
 
-### 5. Customer Segmentation and Targeting:
+## 5. Customer Segmentation and Targeting:
 
 
 - Which job categories are most likely to have a loan default or a housing loan?
@@ -594,7 +599,7 @@ HAVING COUNT(b.booking_id) = 1;
 
 -->
 
-### Reference
+## Reference
 
 - Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. 
   In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, 
@@ -604,7 +609,7 @@ HAVING COUNT(b.booking_id) = 1;
 
 
 
-### License
+## License
 
 - This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
 

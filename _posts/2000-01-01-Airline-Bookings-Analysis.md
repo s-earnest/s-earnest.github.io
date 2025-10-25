@@ -87,13 +87,13 @@ booking_complete = flag indicating if the customer completed the booking
 | airport_reachable    | 0 | 0         | 0 %         |
 | airport_geo      | 9854 | 9854        | 8         |
 | airline        | 113 | 113               | 8         |
-| flightschedule   | 9851 | 9851      | 8         |
+| flights_chedule   | 9851 | 9851      | 8         |
 | airplane        | 5583 | 5583           | 8         |
 | airplane_type    | 342 | 342          | 8         |
 | employee        | 1000 | 1000             | 8         |
 | passenger        | 35386 | 36346          | 8         |
-| passengerdetails  | 36194 | 35785      | 8         |
-| weatherdata      | 4626432 | 4626432         | 8         |
+| passenger_details  | 36194 | 35785      | 8         |
+| weather_data      | 4626432 | 4626432         | 8         |
 
 
 
