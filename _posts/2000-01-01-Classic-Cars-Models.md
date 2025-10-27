@@ -1,5 +1,5 @@
 ---
-title: ' Classic Models Cars Database '
+title: ' Classic Cars Models Database '
 author: ernest
 date: 2023-01-10 16:20:02 -05:00
 last_modified_at: 2025-01-30
@@ -39,11 +39,11 @@ image:
 
 
 
-Objective
-Business problem
-Approach
-Key findings
-Recommendations
+# Objective
+- Business problem
+- Approach
+- Key findings
+- Recommendations
 
 
 
@@ -60,14 +60,14 @@ Recommendations
 
 | Column Name     | Type     | Description                |
 |--------------|----------|-----------------------------------|
-| customers  | INT      | stores customer’s data.        |
-| products | INT      | stores a list of scale model cars.      |
-| productilines | DATE     |  stores a list of product lines     |
-| orders   | DECIMAL  | stores sales orders placed by customers.                  |
-| orderdetails | item | stores sales order line items for every sales order. | 
-| payments | item | stores payments made by customers based on their accounts. | 
-| employees | item | stores employee information and the organization structure such as who reports to whom. | 
-| offices | varch | stores sales office datat | 
+| customers  | INT | stores customer’s data.        |
+| products | INT | stores a list of scale model cars.      |
+| producti_lines | DATE |  stores a list of product lines     |
+| orders   | DECIMAL | stores sales orders placed by customers.                  |
+| order_details | INT | stores sales order line items for every sales order. | 
+| payments | DECIMAL | stores payments made by customers based on their accounts. | 
+| employees | VARCHAR | stores employee information and the organization structure such as who reports to whom. | 
+| offices | VARCHAR | stores sales office datat | 
 
 
 - Count of tables: 8 
